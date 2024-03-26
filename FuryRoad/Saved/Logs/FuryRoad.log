@@ -1216,3 +1216,194 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.03.26-17.09.32:356][940]LogTexture: Display: Building textures: /Game/Megascans/3D_Assets/Castle_Wall_sctv3/T_Castle_Wall_sctv3_2K_N.T_Castle_Wall_sctv3_2K_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 397.562488 MB), EncodeSpeed: Fast
 [2024.03.26-17.09.32:403][944]LogTexture: Display: Building textures: /Game/Megascans/3D_Assets/Castle_Wall_sctv3/T_Castle_Wall_sctv3_2K_D.T_Castle_Wall_sctv3_2K_D (TFO_DXT1, 2048x2048 x1x1x1) (Required Memory Estimate: 296.062483 MB), EncodeSpeed: Fast
 [2024.03.26-17.09.33:674][ 97]LogStaticMesh: Built static mesh [1.45s] /Game/Megascans/3D_Assets/Castle_Wall_sctv3/S_Castle_Wall_sctv3_lod3.S_Castle_Wall_sctv3_lod3
+[2024.03.26-17.10.17:159][754]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.03.26-17.10.17:165][754]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.26-17.10.17:165][754]PIE: New page: PIE session: TrackOne (Mar. 26, 2024, 3:10:17 a.m.)
+[2024.03.26-17.10.17:169][754]LogOnline: OSS: Created online subsystem instance for: NULL
+[2024.03.26-17.10.17:169][754]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+[2024.03.26-17.10.17:169][754]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TrackOne
+[2024.03.26-17.10.17:176][754]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006775s)
+[2024.03.26-17.10.17:176][754]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TrackOne.TrackOne to /Game/Levels/UEDPIE_0_TrackOne.TrackOne (0.006812s)
+[2024.03.26-17.10.17:179][754]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2024.03.26-17.10.17:180][754]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.26-17.10.17:180][754]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.26-17.10.17:180][754]LogAIModule: Creating AISystem for world TrackOne
+[2024.03.26-17.10.17:181][754]LogPlayLevel: PIE: World Init took: (0.000856s)
+[2024.03.26-17.10.17:181][754]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2024.03.26-17.10.17:181][754]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.26-17.10.17:181][754]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.26-17.10.17:181][754]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.26-17.10.17:181][754]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.26-17.10.17:181][754]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.26-17.10.17:181][754]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.26-17.10.17:181][754]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.26-17.10.17:181][754]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.26-17.10.17:181][754]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.26-17.10.17:181][754]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.26-17.10.17:181][754]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.26-17.10.17:183][754]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.26-17.10.17:200][754]LogAudioMixer: Display: Using Audio Hardware Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2024.03.26-17.10.17:200][754]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.26-17.10.17:200][754]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.26-17.10.17:200][754]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.26-17.10.17:201][754]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2024.03.26-17.10.17:201][754]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2024.03.26-17.10.17:202][754]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2024.03.26-17.10.17:202][754]LogInit: FAudioDevice initialized with ID 2.
+[2024.03.26-17.10.17:202][754]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2024.03.26-17.10.17:202][754]LogAudio: Display: Audio Device (ID: 2) registered with world 'TrackOne'.
+[2024.03.26-17.10.17:202][754]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2024.03.26-17.10.17:258][754]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.26-17.10.17:259][754]LogLoad: Game class is 'BP_VehicleAdvGameMode_C'
+[2024.03.26-17.10.17:261][754]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TrackOne.TrackOne up for play (max tick rate 0) at 2024.03.26-10.10.17
+[2024.03.26-17.10.17:261][754]LogWorld: Bringing up level for play took: 0.001998
+[2024.03.26-17.10.17:263][754]LogOnline: OSS: Created online subsystem instance for: :Context_3
+[2024.03.26-17.10.17:274][754]PIE: Server logged in
+[2024.03.26-17.10.17:275][754]PIE: Play in editor total start time 0.111 seconds.
+[2024.03.26-17.10.17:295][754]LogViewport: Scene viewport resized to 3849x2220, mode Windowed.
+[2024.03.26-17.10.17:498][756]LogShaderCompilers: Display: ================================================
+[2024.03.26-17.10.17:498][756]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.03.26-17.10.17:498][756]LogShaderCompilers: Display: Total job queries 17, among them cache hits 0 (0.00%)
+[2024.03.26-17.10.17:498][756]LogShaderCompilers: Display: Tracking 17 distinct input hashes that result in 16 distinct outputs (94.12%)
+[2024.03.26-17.10.17:498][756]LogShaderCompilers: Display: RAM used: 446.06 KiB of 6.40 GiB budget. Usage: 0.01%
+[2024.03.26-17.10.17:498][756]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.03.26-17.10.17:498][756]LogShaderCompilers: Display: Shaders Compiled: 0
+[2024.03.26-17.10.17:498][756]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2024.03.26-17.10.17:498][756]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2024.03.26-17.10.17:498][756]LogShaderCompilers: Display: ================================================
+[2024.03.26-17.10.21:354][925]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.26-17.10.21:354][925]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TrackOne
+[2024.03.26-17.10.21:354][925]LogSlate: Window 'FuryRoad Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.03.26-17.10.21:398][925]LogWorld: UWorld::CleanupWorld for TrackOne, bSessionEnded=true, bCleanupResources=true
+[2024.03.26-17.10.21:398][925]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-17.10.21:401][925]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.26-17.10.21:403][925]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-17.10.21:406][925]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2024.03.26-17.10.21:406][925]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2024.03.26-17.10.21:407][925]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2024.03.26-17.10.21:414][925]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2024.03.26-17.10.21:450][926]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2024.03.26-17.10.33:353][552]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PlayerStart
+[2024.03.26-17.10.33:353][552]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PlayerStart
+[2024.03.26-17.10.33:354][552]LogActorFactory: Actor Factory spawned Class /Script/Engine.PlayerStart as actor: PlayerStart /Game/Levels/TrackOne.TrackOne:PersistentLevel.PlayerStart_0
+[2024.03.26-17.10.33:354][552]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2024.03.26-17.10.33:354][552]LogActorFactory: Actor Factory spawned Class /Script/Engine.PlayerStart as actor: PlayerStart /Game/Levels/TrackOne.TrackOne:PersistentLevel.PlayerStart_0
+[2024.03.26-17.10.33:354][552]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2024.03.26-17.10.35:434][773]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PlayerStart
+[2024.03.26-17.10.35:434][773]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PlayerStart
+[2024.03.26-17.10.35:436][773]LogActorFactory: Actor Factory spawned Class /Script/Engine.PlayerStart as actor: PlayerStart /Game/Levels/TrackOne.TrackOne:PersistentLevel.PlayerStart_1
+[2024.03.26-17.10.35:436][773]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2024.03.26-17.10.35:436][773]LogActorFactory: Actor Factory spawned Class /Script/Engine.PlayerStart as actor: PlayerStart /Game/Levels/TrackOne.TrackOne:PersistentLevel.PlayerStart_1
+[2024.03.26-17.10.35:436][773]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2024.03.26-17.10.55:526][793]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.03.26-17.10.55:531][793]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.26-17.10.55:532][793]PIE: New page: PIE session: TrackOne (Mar. 26, 2024, 3:10:55 a.m.)
+[2024.03.26-17.10.55:532][793]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TrackOne
+[2024.03.26-17.10.55:538][793]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006370s)
+[2024.03.26-17.10.55:538][793]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TrackOne.TrackOne to /Game/Levels/UEDPIE_0_TrackOne.TrackOne (0.006399s)
+[2024.03.26-17.10.55:542][793]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2024.03.26-17.10.55:542][793]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.26-17.10.55:543][793]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.26-17.10.55:543][793]LogAIModule: Creating AISystem for world TrackOne
+[2024.03.26-17.10.55:543][793]LogPlayLevel: PIE: World Init took: (0.000662s)
+[2024.03.26-17.10.55:543][793]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2024.03.26-17.10.55:543][793]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.26-17.10.55:543][793]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.26-17.10.55:543][793]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.26-17.10.55:543][793]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.26-17.10.55:543][793]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.26-17.10.55:543][793]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.26-17.10.55:543][793]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.26-17.10.55:543][793]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.26-17.10.55:543][793]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.26-17.10.55:543][793]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.26-17.10.55:543][793]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.26-17.10.55:545][793]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.26-17.10.55:562][793]LogAudioMixer: Display: Using Audio Hardware Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2024.03.26-17.10.55:562][793]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.26-17.10.55:563][793]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.26-17.10.55:563][793]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.26-17.10.55:563][793]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2024.03.26-17.10.55:563][793]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2024.03.26-17.10.55:565][793]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2024.03.26-17.10.55:565][793]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2024.03.26-17.10.55:565][793]LogInit: FAudioDevice initialized with ID 3.
+[2024.03.26-17.10.55:565][793]LogAudio: Display: Audio Device (ID: 3) registered with world 'TrackOne'.
+[2024.03.26-17.10.55:565][793]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2024.03.26-17.10.55:624][793]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.26-17.10.55:624][793]LogLoad: Game class is 'BP_VehicleAdvGameMode_C'
+[2024.03.26-17.10.55:626][793]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TrackOne.TrackOne up for play (max tick rate 0) at 2024.03.26-10.10.55
+[2024.03.26-17.10.55:627][793]LogWorld: Bringing up level for play took: 0.001969
+[2024.03.26-17.10.55:629][793]LogOnline: OSS: Created online subsystem instance for: :Context_4
+[2024.03.26-17.10.55:632][793]PIE: Server logged in
+[2024.03.26-17.10.55:633][793]PIE: Play in editor total start time 0.102 seconds.
+[2024.03.26-17.10.55:649][793]LogViewport: Scene viewport resized to 3852x2240, mode Windowed.
+[2024.03.26-17.11.15:084][555]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.26-17.11.15:084][555]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TrackOne
+[2024.03.26-17.11.15:084][555]LogSlate: Window 'FuryRoad Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.03.26-17.11.15:096][555]LogWorld: UWorld::CleanupWorld for TrackOne, bSessionEnded=true, bCleanupResources=true
+[2024.03.26-17.11.15:097][555]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-17.11.15:099][555]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.26-17.11.15:101][555]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-17.11.15:105][555]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2024.03.26-17.11.15:105][555]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2024.03.26-17.11.15:107][555]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2024.03.26-17.11.15:112][555]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2024.03.26-17.11.15:158][558]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2024.03.26-17.11.39:693][819]LogSlate: Window 'Plugins' being destroyed
+[2024.03.26-17.11.39:696][819]LogSlate: Window 'Plugins' being destroyed
+[2024.03.26-17.11.39:696][819]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/' was aborted.
+[2024.03.26-17.11.56:962][671]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Castle_Wall_sctv3/S_Castle_Wall_sctv3_lod3.S_Castle_Wall_sctv3_lod3
+[2024.03.26-17.11.56:962][671]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Castle_Wall_sctv3/S_Castle_Wall_sctv3_lod3.S_Castle_Wall_sctv3_lod3
+[2024.03.26-17.11.56:962][671]LogActorFactory: Actor Factory spawned StaticMesh /Game/Megascans/3D_Assets/Castle_Wall_sctv3/S_Castle_Wall_sctv3_lod3.S_Castle_Wall_sctv3_lod3 as actor: StaticMeshActor /Game/Levels/TrackOne.TrackOne:PersistentLevel.StaticMeshActor_0
+[2024.03.26-17.11.57:720][742]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Castle_Wall_sctv3/S_Castle_Wall_sctv3_lod3.S_Castle_Wall_sctv3_lod3
+[2024.03.26-17.11.57:720][742]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Castle_Wall_sctv3/S_Castle_Wall_sctv3_lod3.S_Castle_Wall_sctv3_lod3
+[2024.03.26-17.11.57:721][742]LogActorFactory: Actor Factory spawned StaticMesh /Game/Megascans/3D_Assets/Castle_Wall_sctv3/S_Castle_Wall_sctv3_lod3.S_Castle_Wall_sctv3_lod3 as actor: StaticMeshActor /Game/Levels/TrackOne.TrackOne:PersistentLevel.StaticMeshActor_1
+[2024.03.26-17.12.12:383][460]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Modular_Stone_Wall_xgfnfebiy/S_Modular_Stone_Wall_xgfnfebiy_lod3_Var1.S_Modular_Stone_Wall_xgfnfebiy_lod3_Var1
+[2024.03.26-17.12.12:383][460]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Modular_Stone_Wall_xgfnfebiy/S_Modular_Stone_Wall_xgfnfebiy_lod3_Var1.S_Modular_Stone_Wall_xgfnfebiy_lod3_Var1
+[2024.03.26-17.12.12:384][460]LogActorFactory: Actor Factory spawned StaticMesh /Game/Megascans/3D_Assets/Modular_Stone_Wall_xgfnfebiy/S_Modular_Stone_Wall_xgfnfebiy_lod3_Var1.S_Modular_Stone_Wall_xgfnfebiy_lod3_Var1 as actor: StaticMeshActor /Game/Levels/TrackOne.TrackOne:PersistentLevel.StaticMeshActor_2
+[2024.03.26-17.12.14:163][635]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Modular_Stone_Wall_xgfnfebiy/S_Modular_Stone_Wall_xgfnfebiy_lod3_Var1.S_Modular_Stone_Wall_xgfnfebiy_lod3_Var1
+[2024.03.26-17.12.14:163][635]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Modular_Stone_Wall_xgfnfebiy/S_Modular_Stone_Wall_xgfnfebiy_lod3_Var1.S_Modular_Stone_Wall_xgfnfebiy_lod3_Var1
+[2024.03.26-17.12.14:164][635]LogActorFactory: Actor Factory spawned StaticMesh /Game/Megascans/3D_Assets/Modular_Stone_Wall_xgfnfebiy/S_Modular_Stone_Wall_xgfnfebiy_lod3_Var1.S_Modular_Stone_Wall_xgfnfebiy_lod3_Var1 as actor: StaticMeshActor /Game/Levels/TrackOne.TrackOne:PersistentLevel.StaticMeshActor_3
+[2024.03.26-17.12.33:612][630]Cmd: TRANSACTION UNDO
+[2024.03.26-17.12.33:613][630]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2024.03.26-17.12.36:749][769]Cmd: TRANSACTION UNDO
+[2024.03.26-17.12.36:749][769]LogEditorTransaction: Undo Create Actors
+[2024.03.26-17.12.50:235][425]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Modular_Stone_Wall_xgfnfebiy/S_Modular_Stone_Wall_xgfnfebiy_lod3_Var1.S_Modular_Stone_Wall_xgfnfebiy_lod3_Var1
+[2024.03.26-17.12.50:235][425]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Modular_Stone_Wall_xgfnfebiy/S_Modular_Stone_Wall_xgfnfebiy_lod3_Var1.S_Modular_Stone_Wall_xgfnfebiy_lod3_Var1
+[2024.03.26-17.12.50:236][425]LogActorFactory: Actor Factory spawned StaticMesh /Game/Megascans/3D_Assets/Modular_Stone_Wall_xgfnfebiy/S_Modular_Stone_Wall_xgfnfebiy_lod3_Var1.S_Modular_Stone_Wall_xgfnfebiy_lod3_Var1 as actor: StaticMeshActor /Game/Levels/TrackOne.TrackOne:PersistentLevel.StaticMeshActor_4
+[2024.03.26-17.12.51:103][518]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Modular_Stone_Wall_xgfnfebiy/S_Modular_Stone_Wall_xgfnfebiy_lod3_Var1.S_Modular_Stone_Wall_xgfnfebiy_lod3_Var1
+[2024.03.26-17.12.51:103][518]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Modular_Stone_Wall_xgfnfebiy/S_Modular_Stone_Wall_xgfnfebiy_lod3_Var1.S_Modular_Stone_Wall_xgfnfebiy_lod3_Var1
+[2024.03.26-17.12.51:104][518]LogActorFactory: Actor Factory spawned StaticMesh /Game/Megascans/3D_Assets/Modular_Stone_Wall_xgfnfebiy/S_Modular_Stone_Wall_xgfnfebiy_lod3_Var1.S_Modular_Stone_Wall_xgfnfebiy_lod3_Var1 as actor: StaticMeshActor /Game/Levels/TrackOne.TrackOne:PersistentLevel.StaticMeshActor_5
+[2024.03.26-17.13.38:542][686]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Megascans/3D_Assets/Modular_Stone_Wall_xgfnfebiy/S_Modular_Stone_Wall_xgfnfebiy_lod3_Var1.S_Modular_Stone_Wall_xgfnfebiy_lod3_Var1
+[2024.03.26-17.13.38:604][686]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.26-17.13.38:604][686]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.26-17.13.39:121][686]LogViewport: Scene viewport resized to 1458x1428, mode Windowed.
+[2024.03.26-17.13.42:342][801]LogViewport: Scene viewport resized to 1454x1462, mode Windowed.
+[2024.03.26-17.13.42:452][803]LogViewport: Scene viewport resized to 2815x1953, mode Windowed.
+[2024.03.26-17.13.42:908][856]LogSlate: Window 'S_Modular_Stone_Wall_xgfnfebiy_lod3_Var1' being destroyed
+[2024.03.26-17.14.32:668][680]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2024.03.26-17.14.32:672][680]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-17.14.32:736][680]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TrackOne" FILE="../../../../Unreal Projects/FuryRoad/FuryRoad/Content/Levels/TrackOne.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.03.26-17.14.32:759][680]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2024.03.26-17.14.32:764][680]LogPackageLocalizationCache: Processed 47 localized package path(s) for 1 prioritized culture(s) in 0.004298 seconds
+[2024.03.26-17.14.32:797][680]LogSavePackage: Moving output files for package: /Game/Levels/TrackOne
+[2024.03.26-17.14.32:797][680]LogSavePackage: Moving '../../../../Unreal Projects/FuryRoad/FuryRoad/Saved/TrackOne1457F2FC45EE04E3330478B34638EFA7.tmp' to '../../../../Unreal Projects/FuryRoad/FuryRoad/Content/Levels/TrackOne.umap'
+[2024.03.26-17.14.32:802][680]LogFileHelpers: Saving map 'TrackOne' took 0.067
+[2024.03.26-17.14.32:850][680]LogSavePackage: Moving output files for package: /Game/Megascans/3D_Assets/Modular_Stone_Wall_xgfnfebiy/S_Modular_Stone_Wall_xgfnfebiy_lod3_Var1
+[2024.03.26-17.14.32:850][680]LogSavePackage: Moving '../../../../Unreal Projects/FuryRoad/FuryRoad/Saved/S_Modular_Stone_Wall_xgfnfebiy_l82F2D6F14AF9D0EE399F8E91764A7B02.tmp' to '../../../../Unreal Projects/FuryRoad/FuryRoad/Content/Megascans/3D_Assets/Modular_Stone_Wall_xgfnfebiy/S_Modular_Stone_Wall_xgfnfebiy_lod3_Var1.uasset'
+[2024.03.26-17.14.32:859][680]LogFileHelpers: InternalPromptForCheckoutAndSave took 186 ms
+[2024.03.26-17.14.32:861][680]AssetCheck: New page: Asset Save: multiple assets
+[2024.03.26-17.14.32:861][680]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/TrackOne.TrackOne
+[2024.03.26-17.14.32:861][680]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Megascans/3D_Assets/Modular_Stone_Wall_xgfnfebiy/S_Modular_Stone_Wall_xgfnfebiy_lod3_Var1.S_Modular_Stone_Wall_xgfnfebiy_lod3_Var1
+[2024.03.26-17.14.39:939][ 30]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Megascans/3D_Assets/Castle_Wall_sctv3/S_Castle_Wall_sctv3_lod3.S_Castle_Wall_sctv3_lod3
+[2024.03.26-17.14.39:944][ 30]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.26-17.14.39:944][ 30]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.26-17.14.40:394][ 30]LogViewport: Scene viewport resized to 2815x1953, mode Windowed.
+[2024.03.26-17.15.03:059][395]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2024.03.26-17.15.03:062][395]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-17.15.03:189][395]LogSavePackage: Moving output files for package: /Game/Megascans/3D_Assets/Castle_Wall_sctv3/S_Castle_Wall_sctv3_lod3
+[2024.03.26-17.15.03:190][395]LogSavePackage: Moving '../../../../Unreal Projects/FuryRoad/FuryRoad/Saved/S_Castle_Wall_sctv3_lod37B62C88044075F85DE8125ACCAD82B61.tmp' to '../../../../Unreal Projects/FuryRoad/FuryRoad/Content/Megascans/3D_Assets/Castle_Wall_sctv3/S_Castle_Wall_sctv3_lod3.uasset'
+[2024.03.26-17.15.03:196][395]LogFileHelpers: InternalPromptForCheckoutAndSave took 134 ms (total: 321 ms)
+[2024.03.26-17.15.03:197][395]AssetCheck: New page: Asset Save: S_Castle_Wall_sctv3_lod3
+[2024.03.26-17.15.03:197][395]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Megascans/3D_Assets/Castle_Wall_sctv3/S_Castle_Wall_sctv3_lod3.S_Castle_Wall_sctv3_lod3
