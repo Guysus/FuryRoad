@@ -6,7 +6,25 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 				"D:/Unreal Projects/FuryRoad/FuryRoad/Content/StarterContent/Materials/M_AssetPlatform.uasset",
-				"D:/Unreal Projects/FuryRoad/FuryRoad/Content/Levels/TrackOne.umap"
+				"D:/Unreal Projects/FuryRoad/FuryRoad/Content/Levels/TrackOne.umap",
+				"D:/Unreal Projects/FuryRoad/FuryRoad/Content/VehicleTemplate/Maps/VehicleAdvExampleMap.umap",
+				"D:/Unreal Projects/FuryRoad/FuryRoad/Content/Megascans/Surfaces/Landscape_Sand.uasset",
+				"D:/Unreal Projects/FuryRoad/FuryRoad/Content/Megascans/Surfaces/Beach_Sand_With_Pebbles_vl0fdilo/T_Beach_Sand_With_Pebbles_vl0fdilo_8K_D.uasset",
+				"D:/Unreal Projects/FuryRoad/FuryRoad/Content/Megascans/Surfaces/Beach_Sand_With_Pebbles_vl0fdilo/T_Beach_Sand_With_Pebbles_vl0fdilo_8K_N.uasset",
+				"D:/Unreal Projects/FuryRoad/FuryRoad/Content/Megascans/Surfaces/Beach_Sand_With_Pebbles_vl0fdilo/T_BeachSandWithPebbles_vl0fdilo_8K_ORDp.uasset",
+				"D:/Unreal Projects/FuryRoad/FuryRoad/Content/Megascans/Surfaces/Beach_Sand_With_Pebbles_vl0fdilo/MI_Beach_Sand_With_Pebbles_vl0fdilo_8K.uasset",
+				"D:/Unreal Projects/FuryRoad/FuryRoad/Content/Megascans/Surfaces/Rippled_Sand_vd3lecfs/T_Rippled_Sand_vd3lecfs_8K_D.uasset",
+				"D:/Unreal Projects/FuryRoad/FuryRoad/Content/Megascans/Surfaces/Rippled_Sand_vd3lecfs/T_Rippled_Sand_vd3lecfs_8K_N.uasset",
+				"D:/Unreal Projects/FuryRoad/FuryRoad/Content/Megascans/Surfaces/Rippled_Sand_vd3lecfs/T_RippledSand_vd3lecfs_8K_ORDp.uasset",
+				"D:/Unreal Projects/FuryRoad/FuryRoad/Content/Megascans/Surfaces/Rippled_Sand_vd3lecfs/MI_Rippled_Sand_vd3lecfs_8K.uasset",
+				"D:/Unreal Projects/FuryRoad/FuryRoad/Content/Megascans/Surfaces/Rippled_Sand_vlziefgfw/T_Rippled_Sand_vlziefgfw_8K_D.uasset",
+				"D:/Unreal Projects/FuryRoad/FuryRoad/Content/Megascans/Surfaces/Rippled_Sand_vlziefgfw/T_Rippled_Sand_vlziefgfw_8K_N.uasset",
+				"D:/Unreal Projects/FuryRoad/FuryRoad/Content/Megascans/Surfaces/Rippled_Sand_vlziefgfw/T_RippledSand_vlziefgfw_8K_ORDp.uasset",
+				"D:/Unreal Projects/FuryRoad/FuryRoad/Content/Megascans/Surfaces/Rippled_Sand_vlziefgfw/MI_Rippled_Sand_vlziefgfw_8K.uasset",
+				"D:/Unreal Projects/FuryRoad/FuryRoad/Content/Megascans/Surfaces/Trampled_Beach_Sand_vmghdejo/T_Trampled_Beach_Sand_vmghdejo_4K_D.uasset",
+				"D:/Unreal Projects/FuryRoad/FuryRoad/Content/Megascans/Surfaces/Trampled_Beach_Sand_vmghdejo/T_Trampled_Beach_Sand_vmghdejo_4K_N.uasset",
+				"D:/Unreal Projects/FuryRoad/FuryRoad/Content/Megascans/Surfaces/Trampled_Beach_Sand_vmghdejo/T_TrampledBeachSand_vmghdejo_4K_ORDp.uasset",
+				"D:/Unreal Projects/FuryRoad/FuryRoad/Content/Megascans/Surfaces/Trampled_Beach_Sand_vmghdejo/MI_Trampled_Beach_Sand_vmghdejo_4K.uasset"
 			]
 		}
 	]
