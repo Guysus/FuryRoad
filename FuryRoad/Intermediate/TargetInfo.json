@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "FuryRoad",
+			"Path": "..\\Source\\FuryRoad.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "FuryRoadEditor",
+			"Path": "..\\Source\\FuryRoadEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
