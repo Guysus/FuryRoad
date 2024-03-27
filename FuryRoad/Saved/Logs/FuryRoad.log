@@ -1234,3 +1234,13 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.03.27-00.02.32:495][383]AssetCheck: New page: Asset Save: TrackOne
 [2024.03.27-00.02.32:495][383]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/TrackOne.TrackOne
 [2024.03.27-00.02.40:308][798]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2024.03.27-00.38.35:228][237]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2024.03.27-00.38.35:232][237]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.27-00.38.35:258][237]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TrackOne" FILE="../../../../Unreal Projects/FuryRoad/FuryRoad/Content/Levels/TrackOne.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.03.27-00.38.35:304][237]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2024.03.27-00.38.35:727][237]LogSavePackage: Moving output files for package: /Game/Levels/TrackOne
+[2024.03.27-00.38.35:728][237]LogSavePackage: Moving '../../../../Unreal Projects/FuryRoad/FuryRoad/Saved/TrackOneC45E441F426BD67B4929F88AABEAC77E.tmp' to '../../../../Unreal Projects/FuryRoad/FuryRoad/Content/Levels/TrackOne.umap'
+[2024.03.27-00.38.35:735][237]LogFileHelpers: Saving map 'TrackOne' took 0.477
+[2024.03.27-00.38.35:750][237]LogFileHelpers: InternalPromptForCheckoutAndSave took 518 ms (total: 1.06 sec)
+[2024.03.27-00.38.35:753][237]AssetCheck: New page: Asset Save: TrackOne
+[2024.03.27-00.38.35:753][237]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/TrackOne.TrackOne
