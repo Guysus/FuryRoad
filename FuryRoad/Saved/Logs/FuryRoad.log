@@ -1244,3 +1244,690 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.03.27-00.38.35:750][237]LogFileHelpers: InternalPromptForCheckoutAndSave took 518 ms (total: 1.06 sec)
 [2024.03.27-00.38.35:753][237]AssetCheck: New page: Asset Save: TrackOne
 [2024.03.27-00.38.35:753][237]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/TrackOne.TrackOne
+[2024.03.27-00.39.49:901][622]LogD3D12RHI: Warning: Descriptor cache ran out of sub allocated descriptor blocks! Moving to Context local View heap strategy
+[2024.03.27-00.39.49:901][622]LogD3D12RHI: This should only happen in the Editor where it doesn't matter as much. If it happens in game you should increase the device global heap size!
+[2024.03.27-00.40.18:710][ 39]LogD3D12RHI: OnlineHeap RollOver Detected. Increase the heap size to prevent creation of additional heaps
+[2024.03.27-00.40.46:994][362]BlueprintLog: New page: Compile BP_AICar
+[2024.03.27-00.40.47:073][362]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2024.03.27-00.40.47:085][362]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.27-00.40.47:155][362]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.27-00.40.47:222][362]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.27-00.40.47:244][362]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_AICar" FILE="../../../../Unreal Projects/FuryRoad/FuryRoad/Content/Blueprints/BP_AICar.uasset" SILENT=true
+[2024.03.27-00.40.47:251][362]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_AICar
+[2024.03.27-00.40.47:252][362]LogSavePackage: Moving '../../../../Unreal Projects/FuryRoad/FuryRoad/Saved/BP_AICar5F17A7BC48067F56FC31EE9E0431C8D2.tmp' to '../../../../Unreal Projects/FuryRoad/FuryRoad/Content/Blueprints/BP_AICar.uasset'
+[2024.03.27-00.40.47:257][362]LogFileHelpers: InternalPromptForCheckoutAndSave took 172 ms (total: 1.23 sec)
+[2024.03.27-00.40.47:296][362]AssetCheck: New page: Asset Save: BP_AICar
+[2024.03.27-00.40.47:296][362]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_AICar.BP_AICar
+[2024.03.27-00.40.49:693][517]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.03.27-00.40.49:700][517]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.27-00.40.49:700][517]PIE: New page: PIE session: TrackOne (Mar. 26, 2024, 10:40:49 a.m.)
+[2024.03.27-00.40.49:700][517]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TrackOne
+[2024.03.27-00.40.50:093][517]LogPlayLevel: PIE: StaticDuplicateObject took: (0.393210s)
+[2024.03.27-00.40.50:093][517]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TrackOne.TrackOne to /Game/Levels/UEDPIE_0_TrackOne.TrackOne (0.393239s)
+[2024.03.27-00.40.50:117][517]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2024.03.27-00.40.50:118][517]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.27-00.40.50:118][517]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.27-00.40.50:119][517]LogAIModule: Creating AISystem for world TrackOne
+[2024.03.27-00.40.50:119][517]LogPlayLevel: PIE: World Init took: (0.000977s)
+[2024.03.27-00.40.50:119][517]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2024.03.27-00.40.50:119][517]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.27-00.40.50:119][517]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.27-00.40.50:119][517]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.27-00.40.50:119][517]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.27-00.40.50:119][517]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.27-00.40.50:119][517]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.27-00.40.50:119][517]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.27-00.40.50:119][517]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.27-00.40.50:120][517]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.27-00.40.50:120][517]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.27-00.40.50:120][517]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.27-00.40.50:121][517]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.27-00.40.50:139][517]LogAudioMixer: Display: Using Audio Hardware Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2024.03.27-00.40.50:139][517]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.27-00.40.50:139][517]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.27-00.40.50:139][517]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.27-00.40.50:139][517]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2024.03.27-00.40.50:139][517]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2024.03.27-00.40.50:141][517]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2024.03.27-00.40.50:141][517]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2024.03.27-00.40.50:141][517]LogInit: FAudioDevice initialized with ID 3.
+[2024.03.27-00.40.50:141][517]LogAudio: Display: Audio Device (ID: 3) registered with world 'TrackOne'.
+[2024.03.27-00.40.50:141][517]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2024.03.27-00.40.50:194][517]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.27-00.40.50:194][517]LogLoad: Game class is 'BP_VehicleAdvGameMode_C'
+[2024.03.27-00.40.50:221][517]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TrackOne.TrackOne up for play (max tick rate 0) at 2024.03.26-17.40.50
+[2024.03.27-00.40.50:223][517]LogWorld: Bringing up level for play took: 0.028353
+[2024.03.27-00.40.50:225][517]LogOnline: OSS: Created online subsystem instance for: :Context_9
+[2024.03.27-00.40.50:229][517]PIE: Server logged in
+[2024.03.27-00.40.50:230][517]PIE: Play in editor total start time 0.532 seconds.
+[2024.03.27-00.40.50:273][517]LogViewport: Scene viewport resized to 3837x2140, mode Windowed.
+[2024.03.27-00.40.51:482][565]LogViewport: Scene viewport resized to 3840x2109, mode Windowed.
+[2024.03.27-00.41.17:879][663]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.27-00.41.17:879][663]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TrackOne
+[2024.03.27-00.41.17:879][663]LogSlate: Window 'FuryRoad Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.03.27-00.41.17:889][663]LogWorld: UWorld::CleanupWorld for TrackOne, bSessionEnded=true, bCleanupResources=true
+[2024.03.27-00.41.17:892][663]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.27-00.41.17:895][663]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.27-00.41.17:900][663]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.27-00.41.17:923][663]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.27-00.41.17:923][663]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2024.03.27-00.41.17:923][663]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2024.03.27-00.41.17:925][663]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2024.03.27-00.41.17:943][663]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2024.03.27-00.41.17:992][664]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2024.03.27-00.41.35:075][594]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2024.03.27-00.41.35:079][594]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.27-00.41.35:137][594]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TrackOne" FILE="../../../../Unreal Projects/FuryRoad/FuryRoad/Content/Levels/TrackOne.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.03.27-00.41.35:181][594]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2024.03.27-00.41.35:603][594]LogSavePackage: Moving output files for package: /Game/Levels/TrackOne
+[2024.03.27-00.41.35:603][594]LogSavePackage: Moving '../../../../Unreal Projects/FuryRoad/FuryRoad/Saved/TrackOne3B3D235140914A63B151C681519F181A.tmp' to '../../../../Unreal Projects/FuryRoad/FuryRoad/Content/Levels/TrackOne.umap'
+[2024.03.27-00.41.35:610][594]LogFileHelpers: Saving map 'TrackOne' took 0.474
+[2024.03.27-00.41.35:615][594]LogFileHelpers: InternalPromptForCheckoutAndSave took 535 ms (total: 1.77 sec)
+[2024.03.27-00.41.35:617][594]AssetCheck: New page: Asset Save: TrackOne
+[2024.03.27-00.41.35:617][594]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/TrackOne.TrackOne
+[2024.03.27-00.41.36:904][666]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.03.27-00.41.36:910][666]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.27-00.41.36:910][666]PIE: New page: PIE session: TrackOne (Mar. 26, 2024, 10:41:36 a.m.)
+[2024.03.27-00.41.36:911][666]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TrackOne
+[2024.03.27-00.41.37:306][666]LogPlayLevel: PIE: StaticDuplicateObject took: (0.395930s)
+[2024.03.27-00.41.37:306][666]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TrackOne.TrackOne to /Game/Levels/UEDPIE_0_TrackOne.TrackOne (0.395961s)
+[2024.03.27-00.41.37:329][666]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2024.03.27-00.41.37:330][666]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.27-00.41.37:330][666]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.27-00.41.37:330][666]LogAIModule: Creating AISystem for world TrackOne
+[2024.03.27-00.41.37:331][666]LogPlayLevel: PIE: World Init took: (0.000957s)
+[2024.03.27-00.41.37:331][666]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2024.03.27-00.41.37:331][666]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.27-00.41.37:331][666]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.27-00.41.37:331][666]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.27-00.41.37:331][666]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.27-00.41.37:331][666]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.27-00.41.37:331][666]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.27-00.41.37:331][666]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.27-00.41.37:331][666]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.27-00.41.37:331][666]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.27-00.41.37:331][666]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.27-00.41.37:331][666]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.27-00.41.37:333][666]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.27-00.41.37:349][666]LogAudioMixer: Display: Using Audio Hardware Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2024.03.27-00.41.37:350][666]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.27-00.41.37:350][666]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.27-00.41.37:350][666]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.27-00.41.37:350][666]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2024.03.27-00.41.37:350][666]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2024.03.27-00.41.37:351][666]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2024.03.27-00.41.37:351][666]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2024.03.27-00.41.37:351][666]LogInit: FAudioDevice initialized with ID 4.
+[2024.03.27-00.41.37:351][666]LogAudio: Display: Audio Device (ID: 4) registered with world 'TrackOne'.
+[2024.03.27-00.41.37:351][666]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2024.03.27-00.41.37:408][666]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.27-00.41.37:409][666]LogLoad: Game class is 'BP_VehicleAdvOffroadGameMode_C'
+[2024.03.27-00.41.37:434][666]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TrackOne.TrackOne up for play (max tick rate 0) at 2024.03.26-17.41.37
+[2024.03.27-00.41.37:436][666]LogWorld: Bringing up level for play took: 0.027490
+[2024.03.27-00.41.37:438][666]LogOnline: OSS: Created online subsystem instance for: :Context_10
+[2024.03.27-00.41.37:443][666]PIE: Server logged in
+[2024.03.27-00.41.37:443][666]PIE: Play in editor total start time 0.533 seconds.
+[2024.03.27-00.41.37:490][666]LogViewport: Scene viewport resized to 3831x2100, mode Windowed.
+[2024.03.27-00.42.05:338][797]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.27-00.42.05:338][797]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TrackOne
+[2024.03.27-00.42.05:339][797]LogSlate: Window 'FuryRoad Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.03.27-00.42.05:343][797]LogWorld: UWorld::CleanupWorld for TrackOne, bSessionEnded=true, bCleanupResources=true
+[2024.03.27-00.42.05:346][797]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.27-00.42.05:350][797]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.27-00.42.05:355][797]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.27-00.42.05:380][797]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2024.03.27-00.42.05:380][797]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2024.03.27-00.42.05:382][797]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2024.03.27-00.42.05:398][797]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2024.03.27-00.42.05:449][798]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2024.03.27-00.42.11:542][185]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.27-00.42.11:586][185]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TrackOne" FILE="../../../../Unreal Projects/FuryRoad/FuryRoad/Content/Levels/TrackOne.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.03.27-00.42.11:632][185]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2024.03.27-00.42.12:058][185]LogSavePackage: Moving output files for package: /Game/Levels/TrackOne
+[2024.03.27-00.42.12:059][185]LogSavePackage: Moving '../../../../Unreal Projects/FuryRoad/FuryRoad/Saved/TrackOneDFCBA6984E2BA6D6ECFC309AADAB1822.tmp' to '../../../../Unreal Projects/FuryRoad/FuryRoad/Content/Levels/TrackOne.umap'
+[2024.03.27-00.42.12:065][185]LogFileHelpers: Saving map 'TrackOne' took 0.479
+[2024.03.27-00.42.12:070][185]LogFileHelpers: InternalPromptForCheckoutAndSave took 528 ms (total: 2.30 sec)
+[2024.03.27-00.42.12:073][185]AssetCheck: New page: Asset Save: TrackOne
+[2024.03.27-00.42.12:073][185]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/TrackOne.TrackOne
+[2024.03.27-00.44.35:256][718]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.27-00.44.59:011][347]LogSlate: Took 0.000083 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.03.27-00.44.59:064][348]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.27-00.50.16:025][372]BlueprintLog: New page: Compile BP_AICar
+[2024.03.27-00.50.16:118][372]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2024.03.27-00.50.16:137][372]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.27-00.50.16:247][372]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_AICar" FILE="../../../../Unreal Projects/FuryRoad/FuryRoad/Content/Blueprints/BP_AICar.uasset" SILENT=true
+[2024.03.27-00.50.16:255][372]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_AICar
+[2024.03.27-00.50.16:255][372]LogSavePackage: Moving '../../../../Unreal Projects/FuryRoad/FuryRoad/Saved/BP_AICarCD505E834F5028683CB180B27FAAF566.tmp' to '../../../../Unreal Projects/FuryRoad/FuryRoad/Content/Blueprints/BP_AICar.uasset'
+[2024.03.27-00.50.16:259][372]LogFileHelpers: InternalPromptForCheckoutAndSave took 122 ms (total: 2.42 sec)
+[2024.03.27-00.50.16:298][372]AssetCheck: New page: Asset Save: BP_AICar
+[2024.03.27-00.50.16:299][372]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_AICar.BP_AICar
+[2024.03.27-00.50.58:806][379]BlueprintLog: New page: Compile BP_AICar
+[2024.03.27-00.50.58:893][379]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2024.03.27-00.50.59:857][465]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.27-00.50.59:959][465]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_AICar" FILE="../../../../Unreal Projects/FuryRoad/FuryRoad/Content/Blueprints/BP_AICar.uasset" SILENT=true
+[2024.03.27-00.50.59:966][465]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_AICar
+[2024.03.27-00.50.59:967][465]LogSavePackage: Moving '../../../../Unreal Projects/FuryRoad/FuryRoad/Saved/BP_AICarBC502BB147D95F8F950498A59698EB70.tmp' to '../../../../Unreal Projects/FuryRoad/FuryRoad/Content/Blueprints/BP_AICar.uasset'
+[2024.03.27-00.50.59:971][465]LogFileHelpers: InternalPromptForCheckoutAndSave took 113 ms (total: 2.53 sec)
+[2024.03.27-00.50.59:973][465]AssetCheck: New page: Asset Save: BP_AICar
+[2024.03.27-00.50.59:973][465]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_AICar.BP_AICar
+[2024.03.27-00.51.04:881][774]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.03.27-00.51.04:893][774]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.27-00.51.04:893][774]PIE: New page: PIE session: TrackOne (Mar. 26, 2024, 10:51:04 a.m.)
+[2024.03.27-00.51.04:893][774]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TrackOne
+[2024.03.27-00.51.05:293][774]LogPlayLevel: PIE: StaticDuplicateObject took: (0.400258s)
+[2024.03.27-00.51.05:293][774]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TrackOne.TrackOne to /Game/Levels/UEDPIE_0_TrackOne.TrackOne (0.400286s)
+[2024.03.27-00.51.05:315][774]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2024.03.27-00.51.05:319][774]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.27-00.51.05:319][774]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.27-00.51.05:319][774]LogAIModule: Creating AISystem for world TrackOne
+[2024.03.27-00.51.05:320][774]LogPlayLevel: PIE: World Init took: (0.001296s)
+[2024.03.27-00.51.05:320][774]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2024.03.27-00.51.05:320][774]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.27-00.51.05:320][774]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.27-00.51.05:320][774]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.27-00.51.05:320][774]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.27-00.51.05:320][774]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.27-00.51.05:320][774]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.27-00.51.05:320][774]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.27-00.51.05:320][774]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.27-00.51.05:320][774]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.27-00.51.05:320][774]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.27-00.51.05:320][774]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.27-00.51.05:322][774]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.27-00.51.05:340][774]LogAudioMixer: Display: Using Audio Hardware Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2024.03.27-00.51.05:340][774]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.27-00.51.05:340][774]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.27-00.51.05:340][774]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.27-00.51.05:340][774]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2024.03.27-00.51.05:340][774]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2024.03.27-00.51.05:342][774]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2024.03.27-00.51.05:342][774]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2024.03.27-00.51.05:342][774]LogInit: FAudioDevice initialized with ID 5.
+[2024.03.27-00.51.05:342][774]LogAudio: Display: Audio Device (ID: 5) registered with world 'TrackOne'.
+[2024.03.27-00.51.05:342][774]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2024.03.27-00.51.05:382][774]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.27-00.51.05:382][774]LogLoad: Game class is 'BP_VehicleAdvGameMode_C'
+[2024.03.27-00.51.05:408][774]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TrackOne.TrackOne up for play (max tick rate 0) at 2024.03.26-17.51.05
+[2024.03.27-00.51.05:410][774]LogWorld: Bringing up level for play took: 0.027613
+[2024.03.27-00.51.05:412][774]LogOnline: OSS: Created online subsystem instance for: :Context_13
+[2024.03.27-00.51.05:416][774]PIE: Server logged in
+[2024.03.27-00.51.05:416][774]PIE: Play in editor total start time 0.529 seconds.
+[2024.03.27-00.51.05:462][774]LogViewport: Scene viewport resized to 3834x2120, mode Windowed.
+[2024.03.27-00.51.20:280][415]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.27-00.51.20:280][415]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TrackOne
+[2024.03.27-00.51.20:280][415]LogSlate: Window 'FuryRoad Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.03.27-00.51.20:288][415]LogWorld: UWorld::CleanupWorld for TrackOne, bSessionEnded=true, bCleanupResources=true
+[2024.03.27-00.51.20:291][415]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.27-00.51.20:296][415]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.27-00.51.20:301][415]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.27-00.51.20:326][415]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.27-00.51.20:326][415]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2024.03.27-00.51.20:326][415]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2024.03.27-00.51.20:328][415]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2024.03.27-00.51.20:344][415]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2024.03.27-00.51.20:386][416]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2024.03.27-00.56.28:199][891]BlueprintLog: New page: Compile BP_AICar
+[2024.03.27-00.56.28:288][891]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2024.03.27-00.56.28:306][891]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.27-00.56.28:405][891]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_AICar" FILE="../../../../Unreal Projects/FuryRoad/FuryRoad/Content/Blueprints/BP_AICar.uasset" SILENT=true
+[2024.03.27-00.56.28:413][891]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_AICar
+[2024.03.27-00.56.28:413][891]LogSavePackage: Moving '../../../../Unreal Projects/FuryRoad/FuryRoad/Saved/BP_AICar7C35C988483F3E7C3DA8798087CDC585.tmp' to '../../../../Unreal Projects/FuryRoad/FuryRoad/Content/Blueprints/BP_AICar.uasset'
+[2024.03.27-00.56.28:418][891]LogFileHelpers: InternalPromptForCheckoutAndSave took 111 ms (total: 2.64 sec)
+[2024.03.27-00.56.28:457][891]AssetCheck: New page: Asset Save: BP_AICar
+[2024.03.27-00.56.28:457][891]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_AICar.BP_AICar
+[2024.03.27-00.56.30:263][996]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.03.27-00.56.30:269][996]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.27-00.56.30:269][996]PIE: New page: PIE session: TrackOne (Mar. 26, 2024, 10:56:30 a.m.)
+[2024.03.27-00.56.30:269][996]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TrackOne
+[2024.03.27-00.56.30:665][996]LogPlayLevel: PIE: StaticDuplicateObject took: (0.396456s)
+[2024.03.27-00.56.30:665][996]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TrackOne.TrackOne to /Game/Levels/UEDPIE_0_TrackOne.TrackOne (0.396484s)
+[2024.03.27-00.56.30:689][996]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2024.03.27-00.56.30:691][996]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.27-00.56.30:691][996]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.27-00.56.30:692][996]LogAIModule: Creating AISystem for world TrackOne
+[2024.03.27-00.56.30:692][996]LogPlayLevel: PIE: World Init took: (0.000933s)
+[2024.03.27-00.56.30:692][996]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2024.03.27-00.56.30:692][996]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.27-00.56.30:692][996]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.27-00.56.30:692][996]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.27-00.56.30:692][996]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.27-00.56.30:692][996]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.27-00.56.30:692][996]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.27-00.56.30:692][996]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.27-00.56.30:692][996]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.27-00.56.30:692][996]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.27-00.56.30:692][996]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.27-00.56.30:692][996]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.27-00.56.30:694][996]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.27-00.56.30:711][996]LogAudioMixer: Display: Using Audio Hardware Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2024.03.27-00.56.30:711][996]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.27-00.56.30:711][996]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.27-00.56.30:711][996]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.27-00.56.30:712][996]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2024.03.27-00.56.30:712][996]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2024.03.27-00.56.30:713][996]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2024.03.27-00.56.30:713][996]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2024.03.27-00.56.30:713][996]LogInit: FAudioDevice initialized with ID 6.
+[2024.03.27-00.56.30:713][996]LogAudio: Display: Audio Device (ID: 6) registered with world 'TrackOne'.
+[2024.03.27-00.56.30:713][996]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2024.03.27-00.56.30:764][996]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.27-00.56.30:764][996]LogLoad: Game class is 'BP_VehicleAdvGameMode_C'
+[2024.03.27-00.56.30:791][996]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TrackOne.TrackOne up for play (max tick rate 0) at 2024.03.26-17.56.30
+[2024.03.27-00.56.30:793][996]LogWorld: Bringing up level for play took: 0.028751
+[2024.03.27-00.56.30:795][996]LogOnline: OSS: Created online subsystem instance for: :Context_14
+[2024.03.27-00.56.30:799][996]PIE: Server logged in
+[2024.03.27-00.56.30:800][996]PIE: Play in editor total start time 0.531 seconds.
+[2024.03.27-00.56.30:851][996]LogViewport: Scene viewport resized to 3837x2140, mode Windowed.
+[2024.03.27-00.56.47:009][730]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.27-00.56.47:009][730]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TrackOne
+[2024.03.27-00.56.47:009][730]LogSlate: Window 'FuryRoad Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.03.27-00.56.47:015][730]LogWorld: UWorld::CleanupWorld for TrackOne, bSessionEnded=true, bCleanupResources=true
+[2024.03.27-00.56.47:018][730]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.27-00.56.47:027][730]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.27-00.56.47:032][730]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.27-00.56.47:055][730]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.27-00.56.47:055][730]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2024.03.27-00.56.47:055][730]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2024.03.27-00.56.47:057][730]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2024.03.27-00.56.47:073][730]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2024.03.27-00.56.47:117][731]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2024.03.27-00.57.12:389][829]BlueprintLog: New page: Compile BP_AICar
+[2024.03.27-00.57.12:479][829]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2024.03.27-00.57.12:495][829]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.27-00.57.12:588][829]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_AICar" FILE="../../../../Unreal Projects/FuryRoad/FuryRoad/Content/Blueprints/BP_AICar.uasset" SILENT=true
+[2024.03.27-00.57.12:596][829]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_AICar
+[2024.03.27-00.57.12:596][829]LogSavePackage: Moving '../../../../Unreal Projects/FuryRoad/FuryRoad/Saved/BP_AICar24AF88C84DAD75E551FABD89990AD579.tmp' to '../../../../Unreal Projects/FuryRoad/FuryRoad/Content/Blueprints/BP_AICar.uasset'
+[2024.03.27-00.57.12:600][829]LogFileHelpers: InternalPromptForCheckoutAndSave took 105 ms (total: 2.75 sec)
+[2024.03.27-00.57.12:640][829]AssetCheck: New page: Asset Save: BP_AICar
+[2024.03.27-00.57.12:640][829]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_AICar.BP_AICar
+[2024.03.27-00.57.14:623][972]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.03.27-00.57.14:629][972]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.27-00.57.14:629][972]PIE: New page: PIE session: TrackOne (Mar. 26, 2024, 10:57:14 a.m.)
+[2024.03.27-00.57.14:629][972]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TrackOne
+[2024.03.27-00.57.15:025][972]LogPlayLevel: PIE: StaticDuplicateObject took: (0.394881s)
+[2024.03.27-00.57.15:025][972]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TrackOne.TrackOne to /Game/Levels/UEDPIE_0_TrackOne.TrackOne (0.394911s)
+[2024.03.27-00.57.15:047][972]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2024.03.27-00.57.15:052][972]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.27-00.57.15:052][972]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.27-00.57.15:053][972]LogAIModule: Creating AISystem for world TrackOne
+[2024.03.27-00.57.15:053][972]LogPlayLevel: PIE: World Init took: (0.001027s)
+[2024.03.27-00.57.15:053][972]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2024.03.27-00.57.15:053][972]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.27-00.57.15:053][972]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.27-00.57.15:053][972]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.27-00.57.15:053][972]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.27-00.57.15:053][972]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.27-00.57.15:053][972]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.27-00.57.15:053][972]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.27-00.57.15:053][972]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.27-00.57.15:053][972]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.27-00.57.15:053][972]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.27-00.57.15:053][972]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.27-00.57.15:055][972]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.27-00.57.15:072][972]LogAudioMixer: Display: Using Audio Hardware Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2024.03.27-00.57.15:072][972]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.27-00.57.15:072][972]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.27-00.57.15:072][972]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.27-00.57.15:072][972]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2024.03.27-00.57.15:072][972]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2024.03.27-00.57.15:074][972]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2024.03.27-00.57.15:074][972]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2024.03.27-00.57.15:074][972]LogInit: FAudioDevice initialized with ID 7.
+[2024.03.27-00.57.15:074][972]LogAudio: Display: Audio Device (ID: 7) registered with world 'TrackOne'.
+[2024.03.27-00.57.15:074][972]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2024.03.27-00.57.15:130][972]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.27-00.57.15:130][972]LogLoad: Game class is 'BP_VehicleAdvGameMode_C'
+[2024.03.27-00.57.15:159][972]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TrackOne.TrackOne up for play (max tick rate 0) at 2024.03.26-17.57.15
+[2024.03.27-00.57.15:161][972]LogWorld: Bringing up level for play took: 0.030752
+[2024.03.27-00.57.15:163][972]LogOnline: OSS: Created online subsystem instance for: :Context_15
+[2024.03.27-00.57.15:167][972]PIE: Server logged in
+[2024.03.27-00.57.15:168][972]PIE: Play in editor total start time 0.538 seconds.
+[2024.03.27-00.57.15:219][972]LogViewport: Scene viewport resized to 3840x2160, mode Windowed.
+[2024.03.27-00.58.26:990][ 34]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.27-00.58.26:990][ 34]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TrackOne
+[2024.03.27-00.58.26:990][ 34]LogSlate: Window 'FuryRoad Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.03.27-00.58.27:001][ 34]LogWorld: UWorld::CleanupWorld for TrackOne, bSessionEnded=true, bCleanupResources=true
+[2024.03.27-00.58.27:004][ 34]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.27-00.58.27:016][ 34]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.27-00.58.27:020][ 34]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.27-00.58.27:044][ 34]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2024.03.27-00.58.27:044][ 34]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.03.27-00.58.27:046][ 34]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.03.27-00.58.27:062][ 34]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2024.03.27-00.58.27:118][ 35]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2024.03.27-00.59.06:512][372]BlueprintLog: New page: Compile BP_AICar
+[2024.03.27-00.59.06:602][372]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2024.03.27-00.59.06:620][372]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.27-00.59.06:719][372]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_AICar" FILE="../../../../Unreal Projects/FuryRoad/FuryRoad/Content/Blueprints/BP_AICar.uasset" SILENT=true
+[2024.03.27-00.59.06:727][372]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_AICar
+[2024.03.27-00.59.06:727][372]LogSavePackage: Moving '../../../../Unreal Projects/FuryRoad/FuryRoad/Saved/BP_AICar6148649B498607F3E24F248DB78A411D.tmp' to '../../../../Unreal Projects/FuryRoad/FuryRoad/Content/Blueprints/BP_AICar.uasset'
+[2024.03.27-00.59.06:731][372]LogFileHelpers: InternalPromptForCheckoutAndSave took 111 ms (total: 2.86 sec)
+[2024.03.27-00.59.06:772][372]AssetCheck: New page: Asset Save: BP_AICar
+[2024.03.27-00.59.06:772][372]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_AICar.BP_AICar
+[2024.03.27-00.59.09:790][587]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.03.27-00.59.09:796][587]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.27-00.59.09:796][587]PIE: New page: PIE session: TrackOne (Mar. 26, 2024, 10:59:09 a.m.)
+[2024.03.27-00.59.09:796][587]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TrackOne
+[2024.03.27-00.59.10:196][587]LogPlayLevel: PIE: StaticDuplicateObject took: (0.400575s)
+[2024.03.27-00.59.10:196][587]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TrackOne.TrackOne to /Game/Levels/UEDPIE_0_TrackOne.TrackOne (0.400605s)
+[2024.03.27-00.59.10:220][587]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2024.03.27-00.59.10:224][587]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.27-00.59.10:224][587]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.27-00.59.10:224][587]LogAIModule: Creating AISystem for world TrackOne
+[2024.03.27-00.59.10:224][587]LogPlayLevel: PIE: World Init took: (0.000997s)
+[2024.03.27-00.59.10:225][587]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2024.03.27-00.59.10:225][587]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.27-00.59.10:225][587]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.27-00.59.10:225][587]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.27-00.59.10:225][587]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.27-00.59.10:225][587]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.27-00.59.10:225][587]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.27-00.59.10:225][587]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.27-00.59.10:225][587]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.27-00.59.10:225][587]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.27-00.59.10:225][587]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.27-00.59.10:225][587]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.27-00.59.10:227][587]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.27-00.59.10:244][587]LogAudioMixer: Display: Using Audio Hardware Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2024.03.27-00.59.10:244][587]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.27-00.59.10:244][587]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.27-00.59.10:244][587]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.27-00.59.10:245][587]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2024.03.27-00.59.10:245][587]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2024.03.27-00.59.10:246][587]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2024.03.27-00.59.10:246][587]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2024.03.27-00.59.10:246][587]LogInit: FAudioDevice initialized with ID 8.
+[2024.03.27-00.59.10:246][587]LogAudio: Display: Audio Device (ID: 8) registered with world 'TrackOne'.
+[2024.03.27-00.59.10:246][587]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2024.03.27-00.59.10:288][587]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.27-00.59.10:288][587]LogLoad: Game class is 'BP_VehicleAdvGameMode_C'
+[2024.03.27-00.59.10:316][587]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TrackOne.TrackOne up for play (max tick rate 0) at 2024.03.26-17.59.10
+[2024.03.27-00.59.10:318][587]LogWorld: Bringing up level for play took: 0.029378
+[2024.03.27-00.59.10:320][587]LogOnline: OSS: Created online subsystem instance for: :Context_16
+[2024.03.27-00.59.10:325][587]PIE: Server logged in
+[2024.03.27-00.59.10:326][587]PIE: Play in editor total start time 0.53 seconds.
+[2024.03.27-00.59.10:370][587]LogViewport: Scene viewport resized to 3843x2180, mode Windowed.
+[2024.03.27-00.59.27:400][330]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.27-00.59.27:400][330]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TrackOne
+[2024.03.27-00.59.27:400][330]LogSlate: Window 'FuryRoad Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.03.27-00.59.27:405][330]LogWorld: UWorld::CleanupWorld for TrackOne, bSessionEnded=true, bCleanupResources=true
+[2024.03.27-00.59.27:408][330]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.27-00.59.27:417][330]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.27-00.59.27:421][330]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.27-00.59.27:445][330]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.27-00.59.27:445][330]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2024.03.27-00.59.27:445][330]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2024.03.27-00.59.27:447][330]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2024.03.27-00.59.27:464][330]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2024.03.27-00.59.27:518][331]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2024.03.27-00.59.33:495][845]BlueprintLog: New page: Compile BP_AICar
+[2024.03.27-00.59.33:582][845]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2024.03.27-00.59.33:599][845]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.27-00.59.33:683][845]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_AICar" FILE="../../../../Unreal Projects/FuryRoad/FuryRoad/Content/Blueprints/BP_AICar.uasset" SILENT=true
+[2024.03.27-00.59.33:691][845]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_AICar
+[2024.03.27-00.59.33:691][845]LogSavePackage: Moving '../../../../Unreal Projects/FuryRoad/FuryRoad/Saved/BP_AICar7C4B95B74432F3DCC8D51D8E4E3CF431.tmp' to '../../../../Unreal Projects/FuryRoad/FuryRoad/Content/Blueprints/BP_AICar.uasset'
+[2024.03.27-00.59.33:695][845]LogFileHelpers: InternalPromptForCheckoutAndSave took 96 ms (total: 2.96 sec)
+[2024.03.27-00.59.33:735][845]AssetCheck: New page: Asset Save: BP_AICar
+[2024.03.27-00.59.33:735][845]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_AICar.BP_AICar
+[2024.03.27-01.01.24:644][806]BlueprintLog: New page: Compile BP_AICar
+[2024.03.27-01.01.24:733][806]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2024.03.27-01.01.24:750][806]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.27-01.01.24:830][806]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_AICar" FILE="../../../../Unreal Projects/FuryRoad/FuryRoad/Content/Blueprints/BP_AICar.uasset" SILENT=true
+[2024.03.27-01.01.24:837][806]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_AICar
+[2024.03.27-01.01.24:838][806]LogSavePackage: Moving '../../../../Unreal Projects/FuryRoad/FuryRoad/Saved/BP_AICar61EB041442096AA113E2CB8E3518D74C.tmp' to '../../../../Unreal Projects/FuryRoad/FuryRoad/Content/Blueprints/BP_AICar.uasset'
+[2024.03.27-01.01.24:842][806]LogFileHelpers: InternalPromptForCheckoutAndSave took 92 ms (total: 3.05 sec)
+[2024.03.27-01.01.24:881][806]AssetCheck: New page: Asset Save: BP_AICar
+[2024.03.27-01.01.24:881][806]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_AICar.BP_AICar
+[2024.03.27-01.01.54:231][238]LogDerivedDataCache: C:/Users/guyla/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:17.081 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 8821 files in 10644 folders with total size 1152 MiB.
+[2024.03.27-01.02.01:375][ 49]BlueprintLog: New page: Compile BP_AICar
+[2024.03.27-01.02.01:465][ 49]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2024.03.27-01.02.02:082][100]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.27-01.02.02:176][100]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_AICar" FILE="../../../../Unreal Projects/FuryRoad/FuryRoad/Content/Blueprints/BP_AICar.uasset" SILENT=true
+[2024.03.27-01.02.02:183][100]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_AICar
+[2024.03.27-01.02.02:184][100]LogSavePackage: Moving '../../../../Unreal Projects/FuryRoad/FuryRoad/Saved/BP_AICar85DF0D30499F22CD43BFCDB7415CCF16.tmp' to '../../../../Unreal Projects/FuryRoad/FuryRoad/Content/Blueprints/BP_AICar.uasset'
+[2024.03.27-01.02.02:188][100]LogFileHelpers: InternalPromptForCheckoutAndSave took 106 ms (total: 3.16 sec)
+[2024.03.27-01.02.02:190][100]AssetCheck: New page: Asset Save: BP_AICar
+[2024.03.27-01.02.02:190][100]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_AICar.BP_AICar
+[2024.03.27-01.02.03:940][233]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.03.27-01.02.03:945][233]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.27-01.02.03:945][233]PIE: New page: PIE session: TrackOne (Mar. 26, 2024, 11:02:03 a.m.)
+[2024.03.27-01.02.03:946][233]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TrackOne
+[2024.03.27-01.02.04:345][233]LogPlayLevel: PIE: StaticDuplicateObject took: (0.398792s)
+[2024.03.27-01.02.04:345][233]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TrackOne.TrackOne to /Game/Levels/UEDPIE_0_TrackOne.TrackOne (0.398824s)
+[2024.03.27-01.02.04:368][233]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2024.03.27-01.02.04:371][233]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.27-01.02.04:371][233]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.27-01.02.04:371][233]LogAIModule: Creating AISystem for world TrackOne
+[2024.03.27-01.02.04:371][233]LogPlayLevel: PIE: World Init took: (0.000905s)
+[2024.03.27-01.02.04:371][233]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2024.03.27-01.02.04:372][233]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.27-01.02.04:372][233]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.27-01.02.04:372][233]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.27-01.02.04:372][233]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.27-01.02.04:372][233]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.27-01.02.04:372][233]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.27-01.02.04:372][233]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.27-01.02.04:372][233]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.27-01.02.04:372][233]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.27-01.02.04:372][233]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.27-01.02.04:372][233]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.27-01.02.04:374][233]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.27-01.02.04:390][233]LogAudioMixer: Display: Using Audio Hardware Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2024.03.27-01.02.04:390][233]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.27-01.02.04:390][233]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.27-01.02.04:390][233]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.27-01.02.04:391][233]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2024.03.27-01.02.04:391][233]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2024.03.27-01.02.04:392][233]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2024.03.27-01.02.04:393][233]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2024.03.27-01.02.04:393][233]LogInit: FAudioDevice initialized with ID 9.
+[2024.03.27-01.02.04:393][233]LogAudio: Display: Audio Device (ID: 9) registered with world 'TrackOne'.
+[2024.03.27-01.02.04:393][233]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2024.03.27-01.02.04:452][233]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.27-01.02.04:452][233]LogLoad: Game class is 'BP_VehicleAdvGameMode_C'
+[2024.03.27-01.02.04:478][233]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TrackOne.TrackOne up for play (max tick rate 0) at 2024.03.26-18.02.04
+[2024.03.27-01.02.04:480][233]LogWorld: Bringing up level for play took: 0.028203
+[2024.03.27-01.02.04:482][233]LogOnline: OSS: Created online subsystem instance for: :Context_17
+[2024.03.27-01.02.04:486][233]PIE: Server logged in
+[2024.03.27-01.02.04:487][233]PIE: Play in editor total start time 0.541 seconds.
+[2024.03.27-01.02.04:532][233]LogViewport: Scene viewport resized to 3846x2200, mode Windowed.
+[2024.03.27-01.03.06:215][796]LogShaderCompilers: Display: ================================================
+[2024.03.27-01.03.06:215][796]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.03.27-01.03.06:215][796]LogShaderCompilers: Display: Total job queries 53, among them cache hits 16 (30.19%)
+[2024.03.27-01.03.06:215][796]LogShaderCompilers: Display: Tracking 37 distinct input hashes that result in 28 distinct outputs (75.68%)
+[2024.03.27-01.03.06:215][796]LogShaderCompilers: Display: RAM used: 1.00 MiB of 6.40 GiB budget. Usage: 0.02%
+[2024.03.27-01.03.06:215][796]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.03.27-01.03.06:215][796]LogShaderCompilers: Display: Shaders Compiled: 0
+[2024.03.27-01.03.06:215][796]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2024.03.27-01.03.06:215][796]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2024.03.27-01.03.06:215][796]LogShaderCompilers: Display: ================================================
+[2024.03.27-01.03.26:759][565]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.27-01.03.26:759][565]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TrackOne
+[2024.03.27-01.03.26:760][565]LogSlate: Window 'FuryRoad Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.03.27-01.03.26:764][565]LogWorld: UWorld::CleanupWorld for TrackOne, bSessionEnded=true, bCleanupResources=true
+[2024.03.27-01.03.26:768][565]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.27-01.03.26:777][565]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.27-01.03.26:781][565]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.27-01.03.26:805][565]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.27-01.03.26:805][565]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2024.03.27-01.03.26:805][565]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2024.03.27-01.03.26:807][565]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2024.03.27-01.03.26:823][565]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2024.03.27-01.03.26:881][566]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2024.03.27-01.04.06:406][929]BlueprintLog: New page: Compile BP_AICar
+[2024.03.27-01.04.06:495][929]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2024.03.27-01.04.06:511][929]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.27-01.04.06:595][929]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_AICar" FILE="../../../../Unreal Projects/FuryRoad/FuryRoad/Content/Blueprints/BP_AICar.uasset" SILENT=true
+[2024.03.27-01.04.06:602][929]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_AICar
+[2024.03.27-01.04.06:603][929]LogSavePackage: Moving '../../../../Unreal Projects/FuryRoad/FuryRoad/Saved/BP_AICarFE3EDF714BAF62D1B4251585762CD6E7.tmp' to '../../../../Unreal Projects/FuryRoad/FuryRoad/Content/Blueprints/BP_AICar.uasset'
+[2024.03.27-01.04.06:607][929]LogFileHelpers: InternalPromptForCheckoutAndSave took 96 ms (total: 3.25 sec)
+[2024.03.27-01.04.06:646][929]AssetCheck: New page: Asset Save: BP_AICar
+[2024.03.27-01.04.06:646][929]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_AICar.BP_AICar
+[2024.03.27-01.04.43:701][274]BlueprintLog: New page: Compile BP_AICar
+[2024.03.27-01.04.43:787][274]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2024.03.27-01.04.43:802][274]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.27-01.04.43:910][274]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_AICar" FILE="../../../../Unreal Projects/FuryRoad/FuryRoad/Content/Blueprints/BP_AICar.uasset" SILENT=true
+[2024.03.27-01.04.43:918][274]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_AICar
+[2024.03.27-01.04.43:918][274]LogSavePackage: Moving '../../../../Unreal Projects/FuryRoad/FuryRoad/Saved/BP_AICarE9E657964171842582E3508A996AFF14.tmp' to '../../../../Unreal Projects/FuryRoad/FuryRoad/Content/Blueprints/BP_AICar.uasset'
+[2024.03.27-01.04.43:922][274]LogFileHelpers: InternalPromptForCheckoutAndSave took 120 ms (total: 3.38 sec)
+[2024.03.27-01.04.43:962][274]AssetCheck: New page: Asset Save: BP_AICar
+[2024.03.27-01.04.43:962][274]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_AICar.BP_AICar
+[2024.03.27-01.05.26:329][154]BlueprintLog: New page: Compile BP_AICar
+[2024.03.27-01.05.26:418][154]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2024.03.27-01.05.26:435][154]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.27-01.05.26:540][154]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_AICar" FILE="../../../../Unreal Projects/FuryRoad/FuryRoad/Content/Blueprints/BP_AICar.uasset" SILENT=true
+[2024.03.27-01.05.26:547][154]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_AICar
+[2024.03.27-01.05.26:547][154]LogSavePackage: Moving '../../../../Unreal Projects/FuryRoad/FuryRoad/Saved/BP_AICarA31DF35E4B6C8D90C5FBD7A7673F8804.tmp' to '../../../../Unreal Projects/FuryRoad/FuryRoad/Content/Blueprints/BP_AICar.uasset'
+[2024.03.27-01.05.26:552][154]LogFileHelpers: InternalPromptForCheckoutAndSave took 116 ms (total: 3.49 sec)
+[2024.03.27-01.05.26:590][154]AssetCheck: New page: Asset Save: BP_AICar
+[2024.03.27-01.05.26:590][154]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_AICar.BP_AICar
+[2024.03.27-01.06.57:045][701]BlueprintLog: New page: Compile BP_AICar
+[2024.03.27-01.06.57:140][701]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2024.03.27-01.06.57:157][701]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.27-01.06.57:256][701]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_AICar" FILE="../../../../Unreal Projects/FuryRoad/FuryRoad/Content/Blueprints/BP_AICar.uasset" SILENT=true
+[2024.03.27-01.06.57:263][701]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_AICar
+[2024.03.27-01.06.57:263][701]LogSavePackage: Moving '../../../../Unreal Projects/FuryRoad/FuryRoad/Saved/BP_AICar78FCE8744AFA237B8EC40AB88F674B8F.tmp' to '../../../../Unreal Projects/FuryRoad/FuryRoad/Content/Blueprints/BP_AICar.uasset'
+[2024.03.27-01.06.57:268][701]LogFileHelpers: InternalPromptForCheckoutAndSave took 111 ms (total: 3.60 sec)
+[2024.03.27-01.06.57:309][701]AssetCheck: New page: Asset Save: BP_AICar
+[2024.03.27-01.06.57:309][701]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_AICar.BP_AICar
+[2024.03.27-01.08.35:967][346]BlueprintLog: New page: Compile BP_AICar
+[2024.03.27-01.08.36:060][346]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2024.03.27-01.08.36:077][346]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.27-01.08.36:187][346]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_AICar" FILE="../../../../Unreal Projects/FuryRoad/FuryRoad/Content/Blueprints/BP_AICar.uasset" SILENT=true
+[2024.03.27-01.08.36:194][346]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_AICar
+[2024.03.27-01.08.36:194][346]LogSavePackage: Moving '../../../../Unreal Projects/FuryRoad/FuryRoad/Saved/BP_AICarFBBF7EF8403884C46CB06C9528B1BEC0.tmp' to '../../../../Unreal Projects/FuryRoad/FuryRoad/Content/Blueprints/BP_AICar.uasset'
+[2024.03.27-01.08.36:199][346]LogFileHelpers: InternalPromptForCheckoutAndSave took 122 ms (total: 3.73 sec)
+[2024.03.27-01.08.36:239][346]AssetCheck: New page: Asset Save: BP_AICar
+[2024.03.27-01.08.36:239][346]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_AICar.BP_AICar
+[2024.03.27-01.08.53:900][408]BlueprintLog: New page: Compile BP_AICar
+[2024.03.27-01.08.53:985][408]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2024.03.27-01.08.54:755][478]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.27-01.08.54:851][478]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_AICar" FILE="../../../../Unreal Projects/FuryRoad/FuryRoad/Content/Blueprints/BP_AICar.uasset" SILENT=true
+[2024.03.27-01.08.54:859][478]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_AICar
+[2024.03.27-01.08.54:859][478]LogSavePackage: Moving '../../../../Unreal Projects/FuryRoad/FuryRoad/Saved/BP_AICar6D38E52545A40BEBFB3184B173D05F25.tmp' to '../../../../Unreal Projects/FuryRoad/FuryRoad/Content/Blueprints/BP_AICar.uasset'
+[2024.03.27-01.08.54:864][478]LogFileHelpers: InternalPromptForCheckoutAndSave took 109 ms (total: 3.84 sec)
+[2024.03.27-01.08.54:865][478]AssetCheck: New page: Asset Save: BP_AICar
+[2024.03.27-01.08.54:865][478]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_AICar.BP_AICar
+[2024.03.27-01.08.56:519][600]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.03.27-01.08.56:524][600]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.27-01.08.56:524][600]PIE: New page: PIE session: TrackOne (Mar. 26, 2024, 11:08:56 a.m.)
+[2024.03.27-01.08.56:525][600]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TrackOne
+[2024.03.27-01.08.56:919][600]LogPlayLevel: PIE: StaticDuplicateObject took: (0.394807s)
+[2024.03.27-01.08.56:919][600]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TrackOne.TrackOne to /Game/Levels/UEDPIE_0_TrackOne.TrackOne (0.394836s)
+[2024.03.27-01.08.56:943][600]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2024.03.27-01.08.56:945][600]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.27-01.08.56:945][600]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.27-01.08.56:945][600]LogAIModule: Creating AISystem for world TrackOne
+[2024.03.27-01.08.56:946][600]LogPlayLevel: PIE: World Init took: (0.001161s)
+[2024.03.27-01.08.56:946][600]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2024.03.27-01.08.56:946][600]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.27-01.08.56:946][600]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.27-01.08.56:946][600]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.27-01.08.56:946][600]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.27-01.08.56:946][600]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.27-01.08.56:946][600]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.27-01.08.56:946][600]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.27-01.08.56:946][600]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.27-01.08.56:946][600]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.27-01.08.56:946][600]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.27-01.08.56:946][600]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.27-01.08.56:948][600]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.27-01.08.56:965][600]LogAudioMixer: Display: Using Audio Hardware Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2024.03.27-01.08.56:965][600]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.27-01.08.56:966][600]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.27-01.08.56:966][600]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.27-01.08.56:966][600]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2024.03.27-01.08.56:966][600]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2024.03.27-01.08.56:968][600]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2024.03.27-01.08.56:968][600]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2024.03.27-01.08.56:968][600]LogInit: FAudioDevice initialized with ID 10.
+[2024.03.27-01.08.56:968][600]LogAudio: Display: Audio Device (ID: 10) registered with world 'TrackOne'.
+[2024.03.27-01.08.56:968][600]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2024.03.27-01.08.57:032][600]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.27-01.08.57:033][600]LogLoad: Game class is 'BP_VehicleAdvGameMode_C'
+[2024.03.27-01.08.57:061][600]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TrackOne.TrackOne up for play (max tick rate 0) at 2024.03.26-18.08.57
+[2024.03.27-01.08.57:063][600]LogWorld: Bringing up level for play took: 0.030467
+[2024.03.27-01.08.57:065][600]LogOnline: OSS: Created online subsystem instance for: :Context_18
+[2024.03.27-01.08.57:070][600]PIE: Server logged in
+[2024.03.27-01.08.57:071][600]PIE: Play in editor total start time 0.547 seconds.
+[2024.03.27-01.08.57:125][600]LogViewport: Scene viewport resized to 3849x2220, mode Windowed.
+[2024.03.27-01.09.34:339][167]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.27-01.09.34:339][167]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TrackOne
+[2024.03.27-01.09.34:340][167]LogSlate: Window 'FuryRoad Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.03.27-01.09.34:345][167]LogWorld: UWorld::CleanupWorld for TrackOne, bSessionEnded=true, bCleanupResources=true
+[2024.03.27-01.09.34:349][167]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.27-01.09.34:359][167]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.27-01.09.34:363][167]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.27-01.09.34:388][167]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.27-01.09.34:388][167]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2024.03.27-01.09.34:388][167]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2024.03.27-01.09.34:390][167]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2024.03.27-01.09.34:407][167]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2024.03.27-01.09.34:451][168]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2024.03.27-01.10.18:379][184]BlueprintLog: New page: Compile BP_SportsCar_Pawn
+[2024.03.27-01.10.18:454][184]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2024.03.27-01.10.19:275][264]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.27-01.10.19:317][264]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.27-01.10.19:384][264]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.27-01.10.19:407][264]LogSavePackage: Moving output files for package: /Game/VehicleTemplate/Blueprints/SportsCar/BP_SportsCar_Pawn
+[2024.03.27-01.10.19:407][264]LogSavePackage: Moving '../../../../Unreal Projects/FuryRoad/FuryRoad/Saved/BP_SportsCar_PawnD7EB532F46193E042F8BAAB2AC888A44.tmp' to '../../../../Unreal Projects/FuryRoad/FuryRoad/Content/VehicleTemplate/Blueprints/SportsCar/BP_SportsCar_Pawn.uasset'
+[2024.03.27-01.10.19:415][264]LogFileHelpers: InternalPromptForCheckoutAndSave took 139 ms (total: 3.97 sec)
+[2024.03.27-01.10.19:415][264]AssetCheck: New page: Asset Save: BP_SportsCar_Pawn
+[2024.03.27-01.10.19:415][264]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/VehicleTemplate/Blueprints/SportsCar/BP_SportsCar_Pawn.BP_SportsCar_Pawn
+[2024.03.27-01.12.45:370][248]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.03.27-01.12.45:376][248]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.27-01.12.45:376][248]PIE: New page: PIE session: TrackOne (Mar. 26, 2024, 11:12:45 a.m.)
+[2024.03.27-01.12.45:376][248]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TrackOne
+[2024.03.27-01.12.45:773][248]LogPlayLevel: PIE: StaticDuplicateObject took: (0.397361s)
+[2024.03.27-01.12.45:773][248]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TrackOne.TrackOne to /Game/Levels/UEDPIE_0_TrackOne.TrackOne (0.397394s)
+[2024.03.27-01.12.45:797][248]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2024.03.27-01.12.45:800][248]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.27-01.12.45:801][248]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.27-01.12.45:801][248]LogAIModule: Creating AISystem for world TrackOne
+[2024.03.27-01.12.45:801][248]LogPlayLevel: PIE: World Init took: (0.000927s)
+[2024.03.27-01.12.45:801][248]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2024.03.27-01.12.45:801][248]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.27-01.12.45:801][248]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.27-01.12.45:801][248]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.27-01.12.45:801][248]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.27-01.12.45:801][248]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.27-01.12.45:801][248]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.27-01.12.45:801][248]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.27-01.12.45:801][248]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.27-01.12.45:802][248]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.27-01.12.45:802][248]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.27-01.12.45:802][248]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.27-01.12.45:803][248]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.27-01.12.45:820][248]LogAudioMixer: Display: Using Audio Hardware Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2024.03.27-01.12.45:820][248]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.27-01.12.45:820][248]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.27-01.12.45:820][248]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.27-01.12.45:821][248]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2024.03.27-01.12.45:821][248]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2024.03.27-01.12.45:822][248]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2024.03.27-01.12.45:822][248]LogInit: FAudioDevice initialized with ID 11.
+[2024.03.27-01.12.45:822][248]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2024.03.27-01.12.45:822][248]LogAudio: Display: Audio Device (ID: 11) registered with world 'TrackOne'.
+[2024.03.27-01.12.45:822][248]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2024.03.27-01.12.45:875][248]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.27-01.12.45:876][248]LogLoad: Game class is 'BP_VehicleAdvGameMode_C'
+[2024.03.27-01.12.45:904][248]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TrackOne.TrackOne up for play (max tick rate 0) at 2024.03.26-18.12.45
+[2024.03.27-01.12.45:906][248]LogWorld: Bringing up level for play took: 0.030278
+[2024.03.27-01.12.45:908][248]LogOnline: OSS: Created online subsystem instance for: :Context_21
+[2024.03.27-01.12.45:912][248]PIE: Server logged in
+[2024.03.27-01.12.45:913][248]PIE: Play in editor total start time 0.537 seconds.
+[2024.03.27-01.12.45:962][248]LogViewport: Scene viewport resized to 3852x2240, mode Windowed.
+[2024.03.27-01.12.50:042][420]LogViewport: Scene viewport resized to 3840x2109, mode Windowed.
+[2024.03.27-01.13.52:619][ 52]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.27-01.13.52:619][ 52]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TrackOne
+[2024.03.27-01.13.52:620][ 52]LogSlate: Window 'FuryRoad Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.03.27-01.13.52:628][ 52]LogWorld: UWorld::CleanupWorld for TrackOne, bSessionEnded=true, bCleanupResources=true
+[2024.03.27-01.13.52:631][ 52]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.27-01.13.52:640][ 52]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.27-01.13.52:645][ 52]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.27-01.13.52:671][ 52]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2024.03.27-01.13.52:671][ 52]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2024.03.27-01.13.52:673][ 52]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2024.03.27-01.13.52:690][ 52]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2024.03.27-01.13.52:733][ 53]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2024.03.27-01.14.07:459][805]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
