@@ -1931,3 +1931,1329 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.03.27-01.13.52:690][ 52]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
 [2024.03.27-01.13.52:733][ 53]LogPlayLevel: Display: Destroying online subsystem :Context_21
 [2024.03.27-01.14.07:459][805]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2024.03.27-01.17.36:735][621]LogShaderCompilers: Display: ================================================
+[2024.03.27-01.17.36:736][621]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.03.27-01.17.36:736][621]LogShaderCompilers: Display: Total job queries 59, among them cache hits 20 (33.90%)
+[2024.03.27-01.17.36:736][621]LogShaderCompilers: Display: Tracking 39 distinct input hashes that result in 30 distinct outputs (76.92%)
+[2024.03.27-01.17.36:736][621]LogShaderCompilers: Display: RAM used: 1.04 MiB of 6.40 GiB budget. Usage: 0.02%
+[2024.03.27-01.17.36:736][621]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.03.27-01.17.36:736][621]LogShaderCompilers: Display: Shaders Compiled: 2
+[2024.03.27-01.17.36:736][621]LogShaderCompilers: Display: Jobs assigned 2, completed 2 (100%)
+[2024.03.27-01.17.36:736][621]LogShaderCompilers: Display: Time job spent in pending queue: average 0.03 s, longest 0.03 s
+[2024.03.27-01.17.36:736][621]LogShaderCompilers: Display: Job execution time: average 0.31 s, max 0.31 s
+[2024.03.27-01.17.36:736][621]LogShaderCompilers: Display: Job life time (pending + execution): average 0.34 s, max 0.34
+[2024.03.27-01.17.36:736][621]LogShaderCompilers: Display: Shader code size: average 35.438 KiB, min 35.125 KiB, max 35.75 KiB
+[2024.03.27-01.17.36:736][621]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.34 s
+[2024.03.27-01.17.36:736][621]LogShaderCompilers: Display: Jobs were issued in 2 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.03.27-01.17.36:736][621]LogShaderCompilers: Display: Average processing rate: 5.85 jobs/sec
+[2024.03.27-01.17.36:736][621]LogShaderCompilers: Display: Total thread time: 0.356 s
+[2024.03.27-01.17.36:736][621]LogShaderCompilers: Display: Total thread preprocess time: 0.046 s
+[2024.03.27-01.17.36:736][621]LogShaderCompilers: Display: Percentage time preprocessing: 12.97%
+[2024.03.27-01.17.36:736][621]LogShaderCompilers: Display: Effective parallelization: 1.04 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.03.27-01.17.36:736][621]LogShaderCompilers: Display: Top 2 most expensive shader types by average time:
+[2024.03.27-01.17.36:736][621]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    1 times, average 0.20 sec, max 0.20 sec, min 0.20 sec)
+[2024.03.27-01.17.36:736][621]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    1 times, average 0.16 sec, max 0.16 sec, min 0.16 sec)
+[2024.03.27-01.17.36:736][621]LogShaderCompilers: Display: Top 2 shader types by total compile time:
+[2024.03.27-01.17.36:736][621]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 55.68% of total time (compiled    1 times, average 0.20 sec, max 0.20 sec, min 0.20 sec)
+[2024.03.27-01.17.36:736][621]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 44.32% of total time (compiled    1 times, average 0.16 sec, max 0.16 sec, min 0.16 sec)
+[2024.03.27-01.17.36:736][621]LogShaderCompilers: Display: ================================================
+[2024.03.27-01.20.01:467][180]LogSlate: Took 0.000137 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.03.27-01.20.23:284][309]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Roman_Broken_Column_tk4tfgzfa/S_Roman_Broken_Column_tk4tfgzfa_lod3.S_Roman_Broken_Column_tk4tfgzfa_lod3
+[2024.03.27-01.20.23:285][309]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Roman_Broken_Column_tk4tfgzfa/S_Roman_Broken_Column_tk4tfgzfa_lod3.S_Roman_Broken_Column_tk4tfgzfa_lod3
+[2024.03.27-01.20.23:285][309]LogActorFactory: Actor Factory spawned StaticMesh /Game/Megascans/3D_Assets/Roman_Broken_Column_tk4tfgzfa/S_Roman_Broken_Column_tk4tfgzfa_lod3.S_Roman_Broken_Column_tk4tfgzfa_lod3 as actor: StaticMeshActor /Game/Levels/TrackOne.TrackOne:PersistentLevel.StaticMeshActor_301
+[2024.03.27-01.20.24:187][385]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Roman_Broken_Column_tk4tfgzfa/S_Roman_Broken_Column_tk4tfgzfa_lod3.S_Roman_Broken_Column_tk4tfgzfa_lod3
+[2024.03.27-01.20.24:187][385]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Roman_Broken_Column_tk4tfgzfa/S_Roman_Broken_Column_tk4tfgzfa_lod3.S_Roman_Broken_Column_tk4tfgzfa_lod3
+[2024.03.27-01.20.24:188][385]LogActorFactory: Actor Factory spawned StaticMesh /Game/Megascans/3D_Assets/Roman_Broken_Column_tk4tfgzfa/S_Roman_Broken_Column_tk4tfgzfa_lod3.S_Roman_Broken_Column_tk4tfgzfa_lod3 as actor: StaticMeshActor /Game/Levels/TrackOne.TrackOne:PersistentLevel.StaticMeshActor_318
+[2024.03.27-01.20.29:493][659]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Roman_Column_thrufgafa/S_Roman_Column_thrufgafa_lod3.S_Roman_Column_thrufgafa_lod3
+[2024.03.27-01.20.29:493][659]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Roman_Column_thrufgafa/S_Roman_Column_thrufgafa_lod3.S_Roman_Column_thrufgafa_lod3
+[2024.03.27-01.20.29:494][659]LogActorFactory: Actor Factory spawned StaticMesh /Game/Megascans/3D_Assets/Roman_Column_thrufgafa/S_Roman_Column_thrufgafa_lod3.S_Roman_Column_thrufgafa_lod3 as actor: StaticMeshActor /Game/Levels/TrackOne.TrackOne:PersistentLevel.StaticMeshActor_320
+[2024.03.27-01.20.30:556][754]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Roman_Column_thrufgafa/S_Roman_Column_thrufgafa_lod3.S_Roman_Column_thrufgafa_lod3
+[2024.03.27-01.20.30:556][754]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Roman_Column_thrufgafa/S_Roman_Column_thrufgafa_lod3.S_Roman_Column_thrufgafa_lod3
+[2024.03.27-01.20.30:557][754]LogActorFactory: Actor Factory spawned StaticMesh /Game/Megascans/3D_Assets/Roman_Column_thrufgafa/S_Roman_Column_thrufgafa_lod3.S_Roman_Column_thrufgafa_lod3 as actor: StaticMeshActor /Game/Levels/TrackOne.TrackOne:PersistentLevel.StaticMeshActor_321
+[2024.03.27-01.20.35:210][  8]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Roman_Grave_Stone_tf3pfhzda/S_Roman_Grave_Stone_tf3pfhzda_lod3.S_Roman_Grave_Stone_tf3pfhzda_lod3
+[2024.03.27-01.20.35:210][  8]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Roman_Grave_Stone_tf3pfhzda/S_Roman_Grave_Stone_tf3pfhzda_lod3.S_Roman_Grave_Stone_tf3pfhzda_lod3
+[2024.03.27-01.20.35:210][  8]LogActorFactory: Actor Factory spawned StaticMesh /Game/Megascans/3D_Assets/Roman_Grave_Stone_tf3pfhzda/S_Roman_Grave_Stone_tf3pfhzda_lod3.S_Roman_Grave_Stone_tf3pfhzda_lod3 as actor: StaticMeshActor /Game/Levels/TrackOne.TrackOne:PersistentLevel.StaticMeshActor_323
+[2024.03.27-01.20.36:417][111]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Roman_Grave_Stone_tf3pfhzda/S_Roman_Grave_Stone_tf3pfhzda_lod3.S_Roman_Grave_Stone_tf3pfhzda_lod3
+[2024.03.27-01.20.36:417][111]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Roman_Grave_Stone_tf3pfhzda/S_Roman_Grave_Stone_tf3pfhzda_lod3.S_Roman_Grave_Stone_tf3pfhzda_lod3
+[2024.03.27-01.20.36:419][111]LogActorFactory: Actor Factory spawned StaticMesh /Game/Megascans/3D_Assets/Roman_Grave_Stone_tf3pfhzda/S_Roman_Grave_Stone_tf3pfhzda_lod3.S_Roman_Grave_Stone_tf3pfhzda_lod3 as actor: StaticMeshActor /Game/Levels/TrackOne.TrackOne:PersistentLevel.StaticMeshActor_324
+[2024.03.27-01.20.45:226][602]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Roman_Stone_Floor_tkkrcayfa/S_Roman_Stone_Floor_tkkrcayfa_lod3.S_Roman_Stone_Floor_tkkrcayfa_lod3
+[2024.03.27-01.20.45:226][602]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Roman_Stone_Floor_tkkrcayfa/S_Roman_Stone_Floor_tkkrcayfa_lod3.S_Roman_Stone_Floor_tkkrcayfa_lod3
+[2024.03.27-01.20.45:226][602]LogActorFactory: Actor Factory spawned StaticMesh /Game/Megascans/3D_Assets/Roman_Stone_Floor_tkkrcayfa/S_Roman_Stone_Floor_tkkrcayfa_lod3.S_Roman_Stone_Floor_tkkrcayfa_lod3 as actor: StaticMeshActor /Game/Levels/TrackOne.TrackOne:PersistentLevel.StaticMeshActor_325
+[2024.03.27-01.20.46:450][709]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Roman_Stone_Floor_tkkrcayfa/S_Roman_Stone_Floor_tkkrcayfa_lod3.S_Roman_Stone_Floor_tkkrcayfa_lod3
+[2024.03.27-01.20.46:450][709]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Roman_Stone_Floor_tkkrcayfa/S_Roman_Stone_Floor_tkkrcayfa_lod3.S_Roman_Stone_Floor_tkkrcayfa_lod3
+[2024.03.27-01.20.46:451][709]LogActorFactory: Actor Factory spawned StaticMesh /Game/Megascans/3D_Assets/Roman_Stone_Floor_tkkrcayfa/S_Roman_Stone_Floor_tkkrcayfa_lod3.S_Roman_Stone_Floor_tkkrcayfa_lod3 as actor: StaticMeshActor /Game/Levels/TrackOne.TrackOne:PersistentLevel.StaticMeshActor_326
+[2024.03.27-01.20.54:351][146]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Street_Cobblestone_sbeuj/S_Street_Cobblestone_sbeuj_lod3.S_Street_Cobblestone_sbeuj_lod3
+[2024.03.27-01.20.54:351][146]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Street_Cobblestone_sbeuj/S_Street_Cobblestone_sbeuj_lod3.S_Street_Cobblestone_sbeuj_lod3
+[2024.03.27-01.20.54:352][146]LogActorFactory: Actor Factory spawned StaticMesh /Game/Megascans/3D_Assets/Street_Cobblestone_sbeuj/S_Street_Cobblestone_sbeuj_lod3.S_Street_Cobblestone_sbeuj_lod3 as actor: StaticMeshActor /Game/Levels/TrackOne.TrackOne:PersistentLevel.StaticMeshActor_327
+[2024.03.27-01.20.56:784][376]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Street_Cobblestone_sbeuj/S_Street_Cobblestone_sbeuj_lod3.S_Street_Cobblestone_sbeuj_lod3
+[2024.03.27-01.20.56:784][376]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Megascans/3D_Assets/Street_Cobblestone_sbeuj/S_Street_Cobblestone_sbeuj_lod3.S_Street_Cobblestone_sbeuj_lod3
+[2024.03.27-01.20.56:785][376]LogActorFactory: Actor Factory spawned StaticMesh /Game/Megascans/3D_Assets/Street_Cobblestone_sbeuj/S_Street_Cobblestone_sbeuj_lod3.S_Street_Cobblestone_sbeuj_lod3 as actor: StaticMeshActor /Game/Levels/TrackOne.TrackOne:PersistentLevel.StaticMeshActor_328
+[2024.03.27-01.21.15:585][330]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BPP_Rock_Ground.BPP_Rock_Ground
+[2024.03.27-01.21.15:585][330]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.27-01.21.15:585][330]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.27-01.21.19:179][559]LogSlate: Window 'BPP_Rock_Ground' being destroyed
+[2024.03.27-01.21.20:294][685]LogViewport: Scene viewport resized to 2262x1516, mode Windowed.
+[2024.03.27-01.22.04:831][115]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2024.03.27-01.22.04:831][115]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.27-01.22.13:823][666]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Megascans/3D_Assets/Street_Cobblestone_sbeuj/S_Street_Cobblestone_sbeuj_lod3.S_Street_Cobblestone_sbeuj_lod3
+[2024.03.27-01.22.13:875][666]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.27-01.22.13:875][666]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.27-01.22.14:346][666]LogViewport: Scene viewport resized to 1474x1449, mode Windowed.
+[2024.03.27-01.22.19:346][837]LogViewport: Scene viewport resized to 1470x1483, mode Windowed.
+[2024.03.27-01.22.19:458][839]LogViewport: Scene viewport resized to 571x484, mode Windowed.
+[2024.03.27-01.22.19:478][840]LogViewport: Scene viewport resized to 2815x1953, mode Windowed.
+[2024.03.27-01.22.19:695][856]LogViewport: Scene viewport resized to 2811x1988, mode Windowed.
+[2024.03.27-01.22.19:811][858]LogViewport: Scene viewport resized to 571x278, mode Windowed.
+[2024.03.27-01.22.20:027][882]LogViewport: Scene viewport resized to 2815x1953, mode Windowed.
+[2024.03.27-01.22.20:615][948]LogSlate: Window 'S_Street_Cobblestone_sbeuj_lod3' being destroyed
+[2024.03.27-01.22.42:338][707]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.27-01.22.42:440][707]LogSavePackage: Moving output files for package: /Game/Megascans/3D_Assets/Street_Cobblestone_sbeuj/S_Street_Cobblestone_sbeuj_lod3
+[2024.03.27-01.22.42:441][707]LogSavePackage: Moving '../../../../Unreal Projects/FuryRoad/FuryRoad/Saved/S_Street_Cobblestone_sbeuj_lod362E0952B4A88E5EFEA014683B14DE4E7.tmp' to '../../../../Unreal Projects/FuryRoad/FuryRoad/Content/Megascans/3D_Assets/Street_Cobblestone_sbeuj/S_Street_Cobblestone_sbeuj_lod3.uasset'
+[2024.03.27-01.22.42:446][707]LogFileHelpers: InternalPromptForCheckoutAndSave took 107 ms (total: 4.08 sec)
+[2024.03.27-01.22.42:447][707]AssetCheck: New page: Asset Save: S_Street_Cobblestone_sbeuj_lod3
+[2024.03.27-01.22.42:447][707]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Megascans/3D_Assets/Street_Cobblestone_sbeuj/S_Street_Cobblestone_sbeuj_lod3.S_Street_Cobblestone_sbeuj_lod3
+[2024.03.27-01.22.49:553][195]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2024.03.27-01.22.49:553][195]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.27-01.22.58:487][ 68]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Megascans/3D_Assets/Roman_Stone_Floor_tkkrcayfa/S_Roman_Stone_Floor_tkkrcayfa_lod3.S_Roman_Stone_Floor_tkkrcayfa_lod3
+[2024.03.27-01.22.58:548][ 68]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.27-01.22.58:548][ 68]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.27-01.22.59:012][ 68]LogViewport: Scene viewport resized to 1476x1452, mode Windowed.
+[2024.03.27-01.24.26:260][507]LogViewport: Scene viewport resized to 1472x1486, mode Windowed.
+[2024.03.27-01.24.26:332][508]LogViewport: Scene viewport resized to 2815x1953, mode Windowed.
+[2024.03.27-01.24.26:559][523]LogViewport: Scene viewport resized to 2811x1988, mode Windowed.
+[2024.03.27-01.24.26:675][525]LogViewport: Scene viewport resized to 571x278, mode Windowed.
+[2024.03.27-01.24.27:284][590]LogSlate: Window 'S_Roman_Stone_Floor_tkkrcayfa_lod3' being destroyed
+[2024.03.27-01.24.27:296][590]LogViewport: Scene viewport resized to 869x520, mode Windowed.
+[2024.03.27-01.24.29:746][816]LogViewport: Scene viewport resized to 2815x1953, mode Windowed.
+[2024.03.27-01.24.30:290][876]LogSlate: Window 'S_Roman_Stone_Floor_tkkrcayfa_lod3' being destroyed
+[2024.03.27-01.25.11:711][800]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.27-01.25.11:816][800]LogSavePackage: Moving output files for package: /Game/Megascans/3D_Assets/Roman_Stone_Floor_tkkrcayfa/S_Roman_Stone_Floor_tkkrcayfa_lod3
+[2024.03.27-01.25.11:816][800]LogSavePackage: Moving '../../../../Unreal Projects/FuryRoad/FuryRoad/Saved/S_Roman_Stone_Floor_tkkrcayfa_lo77BA3CA0408D79AC55BF33B54EC2B4DD.tmp' to '../../../../Unreal Projects/FuryRoad/FuryRoad/Content/Megascans/3D_Assets/Roman_Stone_Floor_tkkrcayfa/S_Roman_Stone_Floor_tkkrcayfa_lod3.uasset'
+[2024.03.27-01.25.11:821][800]LogFileHelpers: InternalPromptForCheckoutAndSave took 109 ms (total: 4.19 sec)
+[2024.03.27-01.25.11:822][800]AssetCheck: New page: Asset Save: S_Roman_Stone_Floor_tkkrcayfa_lod3
+[2024.03.27-01.25.11:822][800]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Megascans/3D_Assets/Roman_Stone_Floor_tkkrcayfa/S_Roman_Stone_Floor_tkkrcayfa_lod3.S_Roman_Stone_Floor_tkkrcayfa_lod3
+[2024.03.27-01.25.13:663][929]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2024.03.27-01.25.13:663][929]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.27-01.25.20:276][613]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Megascans/3D_Assets/Roman_Grave_Stone_tf3pfhzda/S_Roman_Grave_Stone_tf3pfhzda_lod3.S_Roman_Grave_Stone_tf3pfhzda_lod3
+[2024.03.27-01.25.20:337][613]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.27-01.25.20:337][613]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.27-01.25.20:800][613]LogViewport: Scene viewport resized to 1478x1455, mode Windowed.
+[2024.03.27-01.25.22:992][789]LogViewport: Scene viewport resized to 1474x1489, mode Windowed.
+[2024.03.27-01.25.23:066][790]LogViewport: Scene viewport resized to 2815x1953, mode Windowed.
+[2024.03.27-01.25.23:694][863]LogSlate: Window 'S_Roman_Grave_Stone_tf3pfhzda_lod3' being destroyed
+[2024.03.27-01.25.42:652][257]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.27-01.25.42:746][257]LogSavePackage: Moving output files for package: /Game/Megascans/3D_Assets/Roman_Grave_Stone_tf3pfhzda/S_Roman_Grave_Stone_tf3pfhzda_lod3
+[2024.03.27-01.25.42:746][257]LogSavePackage: Moving '../../../../Unreal Projects/FuryRoad/FuryRoad/Saved/S_Roman_Grave_Stone_tf3pfhzda_loA97C08D7454880427F706C8DC1343128.tmp' to '../../../../Unreal Projects/FuryRoad/FuryRoad/Content/Megascans/3D_Assets/Roman_Grave_Stone_tf3pfhzda/S_Roman_Grave_Stone_tf3pfhzda_lod3.uasset'
+[2024.03.27-01.25.42:751][257]LogFileHelpers: InternalPromptForCheckoutAndSave took 98 ms (total: 4.29 sec)
+[2024.03.27-01.25.42:751][257]AssetCheck: New page: Asset Save: S_Roman_Grave_Stone_tf3pfhzda_lod3
+[2024.03.27-01.25.42:752][257]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Megascans/3D_Assets/Roman_Grave_Stone_tf3pfhzda/S_Roman_Grave_Stone_tf3pfhzda_lod3.S_Roman_Grave_Stone_tf3pfhzda_lod3
+[2024.03.27-01.25.44:688][395]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2024.03.27-01.25.44:688][395]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.27-01.25.49:137][839]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.27-01.25.49:181][839]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TrackOne" FILE="../../../../Unreal Projects/FuryRoad/FuryRoad/Content/Levels/TrackOne.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.03.27-01.25.49:234][839]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2024.03.27-01.25.49:656][839]LogSavePackage: Moving output files for package: /Game/Levels/TrackOne
+[2024.03.27-01.25.49:657][839]LogSavePackage: Moving '../../../../Unreal Projects/FuryRoad/FuryRoad/Saved/TrackOne1A89F9954031B887578C518BB43463CA.tmp' to '../../../../Unreal Projects/FuryRoad/FuryRoad/Content/Levels/TrackOne.umap'
+[2024.03.27-01.25.49:664][839]LogFileHelpers: Saving map 'TrackOne' took 0.483
+[2024.03.27-01.25.49:667][839]LogFileHelpers: InternalPromptForCheckoutAndSave took 530 ms (total: 4.82 sec)
+[2024.03.27-01.25.49:670][839]AssetCheck: New page: Asset Save: TrackOne
+[2024.03.27-01.25.49:670][839]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/TrackOne.TrackOne
+[2024.03.27-01.25.55:614][145]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Megascans/3D_Assets/Roman_Column_thrufgafa/S_Roman_Column_thrufgafa_lod3.S_Roman_Column_thrufgafa_lod3
+[2024.03.27-01.25.55:670][145]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.27-01.25.55:670][145]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.27-01.25.56:130][145]LogViewport: Scene viewport resized to 1480x1458, mode Windowed.
+[2024.03.27-01.25.58:458][233]LogViewport: Scene viewport resized to 1476x1492, mode Windowed.
+[2024.03.27-01.25.58:570][235]LogViewport: Scene viewport resized to 571x485, mode Windowed.
+[2024.03.27-01.25.58:707][250]LogViewport: Scene viewport resized to 2815x1953, mode Windowed.
+[2024.03.27-01.25.59:371][325]LogSlate: Window 'S_Roman_Column_thrufgafa_lod3' being destroyed
+[2024.03.27-01.26.12:535][385]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.27-01.26.12:631][385]LogSavePackage: Moving output files for package: /Game/Megascans/3D_Assets/Roman_Column_thrufgafa/S_Roman_Column_thrufgafa_lod3
+[2024.03.27-01.26.12:632][385]LogSavePackage: Moving '../../../../Unreal Projects/FuryRoad/FuryRoad/Saved/S_Roman_Column_thrufgafa_lod303AB72874CE88B4E4F57308FCD78898B.tmp' to '../../../../Unreal Projects/FuryRoad/FuryRoad/Content/Megascans/3D_Assets/Roman_Column_thrufgafa/S_Roman_Column_thrufgafa_lod3.uasset'
+[2024.03.27-01.26.12:636][385]LogFileHelpers: InternalPromptForCheckoutAndSave took 99 ms (total: 4.92 sec)
+[2024.03.27-01.26.12:638][385]AssetCheck: New page: Asset Save: S_Roman_Column_thrufgafa_lod3
+[2024.03.27-01.26.12:638][385]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Megascans/3D_Assets/Roman_Column_thrufgafa/S_Roman_Column_thrufgafa_lod3.S_Roman_Column_thrufgafa_lod3
+[2024.03.27-01.26.14:179][495]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2024.03.27-01.26.14:179][495]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.27-01.26.17:435][788]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.27-01.26.17:480][788]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TrackOne" FILE="../../../../Unreal Projects/FuryRoad/FuryRoad/Content/Levels/TrackOne.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.03.27-01.26.17:525][788]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2024.03.27-01.26.17:946][788]LogSavePackage: Moving output files for package: /Game/Levels/TrackOne
+[2024.03.27-01.26.17:947][788]LogSavePackage: Moving '../../../../Unreal Projects/FuryRoad/FuryRoad/Saved/TrackOne5A0F2D54444E00F9A642E8878C2BF0F2.tmp' to '../../../../Unreal Projects/FuryRoad/FuryRoad/Content/Levels/TrackOne.umap'
+[2024.03.27-01.26.17:954][788]LogFileHelpers: Saving map 'TrackOne' took 0.473
+[2024.03.27-01.26.17:959][788]LogFileHelpers: InternalPromptForCheckoutAndSave took 522 ms (total: 5.44 sec)
+[2024.03.27-01.26.17:962][788]AssetCheck: New page: Asset Save: TrackOne
+[2024.03.27-01.26.17:962][788]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/TrackOne.TrackOne
+[2024.03.27-01.26.21:890][993]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Megascans/3D_Assets/Roman_Broken_Column_tk4tfgzfa/S_Roman_Broken_Column_tk4tfgzfa_lod3.S_Roman_Broken_Column_tk4tfgzfa_lod3
+[2024.03.27-01.26.21:952][993]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.27-01.26.21:952][993]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.27-01.26.22:404][993]LogViewport: Scene viewport resized to 1482x1461, mode Windowed.
+[2024.03.27-01.26.24:474][ 74]LogViewport: Scene viewport resized to 1478x1495, mode Windowed.
+[2024.03.27-01.26.24:587][ 76]LogViewport: Scene viewport resized to 571x485, mode Windowed.
+[2024.03.27-01.26.24:910][113]LogViewport: Scene viewport resized to 2815x1953, mode Windowed.
+[2024.03.27-01.26.25:360][162]LogSlate: Window 'S_Roman_Broken_Column_tk4tfgzfa_lod3' being destroyed
+[2024.03.27-01.26.35:464][923]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.27-01.26.35:567][923]LogSavePackage: Moving output files for package: /Game/Megascans/3D_Assets/Roman_Broken_Column_tk4tfgzfa/S_Roman_Broken_Column_tk4tfgzfa_lod3
+[2024.03.27-01.26.35:568][923]LogSavePackage: Moving '../../../../Unreal Projects/FuryRoad/FuryRoad/Saved/S_Roman_Broken_Column_tk4tfgzfa_B5E02D8945DC114CF36E5AB0B1794CA4.tmp' to '../../../../Unreal Projects/FuryRoad/FuryRoad/Content/Megascans/3D_Assets/Roman_Broken_Column_tk4tfgzfa/S_Roman_Broken_Column_tk4tfgzfa_lod3.uasset'
+[2024.03.27-01.26.35:572][923]LogFileHelpers: InternalPromptForCheckoutAndSave took 108 ms (total: 5.55 sec)
+[2024.03.27-01.26.35:573][923]AssetCheck: New page: Asset Save: S_Roman_Broken_Column_tk4tfgzfa_lod3
+[2024.03.27-01.26.35:573][923]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Megascans/3D_Assets/Roman_Broken_Column_tk4tfgzfa/S_Roman_Broken_Column_tk4tfgzfa_lod3.S_Roman_Broken_Column_tk4tfgzfa_lod3
+[2024.03.27-01.27.14:369][638]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.27-01.27.14:418][638]LogSavePackage: Moving output files for package: /Game/Megascans/3D_Assets/Roman_Broken_Column_tk4tfgzfa/S_Roman_Broken_Column_tk4tfgzfa_lod3
+[2024.03.27-01.27.14:419][638]LogSavePackage: Moving '../../../../Unreal Projects/FuryRoad/FuryRoad/Saved/S_Roman_Broken_Column_tk4tfgzfa_ECF4FD814313D2FA281006841C9A8B2F.tmp' to '../../../../Unreal Projects/FuryRoad/FuryRoad/Content/Megascans/3D_Assets/Roman_Broken_Column_tk4tfgzfa/S_Roman_Broken_Column_tk4tfgzfa_lod3.uasset'
+[2024.03.27-01.27.14:422][638]LogFileHelpers: InternalPromptForCheckoutAndSave took 53 ms (total: 5.61 sec)
+[2024.03.27-01.27.14:425][638]AssetCheck: New page: Asset Save: S_Roman_Broken_Column_tk4tfgzfa_lod3
+[2024.03.27-01.27.14:426][638]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Megascans/3D_Assets/Roman_Broken_Column_tk4tfgzfa/S_Roman_Broken_Column_tk4tfgzfa_lod3.S_Roman_Broken_Column_tk4tfgzfa_lod3
+[2024.03.27-01.27.16:359][773]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2024.03.27-01.27.16:359][773]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.27-01.27.23:538][371]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.27-01.27.23:595][371]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TrackOne" FILE="../../../../Unreal Projects/FuryRoad/FuryRoad/Content/Levels/TrackOne.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.03.27-01.27.23:641][371]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2024.03.27-01.27.24:066][371]LogSavePackage: Moving output files for package: /Game/Levels/TrackOne
+[2024.03.27-01.27.24:066][371]LogSavePackage: Moving '../../../../Unreal Projects/FuryRoad/FuryRoad/Saved/TrackOneB90C58334B6B3012EC40F997E94C5E21.tmp' to '../../../../Unreal Projects/FuryRoad/FuryRoad/Content/Levels/TrackOne.umap'
+[2024.03.27-01.27.24:073][371]LogFileHelpers: Saving map 'TrackOne' took 0.478
+[2024.03.27-01.27.24:077][371]LogFileHelpers: InternalPromptForCheckoutAndSave took 539 ms (total: 6.15 sec)
+[2024.03.27-01.27.24:080][371]AssetCheck: New page: Asset Save: TrackOne
+[2024.03.27-01.27.24:080][371]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/TrackOne.TrackOne
+[2024.03.27-01.27.26:373][492]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.03.27-01.27.26:379][492]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.27-01.27.26:379][492]PIE: New page: PIE session: TrackOne (Mar. 26, 2024, 11:27:26 a.m.)
+[2024.03.27-01.27.26:379][492]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TrackOne
+[2024.03.27-01.27.26:771][492]LogPlayLevel: PIE: StaticDuplicateObject took: (0.392338s)
+[2024.03.27-01.27.26:771][492]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TrackOne.TrackOne to /Game/Levels/UEDPIE_0_TrackOne.TrackOne (0.392367s)
+[2024.03.27-01.27.26:794][492]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2024.03.27-01.27.26:795][492]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.27-01.27.26:795][492]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.27-01.27.26:796][492]LogAIModule: Creating AISystem for world TrackOne
+[2024.03.27-01.27.26:796][492]LogPlayLevel: PIE: World Init took: (0.000989s)
+[2024.03.27-01.27.26:796][492]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2024.03.27-01.27.26:796][492]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.27-01.27.26:796][492]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.27-01.27.26:796][492]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.27-01.27.26:796][492]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.27-01.27.26:796][492]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.27-01.27.26:796][492]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.27-01.27.26:796][492]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.27-01.27.26:796][492]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.27-01.27.26:797][492]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.27-01.27.26:797][492]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.27-01.27.26:797][492]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.27-01.27.26:798][492]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.27-01.27.26:815][492]LogAudioMixer: Display: Using Audio Hardware Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2024.03.27-01.27.26:815][492]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.27-01.27.26:815][492]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.27-01.27.26:815][492]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.27-01.27.26:816][492]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2024.03.27-01.27.26:816][492]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2024.03.27-01.27.26:818][492]LogInit: FAudioDevice initialized with ID 12.
+[2024.03.27-01.27.26:818][492]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2024.03.27-01.27.26:818][492]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2024.03.27-01.27.26:818][492]LogAudio: Display: Audio Device (ID: 12) registered with world 'TrackOne'.
+[2024.03.27-01.27.26:818][492]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2024.03.27-01.27.26:869][492]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.27-01.27.26:869][492]LogLoad: Game class is 'BP_VehicleAdvGameMode_C'
+[2024.03.27-01.27.26:895][492]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TrackOne.TrackOne up for play (max tick rate 0) at 2024.03.26-18.27.26
+[2024.03.27-01.27.26:897][492]LogWorld: Bringing up level for play took: 0.027731
+[2024.03.27-01.27.26:899][492]LogOnline: OSS: Created online subsystem instance for: :Context_28
+[2024.03.27-01.27.26:903][492]PIE: Server logged in
+[2024.03.27-01.27.26:904][492]PIE: Play in editor total start time 0.525 seconds.
+[2024.03.27-01.27.26:938][492]LogViewport: Scene viewport resized to 3831x2100, mode Windowed.
+[2024.03.27-01.27.28:506][556]LogViewport: Scene viewport resized to 3840x2109, mode Windowed.
+[2024.03.27-01.28.02:442][962]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.27-01.28.02:442][962]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TrackOne
+[2024.03.27-01.28.02:443][962]LogSlate: Window 'FuryRoad Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.03.27-01.28.02:457][962]LogWorld: UWorld::CleanupWorld for TrackOne, bSessionEnded=true, bCleanupResources=true
+[2024.03.27-01.28.02:460][962]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.27-01.28.02:470][962]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.27-01.28.02:476][962]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.27-01.28.02:500][962]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.27-01.28.02:500][962]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2024.03.27-01.28.02:500][962]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.03.27-01.28.02:502][962]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.03.27-01.28.02:519][962]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2024.03.27-01.28.02:580][963]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2024.03.27-01.31.10:123][878]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2024.03.27-01.33.10:794][565]Cmd: DUPLICATE
+[2024.03.27-01.33.10:794][565]Cmd: ACTOR DUPLICATE
+[2024.03.27-01.33.35:879][705]Cmd: DELETE
+[2024.03.27-01.33.35:879][705]Cmd: ACTOR DELETE
+[2024.03.27-01.33.35:889][705]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.03.27-01.33.35:929][705]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2024.03.27-01.33.35:936][705]LogEditorActor: Deleted 1 Actors (0.057 secs)
+[2024.03.27-01.33.37:308][767]Cmd: DELETE
+[2024.03.27-01.33.37:308][767]Cmd: ACTOR DELETE
+[2024.03.27-01.33.37:319][767]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.03.27-01.33.37:345][767]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2024.03.27-01.33.37:348][767]LogEditorActor: Deleted 1 Actors (0.040 secs)
+[2024.03.27-01.34.31:225][595]Cmd: DUPLICATE
+[2024.03.27-01.34.31:225][595]Cmd: ACTOR DUPLICATE
+[2024.03.27-01.35.06:767][216]Cmd: DUPLICATE
+[2024.03.27-01.35.06:767][216]Cmd: ACTOR DUPLICATE
+[2024.03.27-01.35.27:053][190]Cmd: DUPLICATE
+[2024.03.27-01.35.27:053][190]Cmd: ACTOR DUPLICATE
+[2024.03.27-01.35.50:680][291]Cmd: DUPLICATE
+[2024.03.27-01.35.50:681][291]Cmd: ACTOR DUPLICATE
+[2024.03.27-01.36.34:587][266]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2024.03.27-01.36.34:597][266]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.27-01.36.34:632][266]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TrackOne" FILE="../../../../Unreal Projects/FuryRoad/FuryRoad/Content/Levels/TrackOne.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.03.27-01.36.34:682][266]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2024.03.27-01.36.35:104][266]LogSavePackage: Moving output files for package: /Game/Levels/TrackOne
+[2024.03.27-01.36.35:104][266]LogSavePackage: Moving '../../../../Unreal Projects/FuryRoad/FuryRoad/Saved/TrackOne3514B6CD44C64363C381109BFF79A1F4.tmp' to '../../../../Unreal Projects/FuryRoad/FuryRoad/Content/Levels/TrackOne.umap'
+[2024.03.27-01.36.35:111][266]LogFileHelpers: Saving map 'TrackOne' took 0.479
+[2024.03.27-01.36.35:115][266]LogFileHelpers: InternalPromptForCheckoutAndSave took 518 ms (total: 6.66 sec)
+[2024.03.27-01.36.35:118][266]AssetCheck: New page: Asset Save: TrackOne
+[2024.03.27-01.36.35:118][266]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/TrackOne.TrackOne
+[2024.03.27-01.39.11:644][702]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.27-01.39.11:678][702]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_AICar" FILE="../../../../Unreal Projects/FuryRoad/FuryRoad/Content/Blueprints/BP_AICar.uasset" SILENT=true
+[2024.03.27-01.39.11:685][702]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_AICar
+[2024.03.27-01.39.11:685][702]LogSavePackage: Moving '../../../../Unreal Projects/FuryRoad/FuryRoad/Saved/BP_AICar39B9279D4591F57F9F26FCB07195A159.tmp' to '../../../../Unreal Projects/FuryRoad/FuryRoad/Content/Blueprints/BP_AICar.uasset'
+[2024.03.27-01.39.11:690][702]LogFileHelpers: InternalPromptForCheckoutAndSave took 46 ms (total: 6.71 sec)
+[2024.03.27-01.39.11:692][702]AssetCheck: New page: Asset Save: BP_AICar
+[2024.03.27-01.39.11:692][702]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_AICar.BP_AICar
+[2024.03.27-01.43.00:185][427]Cmd: MODE GRID=0
+[2024.03.27-01.46.17:658][757]Cmd: DUPLICATE
+[2024.03.27-01.46.17:658][757]Cmd: ACTOR DUPLICATE
+[2024.03.27-01.46.45:839][ 84]Cmd: DUPLICATE
+[2024.03.27-01.46.45:839][ 84]Cmd: ACTOR DUPLICATE
+[2024.03.27-01.46.56:539][569]Cmd: MODE ROTGRID=1
+[2024.03.27-01.47.51:070][204]LogSlate: Window 'New Packed Level Actor' being destroyed
+[2024.03.27-01.47.51:119][204]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.27-01.47.51:119][204]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.27-01.48.00:454][204]LogSlate: Window 'Save Level As' being destroyed
+[2024.03.27-01.48.00:501][204]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Roman_Road" FILE="../../../../Unreal Projects/FuryRoad/FuryRoad/Content/Roman_Road.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.03.27-01.48.00:535][204]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2024.03.27-01.48.00:542][204]LogSavePackage: Moving output files for package: /Game/Roman_Road
+[2024.03.27-01.48.00:542][204]LogSavePackage: Moving '../../../../Unreal Projects/FuryRoad/FuryRoad/Saved/Roman_Road088D757946D4CC9B74B01582206543FF.tmp' to '../../../../Unreal Projects/FuryRoad/FuryRoad/Content/Roman_Road.umap'
+[2024.03.27-01.48.00:543][204]Message dialog closed, result: Ok, title: Unable to Check Out From Revision Control!, text: The following assets could not be successfully checked out from revision control:
+/Game/__ExternalActors__/Roman_Road/8/8W/G8U6D223UBAND5DH9W9FI6
+[2024.03.27-01.48.00:543][204]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.27-01.48.00:566][204]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2024.03.27-01.48.00:588][204]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2024.03.27-01.48.00:610][204]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2024.03.27-01.48.00:611][204]LogFileHelpers: InternalPromptForCheckoutAndSave took 68 ms (total: 6.78 sec)
+[2024.03.27-01.48.00:616][204]LogFileHelpers: Saving map 'Roman_Road' took 0.155
+[2024.03.27-01.48.00:616][204]LogWorld: UWorld::CleanupWorld for Roman_Road, bSessionEnded=true, bCleanupResources=true
+[2024.03.27-01.48.00:616][204]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.27-01.48.00:667][204]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.03.27-01.48.00:668][204]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.03.27-01.48.00:668][204]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.03.27-01.48.00:669][204]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.03.27-01.48.00:669][204]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.03.27-01.48.00:670][204]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.03.27-01.48.00:670][204]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.03.27-01.48.00:671][204]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.03.27-01.48.00:671][204]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.03.27-01.48.00:672][204]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.03.27-01.48.00:672][204]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.03.27-01.48.00:673][204]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.03.27-01.48.00:673][204]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.03.27-01.48.00:674][204]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.03.27-01.48.00:674][204]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.03.27-01.48.00:675][204]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.03.27-01.48.00:675][204]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.03.27-01.48.00:676][204]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.03.27-01.48.00:676][204]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.03.27-01.48.00:677][204]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.03.27-01.48.00:677][204]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.03.27-01.48.00:677][204]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.03.27-01.48.00:678][204]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.03.27-01.48.00:678][204]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.03.27-01.48.00:679][204]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.03.27-01.48.00:679][204]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.03.27-01.48.00:680][204]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.03.27-01.48.00:680][204]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.03.27-01.48.00:681][204]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.03.27-01.48.00:681][204]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.03.27-01.48.00:682][204]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.03.27-01.48.00:682][204]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.03.27-01.48.00:705][204]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2024.03.27-01.48.00:707][204]LogEditorActor: Deleted 32 Actors (0.041 secs)
+[2024.03.27-01.48.11:026][204]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.27-01.48.13:041][204]LogSlate: Window 'Save Asset As' being destroyed
+[2024.03.27-01.48.13:066][204]LogLinker: Warning: Failed to load '/Game/Blueprints/BPP_Roman_Road': Can't find file.
+[2024.03.27-01.48.13:066][204]LogLinker: Warning: Failed to load '/Game/Blueprints/BPP_Roman_Road': Can't find file.
+[2024.03.27-01.48.13:066][204]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Blueprints/BPP_Roman_Road.BPP_Roman_Road'
+[2024.03.27-01.48.13:096][204]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2024.03.27-01.48.13:100][204]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.27-01.48.13:150][204]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BPP_Roman_Road" FILE="../../../../Unreal Projects/FuryRoad/FuryRoad/Content/Blueprints/BPP_Roman_Road.uasset" SILENT=true
+[2024.03.27-01.48.13:153][204]LogSavePackage: Moving output files for package: /Game/Blueprints/BPP_Roman_Road
+[2024.03.27-01.48.13:153][204]LogSavePackage: Moving '../../../../Unreal Projects/FuryRoad/FuryRoad/Saved/BPP_Roman_Road0CC77D5749601FC6691EF1A1849DAD4A.tmp' to '../../../../Unreal Projects/FuryRoad/FuryRoad/Content/Blueprints/BPP_Roman_Road.uasset'
+[2024.03.27-01.48.13:158][204]LogFileHelpers: InternalPromptForCheckoutAndSave took 58 ms (total: 6.84 sec)
+[2024.03.27-01.48.13:203][204]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2024.03.27-01.48.13:209][204]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.27-01.48.13:251][204]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TrackOne" FILE="../../../../Unreal Projects/FuryRoad/FuryRoad/Content/Levels/TrackOne.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.03.27-01.48.13:296][204]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2024.03.27-01.48.13:727][204]LogSavePackage: Moving output files for package: /Game/Levels/TrackOne
+[2024.03.27-01.48.13:727][204]LogSavePackage: Moving '../../../../Unreal Projects/FuryRoad/FuryRoad/Saved/TrackOne3BB755974B19F5360701FCB14D2BC344.tmp' to '../../../../Unreal Projects/FuryRoad/FuryRoad/Content/Levels/TrackOne.umap'
+[2024.03.27-01.48.13:734][204]LogFileHelpers: Saving map 'TrackOne' took 0.483
+[2024.03.27-01.48.13:735][204]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Roman_Road/2/SF/K13DFJNW2G0OKFZFXGNN7J
+[2024.03.27-01.48.13:735][204]LogSavePackage: Moving '../../../../Unreal Projects/FuryRoad/FuryRoad/Saved/K13DFJNW2G0OKFZFXGNN7J77F5263948C93896D032D7A50DAABD12.tmp' to '../../../../Unreal Projects/FuryRoad/FuryRoad/Content/__ExternalActors__/Roman_Road/2/SF/K13DFJNW2G0OKFZFXGNN7J.uasset'
+[2024.03.27-01.48.13:738][204]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Roman_Road/A/VJ/O3GOVYG3SN3S0ZMY36876F
+[2024.03.27-01.48.13:738][204]LogSavePackage: Moving '../../../../Unreal Projects/FuryRoad/FuryRoad/Saved/O3GOVYG3SN3S0ZMY36876F4283D0B94521B1C4539AB0AFFBF7424D.tmp' to '../../../../Unreal Projects/FuryRoad/FuryRoad/Content/__ExternalActors__/Roman_Road/A/VJ/O3GOVYG3SN3S0ZMY36876F.uasset'
+[2024.03.27-01.48.13:740][204]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Roman_Road/8/0X/BE2OZQ9XR36ZE9BMIGJI9N
+[2024.03.27-01.48.13:740][204]LogSavePackage: Moving '../../../../Unreal Projects/FuryRoad/FuryRoad/Saved/BE2OZQ9XR36ZE9BMIGJI9N8AAAEC7D4883C5EA5FD5FE91D36813DC.tmp' to '../../../../Unreal Projects/FuryRoad/FuryRoad/Content/__ExternalActors__/Roman_Road/8/0X/BE2OZQ9XR36ZE9BMIGJI9N.uasset'
+[2024.03.27-01.48.13:741][204]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Roman_Road/3/BV/VGXDO7AQ57DG6NNK8KOMTM
+[2024.03.27-01.48.13:741][204]LogSavePackage: Moving '../../../../Unreal Projects/FuryRoad/FuryRoad/Saved/VGXDO7AQ57DG6NNK8KOMTMB769C11A4AF16823251774965EA8D8D8.tmp' to '../../../../Unreal Projects/FuryRoad/FuryRoad/Content/__ExternalActors__/Roman_Road/3/BV/VGXDO7AQ57DG6NNK8KOMTM.uasset'
+[2024.03.27-01.48.13:742][204]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Roman_Road/6/Q5/6CWCOIF7SEI05N7RA8BQBR
+[2024.03.27-01.48.13:742][204]LogSavePackage: Moving '../../../../Unreal Projects/FuryRoad/FuryRoad/Saved/6CWCOIF7SEI05N7RA8BQBRCEA2F6DF465428DA7AED49A40868E68F.tmp' to '../../../../Unreal Projects/FuryRoad/FuryRoad/Content/__ExternalActors__/Roman_Road/6/Q5/6CWCOIF7SEI05N7RA8BQBR.uasset'
+[2024.03.27-01.48.13:744][204]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Roman_Road/8/1Q/7LGF7MYY86UW64BQKM53H9
+[2024.03.27-01.48.13:744][204]LogSavePackage: Moving '../../../../Unreal Projects/FuryRoad/FuryRoad/Saved/7LGF7MYY86UW64BQKM53H978C08E094541277E44E161B83EB7C9F1.tmp' to '../../../../Unreal Projects/FuryRoad/FuryRoad/Content/__ExternalActors__/Roman_Road/8/1Q/7LGF7MYY86UW64BQKM53H9.uasset'
+[2024.03.27-01.48.13:745][204]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Roman_Road/1/88/6JW5F4KC6NOF84WEMNVLK1
+[2024.03.27-01.48.13:745][204]LogSavePackage: Moving '../../../../Unreal Projects/FuryRoad/FuryRoad/Saved/6JW5F4KC6NOF84WEMNVLK1261425534F566C4CFCA402B55EFAF1BB.tmp' to '../../../../Unreal Projects/FuryRoad/FuryRoad/Content/__ExternalActors__/Roman_Road/1/88/6JW5F4KC6NOF84WEMNVLK1.uasset'
+[2024.03.27-01.48.13:746][204]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Roman_Road/0/D8/E00ZDD5RJ460EALF5T6MV6
+[2024.03.27-01.48.13:746][204]LogSavePackage: Moving '../../../../Unreal Projects/FuryRoad/FuryRoad/Saved/E00ZDD5RJ460EALF5T6MV6E83280434734AA0F7127B5A93ECE4957.tmp' to '../../../../Unreal Projects/FuryRoad/FuryRoad/Content/__ExternalActors__/Roman_Road/0/D8/E00ZDD5RJ460EALF5T6MV6.uasset'
+[2024.03.27-01.48.13:747][204]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Roman_Road/2/CJ/U5TPITYZ5IKL24B69SYFJM
+[2024.03.27-01.48.13:747][204]LogSavePackage: Moving '../../../../Unreal Projects/FuryRoad/FuryRoad/Saved/U5TPITYZ5IKL24B69SYFJM28F0D5234F1E384AD3B622A10439B319.tmp' to '../../../../Unreal Projects/FuryRoad/FuryRoad/Content/__ExternalActors__/Roman_Road/2/CJ/U5TPITYZ5IKL24B69SYFJM.uasset'
+[2024.03.27-01.48.13:748][204]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Roman_Road/8/JH/T96BY63KNRC0G98KGUJKAT
+[2024.03.27-01.48.13:748][204]LogSavePackage: Moving '../../../../Unreal Projects/FuryRoad/FuryRoad/Saved/T96BY63KNRC0G98KGUJKATF48DC88048F7C0995E5846A4B4ECE332.tmp' to '../../../../Unreal Projects/FuryRoad/FuryRoad/Content/__ExternalActors__/Roman_Road/8/JH/T96BY63KNRC0G98KGUJKAT.uasset'
+[2024.03.27-01.48.13:750][204]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Roman_Road/2/52/5ROZ1PV6LYZHME25ARX6CI
+[2024.03.27-01.48.13:750][204]LogSavePackage: Moving '../../../../Unreal Projects/FuryRoad/FuryRoad/Saved/5ROZ1PV6LYZHME25ARX6CI5B6481B443AE527E31C2388CDD6B8755.tmp' to '../../../../Unreal Projects/FuryRoad/FuryRoad/Content/__ExternalActors__/Roman_Road/2/52/5ROZ1PV6LYZHME25ARX6CI.uasset'
+[2024.03.27-01.48.13:751][204]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Roman_Road/C/IX/XA96MYAYW3OG6OFNEZYPK6
+[2024.03.27-01.48.13:751][204]LogSavePackage: Moving '../../../../Unreal Projects/FuryRoad/FuryRoad/Saved/XA96MYAYW3OG6OFNEZYPK6B018D61849ED4836F6E2719EAD729068.tmp' to '../../../../Unreal Projects/FuryRoad/FuryRoad/Content/__ExternalActors__/Roman_Road/C/IX/XA96MYAYW3OG6OFNEZYPK6.uasset'
+[2024.03.27-01.48.13:754][204]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Roman_Road/5/PO/NK9055SKG24ES6KW0NGKMJ
+[2024.03.27-01.48.13:754][204]LogSavePackage: Moving '../../../../Unreal Projects/FuryRoad/FuryRoad/Saved/NK9055SKG24ES6KW0NGKMJ2171F4B443B01A02E81E07A93DDD9A1B.tmp' to '../../../../Unreal Projects/FuryRoad/FuryRoad/Content/__ExternalActors__/Roman_Road/5/PO/NK9055SKG24ES6KW0NGKMJ.uasset'
+[2024.03.27-01.48.13:756][204]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Roman_Road/8/TI/1KSJMVTWNN6C4ELZEY4J3H
+[2024.03.27-01.48.13:756][204]LogSavePackage: Moving '../../../../Unreal Projects/FuryRoad/FuryRoad/Saved/1KSJMVTWNN6C4ELZEY4J3HF1DD626A4189C6EB059F73ACD514F3E2.tmp' to '../../../../Unreal Projects/FuryRoad/FuryRoad/Content/__ExternalActors__/Roman_Road/8/TI/1KSJMVTWNN6C4ELZEY4J3H.uasset'
+[2024.03.27-01.48.13:757][204]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Roman_Road/7/QR/UTJZ0DR7TG38OYUNLI41EP
+[2024.03.27-01.48.13:757][204]LogSavePackage: Moving '../../../../Unreal Projects/FuryRoad/FuryRoad/Saved/UTJZ0DR7TG38OYUNLI41EP4CFC5C234DA8840524A784AE75DB326F.tmp' to '../../../../Unreal Projects/FuryRoad/FuryRoad/Content/__ExternalActors__/Roman_Road/7/QR/UTJZ0DR7TG38OYUNLI41EP.uasset'
+[2024.03.27-01.48.13:758][204]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Roman_Road/3/H0/NOIGVYFSDFP4W7WYKDUPHU
+[2024.03.27-01.48.13:758][204]LogSavePackage: Moving '../../../../Unreal Projects/FuryRoad/FuryRoad/Saved/NOIGVYFSDFP4W7WYKDUPHUAF0F0EF1480B96D3CAA53B9237F28D67.tmp' to '../../../../Unreal Projects/FuryRoad/FuryRoad/Content/__ExternalActors__/Roman_Road/3/H0/NOIGVYFSDFP4W7WYKDUPHU.uasset'
+[2024.03.27-01.48.13:759][204]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Roman_Road/E/YZ/A5RSMTZBJZOA7O7WAHB7GJ
+[2024.03.27-01.48.13:759][204]LogSavePackage: Moving '../../../../Unreal Projects/FuryRoad/FuryRoad/Saved/A5RSMTZBJZOA7O7WAHB7GJF351BBC0497927A4194D4CAA2B5367B0.tmp' to '../../../../Unreal Projects/FuryRoad/FuryRoad/Content/__ExternalActors__/Roman_Road/E/YZ/A5RSMTZBJZOA7O7WAHB7GJ.uasset'
+[2024.03.27-01.48.13:761][204]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Roman_Road/3/DW/LE2L1UVYJO12265V5GTN10
+[2024.03.27-01.48.13:761][204]LogSavePackage: Moving '../../../../Unreal Projects/FuryRoad/FuryRoad/Saved/LE2L1UVYJO12265V5GTN107F3A969B491E160CD6A8F6AAA6803930.tmp' to '../../../../Unreal Projects/FuryRoad/FuryRoad/Content/__ExternalActors__/Roman_Road/3/DW/LE2L1UVYJO12265V5GTN10.uasset'
+[2024.03.27-01.48.13:762][204]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Roman_Road/B/TY/I97W7CXO4FK0KYF2ME0VFC
+[2024.03.27-01.48.13:762][204]LogSavePackage: Moving '../../../../Unreal Projects/FuryRoad/FuryRoad/Saved/I97W7CXO4FK0KYF2ME0VFC3C7E82F2467680EA3567D3B93691ABC8.tmp' to '../../../../Unreal Projects/FuryRoad/FuryRoad/Content/__ExternalActors__/Roman_Road/B/TY/I97W7CXO4FK0KYF2ME0VFC.uasset'
+[2024.03.27-01.48.13:763][204]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Roman_Road/E/P0/GH2R7LIJL8BX2V958BSOU0
+[2024.03.27-01.48.13:763][204]LogSavePackage: Moving '../../../../Unreal Projects/FuryRoad/FuryRoad/Saved/GH2R7LIJL8BX2V958BSOU09E7B07854817E48E3B378DBDEFD9A0F0.tmp' to '../../../../Unreal Projects/FuryRoad/FuryRoad/Content/__ExternalActors__/Roman_Road/E/P0/GH2R7LIJL8BX2V958BSOU0.uasset'
+[2024.03.27-01.48.13:764][204]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Roman_Road/A/F3/03PX20C0KXBPFN7GTLMACO
+[2024.03.27-01.48.13:764][204]LogSavePackage: Moving '../../../../Unreal Projects/FuryRoad/FuryRoad/Saved/03PX20C0KXBPFN7GTLMACO31B76CFF4674A8C78E93138DD4A9AB92.tmp' to '../../../../Unreal Projects/FuryRoad/FuryRoad/Content/__ExternalActors__/Roman_Road/A/F3/03PX20C0KXBPFN7GTLMACO.uasset'
+[2024.03.27-01.48.13:765][204]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Roman_Road/A/XE/4KMADY1Q1DOGEVIDUCCGK9
+[2024.03.27-01.48.13:766][204]LogSavePackage: Moving '../../../../Unreal Projects/FuryRoad/FuryRoad/Saved/4KMADY1Q1DOGEVIDUCCGK9FC39DF804E9CB967FA56BB857DE497C6.tmp' to '../../../../Unreal Projects/FuryRoad/FuryRoad/Content/__ExternalActors__/Roman_Road/A/XE/4KMADY1Q1DOGEVIDUCCGK9.uasset'
+[2024.03.27-01.48.13:767][204]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Roman_Road/1/EC/LLB5YPTXIDW0F94X1NOPFD
+[2024.03.27-01.48.13:767][204]LogSavePackage: Moving '../../../../Unreal Projects/FuryRoad/FuryRoad/Saved/LLB5YPTXIDW0F94X1NOPFDE7EC706843BC82F88A5C93A1007EFC4C.tmp' to '../../../../Unreal Projects/FuryRoad/FuryRoad/Content/__ExternalActors__/Roman_Road/1/EC/LLB5YPTXIDW0F94X1NOPFD.uasset'
+[2024.03.27-01.48.13:768][204]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Roman_Road/E/89/O5QMXTULTPFR81648WHQAB
+[2024.03.27-01.48.13:768][204]LogSavePackage: Moving '../../../../Unreal Projects/FuryRoad/FuryRoad/Saved/O5QMXTULTPFR81648WHQAB60B20793466E9AD7E6158FA3A066409D.tmp' to '../../../../Unreal Projects/FuryRoad/FuryRoad/Content/__ExternalActors__/Roman_Road/E/89/O5QMXTULTPFR81648WHQAB.uasset'
+[2024.03.27-01.48.13:769][204]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Roman_Road/2/M8/A2DI2LP2VY32QV25G7JZPC
+[2024.03.27-01.48.13:769][204]LogSavePackage: Moving '../../../../Unreal Projects/FuryRoad/FuryRoad/Saved/A2DI2LP2VY32QV25G7JZPC83128E2445C645A3DD608EAA0A5E4086.tmp' to '../../../../Unreal Projects/FuryRoad/FuryRoad/Content/__ExternalActors__/Roman_Road/2/M8/A2DI2LP2VY32QV25G7JZPC.uasset'
+[2024.03.27-01.48.13:770][204]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Roman_Road/0/VC/XKYB2B2QTB2G2F14YN4I2U
+[2024.03.27-01.48.13:770][204]LogSavePackage: Moving '../../../../Unreal Projects/FuryRoad/FuryRoad/Saved/XKYB2B2QTB2G2F14YN4I2UBC296464451CE1B3B09E6DB2D368A3D7.tmp' to '../../../../Unreal Projects/FuryRoad/FuryRoad/Content/__ExternalActors__/Roman_Road/0/VC/XKYB2B2QTB2G2F14YN4I2U.uasset'
+[2024.03.27-01.48.13:771][204]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Roman_Road/7/KY/PTTHQRX34DD9FLQSOQ1UCE
+[2024.03.27-01.48.13:771][204]LogSavePackage: Moving '../../../../Unreal Projects/FuryRoad/FuryRoad/Saved/PTTHQRX34DD9FLQSOQ1UCE488C5A9B4E65444606591EAB41A72200.tmp' to '../../../../Unreal Projects/FuryRoad/FuryRoad/Content/__ExternalActors__/Roman_Road/7/KY/PTTHQRX34DD9FLQSOQ1UCE.uasset'
+[2024.03.27-01.48.13:773][204]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Roman_Road/D/3A/J2TGR7IWGHZ8M5O3PJ96GJ
+[2024.03.27-01.48.13:773][204]LogSavePackage: Moving '../../../../Unreal Projects/FuryRoad/FuryRoad/Saved/J2TGR7IWGHZ8M5O3PJ96GJB5C92979488C32D37CC10C9D8CC17044.tmp' to '../../../../Unreal Projects/FuryRoad/FuryRoad/Content/__ExternalActors__/Roman_Road/D/3A/J2TGR7IWGHZ8M5O3PJ96GJ.uasset'
+[2024.03.27-01.48.13:774][204]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Roman_Road/4/II/JDYUMRSY5VDFQAYEJUUKG5
+[2024.03.27-01.48.13:774][204]LogSavePackage: Moving '../../../../Unreal Projects/FuryRoad/FuryRoad/Saved/JDYUMRSY5VDFQAYEJUUKG58CF43056466F22DFBBC495BD225CBD9A.tmp' to '../../../../Unreal Projects/FuryRoad/FuryRoad/Content/__ExternalActors__/Roman_Road/4/II/JDYUMRSY5VDFQAYEJUUKG5.uasset'
+[2024.03.27-01.48.13:775][204]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Roman_Road/2/3E/9EHMSZVNB94HR3DZ5P2H1N
+[2024.03.27-01.48.13:775][204]LogSavePackage: Moving '../../../../Unreal Projects/FuryRoad/FuryRoad/Saved/9EHMSZVNB94HR3DZ5P2H1N928378AE4D3C52AA0B6C9DA077A8E365.tmp' to '../../../../Unreal Projects/FuryRoad/FuryRoad/Content/__ExternalActors__/Roman_Road/2/3E/9EHMSZVNB94HR3DZ5P2H1N.uasset'
+[2024.03.27-01.48.13:776][204]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Roman_Road/B/FK/JA022K29YEE267HD7I5S92
+[2024.03.27-01.48.13:776][204]LogSavePackage: Moving '../../../../Unreal Projects/FuryRoad/FuryRoad/Saved/JA022K29YEE267HD7I5S92228B7C434ECE0B94B7803FBA1B4B63BE.tmp' to '../../../../Unreal Projects/FuryRoad/FuryRoad/Content/__ExternalActors__/Roman_Road/B/FK/JA022K29YEE267HD7I5S92.uasset'
+[2024.03.27-01.48.13:778][204]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Roman_Road/A/GK/IYA5N2S4OFWVFZGGOC6LZC
+[2024.03.27-01.48.13:778][204]LogSavePackage: Moving '../../../../Unreal Projects/FuryRoad/FuryRoad/Saved/IYA5N2S4OFWVFZGGOC6LZC02034CFF4E02189B4D4BFE91B4F7FE51.tmp' to '../../../../Unreal Projects/FuryRoad/FuryRoad/Content/__ExternalActors__/Roman_Road/A/GK/IYA5N2S4OFWVFZGGOC6LZC.uasset'
+[2024.03.27-01.48.13:784][204]LogFileHelpers: InternalPromptForCheckoutAndSave took 574 ms (total: 7.41 sec)
+[2024.03.27-01.48.13:837][204]LogWorld: UWorld::CleanupWorld for Roman_Road, bSessionEnded=true, bCleanupResources=true
+[2024.03.27-01.48.13:837][204]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.27-01.48.13:863][204]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2024.03.27-01.48.13:886][204]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2024.03.27-01.48.13:887][204]MapCheck: New page: Map Check
+[2024.03.27-01.48.13:887][204]LightingResults: New page: Lighting Build
+[2024.03.27-01.48.13:907][204]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2024.03.27-01.48.13:910][204]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.27-01.48.13:910][204]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.27-01.48.13:921][204]LogStreaming: Display: ULevelStreaming::RequestLevel(/Temp/Game/Roman_Road_LevelInstance_8b2017d998685a81_0) is flushing async loading
+[2024.03.27-01.48.13:921][204]LogStreaming: Display: FlushAsyncLoading(): 1 QueuedPackages, 0 AsyncPackages
+[2024.03.27-01.48.13:932][204]LogLevelInstance: Loaded 1 levels in 0.011 seconds
+[2024.03.27-01.48.13:933][204]PackedLevelActor: Packing of '/Game/Roman_Road' started...
+[2024.03.27-01.48.13:933][204]PackedLevelActor: Actor '/Engine/Transient.World_18:PersistentLevel.PackedLevelActor_0' ignored (Actor Discard)
+[2024.03.27-01.48.13:933][204]PackedLevelActor: Actor '/Temp/Game/Roman_Road_LevelInstance_8b2017d998685a81_0.Roman_Road:PersistentLevel.StaticMeshActor_UAID_D8F3BC5620402FE601_2025810311' packed successfully
+[2024.03.27-01.48.13:933][204]PackedLevelActor: Actor '/Temp/Game/Roman_Road_LevelInstance_8b2017d998685a81_0.Roman_Road:PersistentLevel.StaticMeshActor_UAID_D8F3BC5620402FE601_2025817319' packed successfully
+[2024.03.27-01.48.13:933][204]PackedLevelActor: Actor '/Temp/Game/Roman_Road_LevelInstance_8b2017d998685a81_0.Roman_Road:PersistentLevel.StaticMeshActor_UAID_D8F3BC5620402FE601_2025818321' packed successfully
+[2024.03.27-01.48.13:933][204]PackedLevelActor: Actor '/Temp/Game/Roman_Road_LevelInstance_8b2017d998685a81_0.Roman_Road:PersistentLevel.StaticMeshActor_UAID_D8F3BC5620402FE601_2025827335' packed successfully
+[2024.03.27-01.48.13:933][204]PackedLevelActor: Actor '/Temp/Game/Roman_Road_LevelInstance_8b2017d998685a81_0.Roman_Road:PersistentLevel.StaticMeshActor_UAID_D8F3BC5620402FE601_2025831340' packed successfully
+[2024.03.27-01.48.13:933][204]PackedLevelActor: Actor '/Temp/Game/Roman_Road_LevelInstance_8b2017d998685a81_0.Roman_Road:PersistentLevel.StaticMeshActor_UAID_D8F3BC5620402FE601_2025812312' packed successfully
+[2024.03.27-01.48.13:933][204]PackedLevelActor: Actor '/Temp/Game/Roman_Road_LevelInstance_8b2017d998685a81_0.Roman_Road:PersistentLevel.StaticMeshActor_UAID_D8F3BC5620402FE601_2025825331' packed successfully
+[2024.03.27-01.48.13:933][204]PackedLevelActor: Actor '/Temp/Game/Roman_Road_LevelInstance_8b2017d998685a81_0.Roman_Road:PersistentLevel.StaticMeshActor_UAID_D8F3BC5620402FE601_2025825332' packed successfully
+[2024.03.27-01.48.13:933][204]PackedLevelActor: Actor '/Temp/Game/Roman_Road_LevelInstance_8b2017d998685a81_0.Roman_Road:PersistentLevel.StaticMeshActor_UAID_D8F3BC5620402FE601_2025832342' packed successfully
+[2024.03.27-01.48.13:933][204]PackedLevelActor: Actor '/Temp/Game/Roman_Road_LevelInstance_8b2017d998685a81_0.Roman_Road:PersistentLevel.StaticMeshActor_UAID_D8F3BC5620402FE601_2025813313' packed successfully
+[2024.03.27-01.48.13:933][204]PackedLevelActor: Actor '/Temp/Game/Roman_Road_LevelInstance_8b2017d998685a81_0.Roman_Road:PersistentLevel.StaticMeshActor_UAID_D8F3BC5620402FE601_2025815316' packed successfully
+[2024.03.27-01.48.13:933][204]PackedLevelActor: Actor '/Temp/Game/Roman_Road_LevelInstance_8b2017d998685a81_0.Roman_Road:PersistentLevel.StaticMeshActor_UAID_D8F3BC5620402FE601_2025818320' packed successfully
+[2024.03.27-01.48.13:933][204]PackedLevelActor: Actor '/Temp/Game/Roman_Road_LevelInstance_8b2017d998685a81_0.Roman_Road:PersistentLevel.StaticMeshActor_UAID_D8F3BC5620402FE601_2025820324' packed successfully
+[2024.03.27-01.48.13:933][204]PackedLevelActor: Actor '/Temp/Game/Roman_Road_LevelInstance_8b2017d998685a81_0.Roman_Road:PersistentLevel.StaticMeshActor_UAID_D8F3BC5620402FE601_2025813314' packed successfully
+[2024.03.27-01.48.13:933][204]PackedLevelActor: Actor '/Temp/Game/Roman_Road_LevelInstance_8b2017d998685a81_0.Roman_Road:PersistentLevel.StaticMeshActor_UAID_D8F3BC5620402FE601_2025822326' packed successfully
+[2024.03.27-01.48.13:933][204]PackedLevelActor: Actor '/Temp/Game/Roman_Road_LevelInstance_8b2017d998685a81_0.Roman_Road:PersistentLevel.StaticMeshActor_UAID_D8F3BC5620402FE601_2025823328' packed successfully
+[2024.03.27-01.48.13:933][204]PackedLevelActor: Actor '/Temp/Game/Roman_Road_LevelInstance_8b2017d998685a81_0.Roman_Road:PersistentLevel.StaticMeshActor_UAID_D8F3BC5620402FE601_2025814315' packed successfully
+[2024.03.27-01.48.13:933][204]PackedLevelActor: Actor '/Temp/Game/Roman_Road_LevelInstance_8b2017d998685a81_0.Roman_Road:PersistentLevel.StaticMeshActor_UAID_D8F3BC5620402FE601_2025816317' packed successfully
+[2024.03.27-01.48.13:933][204]PackedLevelActor: Actor '/Temp/Game/Roman_Road_LevelInstance_8b2017d998685a81_0.Roman_Road:PersistentLevel.StaticMeshActor_UAID_D8F3BC5620402FE601_2025826333' packed successfully
+[2024.03.27-01.48.13:933][204]PackedLevelActor: Actor '/Temp/Game/Roman_Road_LevelInstance_8b2017d998685a81_0.Roman_Road:PersistentLevel.StaticMeshActor_UAID_D8F3BC5620402FE601_2025816318' packed successfully
+[2024.03.27-01.48.13:933][204]PackedLevelActor: Actor '/Temp/Game/Roman_Road_LevelInstance_8b2017d998685a81_0.Roman_Road:PersistentLevel.StaticMeshActor_UAID_D8F3BC5620402FE601_2025828336' packed successfully
+[2024.03.27-01.48.13:933][204]PackedLevelActor: Actor '/Temp/Game/Roman_Road_LevelInstance_8b2017d998685a81_0.Roman_Road:PersistentLevel.StaticMeshActor_UAID_D8F3BC5620402FE601_2025819322' packed successfully
+[2024.03.27-01.48.13:933][204]PackedLevelActor: Actor '/Temp/Game/Roman_Road_LevelInstance_8b2017d998685a81_0.Roman_Road:PersistentLevel.StaticMeshActor_UAID_D8F3BC5620402FE601_2025820323' packed successfully
+[2024.03.27-01.48.13:933][204]PackedLevelActor: Actor '/Temp/Game/Roman_Road_LevelInstance_8b2017d998685a81_0.Roman_Road:PersistentLevel.StaticMeshActor_UAID_D8F3BC5620402FE601_2025821325' packed successfully
+[2024.03.27-01.48.13:933][204]PackedLevelActor: Actor '/Temp/Game/Roman_Road_LevelInstance_8b2017d998685a81_0.Roman_Road:PersistentLevel.StaticMeshActor_UAID_D8F3BC5620402FE601_2025829337' packed successfully
+[2024.03.27-01.48.13:933][204]PackedLevelActor: Actor '/Temp/Game/Roman_Road_LevelInstance_8b2017d998685a81_0.Roman_Road:PersistentLevel.StaticMeshActor_UAID_D8F3BC5620402FE601_2025822327' packed successfully
+[2024.03.27-01.48.13:933][204]PackedLevelActor: Actor '/Temp/Game/Roman_Road_LevelInstance_8b2017d998685a81_0.Roman_Road:PersistentLevel.StaticMeshActor_UAID_D8F3BC5620402FE601_2025824330' packed successfully
+[2024.03.27-01.48.13:933][204]PackedLevelActor: Actor '/Temp/Game/Roman_Road_LevelInstance_8b2017d998685a81_0.Roman_Road:PersistentLevel.StaticMeshActor_UAID_D8F3BC5620402FE601_2025827334' packed successfully
+[2024.03.27-01.48.13:933][204]PackedLevelActor: Actor '/Temp/Game/Roman_Road_LevelInstance_8b2017d998685a81_0.Roman_Road:PersistentLevel.StaticMeshActor_UAID_D8F3BC5620402FE601_2025823329' packed successfully
+[2024.03.27-01.48.13:933][204]PackedLevelActor: Actor '/Temp/Game/Roman_Road_LevelInstance_8b2017d998685a81_0.Roman_Road:PersistentLevel.StaticMeshActor_UAID_D8F3BC5620402FE601_2025831341' packed successfully
+[2024.03.27-01.48.13:933][204]PackedLevelActor: Actor '/Temp/Game/Roman_Road_LevelInstance_8b2017d998685a81_0.Roman_Road:PersistentLevel.StaticMeshActor_UAID_D8F3BC5620402FE601_2025829338' packed successfully
+[2024.03.27-01.48.13:933][204]PackedLevelActor: Actor '/Temp/Game/Roman_Road_LevelInstance_8b2017d998685a81_0.Roman_Road:PersistentLevel.StaticMeshActor_UAID_D8F3BC5620402FE601_2025830339' packed successfully
+[2024.03.27-01.48.13:933][204]PackedLevelActor: Packing '/Game/Roman_Road' completed with 0 warning(s)
+[2024.03.27-01.48.13:947][204]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.27-01.48.13:948][204]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.27-01.48.14:021][204]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BPP_Roman_Road" FILE="../../../../Unreal Projects/FuryRoad/FuryRoad/Content/Blueprints/BPP_Roman_Road.uasset" SILENT=true
+[2024.03.27-01.48.14:024][204]LogSavePackage: Moving output files for package: /Game/Blueprints/BPP_Roman_Road
+[2024.03.27-01.48.14:024][204]LogSavePackage: Moving '../../../../Unreal Projects/FuryRoad/FuryRoad/Saved/BPP_Roman_RoadAA12FEE2499BF5F016BAEFA01CC106A7.tmp' to '../../../../Unreal Projects/FuryRoad/FuryRoad/Content/Blueprints/BPP_Roman_Road.uasset'
+[2024.03.27-01.48.14:025][204]LogFileHelpers: InternalPromptForCheckoutAndSave took 77 ms (total: 7.49 sec)
+[2024.03.27-01.48.14:027][204]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.27-01.48.14:027][204]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BPP_Roman_Road" FILE="../../../../Unreal Projects/FuryRoad/FuryRoad/Content/Blueprints/BPP_Roman_Road.uasset" SILENT=true
+[2024.03.27-01.48.14:030][204]LogSavePackage: Moving output files for package: /Game/Blueprints/BPP_Roman_Road
+[2024.03.27-01.48.14:030][204]LogSavePackage: Moving '../../../../Unreal Projects/FuryRoad/FuryRoad/Saved/BPP_Roman_Road6077754D44F05B979487E0862BC7693E.tmp' to '../../../../Unreal Projects/FuryRoad/FuryRoad/Content/Blueprints/BPP_Roman_Road.uasset'
+[2024.03.27-01.48.14:030][204]LogFileHelpers: InternalPromptForCheckoutAndSave took 2 ms (total: 7.49 sec)
+[2024.03.27-01.48.14:030][204]PackedLevelActor: Updated Packed Blueprint '/Game/Blueprints/BPP_Roman_Road.BPP_Roman_Road'
+[2024.03.27-01.48.14:031][204]LogWorld: UWorld::CleanupWorld for Roman_Road, bSessionEnded=true, bCleanupResources=true
+[2024.03.27-01.48.14:031][204]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.27-01.48.14:056][204]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2024.03.27-01.48.14:079][204]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2024.03.27-01.48.14:080][204]MapCheck: New page: Map Check
+[2024.03.27-01.48.14:080][204]LightingResults: New page: Lighting Build
+[2024.03.27-01.48.14:100][204]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2024.03.27-01.48.14:101][204]LogLevelInstance: Unloaded 1 levels in 0.07 seconds
+[2024.03.27-01.48.14:141][204]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2024.03.27-01.48.14:141][204]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.27-01.48.14:161][204]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.27-01.48.14:217][204]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TrackOne" FILE="../../../../Unreal Projects/FuryRoad/FuryRoad/Content/Levels/TrackOne.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.03.27-01.48.14:260][204]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2024.03.27-01.48.14:689][204]LogSavePackage: Moving output files for package: /Game/Levels/TrackOne
+[2024.03.27-01.48.14:689][204]LogSavePackage: Moving '../../../../Unreal Projects/FuryRoad/FuryRoad/Saved/TrackOne252D30BC41E1E5F2838C86B2DC5AA4A7.tmp' to '../../../../Unreal Projects/FuryRoad/FuryRoad/Content/Levels/TrackOne.umap'
+[2024.03.27-01.48.14:700][204]LogFileHelpers: Saving map 'TrackOne' took 0.483
+[2024.03.27-01.48.14:704][204]LogFileHelpers: InternalPromptForCheckoutAndSave took 542 ms (total: 8.03 sec)
+[2024.03.27-01.48.14:713][204]AssetCheck: New page: Asset Save: multiple assets
+[2024.03.27-01.48.14:713][204]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BPP_Roman_Road.BPP_Roman_Road
+[2024.03.27-01.48.14:713][204]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/TrackOne.TrackOne
+[2024.03.27-01.48.39:197][564]Cmd: DUPLICATE
+[2024.03.27-01.48.39:197][564]Cmd: ACTOR DUPLICATE
+[2024.03.27-01.48.57:270][354]Cmd: DUPLICATE
+[2024.03.27-01.48.57:270][354]Cmd: ACTOR DUPLICATE
+[2024.03.27-01.49.21:848][432]Cmd: DUPLICATE
+[2024.03.27-01.49.21:849][432]Cmd: ACTOR DUPLICATE
+[2024.03.27-01.49.39:469][267]Cmd: DUPLICATE
+[2024.03.27-01.49.39:469][267]Cmd: ACTOR DUPLICATE
+[2024.03.27-01.50.03:256][425]Cmd: DUPLICATE
+[2024.03.27-01.50.03:256][425]Cmd: ACTOR DUPLICATE
+[2024.03.27-01.50.31:457][646]Cmd: DUPLICATE
+[2024.03.27-01.50.31:457][646]Cmd: ACTOR DUPLICATE
+[2024.03.27-01.51.16:026][681]Cmd: DUPLICATE
+[2024.03.27-01.51.16:026][681]Cmd: ACTOR DUPLICATE
+[2024.03.27-01.51.37:335][661]Cmd: DUPLICATE
+[2024.03.27-01.51.37:335][661]Cmd: ACTOR DUPLICATE
+[2024.03.27-01.51.47:432][100]Cmd: DUPLICATE
+[2024.03.27-01.51.47:432][100]Cmd: ACTOR DUPLICATE
+[2024.03.27-01.52.03:821][848]Cmd: DUPLICATE
+[2024.03.27-01.52.03:821][848]Cmd: ACTOR DUPLICATE
+[2024.03.27-01.52.22:940][759]Cmd: DUPLICATE
+[2024.03.27-01.52.22:940][759]Cmd: ACTOR DUPLICATE
+[2024.03.27-01.55.34:589][997]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.27-01.55.34:641][997]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TrackOne" FILE="../../../../Unreal Projects/FuryRoad/FuryRoad/Content/Levels/TrackOne.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.03.27-01.55.34:692][997]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2024.03.27-01.55.35:129][997]LogSavePackage: Moving output files for package: /Game/Levels/TrackOne
+[2024.03.27-01.55.35:129][997]LogSavePackage: Moving '../../../../Unreal Projects/FuryRoad/FuryRoad/Saved/TrackOne8CEE739E4E20DC923C632B835957E222.tmp' to '../../../../Unreal Projects/FuryRoad/FuryRoad/Content/Levels/TrackOne.umap'
+[2024.03.27-01.55.35:137][997]LogFileHelpers: Saving map 'TrackOne' took 0.496
+[2024.03.27-01.55.35:141][997]LogFileHelpers: InternalPromptForCheckoutAndSave took 552 ms (total: 8.59 sec)
+[2024.03.27-01.55.35:144][997]AssetCheck: New page: Asset Save: TrackOne
+[2024.03.27-01.55.35:144][997]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/TrackOne.TrackOne
+[2024.03.27-01.57.14:691][954]Cmd: DUPLICATE
+[2024.03.27-01.57.14:691][954]Cmd: ACTOR DUPLICATE
+[2024.03.27-01.57.58:609][903]Cmd: MODE ROTGRID=0
+[2024.03.27-01.58.19:673][866]Cmd: DELETE
+[2024.03.27-01.58.19:673][866]Cmd: ACTOR DELETE
+[2024.03.27-01.58.19:683][866]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.03.27-01.58.19:684][866]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.03.27-01.58.19:685][866]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.03.27-01.58.19:685][866]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.03.27-01.58.19:686][866]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.03.27-01.58.19:686][866]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.03.27-01.58.19:716][866]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2024.03.27-01.58.19:721][866]LogEditorActor: Deleted 6 Actors (0.049 secs)
+[2024.03.27-01.59.52:728][988]Cmd: DUPLICATE
+[2024.03.27-01.59.52:728][988]Cmd: ACTOR DUPLICATE
+[2024.03.27-02.00.38:869][ 42]Cmd: DUPLICATE
+[2024.03.27-02.00.38:869][ 42]Cmd: ACTOR DUPLICATE
+[2024.03.27-02.00.54:352][767]Cmd: DUPLICATE
+[2024.03.27-02.00.54:352][767]Cmd: ACTOR DUPLICATE
+[2024.03.27-02.01.53:268][548]LogDerivedDataCache: C:/Users/guyla/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:16.118 and deleted 8 files with total size 0 MiB and 8 empty folders. Scanned 8830 files in 10658 folders with total size 1153 MiB.
+[2024.03.27-02.02.13:729][539]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.27-02.02.13:762][539]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TrackOne" FILE="../../../../Unreal Projects/FuryRoad/FuryRoad/Content/Levels/TrackOne.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.03.27-02.02.13:807][539]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2024.03.27-02.02.14:240][539]LogSavePackage: Moving output files for package: /Game/Levels/TrackOne
+[2024.03.27-02.02.14:240][539]LogSavePackage: Moving '../../../../Unreal Projects/FuryRoad/FuryRoad/Saved/TrackOne7B485F594916FA81B6B393ABBE51F4B5.tmp' to '../../../../Unreal Projects/FuryRoad/FuryRoad/Content/Levels/TrackOne.umap'
+[2024.03.27-02.02.14:248][539]LogFileHelpers: Saving map 'TrackOne' took 0.487
+[2024.03.27-02.02.14:253][539]LogFileHelpers: InternalPromptForCheckoutAndSave took 524 ms (total: 9.11 sec)
+[2024.03.27-02.02.14:256][539]AssetCheck: New page: Asset Save: TrackOne
+[2024.03.27-02.02.14:256][539]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/TrackOne.TrackOne
+[2024.03.27-02.02.24:932][ 46]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.03.27-02.02.24:938][ 46]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.27-02.02.24:938][ 46]PIE: New page: PIE session: TrackOne (Mar. 26, 2024, 12:02:24 p.m.)
+[2024.03.27-02.02.24:938][ 46]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TrackOne
+[2024.03.27-02.02.25:338][ 46]LogPlayLevel: PIE: StaticDuplicateObject took: (0.400429s)
+[2024.03.27-02.02.25:338][ 46]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TrackOne.TrackOne to /Game/Levels/UEDPIE_0_TrackOne.TrackOne (0.400465s)
+[2024.03.27-02.02.25:361][ 46]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2024.03.27-02.02.25:363][ 46]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.27-02.02.25:363][ 46]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.27-02.02.25:363][ 46]LogAIModule: Creating AISystem for world TrackOne
+[2024.03.27-02.02.25:364][ 46]LogPlayLevel: PIE: World Init took: (0.001016s)
+[2024.03.27-02.02.25:364][ 46]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2024.03.27-02.02.25:364][ 46]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.27-02.02.25:364][ 46]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.27-02.02.25:364][ 46]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.27-02.02.25:364][ 46]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.27-02.02.25:364][ 46]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.27-02.02.25:364][ 46]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.27-02.02.25:364][ 46]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.27-02.02.25:364][ 46]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.27-02.02.25:364][ 46]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.27-02.02.25:364][ 46]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.27-02.02.25:364][ 46]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.27-02.02.25:366][ 46]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.27-02.02.25:383][ 46]LogAudioMixer: Display: Using Audio Hardware Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2024.03.27-02.02.25:383][ 46]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.27-02.02.25:383][ 46]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.27-02.02.25:383][ 46]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.27-02.02.25:384][ 46]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2024.03.27-02.02.25:384][ 46]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2024.03.27-02.02.25:386][ 46]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2024.03.27-02.02.25:386][ 46]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2024.03.27-02.02.25:386][ 46]LogInit: FAudioDevice initialized with ID 13.
+[2024.03.27-02.02.25:386][ 46]LogAudio: Display: Audio Device (ID: 13) registered with world 'TrackOne'.
+[2024.03.27-02.02.25:386][ 46]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2024.03.27-02.02.25:434][ 46]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.27-02.02.25:434][ 46]LogLoad: Game class is 'BP_VehicleAdvGameMode_C'
+[2024.03.27-02.02.25:465][ 46]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TrackOne.TrackOne up for play (max tick rate 0) at 2024.03.26-19.02.25
+[2024.03.27-02.02.25:467][ 46]LogWorld: Bringing up level for play took: 0.031710
+[2024.03.27-02.02.25:469][ 46]LogOnline: OSS: Created online subsystem instance for: :Context_32
+[2024.03.27-02.02.25:474][ 46]PIE: Server logged in
+[2024.03.27-02.02.25:475][ 46]PIE: Play in editor total start time 0.537 seconds.
+[2024.03.27-02.02.25:523][ 46]LogViewport: Scene viewport resized to 3831x2100, mode Windowed.
+[2024.03.27-02.02.55:232][249]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.27-02.02.55:232][249]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TrackOne
+[2024.03.27-02.02.55:232][249]LogSlate: Window 'FuryRoad Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.03.27-02.02.55:242][249]LogWorld: UWorld::CleanupWorld for TrackOne, bSessionEnded=true, bCleanupResources=true
+[2024.03.27-02.02.55:245][249]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.27-02.02.55:255][249]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.27-02.02.55:259][249]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.27-02.02.55:285][249]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2024.03.27-02.02.55:285][249]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.03.27-02.02.55:286][249]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.03.27-02.02.55:306][249]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2024.03.27-02.02.55:379][250]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2024.03.27-02.04.37:043][611]LogEditorViewport: Clicking Background
+[2024.03.27-02.04.38:449][684]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2024.03.27-02.04.50:342][359]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2024.03.27-02.04.50:343][359]LogStall: Shutdown...
+[2024.03.27-02.04.50:349][359]LogStall: Shutdown complete.
+[2024.03.27-02.04.50:382][359]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.03.27-02.04.50:382][359]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2024.03.27-02.04.50:382][359]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.27-02.04.50:442][359]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.03.27-02.04.50:442][359]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2024.03.27-02.04.50:443][359]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.27-02.04.50:513][359]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.03.27-02.04.50:513][359]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2024.03.27-02.04.50:513][359]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.27-02.04.50:587][359]LogSlate: Window 'FuryRoad - Unreal Editor' being destroyed
+[2024.03.27-02.04.50:728][360]Cmd: QUIT_EDITOR
+[2024.03.27-02.04.50:728][360]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2024.03.27-02.04.50:733][360]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2024.03.27-02.04.50:733][360]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2024.03.27-02.04.50:733][360]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2024.03.27-02.04.50:739][360]LogWorld: UWorld::CleanupWorld for TrackOne, bSessionEnded=true, bCleanupResources=true
+[2024.03.27-02.04.50:739][360]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.27-02.04.50:743][360]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2024.03.27-02.04.51:518][360]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2024.03.27-02.04.51:518][360]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2024.03.27-02.04.51:518][360]LogAudio: Display: Audio Device unregistered from world 'TrackOne'.
+[2024.03.27-02.04.51:518][360]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 1
+[2024.03.27-02.04.51:518][360]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2024.03.27-02.04.51:520][360]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2024.03.27-02.04.51:532][360]LogAudio: Display: Audio Device Manager Shutdown
+[2024.03.27-02.04.51:534][360]LogExit: Preparing to exit.
+[2024.03.27-02.04.51:554][360]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2024.03.27-02.04.51:583][360]LogPython: Display: Object '/Engine/PythonTypes.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.03.27-02.04.51:583][360]LogPython: Display: Object '/Engine/PythonTypes.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.03.27-02.04.51:583][360]LogPython: Display: Object '/Engine/PythonTypes.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.03.27-02.04.51:583][360]LogPython: Display: Object '/Engine/PythonTypes.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.03.27-02.04.51:583][360]LogPython: Display: Object '/Engine/PythonTypes.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.03.27-02.04.51:583][360]LogPython: Display: Object '/Engine/PythonTypes.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.03.27-02.04.51:583][360]LogPython: Display: Object '/Engine/PythonTypes.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.03.27-02.04.51:583][360]LogPython: Display: Object '/Engine/PythonTypes.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.03.27-02.04.51:583][360]LogPython: Display: Object '/Engine/PythonTypes.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.03.27-02.04.51:583][360]LogPython: Display: Object '/Engine/PythonTypes.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.03.27-02.04.51:583][360]LogPython: Display: Object '/Engine/PythonTypes.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.03.27-02.04.51:583][360]LogPython: Display: Object '/Engine/PythonTypes.search_replace_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.03.27-02.04.51:583][360]LogPython: Display: Object '/Engine/PythonTypes.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.03.27-02.04.51:583][360]LogPython: Display: Object '/Engine/PythonTypes.add_prefix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.03.27-02.04.51:583][360]LogPython: Display: Object '/Engine/PythonTypes.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.03.27-02.04.51:583][360]LogPython: Display: Object '/Engine/PythonTypes.add_suffix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.03.27-02.04.51:583][360]LogPython: Display: Object '/Engine/PythonTypes.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.03.27-02.04.51:583][360]LogPython: Display: Object '/Engine/PythonTypes.do_rename_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.03.27-02.04.51:583][360]LogPython: Display: Object '/Engine/PythonTypes.set_bone_reference_pose' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.03.27-02.04.51:583][360]LogPython: Display: Object '/Engine/PythonTypes.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.03.27-02.04.52:328][360]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.03.27-02.04.52:328][360]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.03.27-02.04.52:328][360]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.03.27-02.04.52:328][360]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.03.27-02.04.52:328][360]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.03.27-02.04.52:328][360]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.03.27-02.04.52:328][360]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.03.27-02.04.52:328][360]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2024.03.27-02.04.52:328][360]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.03.27-02.04.52:328][360]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.03.27-02.04.52:328][360]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.03.27-02.04.52:328][360]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.03.27-02.04.52:328][360]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.03.27-02.04.52:328][360]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.03.27-02.04.52:328][360]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.03.27-02.04.52:328][360]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2024.03.27-02.04.52:328][360]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.03.27-02.04.52:328][360]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.03.27-02.04.52:328][360]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.03.27-02.04.52:328][360]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.03.27-02.04.52:328][360]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.03.27-02.04.52:328][360]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.03.27-02.04.52:328][360]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.03.27-02.04.52:328][360]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2024.03.27-02.04.52:328][360]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.03.27-02.04.52:328][360]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.03.27-02.04.52:328][360]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.03.27-02.04.52:328][360]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.03.27-02.04.52:328][360]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.03.27-02.04.52:329][360]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.03.27-02.04.52:329][360]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.03.27-02.04.52:329][360]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2024.03.27-02.04.52:329][360]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.03.27-02.04.52:329][360]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.03.27-02.04.52:329][360]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.03.27-02.04.52:329][360]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.03.27-02.04.52:329][360]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.03.27-02.04.52:329][360]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.03.27-02.04.52:329][360]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.03.27-02.04.52:329][360]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2024.03.27-02.04.52:329][360]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.03.27-02.04.52:329][360]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.03.27-02.04.52:329][360]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.03.27-02.04.52:329][360]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.03.27-02.04.52:329][360]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.03.27-02.04.52:329][360]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.03.27-02.04.52:329][360]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.03.27-02.04.52:329][360]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2024.03.27-02.04.52:329][360]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.03.27-02.04.52:329][360]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.03.27-02.04.52:329][360]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.03.27-02.04.52:329][360]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.03.27-02.04.52:329][360]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.03.27-02.04.52:329][360]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.03.27-02.04.52:329][360]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.03.27-02.04.52:329][360]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2024.03.27-02.04.52:329][360]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.03.27-02.04.52:329][360]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.03.27-02.04.52:329][360]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.03.27-02.04.52:329][360]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.03.27-02.04.52:329][360]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.03.27-02.04.52:329][360]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.03.27-02.04.52:329][360]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.03.27-02.04.52:329][360]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2024.03.27-02.04.52:329][360]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.03.27-02.04.52:329][360]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.03.27-02.04.52:329][360]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.03.27-02.04.52:329][360]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.03.27-02.04.52:329][360]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.03.27-02.04.52:329][360]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.03.27-02.04.52:329][360]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.03.27-02.04.52:329][360]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2024.03.27-02.04.52:330][360]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.03.27-02.04.52:330][360]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.03.27-02.04.52:330][360]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.03.27-02.04.52:330][360]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.03.27-02.04.52:330][360]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.03.27-02.04.52:330][360]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.03.27-02.04.52:330][360]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2024.03.27-02.04.52:330][360]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2024.03.27-02.04.52:404][360]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2024.03.27-02.04.52:439][360]LogExit: Editor shut down
+[2024.03.27-02.04.52:440][360]LogExit: Transaction tracking system shut down
+[2024.03.27-02.04.52:522][360]LogExit: Object subsystem successfully closed.
+[2024.03.27-02.04.52:527][360]LogShaderCompilers: Display: ================================================
+[2024.03.27-02.04.52:527][360]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.03.27-02.04.52:527][360]LogShaderCompilers: Display: Total job queries 59, among them cache hits 20 (33.90%)
+[2024.03.27-02.04.52:527][360]LogShaderCompilers: Display: Tracking 39 distinct input hashes that result in 30 distinct outputs (76.92%)
+[2024.03.27-02.04.52:527][360]LogShaderCompilers: Display: RAM used: 1.04 MiB of 6.40 GiB budget. Usage: 0.02%
+[2024.03.27-02.04.52:527][360]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.03.27-02.04.52:527][360]LogShaderCompilers: Display: Shaders Compiled: 2
+[2024.03.27-02.04.52:527][360]LogShaderCompilers: Display: Jobs assigned 2, completed 2 (100%)
+[2024.03.27-02.04.52:527][360]LogShaderCompilers: Display: Time job spent in pending queue: average 0.03 s, longest 0.03 s
+[2024.03.27-02.04.52:527][360]LogShaderCompilers: Display: Job execution time: average 0.31 s, max 0.31 s
+[2024.03.27-02.04.52:527][360]LogShaderCompilers: Display: Job life time (pending + execution): average 0.34 s, max 0.34
+[2024.03.27-02.04.52:527][360]LogShaderCompilers: Display: Shader code size: average 35.438 KiB, min 35.125 KiB, max 35.75 KiB
+[2024.03.27-02.04.52:527][360]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.34 s
+[2024.03.27-02.04.52:527][360]LogShaderCompilers: Display: Jobs were issued in 2 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.03.27-02.04.52:527][360]LogShaderCompilers: Display: Average processing rate: 5.85 jobs/sec
+[2024.03.27-02.04.52:527][360]LogShaderCompilers: Display: Total thread time: 0.356 s
+[2024.03.27-02.04.52:527][360]LogShaderCompilers: Display: Total thread preprocess time: 0.046 s
+[2024.03.27-02.04.52:527][360]LogShaderCompilers: Display: Percentage time preprocessing: 12.97%
+[2024.03.27-02.04.52:527][360]LogShaderCompilers: Display: Effective parallelization: 1.04 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.03.27-02.04.52:527][360]LogShaderCompilers: Display: Top 2 most expensive shader types by average time:
+[2024.03.27-02.04.52:527][360]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    1 times, average 0.20 sec, max 0.20 sec, min 0.20 sec)
+[2024.03.27-02.04.52:527][360]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    1 times, average 0.16 sec, max 0.16 sec, min 0.16 sec)
+[2024.03.27-02.04.52:527][360]LogShaderCompilers: Display: Top 2 shader types by total compile time:
+[2024.03.27-02.04.52:527][360]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 55.68% of total time (compiled    1 times, average 0.20 sec, max 0.20 sec, min 0.20 sec)
+[2024.03.27-02.04.52:527][360]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 44.32% of total time (compiled    1 times, average 0.16 sec, max 0.16 sec, min 0.16 sec)
+[2024.03.27-02.04.52:527][360]LogShaderCompilers: Display: ================================================
+[2024.03.27-02.04.52:556][360]LogShaderCompilers: Display: Shaders left to compile 0
+[2024.03.27-02.04.52:569][360]LogVirtualization: UE::Virtualization was shutdown
+[2024.03.27-02.04.52:579][360]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (1080)
+[2024.03.27-02.04.52:579][360]LogModuleManager: Shutting down and abandoning module NewLevelDialog (1078)
+[2024.03.27-02.04.52:579][360]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (1076)
+[2024.03.27-02.04.52:579][360]LogModuleManager: Shutting down and abandoning module Voice (1074)
+[2024.03.27-02.04.52:579][360]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (1072)
+[2024.03.27-02.04.52:579][360]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (1070)
+[2024.03.27-02.04.52:579][360]LogModuleManager: Shutting down and abandoning module WebBrowser (1068)
+[2024.03.27-02.04.52:615][360]LogModuleManager: Shutting down and abandoning module AddContentDialog (1066)
+[2024.03.27-02.04.52:615][360]LogModuleManager: Shutting down and abandoning module WidgetCarousel (1065)
+[2024.03.27-02.04.52:615][360]LogModuleManager: Shutting down and abandoning module SubobjectEditor (1062)
+[2024.03.27-02.04.52:615][360]LogModuleManager: Shutting down and abandoning module SceneOutliner (1060)
+[2024.03.27-02.04.52:615][360]LogModuleManager: Shutting down and abandoning module StatusBar (1058)
+[2024.03.27-02.04.52:615][360]LogModuleManager: Shutting down and abandoning module UnsavedAssetsTracker (1056)
+[2024.03.27-02.04.52:615][360]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (1054)
+[2024.03.27-02.04.52:615][360]LogModuleManager: Shutting down and abandoning module StatsViewer (1052)
+[2024.03.27-02.04.52:615][360]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (1050)
+[2024.03.27-02.04.52:615][360]LogModuleManager: Shutting down and abandoning module AutomationWorker (1048)
+[2024.03.27-02.04.52:615][360]LogModuleManager: Shutting down and abandoning module TextureAlignMode (1046)
+[2024.03.27-02.04.52:615][360]LogModuleManager: Shutting down and abandoning module BspMode (1044)
+[2024.03.27-02.04.52:615][360]LogModuleManager: Shutting down and abandoning module GeometryMode (1042)
+[2024.03.27-02.04.52:615][360]LogModuleManager: Shutting down and abandoning module EngineAssetDefinitions (1040)
+[2024.03.27-02.04.52:615][360]LogModuleManager: Shutting down and abandoning module SmartSnapping (1038)
+[2024.03.27-02.04.52:615][360]LogModuleManager: Shutting down and abandoning module WaterEditor (1036)
+[2024.03.27-02.04.52:615][360]LogModuleManager: Shutting down and abandoning module PlanarCut (1034)
+[2024.03.27-02.04.52:615][360]LogModuleManager: Shutting down and abandoning module FractureEngine (1032)
+[2024.03.27-02.04.52:615][360]LogModuleManager: Shutting down and abandoning module CharacterAI (1030)
+[2024.03.27-02.04.52:615][360]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (1028)
+[2024.03.27-02.04.52:615][360]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (1026)
+[2024.03.27-02.04.52:615][360]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (1024)
+[2024.03.27-02.04.52:616][360]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (1022)
+[2024.03.27-02.04.52:616][360]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (1020)
+[2024.03.27-02.04.52:616][360]LogModuleManager: Shutting down and abandoning module WebMMedia (1018)
+[2024.03.27-02.04.52:616][360]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (1016)
+[2024.03.27-02.04.52:616][360]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (1014)
+[2024.03.27-02.04.52:616][360]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (1012)
+[2024.03.27-02.04.52:616][360]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (1010)
+[2024.03.27-02.04.52:616][360]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (1008)
+[2024.03.27-02.04.52:616][360]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (1006)
+[2024.03.27-02.04.52:616][360]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (1004)
+[2024.03.27-02.04.52:616][360]LogModuleManager: Shutting down and abandoning module SequenceRecorder (1003)
+[2024.03.27-02.04.52:616][360]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (1000)
+[2024.03.27-02.04.52:616][360]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (998)
+[2024.03.27-02.04.52:616][360]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (996)
+[2024.03.27-02.04.52:616][360]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (994)
+[2024.03.27-02.04.52:616][360]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (992)
+[2024.03.27-02.04.52:616][360]LogModuleManager: Shutting down and abandoning module WaveTableEditor (990)
+[2024.03.27-02.04.52:616][360]LogModuleManager: Shutting down and abandoning module RigVMEditor (988)
+[2024.03.27-02.04.52:616][360]LogModuleManager: Shutting down and abandoning module ResonanceAudioEditor (986)
+[2024.03.27-02.04.52:616][360]LogModuleManager: Shutting down and abandoning module GooglePADEditor (984)
+[2024.03.27-02.04.52:616][360]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (982)
+[2024.03.27-02.04.52:616][360]LogModuleManager: Shutting down and abandoning module AndroidFileServerEditor (980)
+[2024.03.27-02.04.52:616][360]LogModuleManager: Shutting down and abandoning module IKRigEditor (978)
+[2024.03.27-02.04.52:616][360]LogModuleManager: Shutting down and abandoning module ControlRigEditor (976)
+[2024.03.27-02.04.52:616][360]LogModuleManager: Shutting down and abandoning module SessionServices (974)
+[2024.03.27-02.04.52:616][360]LogModuleManager: Shutting down and abandoning module MeshPaint (972)
+[2024.03.27-02.04.52:616][360]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (970)
+[2024.03.27-02.04.52:616][360]LogModuleManager: Shutting down and abandoning module PlacementMode (969)
+[2024.03.27-02.04.52:616][360]LogModuleManager: Shutting down and abandoning module FoliageEdit (966)
+[2024.03.27-02.04.52:616][360]LogModuleManager: Shutting down and abandoning module LandscapeEditor (964)
+[2024.03.27-02.04.52:616][360]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (962)
+[2024.03.27-02.04.52:616][360]LogModuleManager: Shutting down and abandoning module ActorPickerMode (960)
+[2024.03.27-02.04.52:616][360]LogModuleManager: Shutting down and abandoning module ViewportSnapping (958)
+[2024.03.27-02.04.52:616][360]LogModuleManager: Shutting down and abandoning module EditorWidgets (956)
+[2024.03.27-02.04.52:616][360]LogModuleManager: Shutting down and abandoning module ViewportInteraction (954)
+[2024.03.27-02.04.52:616][360]LogModuleManager: Shutting down and abandoning module ClothPainter (952)
+[2024.03.27-02.04.52:616][360]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (951)
+[2024.03.27-02.04.52:616][360]LogModuleManager: Shutting down and abandoning module WidgetRegistration (948)
+[2024.03.27-02.04.52:616][360]LogModuleManager: Shutting down and abandoning module LogVisualizer (946)
+[2024.03.27-02.04.52:616][360]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (944)
+[2024.03.27-02.04.52:616][360]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (942)
+[2024.03.27-02.04.52:616][360]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (941)
+[2024.03.27-02.04.52:617][360]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (939)
+[2024.03.27-02.04.53:536][360]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (936)
+[2024.03.27-02.04.53:536][360]LogModuleManager: Shutting down and abandoning module MacPlatformEditor (934)
+[2024.03.27-02.04.53:536][360]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (932)
+[2024.03.27-02.04.53:536][360]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (930)
+[2024.03.27-02.04.53:536][360]LogModuleManager: Shutting down and abandoning module RenderResourceViewer (928)
+[2024.03.27-02.04.53:536][360]LogModuleManager: Shutting down and abandoning module GameplayDebuggerEditor (926)
+[2024.03.27-02.04.53:536][360]LogModuleManager: Shutting down and abandoning module AnimationSettings (924)
+[2024.03.27-02.04.53:536][360]LogModuleManager: Shutting down and abandoning module VirtualizationEditor (922)
+[2024.03.27-02.04.53:536][360]LogModuleManager: Shutting down and abandoning module CSVtoSVG (920)
+[2024.03.27-02.04.53:536][360]LogModuleManager: Shutting down and abandoning module DerivedDataEditor (918)
+[2024.03.27-02.04.53:536][360]LogModuleManager: Shutting down and abandoning module EditorConfig (916)
+[2024.03.27-02.04.53:536][360]LogModuleManager: Shutting down and abandoning module EditorFramework (914)
+[2024.03.27-02.04.53:536][360]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (912)
+[2024.03.27-02.04.53:536][360]LogModuleManager: Shutting down and abandoning module TraceInsights (910)
+[2024.03.27-02.04.53:536][360]MemoryProfiler: Shutdown
+[2024.03.27-02.04.53:536][360]NetworkingProfiler: Shutdown
+[2024.03.27-02.04.53:536][360]LoadingProfiler: Shutdown
+[2024.03.27-02.04.53:536][360]TimingProfiler: Shutdown
+[2024.03.27-02.04.53:536][360]LogModuleManager: Shutting down and abandoning module TraceServices (909)
+[2024.03.27-02.04.53:536][360]LogModuleManager: Shutting down and abandoning module TraceAnalysis (908)
+[2024.03.27-02.04.53:536][360]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (904)
+[2024.03.27-02.04.53:536][360]LogModuleManager: Shutting down and abandoning module InteractiveToolsFramework (903)
+[2024.03.27-02.04.53:537][360]LogModuleManager: Shutting down and abandoning module InputBindingEditor (900)
+[2024.03.27-02.04.53:537][360]LogModuleManager: Shutting down and abandoning module MergeActors (898)
+[2024.03.27-02.04.53:537][360]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (896)
+[2024.03.27-02.04.53:537][360]LogModuleManager: Shutting down and abandoning module LocalizationService (895)
+[2024.03.27-02.04.53:537][360]LogModuleManager: Shutting down and abandoning module HardwareTargeting (892)
+[2024.03.27-02.04.53:537][360]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (890)
+[2024.03.27-02.04.53:537][360]LogModuleManager: Shutting down and abandoning module UndoHistory (888)
+[2024.03.27-02.04.53:537][360]LogModuleManager: Shutting down and abandoning module XmlParser (886)
+[2024.03.27-02.04.53:537][360]LogModuleManager: Shutting down and abandoning module Blutility (884)
+[2024.03.27-02.04.53:537][360]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (882)
+[2024.03.27-02.04.53:537][360]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (881)
+[2024.03.27-02.04.53:537][360]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (878)
+[2024.03.27-02.04.53:537][360]LogModuleManager: Shutting down and abandoning module InternationalizationSettings (877)
+[2024.03.27-02.04.53:537][360]LogModuleManager: Shutting down and abandoning module SettingsEditor (874)
+[2024.03.27-02.04.53:537][360]LogModuleManager: Shutting down and abandoning module ProjectLauncher (872)
+[2024.03.27-02.04.53:537][360]LogModuleManager: Shutting down and abandoning module SessionFrontend (870)
+[2024.03.27-02.04.53:537][360]LogModuleManager: Shutting down and abandoning module ProfilerClient (868)
+[2024.03.27-02.04.53:537][360]LogModuleManager: Shutting down and abandoning module DeviceManager (866)
+[2024.03.27-02.04.53:537][360]LogModuleManager: Shutting down and abandoning module AutomationController (864)
+[2024.03.27-02.04.53:537][360]LogModuleManager: Shutting down and abandoning module AutomationWindow (862)
+[2024.03.27-02.04.53:537][360]LogModuleManager: Shutting down and abandoning module Layers (860)
+[2024.03.27-02.04.53:537][360]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (858)
+[2024.03.27-02.04.53:537][360]LogModuleManager: Shutting down and abandoning module DetailCustomizations (856)
+[2024.03.27-02.04.53:537][360]LogModuleManager: Shutting down and abandoning module PackagesDialog (854)
+[2024.03.27-02.04.53:537][360]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (852)
+[2024.03.27-02.04.53:537][360]LogModuleManager: Shutting down and abandoning module Persona (850)
+[2024.03.27-02.04.53:537][360]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (849)
+[2024.03.27-02.04.53:537][360]LogModuleManager: Shutting down and abandoning module Kismet (846)
+[2024.03.27-02.04.53:543][360]LogModuleManager: Shutting down and abandoning module KismetWidgets (845)
+[2024.03.27-02.04.53:543][360]LogModuleManager: Shutting down and abandoning module GraphEditor (842)
+[2024.03.27-02.04.53:543][360]LogModuleManager: Shutting down and abandoning module StructViewer (840)
+[2024.03.27-02.04.53:543][360]LogModuleManager: Shutting down and abandoning module ClassViewer (838)
+[2024.03.27-02.04.53:545][360]LogModuleManager: Shutting down and abandoning module UncontrolledChangelists (836)
+[2024.03.27-02.04.53:545][360]LogModuleManager: Shutting down and abandoning module SourceControlWindowExtender (834)
+[2024.03.27-02.04.53:545][360]LogModuleManager: Shutting down and abandoning module SourceControlWindows (832)
+[2024.03.27-02.04.53:545][360]LogModuleManager: Shutting down and abandoning module OutputLog (830)
+[2024.03.27-02.04.53:545][360]LogModuleManager: Shutting down and abandoning module Documentation (828)
+[2024.03.27-02.04.53:545][360]LogModuleManager: Shutting down and abandoning module SparseVolumeTexture (826)
+[2024.03.27-02.04.53:545][360]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (824)
+[2024.03.27-02.04.53:545][360]LogModuleManager: Shutting down and abandoning module MovieScene (822)
+[2024.03.27-02.04.53:545][360]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (820)
+[2024.03.27-02.04.53:545][360]LogModuleManager: Shutting down and abandoning module BinkAudioDecoder (818)
+[2024.03.27-02.04.53:545][360]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (816)
+[2024.03.27-02.04.53:545][360]LogModuleManager: Shutting down and abandoning module AudioMixer (815)
+[2024.03.27-02.04.53:545][360]LogModuleManager: Shutting down and abandoning module AudioMixerCore (814)
+[2024.03.27-02.04.53:545][360]LogModuleManager: Shutting down and abandoning module LauncherPlatform (810)
+[2024.03.27-02.04.53:545][360]LogModuleManager: Shutting down and abandoning module AnalyticsET (808)
+[2024.03.27-02.04.53:545][360]LogModuleManager: Shutting down and abandoning module PortalServices (806)
+[2024.03.27-02.04.53:545][360]LogModuleManager: Shutting down and abandoning module PortalRpc (804)
+[2024.03.27-02.04.53:545][360]LogModuleManager: Shutting down and abandoning module MessagingRpc (802)
+[2024.03.27-02.04.53:545][360]LogModuleManager: Shutting down and abandoning module AIModule (800)
+[2024.03.27-02.04.53:545][360]LogModuleManager: Shutting down and abandoning module GameplayDebugger (799)
+[2024.03.27-02.04.53:545][360]LogModuleManager: Shutting down and abandoning module AITestSuite (797)
+[2024.03.27-02.04.53:545][360]LogModuleManager: Shutting down and abandoning module NavigationSystem (795)
+[2024.03.27-02.04.53:545][360]LogModuleManager: Shutting down and abandoning module LevelInstanceEditor (792)
+[2024.03.27-02.04.53:545][360]LogModuleManager: Shutting down and abandoning module TypedElementRuntime (790)
+[2024.03.27-02.04.53:545][360]LogModuleManager: Shutting down and abandoning module TypedElementFramework (788)
+[2024.03.27-02.04.53:545][360]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (786)
+[2024.03.27-02.04.53:545][360]LogModuleManager: Shutting down and abandoning module ProfilerService (784)
+[2024.03.27-02.04.53:669][360]LogModuleManager: Shutting down and abandoning module ProfileVisualizer (782)
+[2024.03.27-02.04.53:669][360]LogModuleManager: Shutting down and abandoning module CacheTrackRecorder (780)
+[2024.03.27-02.04.53:669][360]LogModuleManager: Shutting down and abandoning module TakeRecorderSources (778)
+[2024.03.27-02.04.53:669][360]LogModuleManager: Shutting down and abandoning module TakeTrackRecorders (776)
+[2024.03.27-02.04.53:669][360]LogModuleManager: Shutting down and abandoning module TakesCore (774)
+[2024.03.27-02.04.53:669][360]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaEditor (772)
+[2024.03.27-02.04.53:669][360]LogModuleManager: Shutting down and abandoning module MegascansPlugin (770)
+[2024.03.27-02.04.53:669][360]LogModuleManager: Shutting down and abandoning module Bridge (768)
+[2024.03.27-02.04.53:669][360]LogWebBrowser: Deleting browser for Url=file:///D:/UE_5.3/Engine/Plugins/Bridge/ThirdParty/megascans/index.html?token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Imd1eS5sYXBlbnNlZTgyQGdtYWlsLmNvbSIsInNjb3BlIjpbImRlZmF1bHQ6dXNlciIsIm1lZ2FzY2Fuczp1c2VyIl0sImVwaWNBY2NvdW50SWQiOiIzZWQzYWVjYjE4MmE0OGRjOGNkNzZkZjEwYWM2MmZkNiIsImlzVW5yZWFsRVVMQUFjY2VwdGVkIjp0cnVlLCJpc0VwaWNBY2NvdW50Ijp0cnVlLCJxdWl4ZWxBY2NvdW50SWQiOiIxOGY5ZTYyYy1mY2U3LTQ2ZTMtYTI1NS1mZTcwNDMxNThmOGIiLCJyZWFsbSI6Im1lZ2FzY2FucyIsImV1bGFzQWNjZXB0ZWQiOlsiZXBpY19jb250ZW50IiwidWUiXSwiaWF0IjoxNzExNDcyNjY5LCJleHAiOjE3MTE1MDE0NjksImlzcyI6InF1aXhlbC1zc28tcHJvZCIsImp0aSI6ImUxNTM1MGQxLTc0MTktNDJiNy1iZGMzLTJhMTRiODI0YzU4ZiJ9.hyTN6B9TuoDN9BmtX_owaCkZmlu-bxdi2a0mG4VoSog6FO059JcvBFJBY8Q2iNZcQvEDpntNBNQ1enFMr7dqBpuwNeLUBb0rRsjqBdLyso6u9Gno8x6oVDRyPzsmVwVeBQB2huG4c33QGzDV5loiyIds9zuHBd83e_TiF-M_2ysxot5Dx7rS1I0JGu-rQsKaSw8WaYsS8TTOfAh6mW1Y3yP_kPafXF8UUtDh9z4Z6UyLOWNrVZChUsCp4bYJlipL7bdjX4aVN_ZROo304dmcCx6mbgNY1KcNn3CHk0AVTIwgZMIl-MmeARlbgaEiUco2N5uLIAB4f3F2qgp_pfEglw&refreshToken=MWY4MGY5NzYtMGZjZC00ZWEyLThhYjEtMWQ1NDY3N2U2MWVm#/megascans/?search=car.
+[2024.03.27-02.04.53:669][360]LogModuleManager: Shutting down and abandoning module ObjectMixerEditor (766)
+[2024.03.27-02.04.53:670][360]LogModuleManager: Shutting down and abandoning module LightMixer (764)
+[2024.03.27-02.04.53:670][360]LogModuleManager: Shutting down and abandoning module ContentBrowserClassDataSource (762)
+[2024.03.27-02.04.53:670][360]LogModuleManager: Shutting down and abandoning module ContentBrowserFileDataSource (760)
+[2024.03.27-02.04.53:670][360]LogModuleManager: Shutting down and abandoning module ContentBrowserAssetDataSource (758)
+[2024.03.27-02.04.53:670][360]LogModuleManager: Shutting down and abandoning module CollectionManager (757)
+[2024.03.27-02.04.53:670][360]LogModuleManager: Shutting down and abandoning module PortableObjectFileDataSource (754)
+[2024.03.27-02.04.53:670][360]LogModuleManager: Shutting down and abandoning module WorldPartitionHLODUtilities (752)
+[2024.03.27-02.04.53:670][360]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (750)
+[2024.03.27-02.04.53:670][360]LogModuleManager: Shutting down and abandoning module UVEditorToolsEditorOnly (748)
+[2024.03.27-02.04.53:670][360]LogModuleManager: Shutting down and abandoning module UVEditorTools (746)
+[2024.03.27-02.04.53:670][360]LogModuleManager: Shutting down and abandoning module UVEditor (744)
+[2024.03.27-02.04.53:670][360]LogModuleManager: Shutting down and abandoning module SequencerAnimTools (742)
+[2024.03.27-02.04.53:670][360]LogModuleManager: Shutting down and abandoning module PluginBrowser (740)
+[2024.03.27-02.04.53:670][360]LogModuleManager: Shutting down and abandoning module ModelingToolsEditorMode (738)
+[2024.03.27-02.04.53:670][360]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (736)
+[2024.03.27-02.04.53:670][360]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (734)
+[2024.03.27-02.04.53:670][360]LogModuleManager: Shutting down and abandoning module EditorScriptingUtilities (732)
+[2024.03.27-02.04.53:670][360]LogModuleManager: Shutting down and abandoning module EditorDebugTools (730)
+[2024.03.27-02.04.53:670][360]LogModuleManager: Shutting down and abandoning module CurveEditorTools (728)
+[2024.03.27-02.04.53:670][360]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (726)
+[2024.03.27-02.04.53:670][360]LogModuleManager: Shutting down and abandoning module CryptoKeys (724)
+[2024.03.27-02.04.53:670][360]LogModuleManager: Shutting down and abandoning module BlueprintHeaderView (722)
+[2024.03.27-02.04.53:670][360]LogModuleManager: Shutting down and abandoning module ChangelistReview (720)
+[2024.03.27-02.04.53:670][360]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (718)
+[2024.03.27-02.04.53:670][360]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (716)
+[2024.03.27-02.04.53:670][360]LogModuleManager: Shutting down and abandoning module Paper2DEditor (714)
+[2024.03.27-02.04.53:670][360]LogModuleManager: Shutting down and abandoning module TakeSequencer (712)
+[2024.03.27-02.04.53:670][360]LogModuleManager: Shutting down and abandoning module TakeMovieScene (710)
+[2024.03.27-02.04.53:670][360]LogModuleManager: Shutting down and abandoning module AlembicImporter (708)
+[2024.03.27-02.04.53:670][360]LogModuleManager: Shutting down and abandoning module AlembicLibrary (707)
+[2024.03.27-02.04.53:670][360]LogModuleManager: Shutting down and abandoning module ToolPresetEditor (702)
+[2024.03.27-02.04.53:670][360]LogModuleManager: Shutting down and abandoning module ToolPresetAsset (700)
+[2024.03.27-02.04.53:670][360]LogModuleManager: Shutting down and abandoning module StructUtilsTestSuite (698)
+[2024.03.27-02.04.53:670][360]LogModuleManager: Shutting down and abandoning module StructUtilsNodes (696)
+[2024.03.27-02.04.53:670][360]LogModuleManager: Shutting down and abandoning module StructUtilsEditor (694)
+[2024.03.27-02.04.53:670][360]LogModuleManager: Shutting down and abandoning module StructUtilsEngine (692)
+[2024.03.27-02.04.53:670][360]LogModuleManager: Shutting down and abandoning module RawInput (690)
+[2024.03.27-02.04.53:670][360]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2024.03.27-02.04.53:670][360]LogModuleManager: Shutting down and abandoning module OpenImageDenoise (688)
+[2024.03.27-02.04.53:670][360]LogOpenImageDenoise: OIDN shutting down
+[2024.03.27-02.04.53:670][360]LogModuleManager: Shutting down and abandoning module LocalizableMessageBlueprint (686)
+[2024.03.27-02.04.53:670][360]LogModuleManager: Shutting down and abandoning module LocalizableMessage (684)
+[2024.03.27-02.04.53:670][360]LogModuleManager: Shutting down and abandoning module SkeletalMeshModifiers (682)
+[2024.03.27-02.04.53:670][360]LogModuleManager: Shutting down and abandoning module ModelingEditorUI (680)
+[2024.03.27-02.04.53:670][360]LogModuleManager: Shutting down and abandoning module GeometryProcessingAdapters (678)
+[2024.03.27-02.04.53:670][360]LogModuleManager: Shutting down and abandoning module MeshModelingToolsEditorOnlyExp (676)
+[2024.03.27-02.04.53:670][360]LogModuleManager: Shutting down and abandoning module MeshModelingToolsExp (674)
+[2024.03.27-02.04.53:670][360]LogModuleManager: Shutting down and abandoning module MeshLODToolset (672)
+[2024.03.27-02.04.53:670][360]LogModuleManager: Shutting down and abandoning module GeometryFlowMeshProcessingEditor (670)
+[2024.03.27-02.04.53:670][360]LogModuleManager: Shutting down and abandoning module GeometryFlowMeshProcessing (668)
+[2024.03.27-02.04.53:670][360]LogModuleManager: Shutting down and abandoning module GeometryFlowCore (666)
+[2024.03.27-02.04.53:670][360]LogModuleManager: Shutting down and abandoning module LandmassEditor (664)
+[2024.03.27-02.04.53:670][360]LogModuleManager: Shutting down and abandoning module Landmass (662)
+[2024.03.27-02.04.53:670][360]LogModuleManager: Shutting down and abandoning module GeometryCollectionNodes (660)
+[2024.03.27-02.04.53:670][360]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (658)
+[2024.03.27-02.04.53:670][360]LogModuleManager: Shutting down and abandoning module GeometryCollectionEngine (657)
+[2024.03.27-02.04.53:670][360]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (655)
+[2024.03.27-02.04.53:670][360]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (652)
+[2024.03.27-02.04.53:670][360]LogModuleManager: Shutting down and abandoning module DataflowNodes (650)
+[2024.03.27-02.04.53:670][360]LogModuleManager: Shutting down and abandoning module DataflowEnginePlugin (648)
+[2024.03.27-02.04.53:670][360]LogModuleManager: Shutting down and abandoning module DataflowEditor (646)
+[2024.03.27-02.04.53:670][360]LogModuleManager: Shutting down and abandoning module ChaosUserDataPT (644)
+[2024.03.27-02.04.53:670][360]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (642)
+[2024.03.27-02.04.53:670][360]LogModuleManager: Shutting down and abandoning module ChaosNiagara (640)
+[2024.03.27-02.04.53:670][360]LogModuleManager: Shutting down and abandoning module FractureEditor (638)
+[2024.03.27-02.04.53:670][360]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (636)
+[2024.03.27-02.04.53:670][360]LogModuleManager: Shutting down and abandoning module BackChannel (634)
+[2024.03.27-02.04.53:670][360]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (632)
+[2024.03.27-02.04.53:670][360]LogModuleManager: Shutting down and abandoning module AutomationUtils (630)
+[2024.03.27-02.04.53:670][360]LogModuleManager: Shutting down and abandoning module VisualStudioTools (628)
+[2024.03.27-02.04.53:670][360]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (626)
+[2024.03.27-02.04.53:670][360]LogModuleManager: Shutting down and abandoning module UObjectPlugin (624)
+[2024.03.27-02.04.53:670][360]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (622)
+[2024.03.27-02.04.53:670][360]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (620)
+[2024.03.27-02.04.53:670][360]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (618)
+[2024.03.27-02.04.53:670][360]LogModuleManager: Shutting down and abandoning module PluginUtils (616)
+[2024.03.27-02.04.53:670][360]LogModuleManager: Shutting down and abandoning module N10XSourceCodeAccess (614)
+[2024.03.27-02.04.53:670][360]LogModuleManager: Shutting down and abandoning module GitSourceControl (612)
+[2024.03.27-02.04.53:670][360]LogModuleManager: Shutting down and abandoning module DumpGPUServices (610)
+[2024.03.27-02.04.53:670][360]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (608)
+[2024.03.27-02.04.53:670][360]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (606)
+[2024.03.27-02.04.53:670][360]LogModuleManager: Shutting down and abandoning module VariantManager (604)
+[2024.03.27-02.04.53:670][360]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (602)
+[2024.03.27-02.04.53:670][360]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (600)
+[2024.03.27-02.04.53:670][360]LogModuleManager: Shutting down and abandoning module InterchangeFbxParser (598)
+[2024.03.27-02.04.53:670][360]LogModuleManager: Shutting down and abandoning module InterchangeCommonParser (596)
+[2024.03.27-02.04.53:670][360]LogModuleManager: Shutting down and abandoning module InterchangeDispatcher (594)
+[2024.03.27-02.04.53:670][360]LogModuleManager: Shutting down and abandoning module InterchangeExport (592)
+[2024.03.27-02.04.53:670][360]LogModuleManager: Shutting down and abandoning module InterchangeMessages (590)
+[2024.03.27-02.04.53:670][360]LogModuleManager: Shutting down and abandoning module GLTFCore (588)
+[2024.03.27-02.04.53:670][360]LogModuleManager: Shutting down and abandoning module InterchangeEditorUtilities (586)
+[2024.03.27-02.04.53:671][360]LogModuleManager: Shutting down and abandoning module InterchangeEditorPipelines (584)
+[2024.03.27-02.04.53:671][360]LogModuleManager: Shutting down and abandoning module InterchangeEditor (582)
+[2024.03.27-02.04.53:671][360]LogModuleManager: Shutting down and abandoning module SequencerScriptingEditor (580)
+[2024.03.27-02.04.53:671][360]LogModuleManager: Shutting down and abandoning module SequencerScripting (578)
+[2024.03.27-02.04.53:671][360]LogModuleManager: Shutting down and abandoning module TemplateSequence (576)
+[2024.03.27-02.04.53:671][360]LogModuleManager: Shutting down and abandoning module OodleNetworkHandlerComponent (574)
+[2024.03.27-02.04.53:671][360]LogModuleManager: Shutting down and abandoning module MediaPlateEditor (572)
+[2024.03.27-02.04.53:671][360]LogModuleManager: Shutting down and abandoning module MediaPlate (570)
+[2024.03.27-02.04.53:671][360]LogModuleManager: Shutting down and abandoning module ImgMedia (568)
+[2024.03.27-02.04.53:671][360]LogModuleManager: Shutting down and abandoning module MediaCompositing (566)
+[2024.03.27-02.04.53:671][360]LogModuleManager: Shutting down and abandoning module SynthesisEditor (564)
+[2024.03.27-02.04.53:671][360]LogModuleManager: Shutting down and abandoning module ResonanceAudio (562)
+[2024.03.27-02.04.53:671][360]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (560)
+[2024.03.27-02.04.53:671][360]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (558)
+[2024.03.27-02.04.53:671][360]LogModuleManager: Shutting down and abandoning module ModelingOperatorsEditorOnly (556)
+[2024.03.27-02.04.53:671][360]LogModuleManager: Shutting down and abandoning module ModelingOperators (554)
+[2024.03.27-02.04.53:671][360]LogModuleManager: Shutting down and abandoning module ModelingComponentsEditorOnly (552)
+[2024.03.27-02.04.53:671][360]LogModuleManager: Shutting down and abandoning module ModelingComponents (550)
+[2024.03.27-02.04.53:671][360]LogModuleManager: Shutting down and abandoning module GeometryFramework (549)
+[2024.03.27-02.04.53:671][360]LogModuleManager: Shutting down and abandoning module MeshModelingToolsEditorOnly (546)
+[2024.03.27-02.04.53:671][360]LogModuleManager: Shutting down and abandoning module MeshModelingTools (544)
+[2024.03.27-02.04.53:671][360]LogModuleManager: Shutting down and abandoning module InputDebuggingEditor (542)
+[2024.03.27-02.04.53:671][360]LogModuleManager: Shutting down and abandoning module InputDebugging (540)
+[2024.03.27-02.04.53:671][360]LogModuleManager: Shutting down and abandoning module DynamicMesh (538)
+[2024.03.27-02.04.53:671][360]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (536)
+[2024.03.27-02.04.53:671][360]LogModuleManager: Shutting down and abandoning module GooglePAD (534)
+[2024.03.27-02.04.53:671][360]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (532)
+[2024.03.27-02.04.53:671][360]LogModuleManager: Shutting down and abandoning module GeometryCache (530)
+[2024.03.27-02.04.53:671][360]LogModuleManager: Shutting down and abandoning module GeometryCacheStreamer (528)
+[2024.03.27-02.04.53:671][360]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (526)
+[2024.03.27-02.04.53:671][360]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (524)
+[2024.03.27-02.04.53:671][360]LogModuleManager: Shutting down and abandoning module AssetTags (522)
+[2024.03.27-02.04.53:671][360]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (520)
+[2024.03.27-02.04.53:671][360]LogModuleManager: Shutting down and abandoning module AppleImageUtils (518)
+[2024.03.27-02.04.53:671][360]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (516)
+[2024.03.27-02.04.53:671][360]LogModuleManager: Shutting down and abandoning module AudioCapture (514)
+[2024.03.27-02.04.53:671][360]LogModuleManager: Shutting down and abandoning module AudioCaptureWasapi (513)
+[2024.03.27-02.04.53:671][360]LogModuleManager: Shutting down and abandoning module AndroidPermission (510)
+[2024.03.27-02.04.53:671][360]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (508)
+[2024.03.27-02.04.53:671][360]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (506)
+[2024.03.27-02.04.53:671][360]LogModuleManager: Shutting down and abandoning module BlendSpaceMotionAnalysis (504)
+[2024.03.27-02.04.53:671][360]LogModuleManager: Shutting down and abandoning module ControlRigSpline (502)
+[2024.03.27-02.04.53:671][360]LogModuleManager: Shutting down and abandoning module AnimationModifierLibrary (500)
+[2024.03.27-02.04.53:671][360]LogModuleManager: Shutting down and abandoning module ACLPluginEditor (498)
+[2024.03.27-02.04.53:671][360]LogModuleManager: Shutting down and abandoning module InterchangeTestEditor (496)
+[2024.03.27-02.04.53:671][360]LogModuleManager: Shutting down and abandoning module InterchangeTests (494)
+[2024.03.27-02.04.53:671][360]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (492)
+[2024.03.27-02.04.53:671][360]LogModuleManager: Shutting down and abandoning module EditorTraceUtilities (490)
+[2024.03.27-02.04.53:671][360]LogModuleManager: Shutting down and abandoning module TraceUtilities (488)
+[2024.03.27-02.04.53:671][360]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (486)
+[2024.03.27-02.04.53:671][360]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (484)
+[2024.03.27-02.04.53:671][360]LogModuleManager: Shutting down and abandoning module InputEditor (482)
+[2024.03.27-02.04.53:671][360]LogModuleManager: Shutting down and abandoning module FuryRoad (480)
+[2024.03.27-02.04.53:671][360]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (478)
+[2024.03.27-02.04.53:671][360]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (476)
+[2024.03.27-02.04.53:671][360]LogModuleManager: Shutting down and abandoning module FacialAnimation (474)
+[2024.03.27-02.04.53:671][360]LogModuleManager: Shutting down and abandoning module DataValidation (472)
+[2024.03.27-02.04.53:671][360]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (470)
+[2024.03.27-02.04.53:671][360]LogModuleManager: Shutting down and abandoning module TreeMap (469)
+[2024.03.27-02.04.53:671][360]LogModuleManager: Shutting down and abandoning module Paper2D (466)
+[2024.03.27-02.04.53:671][360]LogModuleManager: Shutting down and abandoning module TcpMessaging (464)
+[2024.03.27-02.04.53:772][360]LogModuleManager: Shutting down and abandoning module UdpMessaging (462)
+[2024.03.27-02.04.53:872][360]LogModuleManager: Shutting down and abandoning module StructUtils (460)
+[2024.03.27-02.04.53:872][360]LogModuleManager: Shutting down and abandoning module PythonScriptPlugin (458)
+[2024.03.27-02.04.53:872][360]LogModuleManager: Shutting down and abandoning module PBIK (456)
+[2024.03.27-02.04.53:872][360]LogModuleManager: Shutting down and abandoning module FullBodyIK (454)
+[2024.03.27-02.04.53:872][360]LogModuleManager: Shutting down and abandoning module ChaosVehiclesEditor (452)
+[2024.03.27-02.04.53:872][360]LogModuleManager: Shutting down and abandoning module ChaosVehicles (450)
+[2024.03.27-02.04.53:872][360]LogModuleManager: Shutting down and abandoning module ChaosCachingEditor (448)
+[2024.03.27-02.04.53:872][360]LogModuleManager: Shutting down and abandoning module TakeRecorder (447)
+[2024.03.27-02.04.53:872][360]LogModuleManager: Shutting down and abandoning module LevelEditor (445)
+[2024.03.27-02.04.53:874][360]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (444)
+[2024.03.27-02.04.53:874][360]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (442)
+[2024.03.27-02.04.53:874][360]LogModuleManager: Shutting down and abandoning module MainFrame (440)
+[2024.03.27-02.04.53:874][360]LogModuleManager: Shutting down and abandoning module HotReload (439)
+[2024.03.27-02.04.53:874][360]LogModuleManager: Shutting down and abandoning module ChaosCaching (434)
+[2024.03.27-02.04.53:874][360]LogModuleManager: Shutting down and abandoning module TraceDataFiltering (432)
+[2024.03.27-02.04.53:874][360]LogModuleManager: Shutting down and abandoning module PropertyAccessNode (430)
+[2024.03.27-02.04.53:874][360]LogModuleManager: Shutting down and abandoning module AnimationSharing (428)
+[2024.03.27-02.04.53:874][360]LogModuleManager: Shutting down and abandoning module InterchangePipelines (426)
+[2024.03.27-02.04.53:874][360]LogModuleManager: Shutting down and abandoning module InterchangeImport (424)
+[2024.03.27-02.04.53:874][360]LogModuleManager: Shutting down and abandoning module InterchangeFactoryNodes (422)
+[2024.03.27-02.04.53:874][360]LogModuleManager: Shutting down and abandoning module InterchangeNodes (420)
+[2024.03.27-02.04.53:874][360]LogModuleManager: Shutting down and abandoning module ActorSequence (418)
+[2024.03.27-02.04.53:874][360]LogModuleManager: Shutting down and abandoning module ImgMediaEngine (416)
+[2024.03.27-02.04.53:874][360]LogModuleManager: Shutting down and abandoning module GameplayCameras (414)
+[2024.03.27-02.04.53:874][360]LogModuleManager: Shutting down and abandoning module Synthesis (412)
+[2024.03.27-02.04.53:874][360]LogModuleManager: Shutting down and abandoning module SoundFields (410)
+[2024.03.27-02.04.53:874][360]LogModuleManager: Shutting down and abandoning module RigVMDeveloper (408)
+[2024.03.27-02.04.53:874][360]LogModuleManager: Shutting down and abandoning module RigVM (406)
+[2024.03.27-02.04.53:874][360]LogModuleManager: Shutting down and abandoning module SignificanceManager (404)
+[2024.03.27-02.04.53:874][360]LogModuleManager: Shutting down and abandoning module PropertyAccessEditor (402)
+[2024.03.27-02.04.53:874][360]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (400)
+[2024.03.27-02.04.53:874][360]LogModuleManager: Shutting down and abandoning module MsQuicRuntime (398)
+[2024.03.27-02.04.53:874][360]LogModuleManager: Shutting down and abandoning module MetasoundEditor (396)
+[2024.03.27-02.04.53:874][360]LogModuleManager: Shutting down and abandoning module AudioWidgets (395)
+[2024.03.27-02.04.53:874][360]LogModuleManager: Shutting down and abandoning module AdvancedWidgets (394)
+[2024.03.27-02.04.53:874][360]LogModuleManager: Shutting down and abandoning module MetasoundEngineTest (390)
+[2024.03.27-02.04.53:874][360]LogModuleManager: Shutting down and abandoning module MetasoundEngine (388)
+[2024.03.27-02.04.53:874][360]LogModuleManager: Shutting down and abandoning module WaveTable (387)
+[2024.03.27-02.04.53:874][360]LogModuleManager: Shutting down and abandoning module AudioCodecEngine (385)
+[2024.03.27-02.04.53:874][360]LogModuleManager: Shutting down and abandoning module MetasoundStandardNodes (382)
+[2024.03.27-02.04.53:874][360]LogModuleManager: Shutting down and abandoning module MetasoundFrontend (380)
+[2024.03.27-02.04.53:874][360]LogModuleManager: Shutting down and abandoning module MetasoundGenerator (378)
+[2024.03.27-02.04.53:874][360]LogModuleManager: Shutting down and abandoning module MetasoundGraphCore (376)
+[2024.03.27-02.04.53:874][360]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (374)
+[2024.03.27-02.04.53:874][360]LogModuleManager: Shutting down and abandoning module CableComponent (372)
+[2024.03.27-02.04.53:874][360]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (370)
+[2024.03.27-02.04.53:874][360]LogModuleManager: Shutting down and abandoning module AudioSynesthesia (368)
+[2024.03.27-02.04.53:874][360]LogModuleManager: Shutting down and abandoning module AudioAnalyzer (367)
+[2024.03.27-02.04.53:874][360]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaCore (364)
+[2024.03.27-02.04.53:874][360]LogModuleManager: Shutting down and abandoning module IKRigDeveloper (362)
+[2024.03.27-02.04.53:874][360]LogModuleManager: Shutting down and abandoning module IKRig (360)
+[2024.03.27-02.04.53:874][360]LogModuleManager: Shutting down and abandoning module AnimationData (358)
+[2024.03.27-02.04.53:874][360]LogModuleManager: Shutting down and abandoning module ControlRigDeveloper (356)
+[2024.03.27-02.04.53:874][360]LogModuleManager: Shutting down and abandoning module ControlRig (354)
+[2024.03.27-02.04.53:874][360]LogModuleManager: Shutting down and abandoning module Constraints (353)
+[2024.03.27-02.04.53:874][360]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (350)
+[2024.03.27-02.04.53:874][360]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2024.03.27-02.04.53:875][360]LogModuleManager: Shutting down and abandoning module SignalProcessing (347)
+[2024.03.27-02.04.53:875][360]LogModuleManager: Shutting down and abandoning module NiagaraEditor (345)
+[2024.03.27-02.04.53:875][360]LogModuleManager: Shutting down and abandoning module LevelSequence (344)
+[2024.03.27-02.04.53:875][360]LogModuleManager: Shutting down and abandoning module ContentBrowser (342)
+[2024.03.27-02.04.53:875][360]LogModuleManager: Shutting down and abandoning module ToolMenus (341)
+[2024.03.27-02.04.53:875][360]LogModuleManager: Shutting down and abandoning module ContentBrowserData (339)
+[2024.03.27-02.04.53:875][360]LogModuleManager: Shutting down and abandoning module NiagaraCore (334)
+[2024.03.27-02.04.53:875][360]LogModuleManager: Shutting down and abandoning module EnvironmentQueryEditor (332)
+[2024.03.27-02.04.53:875][360]LogModuleManager: Shutting down and abandoning module InputBlueprintNodes (330)
+[2024.03.27-02.04.53:875][360]LogModuleManager: Shutting down and abandoning module BlueprintGraph (329)
+[2024.03.27-02.04.53:875][360]LogModuleManager: Shutting down and abandoning module EnhancedInput (326)
+[2024.03.27-02.04.53:875][360]LogModuleManager: Shutting down and abandoning module BlueprintMaterialTextureNodes (324)
+[2024.03.27-02.04.53:875][360]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (322)
+[2024.03.27-02.04.53:876][360]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (320)
+[2024.03.27-02.04.53:876][360]LogModuleManager: Shutting down and abandoning module AndroidFileServer (318)
+[2024.03.27-02.04.53:876][360]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (316)
+[2024.03.27-02.04.53:876][360]LogModuleManager: Shutting down and abandoning module PacketHandler (314)
+[2024.03.27-02.04.53:876][360]LogModuleManager: Shutting down and abandoning module WorldPartitionEditor (312)
+[2024.03.27-02.04.53:876][360]LogModuleManager: Shutting down and abandoning module AnimGraph (310)
+[2024.03.27-02.04.53:876][360]LogModuleManager: Shutting down and abandoning module TimeManagement (308)
+[2024.03.27-02.04.53:876][360]LogModuleManager: Shutting down and abandoning module AnimationDataController (306)
+[2024.03.27-02.04.53:876][360]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (304)
+[2024.03.27-02.04.53:876][360]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (302)
+[2024.03.27-02.04.53:876][360]LogModuleManager: Shutting down and abandoning module MediaAssets (300)
+[2024.03.27-02.04.53:876][360]LogModuleManager: Shutting down and abandoning module Overlay (298)
+[2024.03.27-02.04.53:876][360]LogModuleManager: Shutting down and abandoning module OverlayEditor (297)
+[2024.03.27-02.04.53:876][360]LogModuleManager: Shutting down and abandoning module VREditor (294)
+[2024.03.27-02.04.53:876][360]LogModuleManager: Shutting down and abandoning module StringTableEditor (292)
+[2024.03.27-02.04.53:876][360]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (290)
+[2024.03.27-02.04.53:876][360]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (288)
+[2024.03.27-02.04.53:876][360]LogModuleManager: Shutting down and abandoning module FunctionalTesting (286)
+[2024.03.27-02.04.53:876][360]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (284)
+[2024.03.27-02.04.53:876][360]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (283)
+[2024.03.27-02.04.53:876][360]LogModuleManager: Shutting down and abandoning module ScriptableEditorWidgets (280)
+[2024.03.27-02.04.53:876][360]LogModuleManager: Shutting down and abandoning module UMG (278)
+[2024.03.27-02.04.53:876][360]LogModuleManager: Shutting down and abandoning module UMGEditor (277)
+[2024.03.27-02.04.53:876][360]LogModuleManager: Shutting down and abandoning module EditorStyle (272)
+[2024.03.27-02.04.53:876][360]LogModuleManager: Shutting down and abandoning module SlateReflector (270)
+[2024.03.27-02.04.53:876][360]LogModuleManager: Shutting down and abandoning module Slate (268)
+[2024.03.27-02.04.53:876][360]LogModuleManager: Shutting down and abandoning module SlateCore (266)
+[2024.03.27-02.04.53:877][360]LogModuleManager: Shutting down and abandoning module SubobjectDataInterface (264)
+[2024.03.27-02.04.53:877][360]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (262)
+[2024.03.27-02.04.53:877][360]LogModuleManager: Shutting down and abandoning module UnrealEd (260)
+[2024.03.27-02.04.53:877][360]LogModuleManager: Shutting down and abandoning module MRMesh (258)
+[2024.03.27-02.04.53:877][360]LogModuleManager: Shutting down and abandoning module Messaging (256)
+[2024.03.27-02.04.53:877][360]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (254)
+[2024.03.27-02.04.53:877][360]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (252)
+[2024.03.27-02.04.53:877][360]LogModuleManager: Shutting down and abandoning module LiveCoding (250)
+[2024.03.27-02.04.53:888][360]LogModuleManager: Shutting down and abandoning module Networking (248)
+[2024.03.27-02.04.53:888][360]LogModuleManager: Shutting down and abandoning module Core (246)
+[2024.03.27-02.04.53:888][360]LogModuleManager: Shutting down and abandoning module AssetDefinition (244)
+[2024.03.27-02.04.53:888][360]LogModuleManager: Shutting down and abandoning module MovieSceneTools (242)
+[2024.03.27-02.04.53:888][360]LogModuleManager: Shutting down and abandoning module CurveEditor (241)
+[2024.03.27-02.04.53:888][360]LogModuleManager: Shutting down and abandoning module Sequencer (239)
+[2024.03.27-02.04.53:888][360]LogModuleManager: Shutting down and abandoning module KismetCompiler (236)
+[2024.03.27-02.04.53:888][360]LogModuleManager: Shutting down and abandoning module MeshBuilder (234)
+[2024.03.27-02.04.53:888][360]LogModuleManager: Shutting down and abandoning module NaniteBuilder (232)
+[2024.03.27-02.04.53:888][360]LogModuleManager: Shutting down and abandoning module MeshUtilities (230)
+[2024.03.27-02.04.53:888][360]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (229)
+[2024.03.27-02.04.53:888][360]LogModuleManager: Shutting down and abandoning module StaticMeshDescription (228)
+[2024.03.27-02.04.53:888][360]LogModuleManager: Shutting down and abandoning module GeometryProcessingInterfaces (227)
+[2024.03.27-02.04.53:888][360]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (224)
+[2024.03.27-02.04.53:888][360]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (223)
+[2024.03.27-02.04.53:888][360]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (221)
+[2024.03.27-02.04.53:888][360]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (219)
+[2024.03.27-02.04.53:888][360]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (217)
+[2024.03.27-02.04.53:888][360]LogModuleManager: Shutting down and abandoning module MaterialBaking (213)
+[2024.03.27-02.04.53:888][360]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (210)
+[2024.03.27-02.04.53:899][360]LogModuleManager: Shutting down and abandoning module TelemetryUtils (207)
+[2024.03.27-02.04.53:899][360]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (204)
+[2024.03.27-02.04.53:899][360]LogModuleManager: Shutting down and abandoning module ShaderPreprocessor (202)
+[2024.03.27-02.04.53:899][360]LogModuleManager: Shutting down and abandoning module DerivedDataCache (200)
+[2024.03.27-02.04.53:901][360]LogModuleManager: Shutting down and abandoning module TargetPlatform (198)
+[2024.03.27-02.04.53:901][360]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (197)
+[2024.03.27-02.04.53:901][360]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (195)
+[2024.03.27-02.04.53:901][360]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (193)
+[2024.03.27-02.04.53:901][360]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (191)
+[2024.03.27-02.04.53:901][360]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (189)
+[2024.03.27-02.04.53:901][360]LogModuleManager: Shutting down and abandoning module AudioFormatBINK (187)
+[2024.03.27-02.04.53:901][360]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (185)
+[2024.03.27-02.04.53:901][360]LogModuleManager: Shutting down and abandoning module AudioFormatOGG (183)
+[2024.03.27-02.04.53:901][360]LogModuleManager: Shutting down and abandoning module AudioFormatOPUS (181)
+[2024.03.27-02.04.53:901][360]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (179)
+[2024.03.27-02.04.53:901][360]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (177)
+[2024.03.27-02.04.53:901][360]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (175)
+[2024.03.27-02.04.53:901][360]LogModuleManager: Shutting down and abandoning module LinuxArm64TargetPlatform (173)
+[2024.03.27-02.04.53:901][360]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (171)
+[2024.03.27-02.04.53:901][360]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (169)
+[2024.03.27-02.04.53:901][360]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (167)
+[2024.03.27-02.04.53:901][360]LogModuleManager: Shutting down and abandoning module TextureFormat (165)
+[2024.03.27-02.04.53:901][360]LogModuleManager: Shutting down and abandoning module ImageWrapper (164)
+[2024.03.27-02.04.53:901][360]LogModuleManager: Shutting down and abandoning module TextureFormatOodle (162)
+[2024.03.27-02.04.53:902][360]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (160)
+[2024.03.27-02.04.53:902][360]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (158)
+[2024.03.27-02.04.53:902][360]LogModuleManager: Shutting down and abandoning module TextureFormatETC2 (156)
+[2024.03.27-02.04.53:902][360]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (154)
+[2024.03.27-02.04.53:902][360]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (152)
+[2024.03.27-02.04.53:902][360]LogModuleManager: Shutting down and abandoning module TurnkeySupport (149)
+[2024.03.27-02.04.53:902][360]LogModuleManager: Shutting down and abandoning module InputCore (146)
+[2024.03.27-02.04.53:902][360]LogModuleManager: Shutting down and abandoning module Settings (144)
+[2024.03.27-02.04.53:902][360]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (142)
+[2024.03.27-02.04.53:902][360]LogModuleManager: Shutting down and abandoning module ChaosSolverEngine (140)
+[2024.03.27-02.04.53:902][360]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (139)
+[2024.03.27-02.04.53:902][360]LogModuleManager: Shutting down and abandoning module Chaos (136)
+[2024.03.27-02.04.53:902][360]LogModuleManager: Shutting down and abandoning module GeometryCore (135)
+[2024.03.27-02.04.53:902][360]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (132)
+[2024.03.27-02.04.53:902][360]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (131)
+[2024.03.27-02.04.53:902][360]LogModuleManager: Shutting down and abandoning module AVEncoder (130)
+[2024.03.27-02.04.53:902][360]LogModuleManager: Shutting down and abandoning module D3D12RHI (126)
+[2024.03.27-02.04.53:902][360]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (124)
+[2024.03.27-02.04.53:902][360]LogModuleManager: Shutting down and abandoning module OnlineSubsystemUtils (122)
+[2024.03.27-02.04.53:902][360]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (120)
+[2024.03.27-02.04.53:903][360]LogModuleManager: Shutting down and abandoning module XMPP (115)
+[2024.03.27-02.04.53:903][360]LogModuleManager: Shutting down and abandoning module WebSockets (114)
+[2024.03.27-02.04.53:930][360]LogModuleManager: Shutting down and abandoning module HTTP (111)
+[2024.03.27-02.04.53:930][360]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2024.03.27-02.04.53:930][360]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B64A02D8A-41D3-55C9-367B-12A5D3C398FE%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=79dc1a74485dbdf4d684aea1320d8297%7C3ed3aecb182a48dc8cd76df10ac62fd6%7Cb805aafc-1379-4785-8065-c0515a71fc48&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[1] status=Processing
+[2024.03.27-02.04.53:964][360]LogModuleManager: Shutting down and abandoning module SSL (110)
+[2024.03.27-02.04.53:964][360]LogModuleManager: Shutting down and abandoning module OnlineServicesCommonEngineUtils (106)
+[2024.03.27-02.04.53:964][360]LogModuleManager: Shutting down and abandoning module OnlineServicesCommon (104)
+[2024.03.27-02.04.53:964][360]LogModuleManager: Shutting down and abandoning module OnlineServicesInterface (102)
+[2024.03.27-02.04.53:964][360]LogModuleManager: Shutting down and abandoning module Water (100)
+[2024.03.27-02.04.53:964][360]LogModuleManager: Shutting down and abandoning module ChaosCloth (98)
+[2024.03.27-02.04.53:964][360]LogModuleManager: Shutting down and abandoning module RenderDocPlugin (96)
+[2024.03.27-02.04.53:965][360]RenderDocPlugin: plugin has been unloaded.
+[2024.03.27-02.04.53:965][360]LogModuleManager: Shutting down and abandoning module PixWinPlugin (94)
+[2024.03.27-02.04.53:965][360]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (92)
+[2024.03.27-02.04.53:965][360]LogModuleManager: Shutting down and abandoning module VariantManagerContent (90)
+[2024.03.27-02.04.53:965][360]LogModuleManager: Shutting down and abandoning module GLTFExporter (88)
+[2024.03.27-02.04.53:965][360]LogModuleManager: Shutting down and abandoning module DatasmithContent (86)
+[2024.03.27-02.04.53:965][360]LogModuleManager: Shutting down and abandoning module WmfMedia (84)
+[2024.03.27-02.04.53:966][360]LogModuleManager: Shutting down and abandoning module Media (83)
+[2024.03.27-02.04.53:967][360]LogModuleManager: Shutting down and abandoning module ExrReaderGpu (80)
+[2024.03.27-02.04.53:968][360]LogModuleManager: Shutting down and abandoning module WindowsDeviceProfileSelector (78)
+[2024.03.27-02.04.53:968][360]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (76)
+[2024.03.27-02.04.53:968][360]LogModuleManager: Shutting down and abandoning module ChunkDownloader (74)
+[2024.03.27-02.04.53:968][360]LogModuleManager: Shutting down and abandoning module ACLPlugin (72)
+[2024.03.27-02.04.53:968][360]LogModuleManager: Shutting down and abandoning module AISupportModule (70)
+[2024.03.27-02.04.53:968][360]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (68)
+[2024.03.27-02.04.53:968][360]LogModuleManager: Shutting down and abandoning module NiagaraShader (66)
+[2024.03.27-02.04.53:968][360]LogModuleManager: Shutting down and abandoning module DesktopPlatform (64)
+[2024.03.27-02.04.53:968][360]LogModuleManager: Shutting down and abandoning module PythonScriptPluginPreload (62)
+[2024.03.27-02.04.53:968][360]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (60)
+[2024.03.27-02.04.53:968][360]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (58)
+[2024.03.27-02.04.53:968][360]LogModuleManager: Shutting down and abandoning module PlatformCrypto (56)
+[2024.03.27-02.04.53:968][360]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (54)
+[2024.03.27-02.04.53:968][360]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (52)
+[2024.03.27-02.04.53:968][360]LogModuleManager: Shutting down and abandoning module SourceControl (51)
+[2024.03.27-02.04.53:968][360]LogModuleManager: Shutting down and abandoning module XGEController (48)
+[2024.03.27-02.04.53:968][360]LogModuleManager: Shutting down and abandoning module FastBuildController (46)
+[2024.03.27-02.04.53:968][360]LogModuleManager: Shutting down and abandoning module IoStoreOnDemand (44)
+[2024.03.27-02.04.53:968][360]LogModuleManager: Shutting down and abandoning module AnimationModifiers (42)
+[2024.03.27-02.04.53:968][360]LogModuleManager: Shutting down and abandoning module AudioEditor (40)
+[2024.03.27-02.04.53:968][360]LogModuleManager: Shutting down and abandoning module PropertyEditor (39)
+[2024.03.27-02.04.53:968][360]LogModuleManager: Shutting down and abandoning module Virtualization (36)
+[2024.03.27-02.04.53:968][360]LogModuleManager: Shutting down and abandoning module MessageLog (35)
+[2024.03.27-02.04.53:968][360]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2024.03.27-02.04.53:968][360]LogModuleManager: Shutting down and abandoning module OpenColorIOWrapper (31)
+[2024.03.27-02.04.53:968][360]LogModuleManager: Shutting down and abandoning module RenderCore (28)
+[2024.03.27-02.04.53:968][360]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2024.03.27-02.04.53:968][360]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2024.03.27-02.04.53:969][360]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (22)
+[2024.03.27-02.04.53:969][360]LogModuleManager: Shutting down and abandoning module Renderer (20)
+[2024.03.27-02.04.53:969][360]LogModuleManager: Shutting down and abandoning module Engine (18)
+[2024.03.27-02.04.53:969][360]LogModuleManager: Shutting down and abandoning module CoreUObject (16)
+[2024.03.27-02.04.53:969][360]LogModuleManager: Shutting down and abandoning module SandboxFile (14)
+[2024.03.27-02.04.53:969][360]LogModuleManager: Shutting down and abandoning module PakFile (12)
+[2024.03.27-02.04.53:969][360]LogPakFile: Destroying PakPlatformFile
+[2024.03.27-02.04.53:969][360]LogModuleManager: Shutting down and abandoning module RSA (11)
+[2024.03.27-02.04.53:969][360]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2024.03.27-02.04.53:969][360]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2024.03.27-02.04.53:969][360]LogModuleManager: Shutting down and abandoning module CookOnTheFly (4)
+[2024.03.27-02.04.53:969][360]LogModuleManager: Shutting down and abandoning module StorageServerClient (2)
+[2024.03.27-02.04.54:120][360]LogD3D12RHI: ~FD3D12DynamicRHI
+[2024.03.27-02.04.54:151][360]LogExit: Exiting.
+[2024.03.27-02.04.54:182][360]Log file closed, 03/26/24 19:04:54
