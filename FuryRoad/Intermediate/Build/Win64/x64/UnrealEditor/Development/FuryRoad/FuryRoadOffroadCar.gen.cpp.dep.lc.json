@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\unreal projects\\furyroad\\furyroad\\intermediate\\build\\win64\\unrealeditor\\inc\\furyroad\\uht\\furyroadoffroadcar.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\unreal projects\\furyroad\\furyroad\\intermediate\\build\\win64\\x64\\furyroadeditor\\development\\unrealed\\sharedpch.unrealed.cpp20.h.pch",
+        "Includes": [
+            "d:\\unreal projects\\furyroad\\furyroad\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\furyroad\\definitions.furyroad.h",
+            "d:\\unreal projects\\furyroad\\furyroad\\source\\furyroad\\furyroadoffroadcar.h",
+            "d:\\unreal projects\\furyroad\\furyroad\\source\\furyroad\\furyroadpawn.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\plugins\\experimental\\chaosvehiclesplugin\\source\\chaosvehicles\\public\\wheeledvehiclepawn.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\plugins\\experimental\\chaosvehiclesplugin\\intermediate\\build\\win64\\unrealeditor\\inc\\chaosvehicles\\uht\\wheeledvehiclepawn.generated.h",
+            "d:\\unreal projects\\furyroad\\furyroad\\intermediate\\build\\win64\\unrealeditor\\inc\\furyroad\\uht\\furyroadpawn.generated.h",
+            "d:\\unreal projects\\furyroad\\furyroad\\intermediate\\build\\win64\\unrealeditor\\inc\\furyroad\\uht\\furyroadoffroadcar.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
