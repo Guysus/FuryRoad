@@ -1,3 +1,5 @@
-2024/03/27-17:34:41.793 4d04 Reusing MANIFEST D:/Unreal Projects/FuryRoad/FuryRoad/Saved/webcache_4430\Local Storage\leveldb/MANIFEST-000001
-2024/03/27-17:34:41.797 4d04 Recovering log #3
-2024/03/27-17:34:41.797 4d04 Reusing old log D:/Unreal Projects/FuryRoad/FuryRoad/Saved/webcache_4430\Local Storage\leveldb/000003.log 
+2024/03/27-17:40:01.894 357c Reusing MANIFEST D:/Unreal Projects/FuryRoad/FuryRoad/Saved/webcache_4430\Local Storage\leveldb/MANIFEST-000001
+2024/03/27-17:40:01.894 357c Recovering log #3
+2024/03/27-17:40:01.894 357c Level-0 table #3: started
+2024/03/27-17:40:01.898 357c Level-0 table #3: 17958 bytes OK
+2024/03/27-17:40:01.900 357c Delete type=0 #3
