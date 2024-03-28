@@ -1,0 +1,31 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\unreal projects\\furyroad\\furyroad\\source\\furyroad\\furyroadwheelrear.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\unreal projects\\furyroad\\furyroad\\intermediate\\build\\win64\\x64\\furyroadeditor\\development\\unrealed\\sharedpch.unrealed.cpp20.h.pch",
+        "Includes": [
+            "d:\\unreal projects\\furyroad\\furyroad\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\furyroad\\definitions.furyroad.h",
+            "d:\\unreal projects\\furyroad\\furyroad\\source\\furyroad\\furyroadwheelrear.h",
+            "d:\\ue_5.3\\engine\\plugins\\experimental\\chaosvehiclesplugin\\source\\chaosvehicles\\public\\chaosvehiclewheel.h",
+            "d:\\ue_5.3\\engine\\source\\runtime\\experimental\\chaosvehicles\\chaosvehiclescore\\public\\simplevehicle.h",
+            "d:\\ue_5.3\\engine\\source\\runtime\\experimental\\chaosvehicles\\chaosvehiclescore\\public\\vehicleutility.h",
+            "d:\\ue_5.3\\engine\\source\\runtime\\experimental\\chaosvehicles\\chaosvehiclescore\\public\\enginesystem.h",
+            "d:\\ue_5.3\\engine\\source\\runtime\\experimental\\chaosvehicles\\chaosvehiclescore\\public\\vehiclesystemtemplate.h",
+            "d:\\ue_5.3\\engine\\source\\runtime\\experimental\\chaosvehicles\\chaosvehiclescore\\public\\transmissionsystem.h",
+            "d:\\ue_5.3\\engine\\source\\runtime\\experimental\\chaosvehicles\\chaosvehiclescore\\public\\suspensionsystem.h",
+            "d:\\ue_5.3\\engine\\source\\runtime\\experimental\\chaosvehicles\\chaosvehiclescore\\public\\wheelsystem.h",
+            "d:\\ue_5.3\\engine\\source\\runtime\\experimental\\chaosvehicles\\chaosvehiclescore\\public\\tiresystem.h",
+            "d:\\ue_5.3\\engine\\source\\runtime\\experimental\\chaosvehicles\\chaosvehiclescore\\public\\steeringsystem.h",
+            "d:\\ue_5.3\\engine\\source\\runtime\\experimental\\chaosvehicles\\chaosvehiclescore\\public\\steeringutility.h",
+            "d:\\ue_5.3\\engine\\source\\runtime\\experimental\\chaosvehicles\\chaosvehiclescore\\public\\aerodynamicssystem.h",
+            "d:\\ue_5.3\\engine\\source\\runtime\\experimental\\chaosvehicles\\chaosvehiclescore\\public\\aerofoilsystem.h",
+            "d:\\ue_5.3\\engine\\source\\runtime\\experimental\\chaosvehicles\\chaosvehiclescore\\public\\thrustsystem.h",
+            "d:\\ue_5.3\\engine\\source\\runtime\\experimental\\chaosvehicles\\chaosvehiclescore\\public\\arcadesystem.h",
+            "d:\\ue_5.3\\engine\\plugins\\experimental\\chaosvehiclesplugin\\intermediate\\build\\win64\\unrealeditor\\inc\\chaosvehicles\\uht\\chaosvehiclewheel.generated.h",
+            "d:\\unreal projects\\furyroad\\furyroad\\intermediate\\build\\win64\\unrealeditor\\inc\\furyroad\\uht\\furyroadwheelrear.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

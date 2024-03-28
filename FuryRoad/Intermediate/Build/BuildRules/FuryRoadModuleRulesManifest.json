@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\Unreal Projects\\FuryRoad\\FuryRoad\\Source\\FuryRoad\\FuryRoad.Build.cs",
+		"D:\\Unreal Projects\\FuryRoad\\FuryRoad\\Source\\FuryRoad.Target.cs",
+		"D:\\Unreal Projects\\FuryRoad\\FuryRoad\\Source\\FuryRoadEditor.Target.cs"
+	],
+	"EngineVersion": "5.3.2"
+}

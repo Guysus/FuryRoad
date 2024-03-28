@@ -1,0 +1,21 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\unreal projects\\furyroad\\furyroad\\source\\furyroad\\furyroadgamemode.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\unreal projects\\furyroad\\furyroad\\intermediate\\build\\win64\\x64\\furyroadeditor\\development\\unrealed\\sharedpch.unrealed.cpp20.h.pch",
+        "Includes": [
+            "d:\\unreal projects\\furyroad\\furyroad\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\furyroad\\definitions.furyroad.h",
+            "d:\\unreal projects\\furyroad\\furyroad\\source\\furyroad\\furyroadgamemode.h",
+            "d:\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "d:\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "d:\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\serverstatreplicator.generated.h",
+            "d:\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gamemodebase.generated.h",
+            "d:\\unreal projects\\furyroad\\furyroad\\intermediate\\build\\win64\\unrealeditor\\inc\\furyroad\\uht\\furyroadgamemode.generated.h",
+            "d:\\unreal projects\\furyroad\\furyroad\\source\\furyroad\\furyroadplayercontroller.h",
+            "d:\\unreal projects\\furyroad\\furyroad\\intermediate\\build\\win64\\unrealeditor\\inc\\furyroad\\uht\\furyroadplayercontroller.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
