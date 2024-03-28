@@ -13,4 +13,43 @@ AMyPlayCarPawn::AMyPlayCarPawn()
 	pCamera->SetupAttachment(pSpringArm);
 
 	GetMesh()->SetSimulatePhysics(true);
+
+	pChaosVehicleMovement = CastChecked<UChaosWheeledVehicleMovementComponent>(GetVehicleMovement());
+}
+
+void AMyPlayCarPawn::Throttle(const FInputActionValue& value)
+{
+	UE_LOG(LogTemp, Error, TEXT("Throttle"));
+}
+
+void AMyPlayCarPawn::Handbrake(const FInputActionValue& value)
+{
+	UE_LOG(LogTemp, Error, TEXT("Handbrake"));
+}
+
+void AMyPlayCarPawn::SetupPlayerInputComponent(UInputComponent* playerInputComponent)
+{
+	Super::SetupPlayerInputComponent(playerInputComponent);
+
+	if (APlayerController* playerController = Cast<APlayerController>(GetController()))
+	{
+		if (UEnhancedInputLocalPlayerSubsystem* subsystem = ULocalPlayer::GetSubsystem<UEnhancedInputLocalPlayerSubsystem>(playerController->GetLocalPlayer()))
+		{
+			subsystem->ClearAllMappings();
+			subsystem->AddMappingContext(pInputMappingContext, 0);
+		}
+	}
+	
+	if (UEnhancedInputComponent* inputComponent = Cast<UEnhancedInputComponent>(playerInputComponent))
+	{
+		inputComponent->BindAction(pThrottleAction, ETriggerEvent::Triggered, this, &AMyPlayCarPawn::Throttle);
+		inputComponent->BindAction(pThrottleAction, ETriggerEvent::Completed, this, &AMyPlayCarPawn::Throttle);
+
+		inputComponent->BindAction(pHandbrakeAction, ETriggerEvent::Triggered, this, &AMyPlayCarPawn::Handbrake);
+
+	}
+	else
+	{
+		UE_LOG(LogTemp, Error, TEXT("Input Error"));
+	}
 }

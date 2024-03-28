@@ -5,7 +5,10 @@
 #include "CoreMinimal.h"
 #include "WheeledVehiclePawn.h"
 #include "GameFramework/SpringArmComponent.h"
+#include "ChaosWheeledVehicleMovementComponent.h"
 #include "Camera/CameraComponent.h"
+#include "EnhancedInputComponent.h"
+#include "EnhancedInputSubsystems.h"
 #include "MyPlayCarPawn.generated.h"
 
 
@@ -29,4 +32,22 @@ protected:
 
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 	TArray<UMaterial*> pMaterials;
+
+	TObjectPtr<UChaosVehicleMovementComponent> pChaosVehicleMovement;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input)
+	UInputMappingContext* pInputMappingContext;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input)
+	UInputAction* pThrottleAction;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input)
+	UInputAction* pHandbrakeAction;
+
+private:
+	void Throttle(const FInputActionValue& value);
+	void Handbrake(const FInputActionValue& value);
+
+protected:
+	void SetupPlayerInputComponent(UInputComponent* playerInputComponent) override;
 };

@@ -13,6 +13,8 @@ void EmptyLinkFunctionForGeneratedCodeMyPlayCarPawn() {}
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UMaterial_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
+	ENHANCEDINPUT_API UClass* Z_Construct_UClass_UInputAction_NoRegister();
+	ENHANCEDINPUT_API UClass* Z_Construct_UClass_UInputMappingContext_NoRegister();
 	FURYROAD_API UClass* Z_Construct_UClass_AMyPlayCarPawn();
 	FURYROAD_API UClass* Z_Construct_UClass_AMyPlayCarPawn_NoRegister();
 	UPackage* Z_Construct_UPackage__Script_FuryRoad();
@@ -44,6 +46,18 @@ void EmptyLinkFunctionForGeneratedCodeMyPlayCarPawn() {}
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_pMaterials_MetaData[];
 #endif
 		static const UECodeGen_Private::FArrayPropertyParams NewProp_pMaterials;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_pInputMappingContext_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_pInputMappingContext;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_pThrottleAction_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_pThrottleAction;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_pHandbrakeAction_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_pHandbrakeAction;
 		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UECodeGen_Private::FClassParams ClassParams;
@@ -87,11 +101,35 @@ void EmptyLinkFunctionForGeneratedCodeMyPlayCarPawn() {}
 	};
 #endif
 	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AMyPlayCarPawn_Statics::NewProp_pMaterials = { "pMaterials", nullptr, (EPropertyFlags)0x0020080000000005, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AMyPlayCarPawn, pMaterials), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AMyPlayCarPawn_Statics::NewProp_pMaterials_MetaData), Z_Construct_UClass_AMyPlayCarPawn_Statics::NewProp_pMaterials_MetaData) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyPlayCarPawn_Statics::NewProp_pInputMappingContext_MetaData[] = {
+		{ "Category", "Input" },
+		{ "ModuleRelativePath", "Public/MyPlayCarPawn.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMyPlayCarPawn_Statics::NewProp_pInputMappingContext = { "pInputMappingContext", nullptr, (EPropertyFlags)0x0020080000000015, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AMyPlayCarPawn, pInputMappingContext), Z_Construct_UClass_UInputMappingContext_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AMyPlayCarPawn_Statics::NewProp_pInputMappingContext_MetaData), Z_Construct_UClass_AMyPlayCarPawn_Statics::NewProp_pInputMappingContext_MetaData) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyPlayCarPawn_Statics::NewProp_pThrottleAction_MetaData[] = {
+		{ "Category", "Input" },
+		{ "ModuleRelativePath", "Public/MyPlayCarPawn.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMyPlayCarPawn_Statics::NewProp_pThrottleAction = { "pThrottleAction", nullptr, (EPropertyFlags)0x0020080000000015, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AMyPlayCarPawn, pThrottleAction), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AMyPlayCarPawn_Statics::NewProp_pThrottleAction_MetaData), Z_Construct_UClass_AMyPlayCarPawn_Statics::NewProp_pThrottleAction_MetaData) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyPlayCarPawn_Statics::NewProp_pHandbrakeAction_MetaData[] = {
+		{ "Category", "Input" },
+		{ "ModuleRelativePath", "Public/MyPlayCarPawn.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMyPlayCarPawn_Statics::NewProp_pHandbrakeAction = { "pHandbrakeAction", nullptr, (EPropertyFlags)0x0020080000000015, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AMyPlayCarPawn, pHandbrakeAction), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AMyPlayCarPawn_Statics::NewProp_pHandbrakeAction_MetaData), Z_Construct_UClass_AMyPlayCarPawn_Statics::NewProp_pHandbrakeAction_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AMyPlayCarPawn_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyPlayCarPawn_Statics::NewProp_pSpringArm,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyPlayCarPawn_Statics::NewProp_pCamera,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyPlayCarPawn_Statics::NewProp_pMaterials_Inner,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyPlayCarPawn_Statics::NewProp_pMaterials,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyPlayCarPawn_Statics::NewProp_pInputMappingContext,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyPlayCarPawn_Statics::NewProp_pThrottleAction,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyPlayCarPawn_Statics::NewProp_pHandbrakeAction,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AMyPlayCarPawn_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AMyPlayCarPawn>::IsAbstract,
@@ -131,9 +169,9 @@ void EmptyLinkFunctionForGeneratedCodeMyPlayCarPawn() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_FuryRoad_Source_FuryRoad_Public_MyPlayCarPawn_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AMyPlayCarPawn, AMyPlayCarPawn::StaticClass, TEXT("AMyPlayCarPawn"), &Z_Registration_Info_UClass_AMyPlayCarPawn, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMyPlayCarPawn), 1172956583U) },
+		{ Z_Construct_UClass_AMyPlayCarPawn, AMyPlayCarPawn::StaticClass, TEXT("AMyPlayCarPawn"), &Z_Registration_Info_UClass_AMyPlayCarPawn, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMyPlayCarPawn), 1679745135U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_FuryRoad_Source_FuryRoad_Public_MyPlayCarPawn_h_2199651698(TEXT("/Script/FuryRoad"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_FuryRoad_Source_FuryRoad_Public_MyPlayCarPawn_h_3537917494(TEXT("/Script/FuryRoad"),
 		Z_CompiledInDeferFile_FID_FuryRoad_Source_FuryRoad_Public_MyPlayCarPawn_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_FuryRoad_Source_FuryRoad_Public_MyPlayCarPawn_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
