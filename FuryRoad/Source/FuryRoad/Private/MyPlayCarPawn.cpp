@@ -11,4 +11,6 @@ AMyPlayCarPawn::AMyPlayCarPawn()
 
 	pCamera = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera"));
 	pCamera->SetupAttachment(pSpringArm);
+
+	GetMesh()->SetSimulatePhysics(true);
 }
