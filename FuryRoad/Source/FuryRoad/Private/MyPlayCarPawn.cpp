@@ -19,12 +19,26 @@ AMyPlayCarPawn::AMyPlayCarPawn()
 
 void AMyPlayCarPawn::Throttle(const FInputActionValue& value)
 {
-	UE_LOG(LogTemp, Error, TEXT("Throttle"));
+	//UE_LOG(LogTemp, Warning, TEXT("Throttle"));
+	//float throttleValue = value.Get<float>();
+
+	pChaosVehicleMovement->SetThrottleInput(value.Get<float>());
 }
 
 void AMyPlayCarPawn::Handbrake(const FInputActionValue& value)
 {
-	UE_LOG(LogTemp, Error, TEXT("Handbrake"));
+	//UE_LOG(LogTemp, Warning, TEXT("Handbrake"));
+	pChaosVehicleMovement->SetHandbrakeInput(value.Get<bool>());
+}
+
+void AMyPlayCarPawn::Steering(const FInputActionValue& value)
+{
+	pChaosVehicleMovement->SetSteeringInput(value.Get<float>());
+}
+
+void AMyPlayCarPawn::Reverse(const FInputActionValue& value)
+{
+	
 }
 
 void AMyPlayCarPawn::SetupPlayerInputComponent(UInputComponent* playerInputComponent)
@@ -46,7 +60,10 @@ void AMyPlayCarPawn::SetupPlayerInputComponent(UInputComponent* playerInputCompo
 		inputComponent->BindAction(pThrottleAction, ETriggerEvent::Completed, this, &AMyPlayCarPawn::Throttle);
 
 		inputComponent->BindAction(pHandbrakeAction, ETriggerEvent::Triggered, this, &AMyPlayCarPawn::Handbrake);
+		inputComponent->BindAction(pHandbrakeAction, ETriggerEvent::Completed, this, &AMyPlayCarPawn::Handbrake);
 
+		inputComponent->BindAction(pSteeringAction, ETriggerEvent::Triggered, this, &AMyPlayCarPawn::Steering);
+		
 	}
 	else
 	{

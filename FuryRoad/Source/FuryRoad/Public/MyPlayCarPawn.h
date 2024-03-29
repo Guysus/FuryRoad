@@ -44,9 +44,18 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input)
 	UInputAction* pHandbrakeAction;
 
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input)
+	UInputAction* pSteeringAction;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input)
+	UInputAction* pReverseAction;
+
 private:
 	void Throttle(const FInputActionValue& value);
 	void Handbrake(const FInputActionValue& value);
+	void Steering(const FInputActionValue& value);
+	void Reverse(const FInputActionValue& value);
+
 
 protected:
 	void SetupPlayerInputComponent(UInputComponent* playerInputComponent) override;
