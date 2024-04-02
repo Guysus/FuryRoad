@@ -14,7 +14,8 @@ class FURYROAD_API AMyRaceManager : public AActor
 public:
 	static AMyRaceManager* instance;
 
-private:
+public:
+	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 	int lapCount;
 	
 public:	

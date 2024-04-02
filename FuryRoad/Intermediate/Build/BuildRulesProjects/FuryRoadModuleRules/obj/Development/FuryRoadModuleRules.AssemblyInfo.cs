@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FuryRoadModuleRules")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Development")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dd01aa77536516de480e9e1002e834f84d8e7170")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3e71698d5a05e4908003bbaef2a486ad3c7f2505")]
 [assembly: System.Reflection.AssemblyProductAttribute("FuryRoadModuleRules")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FuryRoadModuleRules")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
