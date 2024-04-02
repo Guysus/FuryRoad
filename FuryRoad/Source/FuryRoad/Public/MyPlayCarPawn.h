@@ -51,6 +51,8 @@ protected:
 	UInputAction* pReverseAction;
 
 private:
+	virtual void BeginPlay() override;
+	virtual void Tick(float delta) override;
 	void Throttle(const FInputActionValue& value);
 	void Handbrake(const FInputActionValue& value);
 	void Steering(const FInputActionValue& value);
@@ -59,4 +61,5 @@ private:
 
 protected:
 	void SetupPlayerInputComponent(UInputComponent* playerInputComponent) override;
+	void OnCheckPointOverlap(AActor* overlapActor, AActor* otherActor);
 };

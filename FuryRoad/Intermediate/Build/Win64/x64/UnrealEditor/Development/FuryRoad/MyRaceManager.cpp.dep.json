@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\unreal projects\\furyroad\\furyroad\\source\\furyroad\\private\\myracemanager.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\unreal projects\\furyroad\\furyroad\\intermediate\\build\\win64\\x64\\furyroadeditor\\development\\unrealed\\sharedpch.unrealed.cpp20.h.pch",
+        "Includes": [
+            "d:\\unreal projects\\furyroad\\furyroad\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\furyroad\\definitions.furyroad.h",
+            "d:\\unreal projects\\furyroad\\furyroad\\source\\furyroad\\public\\myracemanager.h",
+            "d:\\unreal projects\\furyroad\\furyroad\\intermediate\\build\\win64\\unrealeditor\\inc\\furyroad\\uht\\myracemanager.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

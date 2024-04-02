@@ -122,10 +122,16 @@
     <ClCompile Include="..\..\Source\FuryRoad\Private\MyPlayCarPawn.cpp">
       <Filter>Source\FuryRoad\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\FuryRoad\Private\MyRaceManager.cpp">
+      <Filter>Source\FuryRoad\Private</Filter>
+    </ClCompile>
     <Filter Include="Source\FuryRoad\Public">
       <UniqueIdentifier>{4A33A9EE-516F-33FA-ACDE-D399AED36F93}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\FuryRoad\Public\MyPlayCarPawn.h">
+      <Filter>Source\FuryRoad\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FuryRoad\Public\MyRaceManager.h">
       <Filter>Source\FuryRoad\Public</Filter>
     </ClInclude>
   </ItemGroup>
