@@ -50,6 +50,9 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input)
 	UInputAction* pReverseAction;
 
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input)
+	UInputAction* pBrakeAction;
+
 private:
 	virtual void BeginPlay() override;
 	virtual void Tick(float delta) override;
@@ -57,6 +60,7 @@ private:
 	void Handbrake(const FInputActionValue& value);
 	void Steering(const FInputActionValue& value);
 	void Reverse(const FInputActionValue& value);
+	void Brake(const FInputActionValue& value);
 
 
 protected:

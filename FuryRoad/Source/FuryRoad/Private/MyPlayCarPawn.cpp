@@ -61,9 +61,14 @@ void AMyPlayCarPawn::Steering(const FInputActionValue& value)
 	pChaosVehicleMovement->SetSteeringInput(value.Get<float>());
 }
 
-void AMyPlayCarPawn::Reverse(const FInputActionValue& value)
+//void AMyPlayCarPawn::Reverse(const FInputActionValue& value)
+//{
+//	pChaosVehicleMovement->SetReverseInput(value.Get<float>());
+//}
+
+void AMyPlayCarPawn::Brake(const FInputActionValue& value)
 {
-	
+	pChaosVehicleMovement->SetBrakeInput(value.Get<float>());
 }
 
 void AMyPlayCarPawn::SetupPlayerInputComponent(UInputComponent* playerInputComponent)
@@ -88,6 +93,10 @@ void AMyPlayCarPawn::SetupPlayerInputComponent(UInputComponent* playerInputCompo
 		inputComponent->BindAction(pHandbrakeAction, ETriggerEvent::Completed, this, &AMyPlayCarPawn::Handbrake);
 
 		inputComponent->BindAction(pSteeringAction, ETriggerEvent::Triggered, this, &AMyPlayCarPawn::Steering);
+		inputComponent->BindAction(pSteeringAction, ETriggerEvent::Completed, this, &AMyPlayCarPawn::Steering);
+
+		inputComponent->BindAction(pBrakeAction, ETriggerEvent::Triggered, this, &AMyPlayCarPawn::Brake);
+		inputComponent->BindAction(pBrakeAction, ETriggerEvent::Completed, this, &AMyPlayCarPawn::Brake);
 		
 	}
 	else
