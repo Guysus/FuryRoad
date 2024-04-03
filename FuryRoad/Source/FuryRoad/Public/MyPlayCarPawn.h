@@ -5,7 +5,10 @@
 #include "CoreMinimal.h"
 #include "WheeledVehiclePawn.h"
 #include "GameFramework/SpringArmComponent.h"
+#include "ChaosWheeledVehicleMovementComponent.h"
 #include "Camera/CameraComponent.h"
+#include "EnhancedInputComponent.h"
+#include "EnhancedInputSubsystems.h"
 #include "MyPlayCarPawn.generated.h"
 
 
@@ -29,4 +32,38 @@ protected:
 
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 	TArray<UMaterial*> pMaterials;
+
+	TObjectPtr<UChaosVehicleMovementComponent> pChaosVehicleMovement;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input)
+	UInputMappingContext* pInputMappingContext;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input)
+	UInputAction* pThrottleAction;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input)
+	UInputAction* pHandbrakeAction;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input)
+	UInputAction* pSteeringAction;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input)
+	UInputAction* pReverseAction;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input)
+	UInputAction* pBrakeAction;
+
+private:
+	virtual void BeginPlay() override;
+	virtual void Tick(float delta) override;
+	void Throttle(const FInputActionValue& value);
+	void Handbrake(const FInputActionValue& value);
+	void Steering(const FInputActionValue& value);
+	void Reverse(const FInputActionValue& value);
+	void Brake(const FInputActionValue& value);
+
+
+protected:
+	void SetupPlayerInputComponent(UInputComponent* playerInputComponent) override;
+	void OnCheckPointOverlap(AActor* overlapActor, AActor* otherActor);
 };
