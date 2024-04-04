@@ -2316,3 +2316,502 @@ Script Stack (0 frames) :
 [2024.04.04-19.05.09:125][422]LogFileHelpers: InternalPromptForCheckoutAndSave took 607 ms (total: 3.31 sec)
 [2024.04.04-19.05.09:129][422]AssetCheck: New page: Asset Save: TrackOne
 [2024.04.04-19.05.09:129][422]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/TrackOne.TrackOne
+[2024.04.04-19.08.10:090][214]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.04-19.08.10:099][214]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.04-19.08.10:099][214]PIE: New page: PIE session: TrackOne (Apr. 4, 2024, 5:08:10 a.m.)
+[2024.04.04-19.08.10:118][214]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TrackOne
+[2024.04.04-19.08.10:541][214]LogPlayLevel: PIE: StaticDuplicateObject took: (0.422423s)
+[2024.04.04-19.08.10:541][214]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TrackOne.TrackOne to /Game/Levels/UEDPIE_0_TrackOne.TrackOne (0.422458s)
+[2024.04.04-19.08.10:556][214]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2024.04.04-19.08.10:557][214]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.04-19.08.10:558][214]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.04-19.08.10:558][214]LogAIModule: Creating AISystem for world TrackOne
+[2024.04.04-19.08.10:558][214]LogPlayLevel: PIE: World Init took: (0.001078s)
+[2024.04.04-19.08.10:559][214]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2024.04.04-19.08.10:559][214]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.04-19.08.10:559][214]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.04-19.08.10:559][214]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.04-19.08.10:559][214]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.04-19.08.10:559][214]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.04.04-19.08.10:559][214]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.04-19.08.10:559][214]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.04.04-19.08.10:559][214]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.04-19.08.10:559][214]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.04-19.08.10:559][214]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.04-19.08.10:559][214]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.04-19.08.10:560][214]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.04-19.08.10:577][214]LogAudioMixer: Display: Using Audio Hardware Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2024.04.04-19.08.10:578][214]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.04-19.08.10:578][214]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.04-19.08.10:578][214]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.04-19.08.10:578][214]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2024.04.04-19.08.10:578][214]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2024.04.04-19.08.10:579][214]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2024.04.04-19.08.10:579][214]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2024.04.04-19.08.10:579][214]LogInit: FAudioDevice initialized with ID 10.
+[2024.04.04-19.08.10:579][214]LogAudio: Display: Audio Device (ID: 10) registered with world 'TrackOne'.
+[2024.04.04-19.08.10:579][214]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2024.04.04-19.08.10:582][214]LogLoad: Game class is 'BP_LevelOneGM_C'
+[2024.04.04-19.08.10:642][214]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TrackOne.TrackOne up for play (max tick rate 0) at 2024.04.04-12.08.10
+[2024.04.04-19.08.10:646][214]LogWorld: Bringing up level for play took: 0.063775
+[2024.04.04-19.08.10:648][214]LogOnline: OSS: Created online subsystem instance for: :Context_31
+[2024.04.04-19.08.10:651][214]PIE: Server logged in
+[2024.04.04-19.08.10:652][214]PIE: Play in editor total start time 0.554 seconds.
+[2024.04.04-19.08.11:938][277]LogBlueprintUserMessages: [BP_Checkpoint_C_1] First Lap Registered
+[2024.04.04-19.08.12:538][309]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property As BP Level One GM". Node:  Set Integer (by ref) Graph:  ManipulateIntInternal Function:  Execute Ubergraph BP Checkpoint Blueprint:  BP_Checkpoint
+[2024.04.04-19.08.12:538][309]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property As BP Level One GM". Node:  Set Integer (by ref) Graph:  ManipulateIntInternal Function:  Execute Ubergraph BP Checkpoint Blueprint:  BP_Checkpoint
+[2024.04.04-19.08.12:538][309]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Node:  Set Integer (by ref) Graph:  ManipulateIntInternal Function:  Execute Ubergraph BP Checkpoint Blueprint:  BP_Checkpoint
+[2024.04.04-19.08.12:538][309]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property As BP Level One GM". Node:  Set LapsCompleted Graph:  EventGraph Function:  Execute Ubergraph BP Checkpoint Blueprint:  BP_Checkpoint
+[2024.04.04-19.08.12:538][309]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Node:  Set LapsCompleted Graph:  EventGraph Function:  Execute Ubergraph BP Checkpoint Blueprint:  BP_Checkpoint
+[2024.04.04-19.08.12:538][309]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property As BP Level One GM". Node:  Update Laps Graph:  EventGraph Function:  Execute Ubergraph BP Checkpoint Blueprint:  BP_Checkpoint
+[2024.04.04-19.08.12:538][309]LogBlueprintUserMessages: [BP_Checkpoint_C_1] Lap Registered
+[2024.04.04-19.08.12:782][322]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property As BP Level One GM". Node:  Set Integer (by ref) Graph:  ManipulateIntInternal Function:  Execute Ubergraph BP Checkpoint Blueprint:  BP_Checkpoint
+[2024.04.04-19.08.12:782][322]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property As BP Level One GM". Node:  Set Integer (by ref) Graph:  ManipulateIntInternal Function:  Execute Ubergraph BP Checkpoint Blueprint:  BP_Checkpoint
+[2024.04.04-19.08.12:782][322]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Node:  Set Integer (by ref) Graph:  ManipulateIntInternal Function:  Execute Ubergraph BP Checkpoint Blueprint:  BP_Checkpoint
+[2024.04.04-19.08.12:782][322]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property As BP Level One GM". Node:  Set LapsCompleted Graph:  EventGraph Function:  Execute Ubergraph BP Checkpoint Blueprint:  BP_Checkpoint
+[2024.04.04-19.08.12:782][322]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Node:  Set LapsCompleted Graph:  EventGraph Function:  Execute Ubergraph BP Checkpoint Blueprint:  BP_Checkpoint
+[2024.04.04-19.08.12:782][322]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property As BP Level One GM". Node:  Update Laps Graph:  EventGraph Function:  Execute Ubergraph BP Checkpoint Blueprint:  BP_Checkpoint
+[2024.04.04-19.08.12:782][322]LogBlueprintUserMessages: [BP_Checkpoint_C_1] Lap Registered
+[2024.04.04-19.08.14:765][428]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property As BP Level One GM". Node:  Set Integer (by ref) Graph:  ManipulateIntInternal Function:  Execute Ubergraph BP Checkpoint Blueprint:  BP_Checkpoint
+[2024.04.04-19.08.14:765][428]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property As BP Level One GM". Node:  Set Integer (by ref) Graph:  ManipulateIntInternal Function:  Execute Ubergraph BP Checkpoint Blueprint:  BP_Checkpoint
+[2024.04.04-19.08.14:765][428]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Node:  Set Integer (by ref) Graph:  ManipulateIntInternal Function:  Execute Ubergraph BP Checkpoint Blueprint:  BP_Checkpoint
+[2024.04.04-19.08.14:765][428]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property As BP Level One GM". Node:  Set LapsCompleted Graph:  EventGraph Function:  Execute Ubergraph BP Checkpoint Blueprint:  BP_Checkpoint
+[2024.04.04-19.08.14:765][428]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Node:  Set LapsCompleted Graph:  EventGraph Function:  Execute Ubergraph BP Checkpoint Blueprint:  BP_Checkpoint
+[2024.04.04-19.08.14:766][428]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property As BP Level One GM". Node:  Update Laps Graph:  EventGraph Function:  Execute Ubergraph BP Checkpoint Blueprint:  BP_Checkpoint
+[2024.04.04-19.08.14:766][428]LogBlueprintUserMessages: [BP_Checkpoint_C_1] Lap Registered
+[2024.04.04-19.08.16:339][512]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.04-19.08.16:339][512]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TrackOne
+[2024.04.04-19.08.16:340][512]LogWorld: UWorld::CleanupWorld for TrackOne, bSessionEnded=true, bCleanupResources=true
+[2024.04.04-19.08.16:348][512]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.04-19.08.16:352][512]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.04-19.08.16:358][512]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.04-19.08.16:371][512]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.04-19.08.16:371][512]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2024.04.04-19.08.16:372][512]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2024.04.04-19.08.16:373][512]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2024.04.04-19.08.16:376][512]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.04-19.08.16:403][512]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2024.04.04-19.08.16:543][513]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2024.04.04-19.09.04:918][906]LogSlate: Window 'Message Log' being destroyed
+[2024.04.04-19.09.04:929][906]LogSlate: Window 'Message Log' being destroyed
+[2024.04.04-19.10.44:994][667]BlueprintLog: New page: Compile BP_LevelOneGM
+[2024.04.04-19.10.45:029][667]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2024.04.04-19.10.45:123][667]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.04-19.10.45:155][667]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_LevelOneGM" FILE="D:/Unreal Projects/FuryRoad/FuryRoad/Content/Blueprints/BP_LevelOneGM.uasset" SILENT=true
+[2024.04.04-19.10.45:162][667]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_LevelOneGM
+[2024.04.04-19.10.45:162][667]LogSavePackage: Moving 'D:/Unreal Projects/FuryRoad/FuryRoad/Saved/BP_LevelOneGM0D5B64B249C4D6874E5D679EA0E049B6.tmp' to 'D:/Unreal Projects/FuryRoad/FuryRoad/Content/Blueprints/BP_LevelOneGM.uasset'
+[2024.04.04-19.10.45:166][667]LogFileHelpers: InternalPromptForCheckoutAndSave took 42 ms (total: 3.36 sec)
+[2024.04.04-19.10.45:169][667]AssetCheck: New page: Asset Save: BP_LevelOneGM
+[2024.04.04-19.10.45:169][667]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_LevelOneGM.BP_LevelOneGM
+[2024.04.04-19.10.45:993][750]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.04-19.10.46:022][750]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_LevelOneGM" FILE="D:/Unreal Projects/FuryRoad/FuryRoad/Content/Blueprints/BP_LevelOneGM.uasset" SILENT=true
+[2024.04.04-19.10.46:029][750]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_LevelOneGM
+[2024.04.04-19.10.46:029][750]LogSavePackage: Moving 'D:/Unreal Projects/FuryRoad/FuryRoad/Saved/BP_LevelOneGM454E28094E3E4F225F18219804B1003F.tmp' to 'D:/Unreal Projects/FuryRoad/FuryRoad/Content/Blueprints/BP_LevelOneGM.uasset'
+[2024.04.04-19.10.46:033][750]LogFileHelpers: InternalPromptForCheckoutAndSave took 39 ms (total: 3.40 sec)
+[2024.04.04-19.10.46:034][750]AssetCheck: New page: Asset Save: BP_LevelOneGM
+[2024.04.04-19.10.46:034][750]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_LevelOneGM.BP_LevelOneGM
+[2024.04.04-19.11.39:285][972]LogEditorTransaction: Undo Add Pin
+[2024.04.04-19.11.59:379][271]BlueprintLog: New page: Compile BP_Checkpoint
+[2024.04.04-19.11.59:432][271]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2024.04.04-19.11.59:486][271]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.04-19.11.59:541][271]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Checkpoint" FILE="D:/Unreal Projects/FuryRoad/FuryRoad/Content/Blueprints/BP_Checkpoint.uasset" SILENT=true
+[2024.04.04-19.11.59:552][271]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Checkpoint
+[2024.04.04-19.11.59:553][271]LogSavePackage: Moving 'D:/Unreal Projects/FuryRoad/FuryRoad/Saved/BP_CheckpointA1CE0FC5456768B587A8148F33EE5B94.tmp' to 'D:/Unreal Projects/FuryRoad/FuryRoad/Content/Blueprints/BP_Checkpoint.uasset'
+[2024.04.04-19.11.59:556][271]LogFileHelpers: InternalPromptForCheckoutAndSave took 70 ms (total: 3.47 sec)
+[2024.04.04-19.11.59:559][271]AssetCheck: New page: Asset Save: BP_Checkpoint
+[2024.04.04-19.11.59:559][271]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Checkpoint.BP_Checkpoint
+[2024.04.04-19.12.08:172][271]BlueprintLog: New page: Compile BP_Checkpoint
+[2024.04.04-19.12.08:220][271]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2024.04.04-19.12.08:988][339]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.04-19.12.09:025][339]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Checkpoint" FILE="D:/Unreal Projects/FuryRoad/FuryRoad/Content/Blueprints/BP_Checkpoint.uasset" SILENT=true
+[2024.04.04-19.12.09:036][339]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Checkpoint
+[2024.04.04-19.12.09:036][339]LogSavePackage: Moving 'D:/Unreal Projects/FuryRoad/FuryRoad/Saved/BP_CheckpointD1F453A94FB0970BA01B759CECB1BB6B.tmp' to 'D:/Unreal Projects/FuryRoad/FuryRoad/Content/Blueprints/BP_Checkpoint.uasset'
+[2024.04.04-19.12.09:040][339]LogFileHelpers: InternalPromptForCheckoutAndSave took 51 ms (total: 3.52 sec)
+[2024.04.04-19.12.09:041][339]AssetCheck: New page: Asset Save: BP_Checkpoint
+[2024.04.04-19.12.09:041][339]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Checkpoint.BP_Checkpoint
+[2024.04.04-19.12.11:507][566]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.04-19.12.11:559][566]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TrackOne" FILE="D:/Unreal Projects/FuryRoad/FuryRoad/Content/Levels/TrackOne.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.04.04-19.12.11:595][566]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2024.04.04-19.12.12:106][566]LogSavePackage: Moving output files for package: /Game/Levels/TrackOne
+[2024.04.04-19.12.12:107][566]LogSavePackage: Moving 'D:/Unreal Projects/FuryRoad/FuryRoad/Saved/TrackOneE4934AAE4D6EBDC15ABE5C8C91E03C5A.tmp' to 'D:/Unreal Projects/FuryRoad/FuryRoad/Content/Levels/TrackOne.umap'
+[2024.04.04-19.12.12:116][566]LogFileHelpers: Saving map 'TrackOne' took 0.558
+[2024.04.04-19.12.12:120][566]LogFileHelpers: InternalPromptForCheckoutAndSave took 613 ms (total: 4.13 sec)
+[2024.04.04-19.12.12:125][566]AssetCheck: New page: Asset Save: TrackOne
+[2024.04.04-19.12.12:125][566]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/TrackOne.TrackOne
+[2024.04.04-19.12.13:413][632]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.04-19.12.13:421][632]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.04-19.12.13:421][632]PIE: New page: PIE session: TrackOne (Apr. 4, 2024, 5:12:13 a.m.)
+[2024.04.04-19.12.13:421][632]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TrackOne
+[2024.04.04-19.12.13:842][632]LogPlayLevel: PIE: StaticDuplicateObject took: (0.421699s)
+[2024.04.04-19.12.13:843][632]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TrackOne.TrackOne to /Game/Levels/UEDPIE_0_TrackOne.TrackOne (0.421735s)
+[2024.04.04-19.12.13:855][632]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2024.04.04-19.12.13:857][632]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.04-19.12.13:857][632]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.04-19.12.13:857][632]LogAIModule: Creating AISystem for world TrackOne
+[2024.04.04-19.12.13:858][632]LogPlayLevel: PIE: World Init took: (0.000986s)
+[2024.04.04-19.12.13:858][632]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2024.04.04-19.12.13:858][632]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.04-19.12.13:858][632]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.04-19.12.13:858][632]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.04-19.12.13:858][632]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.04-19.12.13:858][632]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.04.04-19.12.13:858][632]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.04-19.12.13:858][632]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.04.04-19.12.13:858][632]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.04-19.12.13:858][632]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.04-19.12.13:858][632]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.04-19.12.13:858][632]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.04-19.12.13:860][632]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.04-19.12.13:875][632]LogAudioMixer: Display: Using Audio Hardware Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2024.04.04-19.12.13:876][632]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.04-19.12.13:876][632]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.04-19.12.13:876][632]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.04-19.12.13:876][632]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2024.04.04-19.12.13:876][632]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2024.04.04-19.12.13:878][632]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2024.04.04-19.12.13:878][632]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2024.04.04-19.12.13:878][632]LogInit: FAudioDevice initialized with ID 11.
+[2024.04.04-19.12.13:878][632]LogAudio: Display: Audio Device (ID: 11) registered with world 'TrackOne'.
+[2024.04.04-19.12.13:878][632]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2024.04.04-19.12.13:880][632]LogLoad: Game class is 'BP_LevelOneGM_C'
+[2024.04.04-19.12.13:944][632]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TrackOne.TrackOne up for play (max tick rate 0) at 2024.04.04-12.12.13
+[2024.04.04-19.12.13:948][632]LogWorld: Bringing up level for play took: 0.067260
+[2024.04.04-19.12.13:949][632]LogOnline: OSS: Created online subsystem instance for: :Context_32
+[2024.04.04-19.12.13:953][632]PIE: Server logged in
+[2024.04.04-19.12.13:954][632]PIE: Play in editor total start time 0.533 seconds.
+[2024.04.04-19.12.15:238][695]LogBlueprintUserMessages: [BP_Checkpoint_C_1] First Lap Registered
+[2024.04.04-19.12.15:839][727]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property As BP Level One GM". Node:  Set LapsCompleted Graph:  EventGraph Function:  Execute Ubergraph BP Checkpoint Blueprint:  BP_Checkpoint
+[2024.04.04-19.12.15:839][727]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property As BP Level One GM". Node:  Set LapsCompleted Graph:  EventGraph Function:  Execute Ubergraph BP Checkpoint Blueprint:  BP_Checkpoint
+[2024.04.04-19.12.15:839][727]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Node:  Set LapsCompleted Graph:  EventGraph Function:  Execute Ubergraph BP Checkpoint Blueprint:  BP_Checkpoint
+[2024.04.04-19.12.15:839][727]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property As BP Level One GM". Node:  Update Laps Graph:  EventGraph Function:  Execute Ubergraph BP Checkpoint Blueprint:  BP_Checkpoint
+[2024.04.04-19.12.15:839][727]LogBlueprintUserMessages: [BP_Checkpoint_C_1] Lap Registered
+[2024.04.04-19.12.16:217][747]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property As BP Level One GM". Node:  Set LapsCompleted Graph:  EventGraph Function:  Execute Ubergraph BP Checkpoint Blueprint:  BP_Checkpoint
+[2024.04.04-19.12.16:217][747]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property As BP Level One GM". Node:  Set LapsCompleted Graph:  EventGraph Function:  Execute Ubergraph BP Checkpoint Blueprint:  BP_Checkpoint
+[2024.04.04-19.12.16:217][747]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Node:  Set LapsCompleted Graph:  EventGraph Function:  Execute Ubergraph BP Checkpoint Blueprint:  BP_Checkpoint
+[2024.04.04-19.12.16:217][747]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property As BP Level One GM". Node:  Update Laps Graph:  EventGraph Function:  Execute Ubergraph BP Checkpoint Blueprint:  BP_Checkpoint
+[2024.04.04-19.12.16:217][747]LogBlueprintUserMessages: [BP_Checkpoint_C_1] Lap Registered
+[2024.04.04-19.12.18:699][879]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property As BP Level One GM". Node:  Set LapsCompleted Graph:  EventGraph Function:  Execute Ubergraph BP Checkpoint Blueprint:  BP_Checkpoint
+[2024.04.04-19.12.18:699][879]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property As BP Level One GM". Node:  Set LapsCompleted Graph:  EventGraph Function:  Execute Ubergraph BP Checkpoint Blueprint:  BP_Checkpoint
+[2024.04.04-19.12.18:699][879]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Node:  Set LapsCompleted Graph:  EventGraph Function:  Execute Ubergraph BP Checkpoint Blueprint:  BP_Checkpoint
+[2024.04.04-19.12.18:699][879]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property As BP Level One GM". Node:  Update Laps Graph:  EventGraph Function:  Execute Ubergraph BP Checkpoint Blueprint:  BP_Checkpoint
+[2024.04.04-19.12.18:699][879]LogBlueprintUserMessages: [BP_Checkpoint_C_1] Lap Registered
+[2024.04.04-19.12.21:443][ 28]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property As BP Level One GM". Node:  Set LapsCompleted Graph:  EventGraph Function:  Execute Ubergraph BP Checkpoint Blueprint:  BP_Checkpoint
+[2024.04.04-19.12.21:443][ 28]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property As BP Level One GM". Node:  Set LapsCompleted Graph:  EventGraph Function:  Execute Ubergraph BP Checkpoint Blueprint:  BP_Checkpoint
+[2024.04.04-19.12.21:443][ 28]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Node:  Set LapsCompleted Graph:  EventGraph Function:  Execute Ubergraph BP Checkpoint Blueprint:  BP_Checkpoint
+[2024.04.04-19.12.21:443][ 28]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property As BP Level One GM". Node:  Update Laps Graph:  EventGraph Function:  Execute Ubergraph BP Checkpoint Blueprint:  BP_Checkpoint
+[2024.04.04-19.12.21:443][ 28]LogBlueprintUserMessages: [BP_Checkpoint_C_1] Lap Registered
+[2024.04.04-19.12.22:879][103]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.04-19.12.22:880][103]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TrackOne
+[2024.04.04-19.12.22:880][103]LogWorld: UWorld::CleanupWorld for TrackOne, bSessionEnded=true, bCleanupResources=true
+[2024.04.04-19.12.22:889][103]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.04-19.12.22:892][103]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.04-19.12.22:898][103]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.04-19.12.22:912][103]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.04-19.12.22:916][103]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2024.04.04-19.12.22:916][103]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2024.04.04-19.12.22:918][103]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2024.04.04-19.12.22:943][103]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2024.04.04-19.12.23:099][104]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2024.04.04-19.12.29:519][540]LogSlate: Window 'Message Log' being destroyed
+[2024.04.04-19.12.29:524][540]LogSlate: Window 'Message Log' being destroyed
+[2024.04.04-19.12.32:778][910]LogEditorTransaction: Undo Create Pin Link
+[2024.04.04-19.12.33:707][960]LogEditorTransaction: Undo Create Pin Link
+[2024.04.04-19.12.34:340][ 21]LogEditorTransaction: Undo Change Number Pin Value
+[2024.04.04-19.12.35:020][ 88]LogEditorTransaction: Undo Move Node
+[2024.04.04-19.12.35:663][147]LogEditorTransaction: Undo Add Node
+[2024.04.04-19.12.36:212][195]LogEditorTransaction: Undo Move Node
+[2024.04.04-19.12.36:909][264]LogEditorTransaction: Undo Break Pin Links
+[2024.04.04-19.12.37:579][284]LogEditorTransaction: Undo Break Pin Links
+[2024.04.04-19.12.38:083][330]LogEditorTransaction: Undo Break Pin Links
+[2024.04.04-19.12.38:654][383]LogEditorTransaction: Undo Break Pin Links
+[2024.04.04-19.12.40:656][603]BlueprintLog: New page: Compile BP_Checkpoint
+[2024.04.04-19.12.40:711][603]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2024.04.04-19.12.40:760][603]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.04-19.12.40:792][603]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Checkpoint" FILE="D:/Unreal Projects/FuryRoad/FuryRoad/Content/Blueprints/BP_Checkpoint.uasset" SILENT=true
+[2024.04.04-19.12.40:803][603]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Checkpoint
+[2024.04.04-19.12.40:804][603]LogSavePackage: Moving 'D:/Unreal Projects/FuryRoad/FuryRoad/Saved/BP_CheckpointF4E92FEA4DB5A4A230E2989CE1A30316.tmp' to 'D:/Unreal Projects/FuryRoad/FuryRoad/Content/Blueprints/BP_Checkpoint.uasset'
+[2024.04.04-19.12.40:807][603]LogFileHelpers: InternalPromptForCheckoutAndSave took 46 ms (total: 4.18 sec)
+[2024.04.04-19.12.40:810][603]AssetCheck: New page: Asset Save: BP_Checkpoint
+[2024.04.04-19.12.40:810][603]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Checkpoint.BP_Checkpoint
+[2024.04.04-19.12.43:572][900]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.04-19.12.43:625][900]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Checkpoint" FILE="D:/Unreal Projects/FuryRoad/FuryRoad/Content/Blueprints/BP_Checkpoint.uasset" SILENT=true
+[2024.04.04-19.12.43:636][900]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Checkpoint
+[2024.04.04-19.12.43:636][900]LogSavePackage: Moving 'D:/Unreal Projects/FuryRoad/FuryRoad/Saved/BP_CheckpointCE9F98A44DDF817BBA40C289505982DA.tmp' to 'D:/Unreal Projects/FuryRoad/FuryRoad/Content/Blueprints/BP_Checkpoint.uasset'
+[2024.04.04-19.12.43:640][900]LogFileHelpers: InternalPromptForCheckoutAndSave took 68 ms (total: 4.25 sec)
+[2024.04.04-19.12.43:643][900]AssetCheck: New page: Asset Save: BP_Checkpoint
+[2024.04.04-19.12.43:643][900]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Checkpoint.BP_Checkpoint
+[2024.04.04-19.13.42:166][778]BlueprintLog: New page: Compile BP_Checkpoint
+[2024.04.04-19.13.42:214][778]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2024.04.04-19.13.42:266][778]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.04-19.13.42:294][778]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Checkpoint" FILE="D:/Unreal Projects/FuryRoad/FuryRoad/Content/Blueprints/BP_Checkpoint.uasset" SILENT=true
+[2024.04.04-19.13.42:306][778]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Checkpoint
+[2024.04.04-19.13.42:306][778]LogSavePackage: Moving 'D:/Unreal Projects/FuryRoad/FuryRoad/Saved/BP_CheckpointCBD58A174410DF93DB54919BA13E28F8.tmp' to 'D:/Unreal Projects/FuryRoad/FuryRoad/Content/Blueprints/BP_Checkpoint.uasset'
+[2024.04.04-19.13.42:310][778]LogFileHelpers: InternalPromptForCheckoutAndSave took 44 ms (total: 4.29 sec)
+[2024.04.04-19.13.42:313][778]AssetCheck: New page: Asset Save: BP_Checkpoint
+[2024.04.04-19.13.42:313][778]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Checkpoint.BP_Checkpoint
+[2024.04.04-19.13.44:223][986]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.04-19.13.44:261][986]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Checkpoint" FILE="D:/Unreal Projects/FuryRoad/FuryRoad/Content/Blueprints/BP_Checkpoint.uasset" SILENT=true
+[2024.04.04-19.13.44:272][986]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Checkpoint
+[2024.04.04-19.13.44:273][986]LogSavePackage: Moving 'D:/Unreal Projects/FuryRoad/FuryRoad/Saved/BP_Checkpoint2A1B2B3F47FE5A7F1861E18C8FEB5745.tmp' to 'D:/Unreal Projects/FuryRoad/FuryRoad/Content/Blueprints/BP_Checkpoint.uasset'
+[2024.04.04-19.13.44:276][986]LogFileHelpers: InternalPromptForCheckoutAndSave took 52 ms (total: 4.34 sec)
+[2024.04.04-19.13.44:279][986]AssetCheck: New page: Asset Save: BP_Checkpoint
+[2024.04.04-19.13.44:279][986]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Checkpoint.BP_Checkpoint
+[2024.04.04-19.13.46:999][232]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.04-19.13.47:046][232]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TrackOne" FILE="D:/Unreal Projects/FuryRoad/FuryRoad/Content/Levels/TrackOne.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.04.04-19.13.47:083][232]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2024.04.04-19.13.47:599][232]LogSavePackage: Moving output files for package: /Game/Levels/TrackOne
+[2024.04.04-19.13.47:599][232]LogSavePackage: Moving 'D:/Unreal Projects/FuryRoad/FuryRoad/Saved/TrackOne8F916B604CD8057E04982F85623EEC93.tmp' to 'D:/Unreal Projects/FuryRoad/FuryRoad/Content/Levels/TrackOne.umap'
+[2024.04.04-19.13.47:608][232]LogFileHelpers: Saving map 'TrackOne' took 0.563
+[2024.04.04-19.13.47:613][232]LogFileHelpers: InternalPromptForCheckoutAndSave took 613 ms (total: 4.96 sec)
+[2024.04.04-19.13.47:617][232]AssetCheck: New page: Asset Save: TrackOne
+[2024.04.04-19.13.47:617][232]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/TrackOne.TrackOne
+[2024.04.04-19.13.48:250][267]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.04-19.13.48:258][267]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.04-19.13.48:258][267]PIE: New page: PIE session: TrackOne (Apr. 4, 2024, 5:13:48 a.m.)
+[2024.04.04-19.13.48:258][267]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TrackOne
+[2024.04.04-19.13.48:682][267]LogPlayLevel: PIE: StaticDuplicateObject took: (0.423976s)
+[2024.04.04-19.13.48:682][267]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TrackOne.TrackOne to /Game/Levels/UEDPIE_0_TrackOne.TrackOne (0.424007s)
+[2024.04.04-19.13.48:697][267]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2024.04.04-19.13.48:698][267]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.04-19.13.48:698][267]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.04-19.13.48:699][267]LogAIModule: Creating AISystem for world TrackOne
+[2024.04.04-19.13.48:699][267]LogPlayLevel: PIE: World Init took: (0.000984s)
+[2024.04.04-19.13.48:699][267]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2024.04.04-19.13.48:699][267]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.04-19.13.48:699][267]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.04-19.13.48:699][267]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.04-19.13.48:699][267]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.04-19.13.48:699][267]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.04.04-19.13.48:699][267]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.04-19.13.48:699][267]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.04.04-19.13.48:699][267]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.04-19.13.48:700][267]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.04-19.13.48:700][267]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.04-19.13.48:700][267]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.04-19.13.48:701][267]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.04-19.13.48:717][267]LogAudioMixer: Display: Using Audio Hardware Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2024.04.04-19.13.48:718][267]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.04-19.13.48:718][267]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.04-19.13.48:718][267]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.04-19.13.48:718][267]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2024.04.04-19.13.48:718][267]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2024.04.04-19.13.48:719][267]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2024.04.04-19.13.48:719][267]LogInit: FAudioDevice initialized with ID 12.
+[2024.04.04-19.13.48:719][267]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2024.04.04-19.13.48:719][267]LogAudio: Display: Audio Device (ID: 12) registered with world 'TrackOne'.
+[2024.04.04-19.13.48:719][267]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2024.04.04-19.13.48:722][267]LogLoad: Game class is 'BP_LevelOneGM_C'
+[2024.04.04-19.13.48:785][267]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TrackOne.TrackOne up for play (max tick rate 0) at 2024.04.04-12.13.48
+[2024.04.04-19.13.48:788][267]LogWorld: Bringing up level for play took: 0.066342
+[2024.04.04-19.13.48:790][267]LogOnline: OSS: Created online subsystem instance for: :Context_33
+[2024.04.04-19.13.48:794][267]PIE: Server logged in
+[2024.04.04-19.13.48:795][267]PIE: Play in editor total start time 0.537 seconds.
+[2024.04.04-19.13.50:083][330]LogBlueprintUserMessages: [BP_Checkpoint_C_1] First Lap Registered
+[2024.04.04-19.13.50:676][362]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property As BP Level One GM". Node:  Set Integer (by ref) Graph:  ManipulateIntInternal Function:  Execute Ubergraph BP Checkpoint Blueprint:  BP_Checkpoint
+[2024.04.04-19.13.50:676][362]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property As BP Level One GM". Node:  Set Integer (by ref) Graph:  ManipulateIntInternal Function:  Execute Ubergraph BP Checkpoint Blueprint:  BP_Checkpoint
+[2024.04.04-19.13.50:676][362]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Node:  Set Integer (by ref) Graph:  ManipulateIntInternal Function:  Execute Ubergraph BP Checkpoint Blueprint:  BP_Checkpoint
+[2024.04.04-19.13.50:676][362]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property As BP Level One GM". Node:  Set LapsCompleted Graph:  EventGraph Function:  Execute Ubergraph BP Checkpoint Blueprint:  BP_Checkpoint
+[2024.04.04-19.13.50:676][362]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Node:  Set LapsCompleted Graph:  EventGraph Function:  Execute Ubergraph BP Checkpoint Blueprint:  BP_Checkpoint
+[2024.04.04-19.13.50:676][362]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property As BP Level One GM". Node:  Update Laps Graph:  EventGraph Function:  Execute Ubergraph BP Checkpoint Blueprint:  BP_Checkpoint
+[2024.04.04-19.13.50:676][362]LogBlueprintUserMessages: [BP_Checkpoint_C_1] Lap Registered
+[2024.04.04-19.13.51:788][422]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property As BP Level One GM". Node:  Set Integer (by ref) Graph:  ManipulateIntInternal Function:  Execute Ubergraph BP Checkpoint Blueprint:  BP_Checkpoint
+[2024.04.04-19.13.51:788][422]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property As BP Level One GM". Node:  Set Integer (by ref) Graph:  ManipulateIntInternal Function:  Execute Ubergraph BP Checkpoint Blueprint:  BP_Checkpoint
+[2024.04.04-19.13.51:788][422]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Node:  Set Integer (by ref) Graph:  ManipulateIntInternal Function:  Execute Ubergraph BP Checkpoint Blueprint:  BP_Checkpoint
+[2024.04.04-19.13.51:788][422]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property As BP Level One GM". Node:  Set LapsCompleted Graph:  EventGraph Function:  Execute Ubergraph BP Checkpoint Blueprint:  BP_Checkpoint
+[2024.04.04-19.13.51:788][422]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Node:  Set LapsCompleted Graph:  EventGraph Function:  Execute Ubergraph BP Checkpoint Blueprint:  BP_Checkpoint
+[2024.04.04-19.13.51:788][422]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property As BP Level One GM". Node:  Update Laps Graph:  EventGraph Function:  Execute Ubergraph BP Checkpoint Blueprint:  BP_Checkpoint
+[2024.04.04-19.13.51:788][422]LogBlueprintUserMessages: [BP_Checkpoint_C_1] Lap Registered
+[2024.04.04-19.13.59:551][837]LogBlueprintUserMessages: [BP_Checkpoint_C_0] First Lap Registered
+[2024.04.04-19.13.59:646][842]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property As BP Level One GM". Node:  Set Integer (by ref) Graph:  ManipulateIntInternal Function:  Execute Ubergraph BP Checkpoint Blueprint:  BP_Checkpoint
+[2024.04.04-19.13.59:646][842]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property As BP Level One GM". Node:  Set Integer (by ref) Graph:  ManipulateIntInternal Function:  Execute Ubergraph BP Checkpoint Blueprint:  BP_Checkpoint
+[2024.04.04-19.13.59:646][842]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Node:  Set Integer (by ref) Graph:  ManipulateIntInternal Function:  Execute Ubergraph BP Checkpoint Blueprint:  BP_Checkpoint
+[2024.04.04-19.13.59:646][842]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property As BP Level One GM". Node:  Set LapsCompleted Graph:  EventGraph Function:  Execute Ubergraph BP Checkpoint Blueprint:  BP_Checkpoint
+[2024.04.04-19.13.59:646][842]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Node:  Set LapsCompleted Graph:  EventGraph Function:  Execute Ubergraph BP Checkpoint Blueprint:  BP_Checkpoint
+[2024.04.04-19.13.59:646][842]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property As BP Level One GM". Node:  Update Laps Graph:  EventGraph Function:  Execute Ubergraph BP Checkpoint Blueprint:  BP_Checkpoint
+[2024.04.04-19.13.59:646][842]LogBlueprintUserMessages: [BP_Checkpoint_C_0] Lap Registered
+[2024.04.04-19.13.59:919][855]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.04-19.13.59:919][855]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TrackOne
+[2024.04.04-19.13.59:919][855]LogWorld: UWorld::CleanupWorld for TrackOne, bSessionEnded=true, bCleanupResources=true
+[2024.04.04-19.13.59:929][855]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.04-19.13.59:936][855]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.04-19.13.59:943][855]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.04-19.13.59:955][855]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.04-19.13.59:961][855]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2024.04.04-19.13.59:961][855]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.04.04-19.13.59:963][855]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.04.04-19.13.59:989][855]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2024.04.04-19.14.00:116][856]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2024.04.04-19.14.02:695][973]LogSlate: Window 'Message Log' being destroyed
+[2024.04.04-19.14.02:718][973]LogSlate: Window 'Message Log' being destroyed
+[2024.04.04-19.14.05:831][246]LogSlate: Took 0.007774 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2024.04.04-19.14.30:384][134]BlueprintLog: New page: Compile WB_Lap_Times
+[2024.04.04-19.14.30:408][134]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2024.04.04-19.14.30:519][134]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.04-19.14.30:548][134]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/WB_Lap_Times" FILE="D:/Unreal Projects/FuryRoad/FuryRoad/Content/Widgets/WB_Lap_Times.uasset" SILENT=true
+[2024.04.04-19.14.30:554][134]LogSavePackage: Moving output files for package: /Game/Widgets/WB_Lap_Times
+[2024.04.04-19.14.30:554][134]LogSavePackage: Moving 'D:/Unreal Projects/FuryRoad/FuryRoad/Saved/WB_Lap_Times314A14CE4ED7AE629E63BCAB34A41187.tmp' to 'D:/Unreal Projects/FuryRoad/FuryRoad/Content/Widgets/WB_Lap_Times.uasset'
+[2024.04.04-19.14.30:558][134]LogFileHelpers: InternalPromptForCheckoutAndSave took 39 ms (total: 5.00 sec)
+[2024.04.04-19.14.30:565][134]AssetCheck: New page: Asset Save: WB_Lap_Times
+[2024.04.04-19.14.30:565][134]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/WB_Lap_Times.WB_Lap_Times
+[2024.04.04-19.14.33:512][474]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.04-19.14.33:546][474]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/WB_Lap_Times" FILE="D:/Unreal Projects/FuryRoad/FuryRoad/Content/Widgets/WB_Lap_Times.uasset" SILENT=true
+[2024.04.04-19.14.33:552][474]LogSavePackage: Moving output files for package: /Game/Widgets/WB_Lap_Times
+[2024.04.04-19.14.33:552][474]LogSavePackage: Moving 'D:/Unreal Projects/FuryRoad/FuryRoad/Saved/WB_Lap_TimesAE63F7214075F403936ECD8AD8B60C14.tmp' to 'D:/Unreal Projects/FuryRoad/FuryRoad/Content/Widgets/WB_Lap_Times.uasset'
+[2024.04.04-19.14.33:555][474]LogFileHelpers: InternalPromptForCheckoutAndSave took 42 ms (total: 5.04 sec)
+[2024.04.04-19.14.33:557][474]AssetCheck: New page: Asset Save: WB_Lap_Times
+[2024.04.04-19.14.33:557][474]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/WB_Lap_Times.WB_Lap_Times
+[2024.04.04-19.14.45:126][832]BlueprintLog: New page: Compile WB_Lap_Times
+[2024.04.04-19.14.45:151][832]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2024.04.04-19.14.45:262][832]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.04-19.14.45:315][832]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/WB_Lap_Times" FILE="D:/Unreal Projects/FuryRoad/FuryRoad/Content/Widgets/WB_Lap_Times.uasset" SILENT=true
+[2024.04.04-19.14.45:321][832]LogSavePackage: Moving output files for package: /Game/Widgets/WB_Lap_Times
+[2024.04.04-19.14.45:321][832]LogSavePackage: Moving 'D:/Unreal Projects/FuryRoad/FuryRoad/Saved/WB_Lap_Times010019E948BF00F1144E4AA7E7E4D6F4.tmp' to 'D:/Unreal Projects/FuryRoad/FuryRoad/Content/Widgets/WB_Lap_Times.uasset'
+[2024.04.04-19.14.45:325][832]LogFileHelpers: InternalPromptForCheckoutAndSave took 62 ms (total: 5.10 sec)
+[2024.04.04-19.14.45:333][832]AssetCheck: New page: Asset Save: WB_Lap_Times
+[2024.04.04-19.14.45:333][832]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/WB_Lap_Times.WB_Lap_Times
+[2024.04.04-19.14.48:613][212]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.04-19.14.48:663][212]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/WB_Lap_Times" FILE="D:/Unreal Projects/FuryRoad/FuryRoad/Content/Widgets/WB_Lap_Times.uasset" SILENT=true
+[2024.04.04-19.14.48:669][212]LogSavePackage: Moving output files for package: /Game/Widgets/WB_Lap_Times
+[2024.04.04-19.14.48:669][212]LogSavePackage: Moving 'D:/Unreal Projects/FuryRoad/FuryRoad/Saved/WB_Lap_Times0D1509874FAC288E88B19083A3400864.tmp' to 'D:/Unreal Projects/FuryRoad/FuryRoad/Content/Widgets/WB_Lap_Times.uasset'
+[2024.04.04-19.14.48:672][212]LogFileHelpers: InternalPromptForCheckoutAndSave took 58 ms (total: 5.16 sec)
+[2024.04.04-19.14.48:674][212]AssetCheck: New page: Asset Save: WB_Lap_Times
+[2024.04.04-19.14.48:674][212]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/WB_Lap_Times.WB_Lap_Times
+[2024.04.04-19.14.52:965][491]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.04-19.14.52:972][491]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.04-19.14.52:972][491]PIE: New page: PIE session: TrackOne (Apr. 4, 2024, 5:14:52 a.m.)
+[2024.04.04-19.14.52:972][491]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TrackOne
+[2024.04.04-19.14.53:398][491]LogPlayLevel: PIE: StaticDuplicateObject took: (0.426587s)
+[2024.04.04-19.14.53:398][491]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TrackOne.TrackOne to /Game/Levels/UEDPIE_0_TrackOne.TrackOne (0.426618s)
+[2024.04.04-19.14.53:414][491]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2024.04.04-19.14.53:419][491]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.04-19.14.53:419][491]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.04-19.14.53:420][491]LogAIModule: Creating AISystem for world TrackOne
+[2024.04.04-19.14.53:420][491]LogPlayLevel: PIE: World Init took: (0.001093s)
+[2024.04.04-19.14.53:420][491]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2024.04.04-19.14.53:420][491]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.04-19.14.53:420][491]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.04-19.14.53:420][491]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.04-19.14.53:420][491]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.04-19.14.53:420][491]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.04.04-19.14.53:420][491]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.04-19.14.53:420][491]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.04.04-19.14.53:420][491]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.04-19.14.53:421][491]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.04-19.14.53:421][491]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.04-19.14.53:421][491]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.04-19.14.53:422][491]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.04-19.14.53:438][491]LogAudioMixer: Display: Using Audio Hardware Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2024.04.04-19.14.53:439][491]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.04-19.14.53:439][491]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.04-19.14.53:439][491]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.04-19.14.53:440][491]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2024.04.04-19.14.53:440][491]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2024.04.04-19.14.53:441][491]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2024.04.04-19.14.53:441][491]LogInit: FAudioDevice initialized with ID 13.
+[2024.04.04-19.14.53:441][491]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2024.04.04-19.14.53:441][491]LogAudio: Display: Audio Device (ID: 13) registered with world 'TrackOne'.
+[2024.04.04-19.14.53:441][491]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2024.04.04-19.14.53:444][491]LogLoad: Game class is 'BP_LevelOneGM_C'
+[2024.04.04-19.14.53:508][491]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TrackOne.TrackOne up for play (max tick rate 0) at 2024.04.04-12.14.53
+[2024.04.04-19.14.53:511][491]LogWorld: Bringing up level for play took: 0.067383
+[2024.04.04-19.14.53:513][491]LogOnline: OSS: Created online subsystem instance for: :Context_34
+[2024.04.04-19.14.53:517][491]PIE: Server logged in
+[2024.04.04-19.14.53:517][491]PIE: Play in editor total start time 0.545 seconds.
+[2024.04.04-19.14.54:799][554]LogBlueprintUserMessages: [BP_Checkpoint_C_1] First Lap Registered
+[2024.04.04-19.14.55:400][586]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property As BP Level One GM". Node:  Set Integer (by ref) Graph:  ManipulateIntInternal Function:  Execute Ubergraph BP Checkpoint Blueprint:  BP_Checkpoint
+[2024.04.04-19.14.55:400][586]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property As BP Level One GM". Node:  Set Integer (by ref) Graph:  ManipulateIntInternal Function:  Execute Ubergraph BP Checkpoint Blueprint:  BP_Checkpoint
+[2024.04.04-19.14.55:400][586]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Node:  Set Integer (by ref) Graph:  ManipulateIntInternal Function:  Execute Ubergraph BP Checkpoint Blueprint:  BP_Checkpoint
+[2024.04.04-19.14.55:401][586]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property As BP Level One GM". Node:  Set LapsCompleted Graph:  EventGraph Function:  Execute Ubergraph BP Checkpoint Blueprint:  BP_Checkpoint
+[2024.04.04-19.14.55:401][586]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Node:  Set LapsCompleted Graph:  EventGraph Function:  Execute Ubergraph BP Checkpoint Blueprint:  BP_Checkpoint
+[2024.04.04-19.14.55:401][586]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property As BP Level One GM". Node:  Update Laps Graph:  EventGraph Function:  Execute Ubergraph BP Checkpoint Blueprint:  BP_Checkpoint
+[2024.04.04-19.14.55:401][586]LogBlueprintUserMessages: [BP_Checkpoint_C_1] Lap Registered
+[2024.04.04-19.14.55:457][589]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property As BP Level One GM". Node:  Set Integer (by ref) Graph:  ManipulateIntInternal Function:  Execute Ubergraph BP Checkpoint Blueprint:  BP_Checkpoint
+[2024.04.04-19.14.55:457][589]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property As BP Level One GM". Node:  Set Integer (by ref) Graph:  ManipulateIntInternal Function:  Execute Ubergraph BP Checkpoint Blueprint:  BP_Checkpoint
+[2024.04.04-19.14.55:457][589]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Node:  Set Integer (by ref) Graph:  ManipulateIntInternal Function:  Execute Ubergraph BP Checkpoint Blueprint:  BP_Checkpoint
+[2024.04.04-19.14.55:457][589]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property As BP Level One GM". Node:  Set LapsCompleted Graph:  EventGraph Function:  Execute Ubergraph BP Checkpoint Blueprint:  BP_Checkpoint
+[2024.04.04-19.14.55:457][589]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Node:  Set LapsCompleted Graph:  EventGraph Function:  Execute Ubergraph BP Checkpoint Blueprint:  BP_Checkpoint
+[2024.04.04-19.14.55:457][589]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property As BP Level One GM". Node:  Update Laps Graph:  EventGraph Function:  Execute Ubergraph BP Checkpoint Blueprint:  BP_Checkpoint
+[2024.04.04-19.14.55:457][589]LogBlueprintUserMessages: [BP_Checkpoint_C_1] Lap Registered
+[2024.04.04-19.14.57:973][722]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property As BP Level One GM". Node:  Set Integer (by ref) Graph:  ManipulateIntInternal Function:  Execute Ubergraph BP Checkpoint Blueprint:  BP_Checkpoint
+[2024.04.04-19.14.57:973][722]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property As BP Level One GM". Node:  Set Integer (by ref) Graph:  ManipulateIntInternal Function:  Execute Ubergraph BP Checkpoint Blueprint:  BP_Checkpoint
+[2024.04.04-19.14.57:973][722]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Node:  Set Integer (by ref) Graph:  ManipulateIntInternal Function:  Execute Ubergraph BP Checkpoint Blueprint:  BP_Checkpoint
+[2024.04.04-19.14.57:973][722]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property As BP Level One GM". Node:  Set LapsCompleted Graph:  EventGraph Function:  Execute Ubergraph BP Checkpoint Blueprint:  BP_Checkpoint
+[2024.04.04-19.14.57:973][722]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Node:  Set LapsCompleted Graph:  EventGraph Function:  Execute Ubergraph BP Checkpoint Blueprint:  BP_Checkpoint
+[2024.04.04-19.14.57:973][722]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property As BP Level One GM". Node:  Update Laps Graph:  EventGraph Function:  Execute Ubergraph BP Checkpoint Blueprint:  BP_Checkpoint
+[2024.04.04-19.14.57:973][722]LogBlueprintUserMessages: [BP_Checkpoint_C_1] Lap Registered
+[2024.04.04-19.15.01:228][899]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property As BP Level One GM". Node:  Set Integer (by ref) Graph:  ManipulateIntInternal Function:  Execute Ubergraph BP Checkpoint Blueprint:  BP_Checkpoint
+[2024.04.04-19.15.01:228][899]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property As BP Level One GM". Node:  Set Integer (by ref) Graph:  ManipulateIntInternal Function:  Execute Ubergraph BP Checkpoint Blueprint:  BP_Checkpoint
+[2024.04.04-19.15.01:228][899]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Node:  Set Integer (by ref) Graph:  ManipulateIntInternal Function:  Execute Ubergraph BP Checkpoint Blueprint:  BP_Checkpoint
+[2024.04.04-19.15.01:228][899]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property As BP Level One GM". Node:  Set LapsCompleted Graph:  EventGraph Function:  Execute Ubergraph BP Checkpoint Blueprint:  BP_Checkpoint
+[2024.04.04-19.15.01:228][899]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Node:  Set LapsCompleted Graph:  EventGraph Function:  Execute Ubergraph BP Checkpoint Blueprint:  BP_Checkpoint
+[2024.04.04-19.15.01:229][899]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property As BP Level One GM". Node:  Update Laps Graph:  EventGraph Function:  Execute Ubergraph BP Checkpoint Blueprint:  BP_Checkpoint
+[2024.04.04-19.15.01:229][899]LogBlueprintUserMessages: [BP_Checkpoint_C_1] Lap Registered
+[2024.04.04-19.15.04:084][ 51]LogBlueprintUserMessages: [BP_Checkpoint_C_0] First Lap Registered
+[2024.04.04-19.15.07:269][217]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property As BP Level One GM". Node:  Set Integer (by ref) Graph:  ManipulateIntInternal Function:  Execute Ubergraph BP Checkpoint Blueprint:  BP_Checkpoint
+[2024.04.04-19.15.07:269][217]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property As BP Level One GM". Node:  Set Integer (by ref) Graph:  ManipulateIntInternal Function:  Execute Ubergraph BP Checkpoint Blueprint:  BP_Checkpoint
+[2024.04.04-19.15.07:269][217]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Node:  Set Integer (by ref) Graph:  ManipulateIntInternal Function:  Execute Ubergraph BP Checkpoint Blueprint:  BP_Checkpoint
+[2024.04.04-19.15.07:269][217]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property As BP Level One GM". Node:  Set LapsCompleted Graph:  EventGraph Function:  Execute Ubergraph BP Checkpoint Blueprint:  BP_Checkpoint
+[2024.04.04-19.15.07:269][217]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Node:  Set LapsCompleted Graph:  EventGraph Function:  Execute Ubergraph BP Checkpoint Blueprint:  BP_Checkpoint
+[2024.04.04-19.15.07:269][217]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property As BP Level One GM". Node:  Update Laps Graph:  EventGraph Function:  Execute Ubergraph BP Checkpoint Blueprint:  BP_Checkpoint
+[2024.04.04-19.15.07:269][217]LogBlueprintUserMessages: [BP_Checkpoint_C_0] Lap Registered
+[2024.04.04-19.15.08:069][259]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property As BP Level One GM". Node:  Set Integer (by ref) Graph:  ManipulateIntInternal Function:  Execute Ubergraph BP Checkpoint Blueprint:  BP_Checkpoint
+[2024.04.04-19.15.08:069][259]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property As BP Level One GM". Node:  Set Integer (by ref) Graph:  ManipulateIntInternal Function:  Execute Ubergraph BP Checkpoint Blueprint:  BP_Checkpoint
+[2024.04.04-19.15.08:069][259]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Node:  Set Integer (by ref) Graph:  ManipulateIntInternal Function:  Execute Ubergraph BP Checkpoint Blueprint:  BP_Checkpoint
+[2024.04.04-19.15.08:069][259]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property As BP Level One GM". Node:  Set LapsCompleted Graph:  EventGraph Function:  Execute Ubergraph BP Checkpoint Blueprint:  BP_Checkpoint
+[2024.04.04-19.15.08:069][259]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Node:  Set LapsCompleted Graph:  EventGraph Function:  Execute Ubergraph BP Checkpoint Blueprint:  BP_Checkpoint
+[2024.04.04-19.15.08:069][259]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property As BP Level One GM". Node:  Update Laps Graph:  EventGraph Function:  Execute Ubergraph BP Checkpoint Blueprint:  BP_Checkpoint
+[2024.04.04-19.15.08:069][259]LogBlueprintUserMessages: [BP_Checkpoint_C_0] Lap Registered
+[2024.04.04-19.15.08:979][305]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.04-19.15.08:979][305]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TrackOne
+[2024.04.04-19.15.08:980][305]LogWorld: UWorld::CleanupWorld for TrackOne, bSessionEnded=true, bCleanupResources=true
+[2024.04.04-19.15.08:988][305]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.04-19.15.08:992][305]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.04-19.15.08:998][305]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.04-19.15.09:012][305]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.04-19.15.09:017][305]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2024.04.04-19.15.09:017][305]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.04.04-19.15.09:018][305]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.04.04-19.15.09:022][305]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.04-19.15.09:044][305]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2024.04.04-19.15.09:194][306]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2024.04.04-19.15.15:669][616]LogSlate: Window 'Message Log' being destroyed
+[2024.04.04-19.15.15:693][616]LogSlate: Window 'Message Log' being destroyed
+[2024.04.04-19.15.56:096][232]BlueprintLog: New page: Compile WB_Race_Over
+[2024.04.04-19.15.56:120][232]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2024.04.04-19.15.56:235][232]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.04-19.15.56:268][232]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/WB_Race_Over" FILE="D:/Unreal Projects/FuryRoad/FuryRoad/Content/Widgets/WB_Race_Over.uasset" SILENT=true
+[2024.04.04-19.15.56:270][232]LogSavePackage: Moving output files for package: /Game/Widgets/WB_Race_Over
+[2024.04.04-19.15.56:270][232]LogSavePackage: Moving 'D:/Unreal Projects/FuryRoad/FuryRoad/Saved/WB_Race_Over8906116649758AFD916B7283BD64EF1B.tmp' to 'D:/Unreal Projects/FuryRoad/FuryRoad/Content/Widgets/WB_Race_Over.uasset'
+[2024.04.04-19.15.56:275][232]LogFileHelpers: InternalPromptForCheckoutAndSave took 40 ms (total: 5.20 sec)
+[2024.04.04-19.15.56:283][232]AssetCheck: New page: Asset Save: WB_Race_Over
+[2024.04.04-19.15.56:283][232]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/WB_Race_Over.WB_Race_Over
+[2024.04.04-19.16.04:656][213]BlueprintLog: New page: Compile WB_Race_Over
+[2024.04.04-19.16.04:677][213]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2024.04.04-19.16.04:784][213]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.04-19.16.04:836][213]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/WB_Race_Over" FILE="D:/Unreal Projects/FuryRoad/FuryRoad/Content/Widgets/WB_Race_Over.uasset" SILENT=true
+[2024.04.04-19.16.04:838][213]LogSavePackage: Moving output files for package: /Game/Widgets/WB_Race_Over
+[2024.04.04-19.16.04:838][213]LogSavePackage: Moving 'D:/Unreal Projects/FuryRoad/FuryRoad/Saved/WB_Race_Over60A3C83B47B149E0708C14AB574329D3.tmp' to 'D:/Unreal Projects/FuryRoad/FuryRoad/Content/Widgets/WB_Race_Over.uasset'
+[2024.04.04-19.16.04:843][213]LogFileHelpers: InternalPromptForCheckoutAndSave took 58 ms (total: 5.26 sec)
+[2024.04.04-19.16.04:851][213]AssetCheck: New page: Asset Save: WB_Race_Over
+[2024.04.04-19.16.04:851][213]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/WB_Race_Over.WB_Race_Over
+[2024.04.04-19.16.11:289][962]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.04-19.16.11:316][962]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/WB_Race_Over" FILE="D:/Unreal Projects/FuryRoad/FuryRoad/Content/Widgets/WB_Race_Over.uasset" SILENT=true
+[2024.04.04-19.16.11:319][962]LogSavePackage: Moving output files for package: /Game/Widgets/WB_Race_Over
+[2024.04.04-19.16.11:319][962]LogSavePackage: Moving 'D:/Unreal Projects/FuryRoad/FuryRoad/Saved/WB_Race_Over63BD3ECB4A18289FA536C88C24895806.tmp' to 'D:/Unreal Projects/FuryRoad/FuryRoad/Content/Widgets/WB_Race_Over.uasset'
+[2024.04.04-19.16.11:323][962]LogFileHelpers: InternalPromptForCheckoutAndSave took 35 ms (total: 5.29 sec)
+[2024.04.04-19.16.11:324][962]AssetCheck: New page: Asset Save: WB_Race_Over
+[2024.04.04-19.16.11:324][962]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/WB_Race_Over.WB_Race_Over
+[2024.04.04-19.16.26:874][808]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.04-19.16.26:917][808]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Macro_Library" FILE="D:/Unreal Projects/FuryRoad/FuryRoad/Content/Blueprints/BP_Macro_Library.uasset" SILENT=true
+[2024.04.04-19.16.26:922][808]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Macro_Library
+[2024.04.04-19.16.26:922][808]LogSavePackage: Moving 'D:/Unreal Projects/FuryRoad/FuryRoad/Saved/BP_Macro_Library8D47EBE243FBB6D3D859B5ACA02D98AA.tmp' to 'D:/Unreal Projects/FuryRoad/FuryRoad/Content/Blueprints/BP_Macro_Library.uasset'
+[2024.04.04-19.16.26:927][808]LogFileHelpers: InternalPromptForCheckoutAndSave took 52 ms (total: 5.35 sec)
+[2024.04.04-19.16.26:928][808]AssetCheck: New page: Asset Save: BP_Macro_Library
+[2024.04.04-19.16.26:928][808]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_Macro_Library.BP_Macro_Library
+[2024.04.04-19.16.41:239][406]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.04-19.16.41:267][406]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_LevelOneGM" FILE="D:/Unreal Projects/FuryRoad/FuryRoad/Content/Blueprints/BP_LevelOneGM.uasset" SILENT=true
+[2024.04.04-19.16.41:274][406]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_LevelOneGM
+[2024.04.04-19.16.41:274][406]LogSavePackage: Moving 'D:/Unreal Projects/FuryRoad/FuryRoad/Saved/BP_LevelOneGMB37115F8438A68C00DF7DDAE2884A194.tmp' to 'D:/Unreal Projects/FuryRoad/FuryRoad/Content/Blueprints/BP_LevelOneGM.uasset'
+[2024.04.04-19.16.41:279][406]LogFileHelpers: InternalPromptForCheckoutAndSave took 40 ms (total: 5.39 sec)
+[2024.04.04-19.16.41:280][406]AssetCheck: New page: Asset Save: BP_LevelOneGM
+[2024.04.04-19.16.41:280][406]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_LevelOneGM.BP_LevelOneGM
