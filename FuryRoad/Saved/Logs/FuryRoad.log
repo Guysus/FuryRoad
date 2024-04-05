@@ -2163,3 +2163,978 @@ Script Stack (0 frames) :
 [2024.04.05-17.53.06:118][343]LogFileHelpers: InternalPromptForCheckoutAndSave took 113 ms (total: 1.16 sec)
 [2024.04.05-17.53.06:118][343]AssetCheck: New page: Asset Save: MainMenu
 [2024.04.05-17.53.06:119][343]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/MainMenu.MainMenu
+[2024.04.05-17.54.03:995][472]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Widgets/WB_Main_Menu.WB_Main_Menu
+[2024.04.05-17.54.03:996][472]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.05-17.54.03:996][472]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.05-17.54.04:007][472]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.05-17.54.04:008][472]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.05-17.54.48:895][671]LogDerivedDataCache: C:/Users/guyla/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:10.061 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 5346 files in 6786 folders with total size 952 MiB.
+[2024.04.05-17.54.52:682][115]LogEditorClassViewer: Warning: Class /Game/VehicleVarietyPack/Blueprints/SUV/BP_SUV_Wheel_Rear.BP_SUV_Wheel_Rear_C has parent /Script/PhysXVehicles.VehicleWheel, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.04.05-17.54.52:682][115]LogEditorClassViewer: Warning: Class /Game/VehicleVarietyPack/Blueprints/SUV/BP_SUV_Wheel_Front.BP_SUV_Wheel_Front_C has parent /Script/PhysXVehicles.VehicleWheel, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.04.05-17.54.52:682][115]LogEditorClassViewer: Warning: Class /Game/VehicleVarietyPack/Blueprints/SUV/BP_SUV.BP_SUV_C has parent /Script/PhysXVehicles.WheeledVehicle, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.04.05-17.54.52:682][115]LogEditorClassViewer: Warning: Class /Game/VehicleVarietyPack/Blueprints/SportsCar/BP_SportsCar.BP_SportsCar_C has parent /Script/PhysXVehicles.WheeledVehicle, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.04.05-17.54.52:682][115]LogEditorClassViewer: Warning: Class /Game/VehicleVarietyPack/Blueprints/SportsCar/BP_SC_Wheel_Rear.BP_SC_Wheel_Rear_C has parent /Script/PhysXVehicles.VehicleWheel, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.04.05-17.54.52:682][115]LogEditorClassViewer: Warning: Class /Game/VehicleVarietyPack/Blueprints/SportsCar/BP_SC_Wheel_Front.BP_SC_Wheel_Front_C has parent /Script/PhysXVehicles.VehicleWheel, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.04.05-17.54.52:682][115]LogEditorClassViewer: Warning: Class /Game/VehicleVarietyPack/Blueprints/Pickup/BP_PU_Wheel_Rear.BP_PU_Wheel_Rear_C has parent /Script/PhysXVehicles.VehicleWheel, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.04.05-17.54.52:682][115]LogEditorClassViewer: Warning: Class /Game/VehicleVarietyPack/Blueprints/Pickup/BP_PU_Wheel_Front.BP_PU_Wheel_Front_C has parent /Script/PhysXVehicles.VehicleWheel, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.04.05-17.54.52:682][115]LogEditorClassViewer: Warning: Class /Game/VehicleVarietyPack/Blueprints/Pickup/BP_Pickup.BP_Pickup_C has parent /Script/PhysXVehicles.WheeledVehicle, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.04.05-17.54.52:682][115]LogEditorClassViewer: Warning: Class /Game/VehicleVarietyPack/Blueprints/Hatchback/BP_HB_RearWheel.BP_HB_RearWheel_C has parent /Script/PhysXVehicles.VehicleWheel, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.04.05-17.54.52:682][115]LogEditorClassViewer: Warning: Class /Game/VehicleVarietyPack/Blueprints/Hatchback/BP_HB_FrontWheel.BP_HB_FrontWheel_C has parent /Script/PhysXVehicles.VehicleWheel, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.04.05-17.54.52:682][115]LogEditorClassViewer: Warning: Class /Game/VehicleVarietyPack/Blueprints/Hatchback/BP_Hatchback.BP_Hatchback_C has parent /Script/PhysXVehicles.WheeledVehicle, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.04.05-17.54.52:682][115]LogEditorClassViewer: Warning: Class /Game/VehicleVarietyPack/Blueprints/BoxTruck/BP_BT_RearTire.BP_BT_RearTire_C has parent /Script/PhysXVehicles.VehicleWheel, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.04.05-17.54.52:682][115]LogEditorClassViewer: Warning: Class /Game/VehicleVarietyPack/Blueprints/BoxTruck/BP_BT_FrontTire.BP_BT_FrontTire_C has parent /Script/PhysXVehicles.VehicleWheel, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.04.05-17.54.52:682][115]LogEditorClassViewer: Warning: Class /Game/VehicleVarietyPack/Blueprints/BoxTruck/BP_BoxTruck.BP_BoxTruck_C has parent /Script/PhysXVehicles.WheeledVehicle, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.04.05-17.54.52:682][115]LogEditorClassViewer: Warning: Class /Game/VehicleVarietyPack/Blueprints/SUV/AB_SUV.AB_SUV_C has parent /Script/PhysXVehicles.VehicleAnimInstance, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.04.05-17.54.52:682][115]LogEditorClassViewer: Warning: Class /Game/VehicleVarietyPack/Blueprints/SportsCar/AB_SportsCar.AB_SportsCar_C has parent /Script/PhysXVehicles.VehicleAnimInstance, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.04.05-17.54.52:682][115]LogEditorClassViewer: Warning: Class /Game/VehicleVarietyPack/Blueprints/Pickup/AB_Pickup.AB_Pickup_C has parent /Script/PhysXVehicles.VehicleAnimInstance, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.04.05-17.54.52:682][115]LogEditorClassViewer: Warning: Class /Game/VehicleVarietyPack/Blueprints/Hatchback/AB_Hatchback.AB_Hatchback_C has parent /Script/PhysXVehicles.VehicleAnimInstance, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.04.05-17.54.52:682][115]LogEditorClassViewer: Warning: Class /Game/VehicleVarietyPack/Blueprints/BoxTruck/AB_BoxTruck.AB_BoxTruck_C has parent /Script/PhysXVehicles.VehicleAnimInstance, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.04.05-17.56.48:325][663]BlueprintLog: New page: Compile WB_Main_Menu
+[2024.04.05-17.56.48:354][663]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2024.04.05-17.56.48:372][663]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.05-17.56.48:410][663]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/WB_Main_Menu" FILE="D:/Unreal Projects/FuryRoad/FuryRoad/Content/Widgets/WB_Main_Menu.uasset" SILENT=true
+[2024.04.05-17.56.48:419][663]LogSavePackage: Moving output files for package: /Game/Widgets/WB_Main_Menu
+[2024.04.05-17.56.48:419][663]LogSavePackage: Moving 'D:/Unreal Projects/FuryRoad/FuryRoad/Saved/WB_Main_Menu430166304CCE44F06E9C55B8732DFB57.tmp' to 'D:/Unreal Projects/FuryRoad/FuryRoad/Content/Widgets/WB_Main_Menu.uasset'
+[2024.04.05-17.56.48:423][663]LogFileHelpers: InternalPromptForCheckoutAndSave took 50 ms (total: 1.22 sec)
+[2024.04.05-17.56.48:425][663]AssetCheck: New page: Asset Save: WB_Main_Menu
+[2024.04.05-17.56.48:425][663]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/WB_Main_Menu.WB_Main_Menu
+[2024.04.05-17.56.51:320][987]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.05-17.56.51:326][987]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.05-17.56.51:326][987]PIE: New page: PIE session: MainMenu (Apr. 5, 2024, 3:56:51 a.m.)
+[2024.04.05-17.56.51:326][987]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2024.04.05-17.56.51:327][987]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000961s)
+[2024.04.05-17.56.51:327][987]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.000989s)
+[2024.04.05-17.56.51:340][987]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2024.04.05-17.56.51:343][987]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.05-17.56.51:344][987]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.05-17.56.51:344][987]LogAIModule: Creating AISystem for world MainMenu
+[2024.04.05-17.56.51:344][987]LogPlayLevel: PIE: World Init took: (0.000907s)
+[2024.04.05-17.56.51:344][987]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2024.04.05-17.56.51:344][987]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.05-17.56.51:344][987]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.05-17.56.51:344][987]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.05-17.56.51:344][987]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.05-17.56.51:344][987]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.04.05-17.56.51:344][987]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.05-17.56.51:344][987]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.04.05-17.56.51:344][987]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.05-17.56.51:345][987]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.05-17.56.51:345][987]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.05-17.56.51:345][987]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.05-17.56.51:346][987]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.05-17.56.51:363][987]LogAudioMixer: Display: Using Audio Hardware Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2024.04.05-17.56.51:363][987]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.05-17.56.51:363][987]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.05-17.56.51:363][987]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.05-17.56.51:364][987]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2024.04.05-17.56.51:364][987]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2024.04.05-17.56.51:365][987]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2024.04.05-17.56.51:365][987]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2024.04.05-17.56.51:365][987]LogInit: FAudioDevice initialized with ID 11.
+[2024.04.05-17.56.51:365][987]LogAudio: Display: Audio Device (ID: 11) registered with world 'MainMenu'.
+[2024.04.05-17.56.51:365][987]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2024.04.05-17.56.51:416][987]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.05-17.56.51:416][987]LogLoad: Game class is 'BP_MainMenuGM_C'
+[2024.04.05-17.56.51:416][987]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2024.04.05-10.56.51
+[2024.04.05-17.56.51:416][987]LogWorld: Bringing up level for play took: 0.000320
+[2024.04.05-17.56.51:418][987]LogOnline: OSS: Created online subsystem instance for: :Context_42
+[2024.04.05-17.56.51:418][987]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2024.04.05-17.56.51:421][987]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.04.05-17.56.51:421][987]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2024.04.05-17.56.51:423][987]PIE: Server logged in
+[2024.04.05-17.56.51:424][987]PIE: Play in editor total start time 0.098 seconds.
+[2024.04.05-17.56.51:425][987]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'dark-post-apocalyptic-background-3'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.04.05-17.56.51:432][987]LogViewport: Scene viewport resized to 3831x2180, mode Windowed.
+[2024.04.05-17.56.53:669][124]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.04.05-17.56.53:669][124]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.04.05-17.57.09:419][155]Cmd: quit
+[2024.04.05-17.57.09:420][155]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.05-17.57.09:420][155]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MainMenu
+[2024.04.05-17.57.09:420][155]LogSlate: Window 'FuryRoad Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.04.05-17.57.09:477][155]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2024.04.05-17.57.09:477][155]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.05-17.57.09:479][155]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.05-17.57.09:483][155]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.05-17.57.09:495][155]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.05-17.57.09:495][155]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2024.04.05-17.57.09:495][155]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2024.04.05-17.57.09:497][155]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2024.04.05-17.57.09:503][155]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2024.04.05-17.57.09:523][156]LogPlayLevel: Display: Destroying online subsystem :Context_42
+[2024.04.05-17.58.35:058][901]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2024.04.05-17.58.42:139][474]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.DirectionalLight
+[2024.04.05-17.58.42:142][474]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.DirectionalLight
+[2024.04.05-17.58.42:143][474]LogActorFactory: Actor Factory spawned Class /Script/Engine.DirectionalLight as actor: DirectionalLight /Game/Levels/MainMenu.MainMenu:PersistentLevel.DirectionalLight_0
+[2024.04.05-17.58.42:143][474]LogActorFactory: Actor Factory spawned Class /Script/Engine.DirectionalLight as actor: DirectionalLight /Game/Levels/MainMenu.MainMenu:PersistentLevel.DirectionalLight_0
+[2024.04.05-17.58.50:784][ 42]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.SkyLight
+[2024.04.05-17.58.50:784][ 42]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.SkyLight
+[2024.04.05-17.58.50:785][ 42]LogActorFactory: Actor Factory spawned Class /Script/Engine.SkyLight as actor: SkyLight /Game/Levels/MainMenu.MainMenu:PersistentLevel.SkyLight_0
+[2024.04.05-17.58.50:785][ 42]LogActorFactory: Actor Factory spawned Class /Script/Engine.SkyLight as actor: SkyLight /Game/Levels/MainMenu.MainMenu:PersistentLevel.SkyLight_0
+[2024.04.05-17.58.58:024][592]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.SkyAtmosphere
+[2024.04.05-17.58.58:024][592]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.SkyAtmosphere
+[2024.04.05-17.58.58:025][592]LogActorFactory: Actor Factory spawned Class /Script/Engine.SkyAtmosphere as actor: SkyAtmosphere /Game/Levels/MainMenu.MainMenu:PersistentLevel.SkyAtmosphere_0
+[2024.04.05-17.58.58:025][592]LogActorFactory: Actor Factory spawned Class /Script/Engine.SkyAtmosphere as actor: SkyAtmosphere /Game/Levels/MainMenu.MainMenu:PersistentLevel.SkyAtmosphere_0
+[2024.04.05-17.59.25:537][661]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Plane.Plane
+[2024.04.05-17.59.25:537][661]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Plane.Plane
+[2024.04.05-17.59.25:538][661]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Plane.Plane as actor: StaticMeshActor /Game/Levels/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_0
+[2024.04.05-17.59.25:547][661]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Plane.Plane as actor: StaticMeshActor /Game/Levels/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_0
+[2024.04.05-17.59.25:623][662]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.05-18.00.11:624][865]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Levels/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_0.StaticMeshComponent0, from: Addition to navoctree)
+[2024.04.05-18.00.11:640][866]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Levels/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_0.StaticMeshComponent0, from: Remove from navoctree)
+[2024.04.05-18.00.13:072][967]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Levels/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_0.StaticMeshComponent0, from: Addition to navoctree)
+[2024.04.05-18.00.13:073][967]LogNavigationDirtyArea: Warning: Skipping dirty area creation because of empty bounds (object: StaticMeshComponent /Game/Levels/MainMenu.MainMenu:PersistentLevel.StaticMeshActor_0.StaticMeshComponent0, from: Remove from navoctree)
+[2024.04.05-18.00.24:867][686]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_PlayerCar.BP_PlayerCar_C
+[2024.04.05-18.00.24:867][686]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_PlayerCar.BP_PlayerCar_C
+[2024.04.05-18.00.24:868][686]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_PlayerCar.BP_PlayerCar as actor: BP_PlayerCar_C /Game/Levels/MainMenu.MainMenu:PersistentLevel.BP_PlayerCar_C_0
+[2024.04.05-18.00.24:869][686]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_PlayerCar.BP_PlayerCar as actor: BP_PlayerCar_C /Game/Levels/MainMenu.MainMenu:PersistentLevel.BP_PlayerCar_C_0
+[2024.04.05-18.00.25:868][750]LogShaderCompilers: Display: ================================================
+[2024.04.05-18.00.25:868][750]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.04.05-18.00.25:868][750]LogShaderCompilers: Display: Total job queries 290, among them cache hits 170 (58.62%)
+[2024.04.05-18.00.25:868][750]LogShaderCompilers: Display: Tracking 119 distinct input hashes that result in 74 distinct outputs (62.18%)
+[2024.04.05-18.00.25:868][750]LogShaderCompilers: Display: RAM used: 3.03 MiB of 6.40 GiB budget. Usage: 0.05%
+[2024.04.05-18.00.25:868][750]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.04.05-18.00.25:868][750]LogShaderCompilers: Display: Shaders Compiled: 2
+[2024.04.05-18.00.25:868][750]LogShaderCompilers: Display: Jobs assigned 2, completed 2 (100%)
+[2024.04.05-18.00.25:868][750]LogShaderCompilers: Display: Time job spent in pending queue: average 0.07 s, longest 0.07 s
+[2024.04.05-18.00.25:868][750]LogShaderCompilers: Display: Job execution time: average 0.92 s, max 0.92 s
+[2024.04.05-18.00.25:868][750]LogShaderCompilers: Display: Job life time (pending + execution): average 0.99 s, max 0.99
+[2024.04.05-18.00.25:868][750]LogShaderCompilers: Display: Shader code size: average 59.203 KiB, min 58.953 KiB, max 59.453 KiB
+[2024.04.05-18.00.25:868][750]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.99 s
+[2024.04.05-18.00.25:868][750]LogShaderCompilers: Display: Jobs were issued in 2 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.04.05-18.00.25:868][750]LogShaderCompilers: Display: Average processing rate: 2.03 jobs/sec
+[2024.04.05-18.00.25:868][750]LogShaderCompilers: Display: Total thread time: 1.018 s
+[2024.04.05-18.00.25:868][750]LogShaderCompilers: Display: Total thread preprocess time: 0.64 s
+[2024.04.05-18.00.25:868][750]LogShaderCompilers: Display: Percentage time preprocessing: 62.89%
+[2024.04.05-18.00.25:868][750]LogShaderCompilers: Display: Effective parallelization: 1.03 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.04.05-18.00.25:868][750]LogShaderCompilers: Display: Top 1 most expensive shader types by average time:
+[2024.04.05-18.00.25:868][750]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    2 times, average 0.51 sec, max 0.52 sec, min 0.50 sec)
+[2024.04.05-18.00.25:868][750]LogShaderCompilers: Display: Top 1 shader types by total compile time:
+[2024.04.05-18.00.25:868][750]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 100.00% of total time (compiled    2 times, average 0.51 sec, max 0.52 sec, min 0.50 sec)
+[2024.04.05-18.00.25:868][750]LogShaderCompilers: Display: ================================================
+[2024.04.05-18.00.27:096][822]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_PlayerCar.BP_PlayerCar_C
+[2024.04.05-18.00.27:096][822]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_PlayerCar.BP_PlayerCar_C
+[2024.04.05-18.00.27:098][822]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_PlayerCar.BP_PlayerCar as actor: BP_PlayerCar_C /Game/Levels/MainMenu.MainMenu:PersistentLevel.BP_PlayerCar_C_1
+[2024.04.05-18.00.27:098][822]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_PlayerCar.BP_PlayerCar as actor: BP_PlayerCar_C /Game/Levels/MainMenu.MainMenu:PersistentLevel.BP_PlayerCar_C_1
+[2024.04.05-18.00.27:255][823]LogViewport: Scene viewport resized to 1038x642, mode Windowed.
+[2024.04.05-18.00.54:632][ 59]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.05-18.00.54:700][ 59]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/MainMenu" FILE="D:/Unreal Projects/FuryRoad/FuryRoad/Content/Levels/MainMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.04.05-18.00.54:744][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2024.04.05-18.00.54:754][ 59]LogSavePackage: Moving output files for package: /Game/Levels/MainMenu
+[2024.04.05-18.00.54:754][ 59]LogSavePackage: Moving 'D:/Unreal Projects/FuryRoad/FuryRoad/Saved/MainMenu4B832DC4455BD49C6BA6E69A673F009D.tmp' to 'D:/Unreal Projects/FuryRoad/FuryRoad/Content/Levels/MainMenu.umap'
+[2024.04.05-18.00.54:759][ 59]LogFileHelpers: Saving map 'MainMenu' took 0.060
+[2024.04.05-18.00.54:763][ 59]LogFileHelpers: InternalPromptForCheckoutAndSave took 130 ms (total: 1.35 sec)
+[2024.04.05-18.00.54:763][ 59]AssetCheck: New page: Asset Save: MainMenu
+[2024.04.05-18.00.54:763][ 59]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/MainMenu.MainMenu
+[2024.04.05-18.01.21:242][610]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.05-18.01.21:300][610]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/MainMenu" FILE="D:/Unreal Projects/FuryRoad/FuryRoad/Content/Levels/MainMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.04.05-18.01.21:333][610]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2024.04.05-18.01.21:343][610]LogSavePackage: Moving output files for package: /Game/Levels/MainMenu
+[2024.04.05-18.01.21:343][610]LogSavePackage: Moving 'D:/Unreal Projects/FuryRoad/FuryRoad/Saved/MainMenuC4E6594649A7495100F743BD65DE070A.tmp' to 'D:/Unreal Projects/FuryRoad/FuryRoad/Content/Levels/MainMenu.umap'
+[2024.04.05-18.01.21:348][610]LogFileHelpers: Saving map 'MainMenu' took 0.048
+[2024.04.05-18.01.21:351][610]LogFileHelpers: InternalPromptForCheckoutAndSave took 109 ms (total: 1.46 sec)
+[2024.04.05-18.01.21:352][610]AssetCheck: New page: Asset Save: MainMenu
+[2024.04.05-18.01.21:352][610]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/MainMenu.MainMenu
+[2024.04.05-18.01.23:296][734]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.05-18.01.23:304][734]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.04.05-18.01.23:308][734]LogPlayLevel: [PlayLevel] Compiling WB_Main_Menu before play...
+[2024.04.05-18.01.23:342][734]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.05-18.01.23:385][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/WB_Main_Menu" FILE="D:/Unreal Projects/FuryRoad/FuryRoad/Content/Widgets/WB_Main_Menu.uasset" SILENT=true
+[2024.04.05-18.01.23:395][734]LogSavePackage: Moving output files for package: /Game/Widgets/WB_Main_Menu
+[2024.04.05-18.01.23:395][734]LogSavePackage: Moving 'D:/Unreal Projects/FuryRoad/FuryRoad/Saved/WB_Main_Menu38D1ADA543332CC5ACA32B919D93252C.tmp' to 'D:/Unreal Projects/FuryRoad/FuryRoad/Content/Widgets/WB_Main_Menu.uasset'
+[2024.04.05-18.01.23:398][734]LogFileHelpers: InternalPromptForCheckoutAndSave took 56 ms (total: 1.51 sec)
+[2024.04.05-18.01.23:412][734]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2024.04.05-18.01.23:415][734]LogPlayLevel: PlayLevel: Blueprint regeneration took 111 ms (1 blueprints)
+[2024.04.05-18.01.23:415][734]PIE: New page: PIE session: MainMenu (Apr. 5, 2024, 4:01:23 a.m.)
+[2024.04.05-18.01.23:416][734]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2024.04.05-18.01.23:417][734]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001864s)
+[2024.04.05-18.01.23:417][734]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.001891s)
+[2024.04.05-18.01.23:430][734]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2024.04.05-18.01.23:431][734]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.05-18.01.23:431][734]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.05-18.01.23:431][734]LogAIModule: Creating AISystem for world MainMenu
+[2024.04.05-18.01.23:432][734]LogPlayLevel: PIE: World Init took: (0.000929s)
+[2024.04.05-18.01.23:432][734]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2024.04.05-18.01.23:432][734]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.05-18.01.23:432][734]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.05-18.01.23:432][734]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.05-18.01.23:432][734]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.05-18.01.23:432][734]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.04.05-18.01.23:432][734]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.05-18.01.23:432][734]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.04.05-18.01.23:432][734]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.05-18.01.23:432][734]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.05-18.01.23:432][734]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.05-18.01.23:432][734]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.05-18.01.23:434][734]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.05-18.01.23:451][734]LogAudioMixer: Display: Using Audio Hardware Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2024.04.05-18.01.23:451][734]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.05-18.01.23:451][734]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.05-18.01.23:451][734]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.05-18.01.23:452][734]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2024.04.05-18.01.23:452][734]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2024.04.05-18.01.23:453][734]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2024.04.05-18.01.23:453][734]LogInit: FAudioDevice initialized with ID 12.
+[2024.04.05-18.01.23:453][734]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2024.04.05-18.01.23:453][734]LogAudio: Display: Audio Device (ID: 12) registered with world 'MainMenu'.
+[2024.04.05-18.01.23:453][734]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2024.04.05-18.01.23:456][734]LogLoad: Game class is 'BP_MainMenuGM_C'
+[2024.04.05-18.01.23:457][734]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2024.04.05-11.01.23
+[2024.04.05-18.01.23:457][734]LogWorld: Bringing up level for play took: 0.001047
+[2024.04.05-18.01.23:458][734]LogOnline: OSS: Created online subsystem instance for: :Context_44
+[2024.04.05-18.01.23:460][734]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.04.05-18.01.23:460][734]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2024.04.05-18.01.23:460][734]PIE: Server logged in
+[2024.04.05-18.01.23:461][734]PIE: Play in editor total start time 0.157 seconds.
+[2024.04.05-18.01.23:464][734]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'dark-post-apocalyptic-background-3'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.04.05-18.01.23:481][734]LogSlate: FontCache flush requested. Reason: Large atlases out of space; 2/1 Textures; frames since last flush: 187590
+[2024.04.05-18.01.23:482][734]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.05-18.01.23:582][735]AssetCheck: New page: Asset Save: WB_Main_Menu
+[2024.04.05-18.01.23:582][735]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/WB_Main_Menu.WB_Main_Menu
+[2024.04.05-18.01.23:609][735]LogSlate: Took 0.000137 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2024.04.05-18.01.23:615][735]LogSlate: Took 0.000115 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2024.04.05-18.01.23:616][735]LogSlate: Took 0.000104 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2024.04.05-18.01.23:617][735]LogSlate: Took 0.000081 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2024.04.05-18.01.25:488][876]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2024.04.05-18.01.25:488][876]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CaptureDuringMouseDown
+[2024.04.05-18.01.32:922][431]Cmd: quit
+[2024.04.05-18.01.32:922][431]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.05-18.01.32:922][431]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MainMenu
+[2024.04.05-18.01.32:947][431]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2024.04.05-18.01.32:947][431]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.05-18.01.32:950][431]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.05-18.01.32:954][431]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.05-18.01.32:967][431]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.05-18.01.32:967][431]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2024.04.05-18.01.32:967][431]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.04.05-18.01.32:968][431]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.04.05-18.01.32:974][431]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2024.04.05-18.01.33:063][432]LogPlayLevel: Display: Destroying online subsystem :Context_44
+[2024.04.05-18.01.56:561][ 44]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.05-18.01.56:618][ 44]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/MainMenu" FILE="D:/Unreal Projects/FuryRoad/FuryRoad/Content/Levels/MainMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.04.05-18.01.56:652][ 44]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2024.04.05-18.01.56:661][ 44]LogSavePackage: Moving output files for package: /Game/Levels/MainMenu
+[2024.04.05-18.01.56:662][ 44]LogSavePackage: Moving 'D:/Unreal Projects/FuryRoad/FuryRoad/Saved/MainMenu46359269440FC56A8FE9BD86BFE349F0.tmp' to 'D:/Unreal Projects/FuryRoad/FuryRoad/Content/Levels/MainMenu.umap'
+[2024.04.05-18.01.56:667][ 44]LogFileHelpers: Saving map 'MainMenu' took 0.049
+[2024.04.05-18.01.56:671][ 44]LogFileHelpers: InternalPromptForCheckoutAndSave took 110 ms (total: 1.62 sec)
+[2024.04.05-18.01.56:671][ 44]AssetCheck: New page: Asset Save: MainMenu
+[2024.04.05-18.01.56:671][ 44]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/MainMenu.MainMenu
+[2024.04.05-18.01.58:281][147]LogSlate: Took 0.000156 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2024.04.05-18.02.24:398][212]BlueprintLog: New page: Compile WB_Main_Menu
+[2024.04.05-18.02.24:420][212]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2024.04.05-18.02.24:438][212]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.05-18.02.24:471][212]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/WB_Main_Menu" FILE="D:/Unreal Projects/FuryRoad/FuryRoad/Content/Widgets/WB_Main_Menu.uasset" SILENT=true
+[2024.04.05-18.02.24:482][212]LogSavePackage: Moving output files for package: /Game/Widgets/WB_Main_Menu
+[2024.04.05-18.02.24:482][212]LogSavePackage: Moving 'D:/Unreal Projects/FuryRoad/FuryRoad/Saved/WB_Main_Menu1065731B4FB01E511C7DB5A3297A40A8.tmp' to 'D:/Unreal Projects/FuryRoad/FuryRoad/Content/Widgets/WB_Main_Menu.uasset'
+[2024.04.05-18.02.24:485][212]LogFileHelpers: InternalPromptForCheckoutAndSave took 47 ms (total: 1.67 sec)
+[2024.04.05-18.02.24:487][212]AssetCheck: New page: Asset Save: WB_Main_Menu
+[2024.04.05-18.02.24:488][212]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/WB_Main_Menu.WB_Main_Menu
+[2024.04.05-18.02.25:573][328]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.05-18.02.25:618][328]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/WB_Main_Menu" FILE="D:/Unreal Projects/FuryRoad/FuryRoad/Content/Widgets/WB_Main_Menu.uasset" SILENT=true
+[2024.04.05-18.02.25:627][328]LogSavePackage: Moving output files for package: /Game/Widgets/WB_Main_Menu
+[2024.04.05-18.02.25:628][328]LogSavePackage: Moving 'D:/Unreal Projects/FuryRoad/FuryRoad/Saved/WB_Main_Menu8A7C24F247B8E5EAFBF46D962A184772.tmp' to 'D:/Unreal Projects/FuryRoad/FuryRoad/Content/Widgets/WB_Main_Menu.uasset'
+[2024.04.05-18.02.25:631][328]LogFileHelpers: InternalPromptForCheckoutAndSave took 58 ms (total: 1.73 sec)
+[2024.04.05-18.02.25:634][328]AssetCheck: New page: Asset Save: WB_Main_Menu
+[2024.04.05-18.02.25:634][328]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/WB_Main_Menu.WB_Main_Menu
+[2024.04.05-18.02.27:423][531]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.05-18.02.27:429][531]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.05-18.02.27:429][531]PIE: New page: PIE session: MainMenu (Apr. 5, 2024, 4:02:27 a.m.)
+[2024.04.05-18.02.27:429][531]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2024.04.05-18.02.27:431][531]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001883s)
+[2024.04.05-18.02.27:431][531]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.001909s)
+[2024.04.05-18.02.27:444][531]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2024.04.05-18.02.27:448][531]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.05-18.02.27:448][531]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.05-18.02.27:449][531]LogAIModule: Creating AISystem for world MainMenu
+[2024.04.05-18.02.27:449][531]LogPlayLevel: PIE: World Init took: (0.000872s)
+[2024.04.05-18.02.27:449][531]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2024.04.05-18.02.27:449][531]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.05-18.02.27:449][531]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.05-18.02.27:449][531]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.05-18.02.27:449][531]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.05-18.02.27:449][531]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.04.05-18.02.27:449][531]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.05-18.02.27:449][531]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.04.05-18.02.27:449][531]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.05-18.02.27:449][531]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.05-18.02.27:449][531]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.05-18.02.27:449][531]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.05-18.02.27:451][531]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.05-18.02.27:469][531]LogAudioMixer: Display: Using Audio Hardware Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2024.04.05-18.02.27:469][531]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.05-18.02.27:469][531]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.05-18.02.27:469][531]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.05-18.02.27:470][531]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2024.04.05-18.02.27:470][531]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2024.04.05-18.02.27:471][531]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2024.04.05-18.02.27:471][531]LogInit: FAudioDevice initialized with ID 13.
+[2024.04.05-18.02.27:471][531]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2024.04.05-18.02.27:471][531]LogAudio: Display: Audio Device (ID: 13) registered with world 'MainMenu'.
+[2024.04.05-18.02.27:471][531]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2024.04.05-18.02.27:510][531]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.05-18.02.27:510][531]LogLoad: Game class is 'BP_MainMenuGM_C'
+[2024.04.05-18.02.27:511][531]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2024.04.05-11.02.27
+[2024.04.05-18.02.27:512][531]LogWorld: Bringing up level for play took: 0.001010
+[2024.04.05-18.02.27:513][531]LogOnline: OSS: Created online subsystem instance for: :Context_45
+[2024.04.05-18.02.27:514][531]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2024.04.05-18.02.27:515][531]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.04.05-18.02.27:515][531]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2024.04.05-18.02.27:517][531]PIE: Server logged in
+[2024.04.05-18.02.27:518][531]PIE: Play in editor total start time 0.09 seconds.
+[2024.04.05-18.02.27:521][531]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'dark-post-apocalyptic-background-3'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.04.05-18.02.27:529][531]LogViewport: Scene viewport resized to 3831x2200, mode Windowed.
+[2024.04.05-18.02.29:163][617]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2024.04.05-18.02.29:163][617]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CaptureDuringMouseDown
+[2024.04.05-18.02.29:164][617]LogNet: Browse: /Game/Levels/MainMenu
+[2024.04.05-18.02.29:164][617]LogLoad: LoadMap: /Game/Levels/MainMenu
+[2024.04.05-18.02.29:164][617]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MainMenu
+[2024.04.05-18.02.29:165][617]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2024.04.05-18.02.29:165][617]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.05-18.02.29:206][617]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.05-18.02.29:208][617]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2024.04.05-18.02.29:210][617]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2024.04.05-18.02.29:212][617]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001626s)
+[2024.04.05-18.02.29:212][617]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.001660s)
+[2024.04.05-18.02.29:212][617]LogAudio: Display: Audio Device (ID: 13) registered with world 'MainMenu'.
+[2024.04.05-18.02.29:212][617]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.05-18.02.29:212][617]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.05-18.02.29:212][617]LogAIModule: Creating AISystem for world MainMenu
+[2024.04.05-18.02.29:212][617]LogPlayLevel: PIE: World Init took: (0.000751s)
+[2024.04.05-18.02.29:212][617]LogLoad: Game class is 'BP_MainMenuGM_C'
+[2024.04.05-18.02.29:213][617]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2024.04.05-11.02.29
+[2024.04.05-18.02.29:213][617]LogWorld: Bringing up level for play took: 0.000785
+[2024.04.05-18.02.29:214][617]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2024.04.05-18.02.29:215][617]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> NoCapture
+[2024.04.05-18.02.29:215][617]LogLoad: Took 0.050795 seconds to LoadMap(/Game/Levels/UEDPIE_0_MainMenu)
+[2024.04.05-18.02.29:217][617]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'dark-post-apocalyptic-background-3'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.04.05-18.02.31:699][765]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CaptureDuringMouseDown
+[2024.04.05-18.02.31:700][765]LogNet: Browse: /Game/Levels/MainMenu
+[2024.04.05-18.02.31:700][765]LogLoad: LoadMap: /Game/Levels/MainMenu
+[2024.04.05-18.02.31:700][765]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MainMenu
+[2024.04.05-18.02.31:700][765]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2024.04.05-18.02.31:701][765]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.05-18.02.31:748][765]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.05-18.02.31:750][765]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2024.04.05-18.02.31:752][765]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2024.04.05-18.02.31:754][765]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001664s)
+[2024.04.05-18.02.31:754][765]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.001699s)
+[2024.04.05-18.02.31:754][765]LogAudio: Display: Audio Device (ID: 13) registered with world 'MainMenu'.
+[2024.04.05-18.02.31:754][765]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.05-18.02.31:754][765]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.05-18.02.31:754][765]LogAIModule: Creating AISystem for world MainMenu
+[2024.04.05-18.02.31:754][765]LogPlayLevel: PIE: World Init took: (0.000716s)
+[2024.04.05-18.02.31:754][765]LogLoad: Game class is 'BP_MainMenuGM_C'
+[2024.04.05-18.02.31:755][765]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2024.04.05-11.02.31
+[2024.04.05-18.02.31:755][765]LogWorld: Bringing up level for play took: 0.000779
+[2024.04.05-18.02.31:756][765]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2024.04.05-18.02.31:757][765]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> NoCapture
+[2024.04.05-18.02.31:757][765]LogLoad: Took 0.057416 seconds to LoadMap(/Game/Levels/UEDPIE_0_MainMenu)
+[2024.04.05-18.02.31:759][765]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'dark-post-apocalyptic-background-3'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.04.05-18.02.35:126][966]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CaptureDuringMouseDown
+[2024.04.05-18.02.35:127][966]LogNet: Browse: /Game/Levels/MainMenu
+[2024.04.05-18.02.35:127][966]LogLoad: LoadMap: /Game/Levels/MainMenu
+[2024.04.05-18.02.35:127][966]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MainMenu
+[2024.04.05-18.02.35:128][966]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2024.04.05-18.02.35:128][966]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.05-18.02.35:188][966]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.05-18.02.35:190][966]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2024.04.05-18.02.35:191][966]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2024.04.05-18.02.35:193][966]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001583s)
+[2024.04.05-18.02.35:193][966]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.001619s)
+[2024.04.05-18.02.35:193][966]LogAudio: Display: Audio Device (ID: 13) registered with world 'MainMenu'.
+[2024.04.05-18.02.35:193][966]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.05-18.02.35:193][966]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.05-18.02.35:194][966]LogAIModule: Creating AISystem for world MainMenu
+[2024.04.05-18.02.35:194][966]LogPlayLevel: PIE: World Init took: (0.000647s)
+[2024.04.05-18.02.35:194][966]LogLoad: Game class is 'BP_MainMenuGM_C'
+[2024.04.05-18.02.35:194][966]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2024.04.05-11.02.35
+[2024.04.05-18.02.35:195][966]LogWorld: Bringing up level for play took: 0.000716
+[2024.04.05-18.02.35:195][966]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2024.04.05-18.02.35:196][966]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> NoCapture
+[2024.04.05-18.02.35:197][966]LogLoad: Took 0.069534 seconds to LoadMap(/Game/Levels/UEDPIE_0_MainMenu)
+[2024.04.05-18.02.35:198][966]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'dark-post-apocalyptic-background-3'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.04.05-18.02.36:928][ 69]Cmd: quit
+[2024.04.05-18.02.36:928][ 69]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.05-18.02.36:928][ 69]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MainMenu
+[2024.04.05-18.02.36:929][ 69]LogSlate: Window 'FuryRoad Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.04.05-18.02.36:986][ 69]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2024.04.05-18.02.36:986][ 69]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.05-18.02.36:989][ 69]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.05-18.02.36:993][ 69]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.05-18.02.37:005][ 69]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2024.04.05-18.02.37:005][ 69]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.04.05-18.02.37:007][ 69]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.04.05-18.02.37:012][ 69]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2024.04.05-18.02.37:062][ 70]LogPlayLevel: Display: Destroying online subsystem :Context_45
+[2024.04.05-18.02.50:907][712]BlueprintLog: New page: Compile WB_Main_Menu
+[2024.04.05-18.02.50:928][712]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2024.04.05-18.02.50:946][712]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.05-18.02.51:005][712]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/WB_Main_Menu" FILE="D:/Unreal Projects/FuryRoad/FuryRoad/Content/Widgets/WB_Main_Menu.uasset" SILENT=true
+[2024.04.05-18.02.51:014][712]LogSavePackage: Moving output files for package: /Game/Widgets/WB_Main_Menu
+[2024.04.05-18.02.51:014][712]LogSavePackage: Moving 'D:/Unreal Projects/FuryRoad/FuryRoad/Saved/WB_Main_Menu13A7E83E4811CC7CC3D7878B7B7CC25E.tmp' to 'D:/Unreal Projects/FuryRoad/FuryRoad/Content/Widgets/WB_Main_Menu.uasset'
+[2024.04.05-18.02.51:017][712]LogFileHelpers: InternalPromptForCheckoutAndSave took 71 ms (total: 1.80 sec)
+[2024.04.05-18.02.51:019][712]AssetCheck: New page: Asset Save: WB_Main_Menu
+[2024.04.05-18.02.51:019][712]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/WB_Main_Menu.WB_Main_Menu
+[2024.04.05-18.02.56:402][339]BlueprintLog: New page: Compile WB_Main_Menu
+[2024.04.05-18.02.56:428][339]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2024.04.05-18.02.56:448][339]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.05-18.02.56:505][339]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/WB_Main_Menu" FILE="D:/Unreal Projects/FuryRoad/FuryRoad/Content/Widgets/WB_Main_Menu.uasset" SILENT=true
+[2024.04.05-18.02.56:514][339]LogSavePackage: Moving output files for package: /Game/Widgets/WB_Main_Menu
+[2024.04.05-18.02.56:515][339]LogSavePackage: Moving 'D:/Unreal Projects/FuryRoad/FuryRoad/Saved/WB_Main_MenuE32888134E0859D4B3BFBCBE89AB5E58.tmp' to 'D:/Unreal Projects/FuryRoad/FuryRoad/Content/Widgets/WB_Main_Menu.uasset'
+[2024.04.05-18.02.56:518][339]LogFileHelpers: InternalPromptForCheckoutAndSave took 70 ms (total: 1.87 sec)
+[2024.04.05-18.02.56:520][339]AssetCheck: New page: Asset Save: WB_Main_Menu
+[2024.04.05-18.02.56:520][339]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/WB_Main_Menu.WB_Main_Menu
+[2024.04.05-18.03.13:461][242]LogContentBrowser: Deferred new asset file creation: NewWorld
+[2024.04.05-18.03.13:468][242]LogContentBrowser: Creating deferred item: NewWorld
+[2024.04.05-18.03.13:476][243]LogContentBrowser: Renaming the item being created (Deferred Item: NewWorld).
+[2024.04.05-18.03.21:363][189]LogContentBrowser: Attempting asset rename: NewWorld -> CarCostumization
+[2024.04.05-18.03.21:366][189]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.05-18.03.21:366][189]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.05-18.03.21:367][189]LogContentBrowser: End creating deferred item NewWorld
+[2024.04.05-18.03.25:606][687]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2024.04.05-18.03.27:832][687]LogSlate: Window 'Save Content' being destroyed
+[2024.04.05-18.03.27:838][687]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.05-18.03.27:872][687]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/CarCostumization" FILE="D:/Unreal Projects/FuryRoad/FuryRoad/Content/Levels/CarCostumization.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.04.05-18.03.27:884][687]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2024.04.05-18.03.27:887][687]LogSavePackage: Moving output files for package: /Game/Levels/CarCostumization
+[2024.04.05-18.03.27:887][687]LogSavePackage: Moving 'D:/Unreal Projects/FuryRoad/FuryRoad/Saved/CarCostumization6F9B5D2E4350AA3F38A8B2BFD32B9E44.tmp' to 'D:/Unreal Projects/FuryRoad/FuryRoad/Content/Levels/CarCostumization.umap'
+[2024.04.05-18.03.27:893][687]LogFileHelpers: Saving map 'CarCostumization' took 0.021
+[2024.04.05-18.03.27:898][687]LogFileHelpers: InternalPromptForCheckoutAndSave took 60 ms (total: 1.93 sec)
+[2024.04.05-18.03.27:899][687]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/CarCostumization.CarCostumization
+[2024.04.05-18.03.27:899][687]Cmd: MAP LOAD FILE="D:/Unreal Projects/FuryRoad/FuryRoad/Content/Levels/CarCostumization.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.04.05-18.03.27:899][687]LightingResults: New page: Lighting Build
+[2024.04.05-18.03.27:900][687]LoadErrors: New page: Loading map: CarCostumization.umap
+[2024.04.05-18.03.27:923][687]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2024.04.05-18.03.27:923][687]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.05-18.03.27:923][687]MapCheck: New page: Map Check
+[2024.04.05-18.03.27:923][687]LightingResults: New page: Lighting Build
+[2024.04.05-18.03.27:935][687]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.05-18.03.27:937][687]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2024.04.05-18.03.27:939][687]LogWorld: UWorld::CleanupWorld for CarCostumization, bSessionEnded=true, bCleanupResources=true
+[2024.04.05-18.03.27:939][687]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.05-18.03.27:952][687]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2024.04.05-18.03.27:963][687]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2024.04.05-18.03.27:965][687]LogAudio: Display: Audio Device (ID: 1) registered with world 'CarCostumization'.
+[2024.04.05-18.03.27:965][687]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.05-18.03.27:966][687]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.05-18.03.27:966][687]LogAIModule: Creating AISystem for world CarCostumization
+[2024.04.05-18.03.27:991][687]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.04.05-18.03.28:004][687]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2024.04.05-18.03.28:009][687]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.04.05-18.03.28:010][687]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.056ms to complete.
+[2024.04.05-18.03.28:017][687]AssetCheck: New page: Asset Save: CarCostumization
+[2024.04.05-18.03.28:017][687]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/CarCostumization.CarCostumization
+[2024.04.05-18.03.38:907][630]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.SkyAtmosphere
+[2024.04.05-18.03.38:908][630]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.SkyAtmosphere
+[2024.04.05-18.03.38:909][630]LogActorFactory: Actor Factory spawned Class /Script/Engine.SkyAtmosphere as actor: SkyAtmosphere /Game/Levels/CarCostumization.CarCostumization:PersistentLevel.SkyAtmosphere_0
+[2024.04.05-18.03.38:909][630]LogActorFactory: Actor Factory spawned Class /Script/Engine.SkyAtmosphere as actor: SkyAtmosphere /Game/Levels/CarCostumization.CarCostumization:PersistentLevel.SkyAtmosphere_0
+[2024.04.05-18.03.54:102][831]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.SkyLight
+[2024.04.05-18.03.54:102][831]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.SkyLight
+[2024.04.05-18.03.54:103][831]LogActorFactory: Actor Factory spawned Class /Script/Engine.SkyLight as actor: SkyLight /Game/Levels/CarCostumization.CarCostumization:PersistentLevel.SkyLight_0
+[2024.04.05-18.03.54:103][831]LogActorFactory: Actor Factory spawned Class /Script/Engine.SkyLight as actor: SkyLight /Game/Levels/CarCostumization.CarCostumization:PersistentLevel.SkyLight_0
+[2024.04.05-18.04.00:619][342]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.DirectionalLight
+[2024.04.05-18.04.00:619][342]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.DirectionalLight
+[2024.04.05-18.04.00:620][342]LogActorFactory: Actor Factory spawned Class /Script/Engine.DirectionalLight as actor: DirectionalLight /Game/Levels/CarCostumization.CarCostumization:PersistentLevel.DirectionalLight_0
+[2024.04.05-18.04.00:620][342]LogActorFactory: Actor Factory spawned Class /Script/Engine.DirectionalLight as actor: DirectionalLight /Game/Levels/CarCostumization.CarCostumization:PersistentLevel.DirectionalLight_0
+[2024.04.05-18.04.08:615][959]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Plane.Plane
+[2024.04.05-18.04.08:615][959]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Plane.Plane
+[2024.04.05-18.04.08:616][959]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Plane.Plane as actor: StaticMeshActor /Game/Levels/CarCostumization.CarCostumization:PersistentLevel.StaticMeshActor_0
+[2024.04.05-18.04.08:616][959]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Plane.Plane as actor: StaticMeshActor /Game/Levels/CarCostumization.CarCostumization:PersistentLevel.StaticMeshActor_0
+[2024.04.05-18.04.50:593][705]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_PlayerCar.BP_PlayerCar_C
+[2024.04.05-18.04.50:593][705]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_PlayerCar.BP_PlayerCar_C
+[2024.04.05-18.04.50:594][705]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_PlayerCar.BP_PlayerCar as actor: BP_PlayerCar_C /Game/Levels/CarCostumization.CarCostumization:PersistentLevel.BP_PlayerCar_C_0
+[2024.04.05-18.04.50:595][705]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_PlayerCar.BP_PlayerCar as actor: BP_PlayerCar_C /Game/Levels/CarCostumization.CarCostumization:PersistentLevel.BP_PlayerCar_C_0
+[2024.04.05-18.04.51:775][780]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_PlayerCar.BP_PlayerCar_C
+[2024.04.05-18.04.51:775][780]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_PlayerCar.BP_PlayerCar_C
+[2024.04.05-18.04.51:777][780]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_PlayerCar.BP_PlayerCar as actor: BP_PlayerCar_C /Game/Levels/CarCostumization.CarCostumization:PersistentLevel.BP_PlayerCar_C_1
+[2024.04.05-18.04.51:778][780]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_PlayerCar.BP_PlayerCar as actor: BP_PlayerCar_C /Game/Levels/CarCostumization.CarCostumization:PersistentLevel.BP_PlayerCar_C_1
+[2024.04.05-18.04.51:931][781]LogViewport: Scene viewport resized to 1038x642, mode Windowed.
+[2024.04.05-18.05.02:009][216]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.05-18.05.02:040][216]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.05-18.05.02:040][216]PIE: New page: PIE session: CarCostumization (Apr. 5, 2024, 4:05:02 a.m.)
+[2024.04.05-18.05.02:040][216]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_CarCostumization
+[2024.04.05-18.05.02:042][216]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001490s)
+[2024.04.05-18.05.02:042][216]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/CarCostumization.CarCostumization to /Game/Levels/UEDPIE_0_CarCostumization.CarCostumization (0.001518s)
+[2024.04.05-18.05.02:066][216]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2024.04.05-18.05.02:071][216]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.05-18.05.02:071][216]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.05-18.05.02:071][216]LogAIModule: Creating AISystem for world CarCostumization
+[2024.04.05-18.05.02:071][216]LogPlayLevel: PIE: World Init took: (0.000865s)
+[2024.04.05-18.05.02:071][216]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2024.04.05-18.05.02:071][216]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.05-18.05.02:071][216]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.05-18.05.02:071][216]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.05-18.05.02:071][216]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.05-18.05.02:071][216]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.04.05-18.05.02:071][216]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.05-18.05.02:071][216]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.04.05-18.05.02:071][216]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.05-18.05.02:072][216]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.05-18.05.02:072][216]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.05-18.05.02:072][216]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.05-18.05.02:073][216]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.05-18.05.02:090][216]LogAudioMixer: Display: Using Audio Hardware Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2024.04.05-18.05.02:090][216]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.05-18.05.02:090][216]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.05-18.05.02:090][216]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.05-18.05.02:091][216]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2024.04.05-18.05.02:091][216]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2024.04.05-18.05.02:092][216]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2024.04.05-18.05.02:092][216]LogInit: FAudioDevice initialized with ID 14.
+[2024.04.05-18.05.02:092][216]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2024.04.05-18.05.02:092][216]LogAudio: Display: Audio Device (ID: 14) registered with world 'CarCostumization'.
+[2024.04.05-18.05.02:092][216]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 14
+[2024.04.05-18.05.02:095][216]LogLoad: Game class is 'BP_LevelOneGM_C'
+[2024.04.05-18.05.02:096][216]LogWorld: Bringing World /Game/Levels/UEDPIE_0_CarCostumization.CarCostumization up for play (max tick rate 0) at 2024.04.05-11.05.02
+[2024.04.05-18.05.02:096][216]LogWorld: Bringing up level for play took: 0.000899
+[2024.04.05-18.05.02:097][216]LogOnline: OSS: Created online subsystem instance for: :Context_46
+[2024.04.05-18.05.02:100][216]PIE: Server logged in
+[2024.04.05-18.05.02:100][216]PIE: Play in editor total start time 0.083 seconds.
+[2024.04.05-18.05.04:647][399]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.05-18.05.04:647][399]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_CarCostumization
+[2024.04.05-18.05.04:647][399]LogWorld: UWorld::CleanupWorld for CarCostumization, bSessionEnded=true, bCleanupResources=true
+[2024.04.05-18.05.04:647][399]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.05-18.05.04:650][399]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.05-18.05.04:654][399]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.05-18.05.04:666][399]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.05-18.05.04:666][399]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 14
+[2024.04.05-18.05.04:666][399]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2024.04.05-18.05.04:667][399]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2024.04.05-18.05.04:671][399]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.05-18.05.04:673][399]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2024.04.05-18.05.04:780][400]LogPlayLevel: Display: Destroying online subsystem :Context_46
+[2024.04.05-18.05.04:821][400]LogViewport: Scene viewport resized to 1038x642, mode Windowed.
+[2024.04.05-18.05.16:698][908]LogEditorClassViewer: Warning: Class /Game/VehicleVarietyPack/Blueprints/SUV/BP_SUV_Wheel_Rear.BP_SUV_Wheel_Rear_C has parent /Script/PhysXVehicles.VehicleWheel, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.04.05-18.05.16:698][908]LogEditorClassViewer: Warning: Class /Game/VehicleVarietyPack/Blueprints/SUV/BP_SUV_Wheel_Front.BP_SUV_Wheel_Front_C has parent /Script/PhysXVehicles.VehicleWheel, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.04.05-18.05.16:698][908]LogEditorClassViewer: Warning: Class /Game/VehicleVarietyPack/Blueprints/SUV/BP_SUV.BP_SUV_C has parent /Script/PhysXVehicles.WheeledVehicle, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.04.05-18.05.16:698][908]LogEditorClassViewer: Warning: Class /Game/VehicleVarietyPack/Blueprints/SportsCar/BP_SportsCar.BP_SportsCar_C has parent /Script/PhysXVehicles.WheeledVehicle, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.04.05-18.05.16:698][908]LogEditorClassViewer: Warning: Class /Game/VehicleVarietyPack/Blueprints/SportsCar/BP_SC_Wheel_Rear.BP_SC_Wheel_Rear_C has parent /Script/PhysXVehicles.VehicleWheel, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.04.05-18.05.16:698][908]LogEditorClassViewer: Warning: Class /Game/VehicleVarietyPack/Blueprints/SportsCar/BP_SC_Wheel_Front.BP_SC_Wheel_Front_C has parent /Script/PhysXVehicles.VehicleWheel, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.04.05-18.05.16:698][908]LogEditorClassViewer: Warning: Class /Game/VehicleVarietyPack/Blueprints/Pickup/BP_PU_Wheel_Rear.BP_PU_Wheel_Rear_C has parent /Script/PhysXVehicles.VehicleWheel, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.04.05-18.05.16:698][908]LogEditorClassViewer: Warning: Class /Game/VehicleVarietyPack/Blueprints/Pickup/BP_PU_Wheel_Front.BP_PU_Wheel_Front_C has parent /Script/PhysXVehicles.VehicleWheel, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.04.05-18.05.16:699][908]LogEditorClassViewer: Warning: Class /Game/VehicleVarietyPack/Blueprints/Pickup/BP_Pickup.BP_Pickup_C has parent /Script/PhysXVehicles.WheeledVehicle, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.04.05-18.05.16:699][908]LogEditorClassViewer: Warning: Class /Game/VehicleVarietyPack/Blueprints/Hatchback/BP_HB_RearWheel.BP_HB_RearWheel_C has parent /Script/PhysXVehicles.VehicleWheel, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.04.05-18.05.16:699][908]LogEditorClassViewer: Warning: Class /Game/VehicleVarietyPack/Blueprints/Hatchback/BP_HB_FrontWheel.BP_HB_FrontWheel_C has parent /Script/PhysXVehicles.VehicleWheel, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.04.05-18.05.16:699][908]LogEditorClassViewer: Warning: Class /Game/VehicleVarietyPack/Blueprints/Hatchback/BP_Hatchback.BP_Hatchback_C has parent /Script/PhysXVehicles.WheeledVehicle, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.04.05-18.05.16:699][908]LogEditorClassViewer: Warning: Class /Game/VehicleVarietyPack/Blueprints/BoxTruck/BP_BT_RearTire.BP_BT_RearTire_C has parent /Script/PhysXVehicles.VehicleWheel, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.04.05-18.05.16:699][908]LogEditorClassViewer: Warning: Class /Game/VehicleVarietyPack/Blueprints/BoxTruck/BP_BT_FrontTire.BP_BT_FrontTire_C has parent /Script/PhysXVehicles.VehicleWheel, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.04.05-18.05.16:699][908]LogEditorClassViewer: Warning: Class /Game/VehicleVarietyPack/Blueprints/BoxTruck/BP_BoxTruck.BP_BoxTruck_C has parent /Script/PhysXVehicles.WheeledVehicle, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.04.05-18.05.16:699][908]LogEditorClassViewer: Warning: Class /Game/VehicleVarietyPack/Blueprints/SUV/AB_SUV.AB_SUV_C has parent /Script/PhysXVehicles.VehicleAnimInstance, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.04.05-18.05.16:699][908]LogEditorClassViewer: Warning: Class /Game/VehicleVarietyPack/Blueprints/SportsCar/AB_SportsCar.AB_SportsCar_C has parent /Script/PhysXVehicles.VehicleAnimInstance, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.04.05-18.05.16:699][908]LogEditorClassViewer: Warning: Class /Game/VehicleVarietyPack/Blueprints/Pickup/AB_Pickup.AB_Pickup_C has parent /Script/PhysXVehicles.VehicleAnimInstance, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.04.05-18.05.16:699][908]LogEditorClassViewer: Warning: Class /Game/VehicleVarietyPack/Blueprints/Hatchback/AB_Hatchback.AB_Hatchback_C has parent /Script/PhysXVehicles.VehicleAnimInstance, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.04.05-18.05.16:699][908]LogEditorClassViewer: Warning: Class /Game/VehicleVarietyPack/Blueprints/BoxTruck/AB_BoxTruck.AB_BoxTruck_C has parent /Script/PhysXVehicles.VehicleAnimInstance, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.04.05-18.05.26:009][629]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.05-18.05.26:058][629]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/CarCostumization" FILE="D:/Unreal Projects/FuryRoad/FuryRoad/Content/Levels/CarCostumization.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.04.05-18.05.26:092][629]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2024.04.05-18.05.26:102][629]LogSavePackage: Moving output files for package: /Game/Levels/CarCostumization
+[2024.04.05-18.05.26:102][629]LogSavePackage: Moving 'D:/Unreal Projects/FuryRoad/FuryRoad/Saved/CarCostumization1B00200A49E9C8EE8E8F669254F4C7DB.tmp' to 'D:/Unreal Projects/FuryRoad/FuryRoad/Content/Levels/CarCostumization.umap'
+[2024.04.05-18.05.26:107][629]LogFileHelpers: Saving map 'CarCostumization' took 0.049
+[2024.04.05-18.05.26:112][629]LogFileHelpers: InternalPromptForCheckoutAndSave took 102 ms (total: 2.03 sec)
+[2024.04.05-18.05.26:112][629]AssetCheck: New page: Asset Save: CarCostumization
+[2024.04.05-18.05.26:112][629]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/CarCostumization.CarCostumization
+[2024.04.05-18.05.31:859][877]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.05-18.05.31:865][877]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.05-18.05.31:865][877]PIE: New page: PIE session: CarCostumization (Apr. 5, 2024, 4:05:31 a.m.)
+[2024.04.05-18.05.31:865][877]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_CarCostumization
+[2024.04.05-18.05.31:866][877]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001437s)
+[2024.04.05-18.05.31:866][877]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/CarCostumization.CarCostumization to /Game/Levels/UEDPIE_0_CarCostumization.CarCostumization (0.001459s)
+[2024.04.05-18.05.31:879][877]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2024.04.05-18.05.31:880][877]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.05-18.05.31:880][877]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.05-18.05.31:881][877]LogAIModule: Creating AISystem for world CarCostumization
+[2024.04.05-18.05.31:881][877]LogPlayLevel: PIE: World Init took: (0.000904s)
+[2024.04.05-18.05.31:881][877]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2024.04.05-18.05.31:881][877]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.05-18.05.31:881][877]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.05-18.05.31:881][877]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.05-18.05.31:881][877]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.05-18.05.31:881][877]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.04.05-18.05.31:881][877]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.05-18.05.31:881][877]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.04.05-18.05.31:881][877]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.05-18.05.31:881][877]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.05-18.05.31:881][877]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.05-18.05.31:881][877]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.05-18.05.31:883][877]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.05-18.05.31:899][877]LogAudioMixer: Display: Using Audio Hardware Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2024.04.05-18.05.31:899][877]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.05-18.05.31:899][877]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.05-18.05.31:899][877]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.05-18.05.31:899][877]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2024.04.05-18.05.31:899][877]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2024.04.05-18.05.31:901][877]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2024.04.05-18.05.31:901][877]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2024.04.05-18.05.31:901][877]LogInit: FAudioDevice initialized with ID 15.
+[2024.04.05-18.05.31:901][877]LogAudio: Display: Audio Device (ID: 15) registered with world 'CarCostumization'.
+[2024.04.05-18.05.31:901][877]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 15
+[2024.04.05-18.05.31:904][877]LogLoad: Game class is 'BP_MainMenuGM_C'
+[2024.04.05-18.05.31:904][877]LogWorld: Bringing World /Game/Levels/UEDPIE_0_CarCostumization.CarCostumization up for play (max tick rate 0) at 2024.04.05-11.05.31
+[2024.04.05-18.05.31:905][877]LogWorld: Bringing up level for play took: 0.000846
+[2024.04.05-18.05.31:906][877]LogOnline: OSS: Created online subsystem instance for: :Context_47
+[2024.04.05-18.05.31:908][877]PIE: Server logged in
+[2024.04.05-18.05.31:908][877]PIE: Play in editor total start time 0.044 seconds.
+[2024.04.05-18.05.46:617][865]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.05-18.05.46:617][865]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_CarCostumization
+[2024.04.05-18.05.46:617][865]LogWorld: UWorld::CleanupWorld for CarCostumization, bSessionEnded=true, bCleanupResources=true
+[2024.04.05-18.05.46:617][865]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.05-18.05.46:621][865]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.05-18.05.46:625][865]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.05-18.05.46:637][865]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.05-18.05.46:637][865]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 15
+[2024.04.05-18.05.46:637][865]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2024.04.05-18.05.46:638][865]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2024.04.05-18.05.46:644][865]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2024.04.05-18.05.46:762][866]LogPlayLevel: Display: Destroying online subsystem :Context_47
+[2024.04.05-18.05.46:817][866]LogViewport: Scene viewport resized to 1038x642, mode Windowed.
+[2024.04.05-18.05.55:709][234]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.05-18.05.55:758][234]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/CarCostumization" FILE="D:/Unreal Projects/FuryRoad/FuryRoad/Content/Levels/CarCostumization.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.04.05-18.05.55:792][234]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2024.04.05-18.05.55:797][234]LogSavePackage: Moving output files for package: /Game/Levels/CarCostumization
+[2024.04.05-18.05.55:797][234]LogSavePackage: Moving 'D:/Unreal Projects/FuryRoad/FuryRoad/Saved/CarCostumization335694F84D4DB4CD3E42E4817F90B40D.tmp' to 'D:/Unreal Projects/FuryRoad/FuryRoad/Content/Levels/CarCostumization.umap'
+[2024.04.05-18.05.55:802][234]LogFileHelpers: Saving map 'CarCostumization' took 0.044
+[2024.04.05-18.05.55:807][234]LogFileHelpers: InternalPromptForCheckoutAndSave took 98 ms (total: 2.13 sec)
+[2024.04.05-18.05.55:807][234]AssetCheck: New page: Asset Save: CarCostumization
+[2024.04.05-18.05.55:807][234]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/CarCostumization.CarCostumization
+[2024.04.05-18.07.07:190][651]BlueprintLog: New page: Compile WB_Main_Menu
+[2024.04.05-18.07.07:212][651]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2024.04.05-18.07.07:229][651]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.05-18.07.07:281][651]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/WB_Main_Menu" FILE="D:/Unreal Projects/FuryRoad/FuryRoad/Content/Widgets/WB_Main_Menu.uasset" SILENT=true
+[2024.04.05-18.07.07:291][651]LogSavePackage: Moving output files for package: /Game/Widgets/WB_Main_Menu
+[2024.04.05-18.07.07:291][651]LogSavePackage: Moving 'D:/Unreal Projects/FuryRoad/FuryRoad/Saved/WB_Main_MenuDE222747483BF01371F064BE7D28C0B6.tmp' to 'D:/Unreal Projects/FuryRoad/FuryRoad/Content/Widgets/WB_Main_Menu.uasset'
+[2024.04.05-18.07.07:295][651]LogFileHelpers: InternalPromptForCheckoutAndSave took 65 ms (total: 2.20 sec)
+[2024.04.05-18.07.07:297][651]AssetCheck: New page: Asset Save: WB_Main_Menu
+[2024.04.05-18.07.07:297][651]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/WB_Main_Menu.WB_Main_Menu
+[2024.04.05-18.07.08:884][832]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.05-18.07.08:911][832]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/WB_Main_Menu" FILE="D:/Unreal Projects/FuryRoad/FuryRoad/Content/Widgets/WB_Main_Menu.uasset" SILENT=true
+[2024.04.05-18.07.08:920][832]LogSavePackage: Moving output files for package: /Game/Widgets/WB_Main_Menu
+[2024.04.05-18.07.08:920][832]LogSavePackage: Moving 'D:/Unreal Projects/FuryRoad/FuryRoad/Saved/WB_Main_Menu4AE6889943A3B3B9FF84CF99667115EB.tmp' to 'D:/Unreal Projects/FuryRoad/FuryRoad/Content/Widgets/WB_Main_Menu.uasset'
+[2024.04.05-18.07.08:924][832]LogFileHelpers: InternalPromptForCheckoutAndSave took 39 ms (total: 2.24 sec)
+[2024.04.05-18.07.08:926][832]AssetCheck: New page: Asset Save: WB_Main_Menu
+[2024.04.05-18.07.08:926][832]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/WB_Main_Menu.WB_Main_Menu
+[2024.04.05-18.07.23:132][235]Cmd: MAP LOAD FILE="D:/Unreal Projects/FuryRoad/FuryRoad/Content/Levels/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.04.05-18.07.23:132][235]LightingResults: New page: Lighting Build
+[2024.04.05-18.07.23:132][235]LoadErrors: New page: Loading map: MainMenu.umap
+[2024.04.05-18.07.23:155][235]LogWorld: UWorld::CleanupWorld for CarCostumization, bSessionEnded=true, bCleanupResources=true
+[2024.04.05-18.07.23:155][235]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.05-18.07.23:155][235]MapCheck: New page: Map Check
+[2024.04.05-18.07.23:155][235]LightingResults: New page: Lighting Build
+[2024.04.05-18.07.23:167][235]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.05-18.07.23:170][235]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2024.04.05-18.07.23:180][235]LogAudio: Display: Audio Device (ID: 1) registered with world 'MainMenu'.
+[2024.04.05-18.07.23:181][235]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.05-18.07.23:181][235]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.05-18.07.23:181][235]LogAIModule: Creating AISystem for world MainMenu
+[2024.04.05-18.07.23:205][235]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.04.05-18.07.23:219][235]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2024.04.05-18.07.23:224][235]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.04.05-18.07.23:224][235]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.059ms to complete.
+[2024.04.05-18.07.32:793][855]LogViewport: Scene viewport resized to 1038x642, mode Windowed.
+[2024.04.05-18.07.35:579][984]Cmd: DELETE
+[2024.04.05-18.07.35:582][984]Cmd: ACTOR DELETE
+[2024.04.05-18.07.35:584][984]LogEditorActor: Deleted Actor: BP_PlayerCar_C
+[2024.04.05-18.07.35:603][984]LogEditorActor: Deleted Actor: DirectionalLight
+[2024.04.05-18.07.35:604][984]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.04.05-18.07.35:604][984]LogEditorActor: Deleted Actor: SkyAtmosphere
+[2024.04.05-18.07.35:605][984]LogEditorActor: Deleted Actor: SkyLight
+[2024.04.05-18.07.35:619][984]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2024.04.05-18.07.35:625][984]LogEditorActor: Deleted 5 Actors (0.043 secs)
+[2024.04.05-18.07.38:675][233]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.05-18.07.38:730][233]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/MainMenu" FILE="D:/Unreal Projects/FuryRoad/FuryRoad/Content/Levels/MainMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.04.05-18.07.38:764][233]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2024.04.05-18.07.38:769][233]LogSavePackage: Moving output files for package: /Game/Levels/MainMenu
+[2024.04.05-18.07.38:769][233]LogSavePackage: Moving 'D:/Unreal Projects/FuryRoad/FuryRoad/Saved/MainMenu725513A34319F2A9F77B619F8453A0F1.tmp' to 'D:/Unreal Projects/FuryRoad/FuryRoad/Content/Levels/MainMenu.umap'
+[2024.04.05-18.07.38:774][233]LogFileHelpers: Saving map 'MainMenu' took 0.045
+[2024.04.05-18.07.38:778][233]LogFileHelpers: InternalPromptForCheckoutAndSave took 101 ms (total: 2.34 sec)
+[2024.04.05-18.07.38:779][233]AssetCheck: New page: Asset Save: MainMenu
+[2024.04.05-18.07.38:779][233]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/MainMenu.MainMenu
+[2024.04.05-18.07.40:467][370]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.05-18.07.40:473][370]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.05-18.07.40:473][370]PIE: New page: PIE session: MainMenu (Apr. 5, 2024, 4:07:40 a.m.)
+[2024.04.05-18.07.40:473][370]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2024.04.05-18.07.40:474][370]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001052s)
+[2024.04.05-18.07.40:475][370]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.001077s)
+[2024.04.05-18.07.40:488][370]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2024.04.05-18.07.40:489][370]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.05-18.07.40:489][370]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.05-18.07.40:490][370]LogAIModule: Creating AISystem for world MainMenu
+[2024.04.05-18.07.40:490][370]LogPlayLevel: PIE: World Init took: (0.000881s)
+[2024.04.05-18.07.40:490][370]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2024.04.05-18.07.40:490][370]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.05-18.07.40:490][370]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.05-18.07.40:490][370]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.05-18.07.40:490][370]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.05-18.07.40:490][370]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.04.05-18.07.40:490][370]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.05-18.07.40:490][370]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.04.05-18.07.40:490][370]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.05-18.07.40:491][370]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.05-18.07.40:491][370]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.05-18.07.40:491][370]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.05-18.07.40:492][370]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.05-18.07.40:509][370]LogAudioMixer: Display: Using Audio Hardware Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2024.04.05-18.07.40:509][370]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.05-18.07.40:509][370]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.05-18.07.40:509][370]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.05-18.07.40:510][370]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2024.04.05-18.07.40:510][370]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2024.04.05-18.07.40:511][370]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2024.04.05-18.07.40:511][370]LogInit: FAudioDevice initialized with ID 16.
+[2024.04.05-18.07.40:511][370]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2024.04.05-18.07.40:511][370]LogAudio: Display: Audio Device (ID: 16) registered with world 'MainMenu'.
+[2024.04.05-18.07.40:511][370]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 16
+[2024.04.05-18.07.40:514][370]LogLoad: Game class is 'BP_MainMenuGM_C'
+[2024.04.05-18.07.40:514][370]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2024.04.05-11.07.40
+[2024.04.05-18.07.40:514][370]LogWorld: Bringing up level for play took: 0.000263
+[2024.04.05-18.07.40:516][370]LogOnline: OSS: Created online subsystem instance for: :Context_48
+[2024.04.05-18.07.40:517][370]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.04.05-18.07.40:517][370]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2024.04.05-18.07.40:517][370]PIE: Server logged in
+[2024.04.05-18.07.40:518][370]PIE: Play in editor total start time 0.045 seconds.
+[2024.04.05-18.07.40:519][370]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'dark-post-apocalyptic-background-3'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.04.05-18.07.42:101][517]LogLongPackageNames: Warning: Can't Find URL: CarCustomization: . Invalidating and reverting to Default URL.
+[2024.04.05-18.07.42:102][517]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2024.04.05-18.07.42:102][517]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CaptureDuringMouseDown
+[2024.04.05-18.07.42:103][517]LogLongPackageNames: Warning: Can't Find URL: CarCustomization: . Invalidating and reverting to Default URL.
+[2024.04.05-18.07.42:103][517]LogNet: Browse: /Game/Levels/TrackOne
+[2024.04.05-18.07.42:103][517]LogNet: Warning: Travel Failure: [InvalidURL]: Invalid URL: /Game/Levels/TrackOne
+[2024.04.05-18.07.42:103][517]LogNet: TravelFailure: InvalidURL, Reason for Failure: 'Invalid URL: /Game/Levels/TrackOne'
+[2024.04.05-18.07.42:104][517]LogNet: Warning: Travel Failure: [ClientTravelFailure]: Invalid URL: /Game/Levels/TrackOne
+[2024.04.05-18.07.42:104][517]LogNet: TravelFailure: ClientTravelFailure, Reason for Failure: 'Invalid URL: /Game/Levels/TrackOne'
+[2024.04.05-18.07.42:110][518]LogNet: Browse: /Game/Levels/TrackOne?closed
+[2024.04.05-18.07.42:110][518]LogNet: Connection failed; returning to Entry
+[2024.04.05-18.07.42:110][518]LogLoad: LoadMap: /Game/Levels/TrackOne?closed
+[2024.04.05-18.07.42:110][518]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MainMenu
+[2024.04.05-18.07.42:111][518]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2024.04.05-18.07.42:111][518]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.05-18.07.42:168][518]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.05-18.07.42:170][518]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2024.04.05-18.07.42:616][518]LogAudio: Display: Audio Device (ID: 16) registered with world 'TrackOne'.
+[2024.04.05-18.07.42:616][518]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.05-18.07.42:616][518]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.05-18.07.42:616][518]LogAIModule: Creating AISystem for world TrackOne
+[2024.04.05-18.07.42:617][518]LogPlayLevel: PIE: World Init took: (0.000959s)
+[2024.04.05-18.07.42:617][518]LogLoad: Game class is 'BP_LevelOneGM_C'
+[2024.04.05-18.07.42:716][518]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TrackOne.TrackOne up for play (max tick rate 0) at 2024.04.05-11.07.42
+[2024.04.05-18.07.42:719][518]LogWorld: Bringing up level for play took: 0.098159
+[2024.04.05-18.07.42:723][518]LogLoad: Took 0.613772 seconds to LoadMap(/Game/Levels/TrackOne)
+[2024.04.05-18.07.42:740][518]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2024.04.05-18.07.51:683][  1]LogBlueprintUserMessages: [BP_Checkpoint_C_1] First Lap Registered
+[2024.04.05-18.07.53:737][112]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.05-18.07.53:737][112]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TrackOne
+[2024.04.05-18.07.53:738][112]LogWorld: UWorld::CleanupWorld for TrackOne, bSessionEnded=true, bCleanupResources=true
+[2024.04.05-18.07.53:748][112]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.05-18.07.53:755][112]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.05-18.07.53:760][112]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.05-18.07.53:776][112]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.05-18.07.53:778][112]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 16
+[2024.04.05-18.07.53:778][112]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2024.04.05-18.07.53:779][112]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2024.04.05-18.07.53:805][112]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2024.04.05-18.07.53:826][113]LogPlayLevel: Display: Destroying online subsystem :Context_48
+[2024.04.05-18.08.29:919][243]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.05-18.08.54:897][206]LogContentBrowser: Attempting asset rename: CarCostumization -> CarCustomization
+[2024.04.05-18.09.03:159][206]LogSlate: Window 'Message' being destroyed
+[2024.04.05-18.09.03:161][206]Message dialog closed, result: Cancel, title: Message, text: Source code, config INI, and text files may need Find/Replace for:
+
+
+CarCostumization
+
+Otherwise assets can be missing from cooked builds. Continue with rename?
+[2024.04.05-18.09.17:337][861]BlueprintLog: New page: Compile WB_Main_Menu
+[2024.04.05-18.09.17:357][861]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2024.04.05-18.09.17:377][861]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.05-18.09.17:435][861]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/WB_Main_Menu" FILE="D:/Unreal Projects/FuryRoad/FuryRoad/Content/Widgets/WB_Main_Menu.uasset" SILENT=true
+[2024.04.05-18.09.17:444][861]LogSavePackage: Moving output files for package: /Game/Widgets/WB_Main_Menu
+[2024.04.05-18.09.17:445][861]LogSavePackage: Moving 'D:/Unreal Projects/FuryRoad/FuryRoad/Saved/WB_Main_MenuCC1FCEE34FFF1C18C4FCF28B5CF16071.tmp' to 'D:/Unreal Projects/FuryRoad/FuryRoad/Content/Widgets/WB_Main_Menu.uasset'
+[2024.04.05-18.09.17:448][861]LogFileHelpers: InternalPromptForCheckoutAndSave took 71 ms (total: 2.41 sec)
+[2024.04.05-18.09.17:450][861]AssetCheck: New page: Asset Save: WB_Main_Menu
+[2024.04.05-18.09.17:450][861]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/WB_Main_Menu.WB_Main_Menu
+[2024.04.05-18.09.24:570][692]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.05-18.09.24:599][692]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/WB_Main_Menu" FILE="D:/Unreal Projects/FuryRoad/FuryRoad/Content/Widgets/WB_Main_Menu.uasset" SILENT=true
+[2024.04.05-18.09.24:608][692]LogSavePackage: Moving output files for package: /Game/Widgets/WB_Main_Menu
+[2024.04.05-18.09.24:608][692]LogSavePackage: Moving 'D:/Unreal Projects/FuryRoad/FuryRoad/Saved/WB_Main_Menu8478AEBF45484BBD02DC95AA1DFA96E7.tmp' to 'D:/Unreal Projects/FuryRoad/FuryRoad/Content/Widgets/WB_Main_Menu.uasset'
+[2024.04.05-18.09.24:612][692]LogFileHelpers: InternalPromptForCheckoutAndSave took 41 ms (total: 2.45 sec)
+[2024.04.05-18.09.24:614][692]AssetCheck: New page: Asset Save: WB_Main_Menu
+[2024.04.05-18.09.24:614][692]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/WB_Main_Menu.WB_Main_Menu
+[2024.04.05-18.09.27:560][969]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.05-18.09.27:567][969]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.05-18.09.27:567][969]PIE: New page: PIE session: MainMenu (Apr. 5, 2024, 4:09:27 a.m.)
+[2024.04.05-18.09.27:606][969]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2024.04.05-18.09.27:607][969]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001045s)
+[2024.04.05-18.09.27:607][969]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.001078s)
+[2024.04.05-18.09.27:620][969]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2024.04.05-18.09.27:624][969]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.05-18.09.27:624][969]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.05-18.09.27:625][969]LogAIModule: Creating AISystem for world MainMenu
+[2024.04.05-18.09.27:625][969]LogPlayLevel: PIE: World Init took: (0.000839s)
+[2024.04.05-18.09.27:625][969]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2024.04.05-18.09.27:625][969]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.05-18.09.27:625][969]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.05-18.09.27:625][969]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.05-18.09.27:625][969]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.05-18.09.27:625][969]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.04.05-18.09.27:625][969]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.05-18.09.27:625][969]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.04.05-18.09.27:625][969]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.05-18.09.27:625][969]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.05-18.09.27:625][969]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.05-18.09.27:625][969]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.05-18.09.27:627][969]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.05-18.09.27:643][969]LogAudioMixer: Display: Using Audio Hardware Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2024.04.05-18.09.27:643][969]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.05-18.09.27:643][969]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.05-18.09.27:643][969]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.05-18.09.27:644][969]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=17
+[2024.04.05-18.09.27:644][969]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=17
+[2024.04.05-18.09.27:645][969]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=17
+[2024.04.05-18.09.27:645][969]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=17
+[2024.04.05-18.09.27:645][969]LogInit: FAudioDevice initialized with ID 17.
+[2024.04.05-18.09.27:645][969]LogAudio: Display: Audio Device (ID: 17) registered with world 'MainMenu'.
+[2024.04.05-18.09.27:645][969]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 17
+[2024.04.05-18.09.27:647][969]LogLoad: Game class is 'BP_MainMenuGM_C'
+[2024.04.05-18.09.27:648][969]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2024.04.05-11.09.27
+[2024.04.05-18.09.27:648][969]LogWorld: Bringing up level for play took: 0.000261
+[2024.04.05-18.09.27:649][969]LogOnline: OSS: Created online subsystem instance for: :Context_49
+[2024.04.05-18.09.27:651][969]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.04.05-18.09.27:651][969]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2024.04.05-18.09.27:651][969]PIE: Server logged in
+[2024.04.05-18.09.27:651][969]PIE: Play in editor total start time 0.084 seconds.
+[2024.04.05-18.09.27:653][969]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'dark-post-apocalyptic-background-3'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.04.05-18.09.32:119][400]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2024.04.05-18.09.32:119][400]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CaptureDuringMouseDown
+[2024.04.05-18.09.32:120][400]LogNet: Browse: /Game/Levels/CarCostumization
+[2024.04.05-18.09.32:120][400]LogLoad: LoadMap: /Game/Levels/CarCostumization
+[2024.04.05-18.09.32:120][400]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MainMenu
+[2024.04.05-18.09.32:120][400]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2024.04.05-18.09.32:120][400]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.05-18.09.32:177][400]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.05-18.09.32:179][400]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2024.04.05-18.09.32:181][400]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_CarCostumization
+[2024.04.05-18.09.32:182][400]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001500s)
+[2024.04.05-18.09.32:182][400]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/CarCostumization.CarCostumization to /Game/Levels/UEDPIE_0_CarCostumization.CarCostumization (0.001536s)
+[2024.04.05-18.09.32:182][400]LogAudio: Display: Audio Device (ID: 17) registered with world 'CarCostumization'.
+[2024.04.05-18.09.32:182][400]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.05-18.09.32:183][400]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.05-18.09.32:183][400]LogAIModule: Creating AISystem for world CarCostumization
+[2024.04.05-18.09.32:183][400]LogPlayLevel: PIE: World Init took: (0.000773s)
+[2024.04.05-18.09.32:183][400]LogLoad: Game class is 'BP_MainMenuGM_C'
+[2024.04.05-18.09.32:184][400]LogWorld: Bringing World /Game/Levels/UEDPIE_0_CarCostumization.CarCostumization up for play (max tick rate 0) at 2024.04.05-11.09.32
+[2024.04.05-18.09.32:184][400]LogWorld: Bringing up level for play took: 0.000798
+[2024.04.05-18.09.32:184][400]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2024.04.05-18.09.32:186][400]LogLoad: Took 0.065865 seconds to LoadMap(/Game/Levels/UEDPIE_0_CarCostumization)
+[2024.04.05-18.09.43:446][244]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.05-18.09.43:446][244]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_CarCostumization
+[2024.04.05-18.09.43:446][244]LogWorld: UWorld::CleanupWorld for CarCostumization, bSessionEnded=true, bCleanupResources=true
+[2024.04.05-18.09.43:447][244]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.05-18.09.43:449][244]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.05-18.09.43:453][244]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.05-18.09.43:465][244]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.05-18.09.43:465][244]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 17
+[2024.04.05-18.09.43:465][244]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2024.04.05-18.09.43:467][244]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2024.04.05-18.09.43:472][244]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2024.04.05-18.09.43:526][247]LogPlayLevel: Display: Destroying online subsystem :Context_49
+[2024.04.05-18.09.50:554][809]Cmd: MAP LOAD FILE="D:/Unreal Projects/FuryRoad/FuryRoad/Content/Levels/CarCostumization.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.04.05-18.09.50:554][809]LightingResults: New page: Lighting Build
+[2024.04.05-18.09.50:555][809]LoadErrors: New page: Loading map: CarCostumization.umap
+[2024.04.05-18.09.50:578][809]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2024.04.05-18.09.50:578][809]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.05-18.09.50:579][809]MapCheck: New page: Map Check
+[2024.04.05-18.09.50:579][809]LightingResults: New page: Lighting Build
+[2024.04.05-18.09.50:590][809]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.05-18.09.50:592][809]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2024.04.05-18.09.50:596][809]LogWorld: UWorld::CleanupWorld for CarCostumization, bSessionEnded=true, bCleanupResources=true
+[2024.04.05-18.09.50:596][809]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.05-18.09.50:607][809]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2024.04.05-18.09.50:618][809]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2024.04.05-18.09.50:621][809]LogAudio: Display: Audio Device (ID: 1) registered with world 'CarCostumization'.
+[2024.04.05-18.09.50:621][809]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.05-18.09.50:621][809]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.05-18.09.50:622][809]LogAIModule: Creating AISystem for world CarCostumization
+[2024.04.05-18.09.50:646][809]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.04.05-18.09.50:659][809]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2024.04.05-18.09.50:664][809]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.04.05-18.09.50:665][809]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.057ms to complete.
+[2024.04.05-18.09.58:966][281]LogViewport: Scene viewport resized to 1038x642, mode Windowed.
+[2024.04.05-18.10.06:750][621]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.05-18.10.06:819][621]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/CarCostumization" FILE="D:/Unreal Projects/FuryRoad/FuryRoad/Content/Levels/CarCostumization.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.04.05-18.10.06:852][621]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2024.04.05-18.10.06:858][621]LogSavePackage: Moving output files for package: /Game/Levels/CarCostumization
+[2024.04.05-18.10.06:858][621]LogSavePackage: Moving 'D:/Unreal Projects/FuryRoad/FuryRoad/Saved/CarCostumization7C469133491616A5B649F090964FC38A.tmp' to 'D:/Unreal Projects/FuryRoad/FuryRoad/Content/Levels/CarCostumization.umap'
+[2024.04.05-18.10.06:863][621]LogFileHelpers: Saving map 'CarCostumization' took 0.045
+[2024.04.05-18.10.06:867][621]LogFileHelpers: InternalPromptForCheckoutAndSave took 117 ms (total: 2.57 sec)
+[2024.04.05-18.10.06:868][621]AssetCheck: New page: Asset Save: CarCostumization
+[2024.04.05-18.10.06:868][621]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/CarCostumization.CarCostumization
+[2024.04.05-18.10.10:580][785]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.05-18.10.10:587][785]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.05-18.10.10:588][785]PIE: New page: PIE session: CarCostumization (Apr. 5, 2024, 4:10:10 a.m.)
+[2024.04.05-18.10.10:588][785]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_CarCostumization
+[2024.04.05-18.10.10:589][785]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001461s)
+[2024.04.05-18.10.10:589][785]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/CarCostumization.CarCostumization to /Game/Levels/UEDPIE_0_CarCostumization.CarCostumization (0.001487s)
+[2024.04.05-18.10.10:603][785]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2024.04.05-18.10.10:604][785]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.05-18.10.10:604][785]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.05-18.10.10:605][785]LogAIModule: Creating AISystem for world CarCostumization
+[2024.04.05-18.10.10:605][785]LogPlayLevel: PIE: World Init took: (0.000980s)
+[2024.04.05-18.10.10:605][785]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2024.04.05-18.10.10:605][785]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.05-18.10.10:605][785]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.05-18.10.10:605][785]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.05-18.10.10:605][785]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.05-18.10.10:605][785]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.04.05-18.10.10:605][785]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.05-18.10.10:605][785]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.04.05-18.10.10:605][785]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.05-18.10.10:605][785]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.05-18.10.10:605][785]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.05-18.10.10:605][785]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.05-18.10.10:607][785]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.05-18.10.10:625][785]LogAudioMixer: Display: Using Audio Hardware Device Realtek HD Audio 2nd output (Realtek(R) Audio)
+[2024.04.05-18.10.10:626][785]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.05-18.10.10:626][785]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.05-18.10.10:626][785]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.05-18.10.10:627][785]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=18
+[2024.04.05-18.10.10:627][785]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=18
+[2024.04.05-18.10.10:628][785]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=18
+[2024.04.05-18.10.10:628][785]LogInit: FAudioDevice initialized with ID 18.
+[2024.04.05-18.10.10:628][785]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=18
+[2024.04.05-18.10.10:628][785]LogAudio: Display: Audio Device (ID: 18) registered with world 'CarCostumization'.
+[2024.04.05-18.10.10:628][785]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 18
+[2024.04.05-18.10.10:631][785]LogLoad: Game class is 'BP_MainMenuGM_C'
+[2024.04.05-18.10.10:632][785]LogWorld: Bringing World /Game/Levels/UEDPIE_0_CarCostumization.CarCostumization up for play (max tick rate 0) at 2024.04.05-11.10.10
+[2024.04.05-18.10.10:632][785]LogWorld: Bringing up level for play took: 0.000854
+[2024.04.05-18.10.10:633][785]LogOnline: OSS: Created online subsystem instance for: :Context_50
+[2024.04.05-18.10.10:635][785]PIE: Server logged in
+[2024.04.05-18.10.10:635][785]PIE: Play in editor total start time 0.048 seconds.
+[2024.04.05-18.10.19:886][391]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.05-18.10.19:887][391]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_CarCostumization
+[2024.04.05-18.10.19:887][391]LogWorld: UWorld::CleanupWorld for CarCostumization, bSessionEnded=true, bCleanupResources=true
+[2024.04.05-18.10.19:887][391]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.05-18.10.19:895][391]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.05-18.10.19:899][391]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.05-18.10.19:910][391]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.05-18.10.19:910][391]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 18
+[2024.04.05-18.10.19:911][391]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2024.04.05-18.10.19:912][391]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2024.04.05-18.10.19:916][391]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.05-18.10.19:918][391]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2024.04.05-18.10.20:038][392]LogPlayLevel: Display: Destroying online subsystem :Context_50
+[2024.04.05-18.10.20:082][392]LogViewport: Scene viewport resized to 1038x642, mode Windowed.
+[2024.04.05-18.10.27:620][697]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.05-18.10.27:685][697]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/CarCostumization" FILE="D:/Unreal Projects/FuryRoad/FuryRoad/Content/Levels/CarCostumization.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.04.05-18.10.27:719][697]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2024.04.05-18.10.27:724][697]LogSavePackage: Moving output files for package: /Game/Levels/CarCostumization
+[2024.04.05-18.10.27:724][697]LogSavePackage: Moving 'D:/Unreal Projects/FuryRoad/FuryRoad/Saved/CarCostumizationB916B8F94FF5BCB1A2CE12AD2D8035CB.tmp' to 'D:/Unreal Projects/FuryRoad/FuryRoad/Content/Levels/CarCostumization.umap'
+[2024.04.05-18.10.27:729][697]LogFileHelpers: Saving map 'CarCostumization' took 0.044
+[2024.04.05-18.10.27:733][697]LogFileHelpers: InternalPromptForCheckoutAndSave took 113 ms (total: 2.68 sec)
+[2024.04.05-18.10.27:734][697]AssetCheck: New page: Asset Save: CarCostumization
+[2024.04.05-18.10.27:734][697]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/CarCostumization.CarCostumization
+[2024.04.05-18.10.31:346][848]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.05-18.10.31:401][848]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/CarCostumization" FILE="D:/Unreal Projects/FuryRoad/FuryRoad/Content/Levels/CarCostumization.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.04.05-18.10.31:434][848]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2024.04.05-18.10.31:439][848]LogSavePackage: Moving output files for package: /Game/Levels/CarCostumization
+[2024.04.05-18.10.31:439][848]LogSavePackage: Moving 'D:/Unreal Projects/FuryRoad/FuryRoad/Saved/CarCostumization57F927754BA4F4DB94EBC9B8EBCB1E4B.tmp' to 'D:/Unreal Projects/FuryRoad/FuryRoad/Content/Levels/CarCostumization.umap'
+[2024.04.05-18.10.31:444][848]LogFileHelpers: Saving map 'CarCostumization' took 0.043
+[2024.04.05-18.10.31:447][848]LogFileHelpers: InternalPromptForCheckoutAndSave took 102 ms (total: 2.78 sec)
+[2024.04.05-18.10.31:448][848]AssetCheck: New page: Asset Save: CarCostumization
+[2024.04.05-18.10.31:448][848]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/CarCostumization.CarCostumization
